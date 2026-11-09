@@ -1,0 +1,9 @@
+{
+  "arm": "llama31_8b_seed42_clarify",
+  "n_lora_modules": 448,
+  "wall_seconds": 76.2,
+  "peak_vram_gb": 9.672,
+  "batch_size": 8,
+  "max_new_tokens": 512,
+  "rows": 18
+}

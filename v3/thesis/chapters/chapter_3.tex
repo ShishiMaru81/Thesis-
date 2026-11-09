@@ -1,0 +1,106 @@
+This chapter states what the study had to do, what it was not allowed to do, and who is affected by it. It is a requirements and impact chapter, not a methods chapter: the pipeline itself is in \cref{ch:method}. The requirements come from the problem in \cref{sec:problem} and from the limits accepted in \cref{sec:scope}. The impact sections ask what a system of this kind would mean if it were ever used, and why the one reported here was not.
+
+\section{Functional Requirements}
+\label{sec:func-req}
+
+The testbed had to do six things.
+
+\begin{enumerate}[leftmargin=*]
+  \item Accept a single-turn question in Bengali or English about a crop that appears in the BARC calendars, and return a single-turn answer in the same language.
+  \item For a complete numeric question, compute a net irrigation depth and a volume from the FAO-56 crop-coefficient method~\cite{allen1998fao56} and from this project's effective-rainfall rule (\cref{eq:peff}), using only values stated in the question and facts stored in the calendars and the coefficient table.
+  \item For a complete factual question, return the calendar fact, not a computation.
+  \item For a question outside the calendar's scope, refuse.
+  \item For a question that is missing a required live input, or that names an ambiguous crop or an unknown local unit, ask for the missing or ambiguous value and withhold a numeric result.
+  \item Make every scored claim about the test set recomputable from files whose hashes were recorded before evaluation.
+\end{enumerate}
+
+Requirement~5 is the one the training corpus does not demonstrate. It is listed as a functional requirement of a safe assistant, not as a behaviour we expected fine-tuning to produce. The study exists to measure what happens when that requirement is tested and has never been taught.
+
+Two further functions were required of the evaluation, not of the model. Automatic metrics had to be gated by question type, so that a numeric score could not be averaged with a clarification score. A human study had to rate a stratified sample of outputs on a scale that distinguished an error a farmer would notice from one a farmer would not, and on a yes-or-no decision about handing the answer to a farmer.
+
+\section{Non-functional Requirements}
+\label{sec:nonfunc-req}
+
+\begin{description}[style=nextline, leftmargin=1.2em]
+  \item[Leakage control.] The test set must be split from the seed corpus before any augmentation, never opened by the augmentation code, and locked by a SHA-256 hash that every scoring script checks.
+  \item[Reproducibility.] Every source of randomness is seeded. Every generation is written to disk before it is scored. Every number in this thesis is a macro written from those files by \texttt{scripts/thesis/make\_numbers.py}.
+  \item[Honesty of reporting.] A result that is not significant is reported as no significant difference detected, with the confidence interval of the difference, never as equivalence. A test that reads gold labels is not reported as a performance estimate.
+  \item[Single-machine training.] All fine-tuning and evaluation must fit on one consumer GPU, so that the study can be repeated without a cluster.
+  \item[No deployment.] The system is a research testbed. It must not be offered to a farmer, and the thesis must say so wherever a reader might take a score as a recommendation.
+  \item[Bilingual balance.] Seed and test rows are balanced between Bengali and English. Training rows stay balanced after augmentation.
+\end{description}
+
+\section{Hardware and Software Requirements}
+\label{sec:hw-sw-req}
+
+Training and evaluation ran on one \GpuName. The twelve fine-tuning runs took \TrainGpuHoursTwelve GPU-hours in total. The software stack is Unsloth~\cite{unsloth2024}, TRL~\cite{trl2020} and Transformers~\cite{wolf2020transformers}, with 4-bit NF4 base weights and LoRA adapters in brain floating point. The thesis is built with XeLaTeX so that Bengali text can be shaped; the body font is TeX Gyre Termes and Bengali is set in Noto Serif Bengali.
+
+The four models must be instruction-tuned, open-weight, and small enough to load in 4-bit precision on that GPU. That constraint, not a claim about which model is best, is why the set is Llama-3.1-8B, Mistral-NeMo-12B, Phi-3.5-mini and Phi-4-mini (\cref{tab:models}).
+
+\section{Impact on Society}
+\label{sec:impact-society}
+
+Irrigation advice in Bangladesh is a public good. Groundwater pumping in the dry season already has basin-scale effects~\cite{shamsudduha2022bengal}, and the people who decide how much to pump are often smallholders whose questions arrive in Bengali, sometimes mixed with English unit names and crop varieties. Systems such as Farmer.Chat and KrishokBondhu are being built to answer those questions at scale~\cite{singh2024farmerchat,krishokbondhu2025}. A review in \emph{Nature Food} argued that large language models could widen access to extension advice only if experts stay in the loop~\cite{tzachor2023large}.
+
+This study does not put a model in that loop. It asks a prior question: if a fine-tuned model is given an incomplete irrigation question, does it ask, refuse, or invent? The societal stake of that question is that an invented depth delivered as a finished answer is more likely to be acted on than a rambling or hedged one. The title claim is that fine-tuning produces the first kind of error. If that claim holds, then deploying a fine-tuned irrigation assistant without a missing-input check would be a social risk, not only a modelling one.
+
+The study also bears on language equity. Bengali is widely spoken and still treated as low-resource in NLP~\cite{joshi2020state,bhattacharjee2022banglabert}. A system that works in English and fails in Bengali would serve the people who already have more access to written advice. We therefore test both languages, and we report the cases where a difference is and is not detected (\cref{sec:res-language}).
+
+\section{Impact on Environment}
+\label{sec:impact-environment}
+
+Two environmental effects are in scope, and they pull in opposite directions.
+
+The domain effect is water. An irrigation depth that is too high wastes pumped groundwater; one that is too low can stress a crop at a sensitive stage. The testbed uses a conventional FAO-56 calculation~\cite{allen1998fao56} and a project-specific effective-rainfall rule. It does not model aquifer depletion, energy use of pumps, or return flows. What it can say is that a model which invents a missing rainfall or field size will produce a volume that has no relation to the field, and that an authoritative format makes that volume look usable.
+
+The computational effect is energy. Twelve training runs and the later clarify-training runs used \TrainGpuHoursTwelve GPU-hours on one workstation GPU, plus evaluation. That is small by the standards of pre-training and large by the standards of a student project. We chose parameter-efficient fine-tuning~\cite{hu2022lora,dettmers2023qlora} so that the study would not need a cluster. We do not report a carbon estimate, because we did not measure power draw.
+
+\section{Ethical Aspects}
+\label{sec:impact-ethics}
+
+The ethical statement in the front matter is the binding record. This section states the implications for the design.
+
+No farmer, no member of the public and no minor took part. The only human participants are the raters of model outputs, believed to be the five authors (\AUTHORINPUT{confirm annotator identities}). They rated questions about crop irrigation. No personal data were stored. Written consent was not collected before those ratings (\PENDINGCONSENT{}); a form now exists and records the real order of events. Whether the department required formal ethics approval for author rating is \AUTHORINPUT{supervisor's answer on ethics approval}.
+
+The outputs themselves raise a distinct ethical issue. A fine-tuned model that invents a missing input and presents a clean volume is giving advice that looks complete and is not. We treat that as a harm to be measured, not as a curiosity. The rubric tells raters to score any invented value as 1, the lowest rating, for that reason. Because the raters saw the gold answer and are not agricultural experts, their rejection of invented values corroborates the automatic measure; it is not an independent field test of harm.
+
+We do not recommend deploying any model studied here. A prompted baseline that might reduce invented values without extra training data had not been run when this thesis was compiled (\STAGEEIGHTB{prompted baseline}). Until that, or an equivalent check that does not read gold labels, exists, the safe behaviour on incomplete questions is unsolved in this testbed.
+
+\section{Sustainability}
+\label{sec:impact-sustain}
+
+A sustainable result in this project is one another group can repeat, criticise and extend without the original machines or the original authors. That is why the test set is hashed, the generations are saved, the numbers are generated by script, and the models are open-weight. It is also why the retrieval arm was dropped rather than left half-built: an incomplete comparison would not be repeatable.
+
+Sustainability of the advice itself is a different question. The coefficient table and the effective-rainfall rule are conventions of this system. A model that learns them has learned this testbed, not a universal irrigation method. If the conventions change, the weights must be trained again. We do not claim that the adapters remain useful outside the locked test set.
+
+\section{Economic Considerations}
+\label{sec:impact-econ}
+
+The project is a student thesis. Its direct costs are one GPU, electricity, and the time of five students and their supervisors. QLoRA was chosen because full fine-tuning of an 8B or 12B model on the same machine would not fit, and because hiring a cluster was outside the budget. No commercial API was used for augmentation: the two families that needed one were never run. No farmer paid for advice, and no farmer was paid to rate it.
+
+If a system of this kind were productised, the economic risk would be the same as the social one. An authoritative wrong volume costs water, fuel and, in a dry spell, yield. We did not monetise that risk. The human study asks only whether a rater would hand the answer over, not what the answer would cost.
+
+\section{Constraints}
+\label{sec:constraints}
+
+The constraints that shaped the design are listed here so that a result is not read as if they were absent.
+
+\begin{itemize}
+  \item Four open-weight models, the largest 12B parameters; no commercial model.
+  \item One GPU; 4-bit base weights; LoRA rank and $\alpha$ fixed across models.
+  \item No retrieval arm, by agreement that retrieval cannot supply live inputs (\AUTHORINPUT{supervisor's written agreement on dropping the RAG arm}).
+  \item No system prompt that states the formula, the coefficient table, or an instruction to ask for missing values. The prompted baseline is \STAGEEIGHTB{prompted baseline}.
+  \item Clarify-trained arms exist at seed 42 only, so A3 and A4 have no seed-robustness check.
+  \item \TestExcluded of \TestRows test rows have no machine-checkable gold and are excluded by design. Abstention is measured on \TestAbstain seed out-of-domain rows, which are easier than the excluded adversarial ones.
+  \item All questions are synthetic or templated. None was asked by a farmer.
+  \item Paraphrase and back-translation augmentation were not run.
+  \item The annotators are not agricultural experts; blinding was partial; the gold answer was visible.
+  \item R is not available; the annotator-adjusted models use a Python fallback that treats the 1--5 rating as interval.
+\end{itemize}
+
+\section{Applicable Standards}
+\label{sec:standards}
+
+The irrigation calculation follows FAO Irrigation and Drainage Paper~56~\cite{allen1998fao56}. Effective rainfall is discussed in FAO Irrigation and Drainage Paper~25~\cite{dastane1978effective}; the three-tier rule used here is this project's convention, not a FAO or BARC standard. Crop calendars come from BARC's published application~\cite{barc2026cropcalendar}; the terms of use for research and data release are \AUTHORINPUT{BARC terms of use}.
+
+The four models were used under their published licences: Llama-3.1 under the Llama Community Licence~\cite{grattafiori2024llama}, Mistral-NeMo under Apache~2.0~\cite{mistral2024nemo}, and the two Phi models under MIT~\cite{abdin2024phi3,microsoft2025phi4mini}. The Bengali fonts are under the SIL Open Font Licence 1.1. Test-set integrity uses SHA-256. Multiple-comparison correction follows Holm~\cite{holm1979simple}. References are in IEEE numbered style. The declaration of AI assistance required by the department is \AUTHORINPUT{department's AI-declaration wording}; the full text is in \cref{app:ai}.

@@ -1,0 +1,82 @@
+\section{Background}
+\label{sec:background}
+
+Agriculture in Bangladesh depends on irrigation in the dry season. Millions of smallholder farmers pump groundwater to grow dry-season rice and other crops, and the combined effect of their pumping is visible at the scale of the whole Bengal Basin~\cite{shamsudduha2022bengal}. Each of these farmers faces the same small decision many times a season: how much water should this field receive today?
+
+The standard way to answer that question is the crop-coefficient method of the Food and Agriculture Organization of the United Nations (FAO), published as FAO Irrigation and Drainage Paper~56~\cite{allen1998fao56}. The method multiplies the reference evapotranspiration of the day, $\mathrm{ET}_0$, by a crop coefficient, $K_c$, that depends on the crop and its growth stage. The product is the crop's water use, $\mathrm{ET}_c$. Subtracting the part of recent rainfall that the soil can use, the effective rainfall $P_\mathrm{eff}$, gives the net depth of water to apply. Multiplying the depth by the field area gives a volume. Four of these inputs change from day to day or from farm to farm: $\mathrm{ET}_0$, rainfall, the growth stage and the field size. Only the crop coefficient and the crop's calendar are fixed facts that can be written down once.
+
+In Bangladesh, crop calendars are published by the Bangladesh Agricultural Research Council (BARC) through an online application~\cite{barc2026cropcalendar}. A calendar says when a crop is sown, when each growth stage begins and when irrigation is critical. It cannot say how much rain fell on a particular field yesterday, or how large that field is. We call a question whose answer depends on such live values a \emph{runtime-conditioned query}. The answer to ``how much should I irrigate my Boro rice field today?'' is not stored in any document. It has to be computed from values that only the farmer, or a weather service, can supply at the moment of asking.
+
+Large language models (LLMs) are now being built into agricultural advisory services. Farmer.Chat answers farmers' questions through messaging apps in several countries by retrieving from a curated knowledge base~\cite{singh2024farmerchat}. KrishokBondhu offers voice-based advice in Bengali to Bangladeshi farmers~\cite{krishokbondhu2025}. Other systems compare retrieval with fine-tuning for agricultural questions~\cite{balaguer2024rag} or connect farmers to practice guides through retrieval-augmented generation (RAG)~\cite{samuel2025agrollm}. A review in \emph{Nature Food} argued that such systems could widen access to extension advice but need experts in the loop to keep the advice safe~\cite{tzachor2023large}. Retrieval can supply the calendar and the coefficient table. It cannot supply today's rainfall or the size of a farmer's field. For a runtime-conditioned query, those values must come from the question itself, and a system that answers such questions must notice when one of them is missing.
+
+\section{Rationale of the Study or Motivation}
+\label{sec:motivation}
+
+Fine-tuning is the usual way to adapt a general LLM to a narrow domain, and parameter-efficient methods such as low-rank adaptation (LoRA)~\cite{hu2022lora} and its quantised variant QLoRA~\cite{dettmers2023qlora} make it cheap enough for a student project on a single graphics processing unit (GPU). A fine-tuned model is then judged by how often it gives the right answer. Accuracy is a natural measure, but it is incomplete. Kalai and colleagues argue that when training and evaluation reward only correct answers, a model that guesses scores better than one that admits it does not know, so accuracy-only evaluation pushes models towards confident guessing~\cite{kalai2025why}. Gekhman and colleagues showed that fine-tuning on examples that introduce new knowledge makes a model more likely to hallucinate~\cite{gekhman2024finetuning}.
+
+An irrigation assistant faces a sharper version of this problem. A farmer who forgets to mention the field size has asked a question with no single correct answer. The right response is to ask for the missing value. A model trained only on complete questions has never seen that response. If it fills the gap with a plausible number and returns a clean, well-formatted result, the farmer has no signal that anything went wrong. A base model that rambles, trails off or says it is guessing is also wrong, but its failure is visible. We are interested in this difference in the form of the error, and we define it as follows.
+
+\begin{quote}
+We define a confident error as a response that supplies a value the user never provided and delivers it as a complete, well-formed final answer, without truncation and without signalling that anything was assumed. Under this definition the question is not whether a model errs when information is missing, since base models do as well, but whether fine-tuning changes the form of that error from visibly unreliable to authoritative.
+\end{quote}
+
+This definition matters for safety. An irrigation depth that is too high wastes pumped groundwater and money; one that is too low can stress the crop at a sensitive stage. An error that looks authoritative is more likely to be acted on than one that looks broken.
+
+\section{Problem Statement}
+\label{sec:problem}
+
+Fine-tuned LLMs for agricultural advice are evaluated mainly by the accuracy of their answers to complete questions. That evaluation does not show what a fine-tuned model does when a question lacks an input the answer depends on, and it does not distinguish an error the user can see from one the user cannot. For Bengali--English irrigation advice in Bangladesh, where questions are runtime-conditioned, we do not know whether standard fine-tuning teaches a model to ask for a missing value, to refuse, or to invent one, nor whether it changes how that invented value is presented. We also do not know whether a small amount of targeted training data can change this behaviour, or how the answer differs between Bengali and English.
+
+\section{Objectives}
+\label{sec:objectives}
+
+The aim of this thesis is to measure, in a controlled setting, what LoRA fine-tuning teaches LLMs about incomplete irrigation questions, and whether it changes the form of their errors. We built a bilingual question-answering (QA) testbed from BARC crop calendars, fine-tuned four open-weight models on it, and evaluated them on a hardened test set with automatic metrics, a human rating study and significance tests under an analysis plan fixed before any significance test was computed. The research questions and the hypotheses tested for each are listed below.
+
+\begin{enumerate}[label=\textbf{RQ\arabic*.}, leftmargin=*]
+  \item Does fine-tuning on complete-input examples teach the models the system's conventions (its crop-coefficient table and effective-rainfall rule) and its arithmetic? \emph{H1: fine-tuned models are more accurate than their zero-shot base models on numeric questions.}
+  \item When a required input is missing, do fine-tuned models ask for it, refuse, or invent it, and does fine-tuning change the form of the error? \emph{T (the title claim): fine-tuning raises the rate of confident errors, as defined in \cref{sec:motivation}, on incomplete queries.}
+  \item Can a few hundred templated clarification examples teach the models to ask, and at what cost to numeric accuracy? \emph{C1: clarify training raises clarification that names the missing parameter. C2: it lowers the rate of invented values. C3: it does not reduce numeric accuracy.}
+  \item Does performance differ between Bengali and English? \emph{H2: Bengali trails English after fine-tuning.}
+  \item Do human raters agree with one another, and do their judgements corroborate the automatic measures? \emph{H3: agreement on the primary human measures reaches a pre-specified threshold.}
+\end{enumerate}
+
+The clarification category in the test set is a designed probe. We added incomplete questions to the test set knowing that the training corpus contained no clarification examples, because the purpose was to observe what fine-tuning does in their absence. Its absence from training is part of the design, not a finding. The finding is what the models did instead, and how that compares with abstention, which was present in training.
+
+\section{Methodology in Brief}
+\label{sec:method-brief}
+
+\Cref{fig:pipeline} summarises the stage-gated pipeline. Each stage ended with a written gate report that had to pass before the next stage began. We digitised \SourceFiles BARC crop calendars into \SeedRows seed question--answer rows covering \SeedFacts facts, half in Bengali and half in English (stage S0). We split these rows into training, validation and test sets by source group before any augmentation (S1), so that no fact family crossed the split. Only the training split was augmented, to \AugRows rows (S2), and four leakage detectors compared the augmented training rows with the held-out rows (S3). The test split was then hardened with \TestRowsAdv adversarial rows, including misspelled crops, ambiguous units and questions with a missing parameter, and locked with a SHA-256 hash (S4).
+
+We fine-tuned Llama-3.1-8B, Mistral-NeMo-12B, Phi-3.5-mini and Phi-4-mini with QLoRA, each with seeds 42, 1337 and 2024, giving twelve training runs (four models $\times$ three seeds) (S5). We evaluated all runs and the four base models on the locked test set with metrics gated by question type (S6). We then retrained each model at seed 42 with \ClarifyTrainRows added clarification examples (S6B--E). \HumAnnotators annotators rated \HumUniqueOutputs outputs from four arms (S7), and all hypotheses were tested with paired tests and Holm correction under a plan fixed before significance testing (S8).
+
+\begin{figure}[tbp]
+  \centering
+  \resizebox{\textwidth}{!}{\input{generated/f01_pipeline}}
+  \caption{The stage-gated pipeline (S0--S8). Boxes with a heavy border are the stages that protect the test set: splitting by source before augmentation (S1), augmenting only the training side (S2), the four-detector leakage gate between the two sides (S3) and the hashed, hardened test set (S4). Counts are rows. The corpus was split before any augmentation, so no augmented row can share a source with a test row.}
+  \label{fig:pipeline}
+\end{figure}
+
+\section{Scope and Challenges}
+\label{sec:scope}
+
+The study has deliberate limits. Of the \TestRows rows in the hardened test set, \TestScorable were scored. The other \TestExcluded rows (\TestExcludedOOD adversarial out-of-domain questions and \TestExcludedConflict questions with conflicting values) have no machine-checkable gold answer and were excluded by design. Abstention is therefore measured on the \TestAbstain out-of-domain rows of the seed test split only, and behaviour on conflicting values is not evaluated. All questions are synthetic or templated from calendar facts; none was asked by a real farmer. We studied four open-weight models, the largest being Mistral-NeMo-12B, and no commercial model.
+
+Retrieval is out of scope. The original plan agreed with the supervisor was to fine-tune a model, compare it with retrieval, and fall back to retrieval when the model could not answer. The version reported here dropped the retrieval arm, because retrieval cannot supply the live inputs that runtime-conditioned queries depend on, and because the behaviour we study, what a model does when an input is missing, has to be solved before any retrieval or calculator can help. The supervisor's agreement with this change is \AUTHORINPUT{supervisor's written agreement on dropping the RAG arm}.
+
+The project also met practical challenges, each of which changed the design. The second version of the system (v2) fine-tuned one model on an augmented corpus built from the same facts as its test questions, so reworded versions of the test facts were present in training. It scored a macro-F1 of \VTwoMacroFone across six input slots on \VTwoEvalRows held-out numeric rows, a result that measured memorisation rather than learning. The version reported here (v3) was redesigned around that failure: split first, augment only the training side, audit for leakage, and evaluate several models and seeds. During evaluation we found and fixed several faults before they could distort results, among them a Bengali text normaliser that destroyed vowel signs and decimal points, a join that silently dropped seed rows, a ROUGE-L implementation that deleted all Bengali text, and a response classifier that mistook a courtesy caveat for a clarification request. Three metric definitions were changed after results were seen; each change was checked against a gold-oracle arm and is reported in \cref{sec:impl-metrics}.
+
+\section{Contributions}
+\label{sec:contributions}
+
+This thesis extends prior work on abstention, clarification and hallucination in fine-tuned LLMs to a low-resource, bilingual and domain-specific setting. Its contributions are three.
+
+\begin{itemize}
+  \item An abstain-versus-clarify contrast inside the same training runs. In all twelve training runs across four architectures, abstention, which made up \TrainPctAbstain\% of the training corpus, was learned completely, while clarification, which made up \TrainPctClarify\%, was not learned at all. This extends benchmark evidence that models fail to ask for missing information~\cite{li2025questbench,kirichenko2025abstentionbench} to the effect of fine-tuning itself.
+  \item A measurement of the form of the error, not only its rate. Base models also invented missing values, but often visibly, by running to the token limit or saying that a value was assumed. After fine-tuning, almost every invented value came as a complete, unhedged answer. We test this change directly (test A7) under a definition fixed in advance of testing.
+  \item A leakage-audited Bengali--English testbed with human evaluation and a fixed analysis plan. The test set is split by source before augmentation, hashed and hardened with adversarial rows; \HumUniqueOutputs outputs were rated by \HumAnnotators annotators; and \SigPrimaryTotal primary hypotheses were tested with Holm correction under a plan written before any significance test was computed. We also show that \ClarifyTrainRows templated clarification examples partly correct the failure, with no detectable loss of numeric accuracy.
+\end{itemize}
+
+\section{Thesis Organisation}
+\label{sec:organisation}
+
+\Cref{ch:literature} introduces the irrigation method, the models and the evaluation methods the thesis relies on, and reviews work on agricultural LLMs, hallucination, abstention, clarification, Bengali language processing, leakage and human evaluation. \Cref{ch:requirements} sets out the requirements of the study and its societal, environmental, ethical and economic aspects. \Cref{ch:method} describes the data, the pipeline, training, evaluation, the clarify-training intervention, the human study and the analysis plan. \Cref{ch:results} reports the results, the statistical tests and the threats to validity. \Cref{ch:conclusion} answers the research questions and proposes future work. The appendices hold examples, per-seed and per-category results, the rating instructions, the consent form, the detector rules, the reproducibility record and the declaration of AI assistance.

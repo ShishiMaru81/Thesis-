@@ -1,0 +1,78 @@
+{
+  "test_id": "O3",
+  "n": 20,
+  "arms": {
+    "llama31_8b_zeroshot": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "llama31_8b_seed42": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "llama31_8b_seed42_clarify": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "mistral_nemo_zeroshot": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "mistral_nemo_seed42": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "mistral_nemo_seed42_clarify": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "phi35_mini_zeroshot": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "phi35_mini_seed42": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "phi35_mini_seed42_clarify": {
+      "answer": 17,
+      "clarify": 3,
+      "abstain": 0,
+      "empty": 0
+    },
+    "phi4_mini_zeroshot": {
+      "answer": 19,
+      "clarify": 1,
+      "abstain": 0,
+      "empty": 0
+    },
+    "phi4_mini_seed42": {
+      "answer": 20,
+      "clarify": 0,
+      "abstain": 0,
+      "empty": 0
+    },
+    "phi4_mini_seed42_clarify": {
+      "answer": 18,
+      "clarify": 0,
+      "abstain": 2,
+      "empty": 0
+    }
+  }
+}

@@ -1,0 +1,50 @@
+This chapter answers the research questions, restates what the study can and cannot claim, and lists the work that should come next.
+
+\section{Answers to the Research Questions}
+\label{sec:answers}
+
+\paragraph{RQ1 / H1.}
+Fine-tuning on complete-input examples teaches the models this system's conventions and its arithmetic. No base model states a correct crop coefficient or applies the tiered effective-rainfall rule. After fine-tuning, $K_c$ F1 is \RangeFTKcFoneMin--\RangeFTKcFoneMax and effective-rainfall F1 is \RangeFTRainFoneMin--\RangeFTRainFoneMax. Accuracy within $\pm$0.1\,mm on the \NumericSingle single-crop rows rises from \RangeZSExactPtOneMin--\RangeZSExactPtOneMax\% to \RangeFTExactPtOneMin--\RangeFTExactPtOneMax\%, a gain that is significant after Holm in every model at every seed. Human ratings move with the automatic scores. H1 is supported. The gain is agreement with this calculator and this template, not a claim about reasoning.
+
+\paragraph{RQ2 / T.}
+When a required input is missing, fine-tuned models invent it. They do not ask and they do not refuse. Abstention, which was \TrainPctAbstain\% of the training corpus, is learned completely (100\% on the \TestAbstain seed out-of-domain rows in all twelve runs). Clarification, which was \TrainPctClarify\% of training, is learned not at all (0\% named clarification in all twelve runs). Base models also invent values, but often by running to the token limit (\RangeZSTruncRateMin--\RangeZSTruncRateMax\% of clarify responses) or by saying that a value was assumed (\RangeZSExplicitAmongInvMinInt--\RangeZSExplicitAmongInvMaxInt\% of invented answers). After fine-tuning, \RangeFTSeedAConfErrBMin--\RangeFTSeedAConfErrBMax\% of clarify responses are complete, unhedged, confident errors. The paired test is significant in every model at every seed. T is supported. The size of the change depends on the base model. Annotators would not hand any of the evaluated standard fine-tuned models' answers to incomplete questions to a farmer.
+
+\paragraph{RQ3 / C1--C3.}
+\ClarifyTrainRows templated clarification examples raise named clarification to \RangeCLClarifyExactMin--\RangeCLClarifyExactMax\% and cut invented values from 100\% to \RangeCLInventedMin--\RangeCLInventedMax\%, with no significant numeric loss detected (lowest CI bound \SigAFourWorstLo percentage points). Human farmer-yes on clarify questions rises by \SigBThreeClVsFtClarifyDiff [\SigBThreeClVsFtClarifyDiffLo, \SigBThreeClVsFtClarifyDiffHi] percentage points. C1 and C2 are supported; C3 is reported as no loss detected. The overall human rating gain does not survive Holm. Clarify-trained arms exist at one seed. A post-hoc detector that reads gold labels can push Llama's safe handling from \DetLearnedPct\% to \DetCombinedPct\%; that figure is an oracle-gated upper bound, not a mitigation result.
+
+\paragraph{RQ4 / H2.}
+Bengali trails English on factual text in every model (6 to 13 chrF++ points), significantly after Holm in three of four at seed 42 and in two of four on all seeds. Llama's registered rank test is not significant. Numeric English--Bengali differences are not significant in any model or seed; the intervals are too wide to rule out a gap of about 15 percentage points. Human language contrasts are not significant after Holm. H2 is partially supported. Fine-tuning does fix response language: zero-shot Mistral answered only \LangMistralZSAll\% of Bengali questions in Bengali; every fine-tuned arm answered at least \RangeLangTunedMin\%.
+
+\paragraph{RQ5 / H3.}
+On the two measures named before testing, agreement clears the threshold of \AgreeThreshold: farmer $\kappa$ is \AgrKappaFarmer [\AgrKappaFarmerLo, \AgrKappaFarmerHi] and ordinal $\alpha$ is \AgrAlphaOrdinal [\AgrAlphaOrdinalLo, \AgrAlphaOrdinalHi]. H3 is supported on those measures. Nominal $\kappa$ on the raw 1--5 scale is lower, as expected for an ordinal instrument scored nominally. Human acceptance of numeric answers tracks exact agreement with the visible reference (\BinBExactYes\% of exact matches, \BinBPtOneYes\% of the 0.005--0.1\,mm band), so the automatic $\pm$0.1\,mm headline is more lenient than the raters.
+
+Llama fine-tuned and Mistral fine-tuned do not differ significantly on the pre-specified tests. The four fine-tuned models do differ as a set; the large-versus-small tier contrast is significant and robust.
+
+\section{What This Thesis Does Not Claim}
+\label{sec:does-not-claim}
+
+It does not claim that large language models cannot ask for missing information. It claims that standard LoRA fine-tuning on this corpus, with no clarification examples and no instruction to ask, produces confident invented answers. Targeted examples change that in part. A prompt that tells the base model to ask was not run (\STAGEEIGHTB{prompted baseline}).
+
+It does not claim that the models have learned irrigation. They have learned this coefficient table, this rainfall rule and this answer template. Most training numeric rows come from the same generator as the test rows.
+
+It does not claim that the testbed is ready for farmers. No farmer took part. \TestExcluded test rows are unscored. The raters are the authors, not extension officers. We do not recommend deploying any model studied here.
+
+It does not claim that a non-significant language or model comparison is equivalence. The intervals are reported so that a reader can see what is ruled out.
+
+\section{Future Work}
+\label{sec:future}
+
+The highest-leverage experiment that is already designed and not yet run is the prompted baseline: the same four models, with and without fine-tuning, given a system prompt that states the formula, the coefficient table and an instruction to ask for missing values (\STAGEEIGHTB{prompted baseline}). That experiment separates what weights teach from what an instruction can achieve.
+
+Four other items belong to the same supplementary round: class-level scoring of the \TestExcluded excluded rows; a two-person digitisation check of the calendars against their images; a check of the coefficient table against FAO-56 and the Bangladesh rice study; and the two external raters on the shared outputs.
+
+A detector that reads only the question, not the gold type or category, is future work if anyone wants a runtime guard. So is putting a calculator in the loop: a model that invents a missing input will pass the invented value downstream, and measuring that failure with a tool present would show whether the behaviour survives the obvious engineering fix.
+
+On the data side, paraphrase and back-translation were never run; a farmer-authored test set does not exist; and the semantic leakage sample is still unlabelled (\PENDINGREVIEW{semantic leakage review, \LeakReviewSample pairs}). Any of those would tighten the external-validity claim.
+
+Clarify training should be repeated at more than one seed, and should include the missing-$\mathrm{ET}_0$, ambiguous-crop and unknown-unit cases that the first \ClarifyTrainRows examples omitted. Whether a small number of such examples is enough, or whether the model only copies the template, is an open measurement.
+
+\section{Concluding Remarks}
+\label{sec:closing}
+
+Fine-tuning is the usual way to make a general model useful in a narrow domain, and accuracy is the usual way to decide that it worked. On this irrigation testbed both statements are true and incomplete. The models learn the conventions and the arithmetic. They also learn to finish an answer when the question does not contain one. The unfinished, hedged errors of the base models become short, well-formed volumes. That change is the finding. A few hundred examples that show the other behaviour undo part of it, and nothing we measured suggests that the arithmetic has to be sacrificed to do so. Until asking for a missing input is taught, tested and required, a fine-tuned agricultural assistant of this kind is not safe to hand to a farmer.

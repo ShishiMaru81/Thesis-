@@ -1,0 +1,49 @@
+# Stage 9 — frontier-model zero-shot baseline. Read by run_frontier.py and make_plan.py.
+# API keys come only from GROQ_API_KEY / GOOGLE_API_KEY / OPENAI_API_KEY / ANTHROPIC_API_KEY.
+# plan_amendment_2.md: gemini-3.8-flash replaced by groq openai/gpt-oss-120b.
+models:
+  - {provider: groq,      model_id: "openai/gpt-oss-120b"}   # free tier
+  - {provider: openai,    model_id: "<FILL or remove>"}   # paid, optional
+  - {provider: anthropic, model_id: "<FILL or remove>"}   # paid, optional
+
+temperature: 0
+max_output_tokens: 512
+
+# gpt-oss-120b on Groq: reasoning_effort low is the lowest supported level;
+# max_completion_tokens counts reasoning + visible tokens; logprobs are not
+# supported by any Groq model. See plan_amendment_2.md.
+groq:
+  base_url: "https://api.groq.com/openai/v1"
+  reasoning_effort: "low"
+  include_reasoning: true
+  send_temperature: true
+  seed: 42
+  api_max_completion_tokens: 4096
+  timeout_s: 120
+
+# Kept for the record of the 3 excluded gemini-3.8-flash dry-run rows (amendment 2).
+google:
+  thinking_level: "low"
+  send_temperature: false
+  api_max_output_tokens: 4096
+  request_logprobs: false
+
+# Free-tier limits. Groq: console.groq.com/docs/rate-limits (gpt-oss-120b).
+# Daily counts use a rolling 24 h window over cached responses (conservative).
+throttle:
+  groq:
+    requests_per_minute: 30
+    requests_per_day: 1000
+    tokens_per_minute: 8000
+    tokens_per_day: 200000
+    default_request_tokens: 2500   # token estimate before any response of that arm is seen
+    max_wait_for_daily_budget_s: 3600   # wait (instead of stopping) if rolling-24 h budget frees up within this time
+  google:
+    requests_per_minute: 5
+    requests_per_day: null
+
+# Paid-tier list prices (USD per 1M tokens) used only for the cost estimate.
+# Free tier is billed at 0; the estimate shows what the same run would cost on paid tier.
+pricing_usd_per_mtok:
+  openai/gpt-oss-120b: {input: 0.15, output_incl_thinking: 0.60, source: "console.groq.com/docs/model/openai/gpt-oss-120b"}
+  gemini-3.8-flash: {input: 0.75, output_incl_thinking: 3.75, source: "ai.google.dev/gemini-api/docs/pricing, introductory rate to 2026-12-31"}

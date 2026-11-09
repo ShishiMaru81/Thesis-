@@ -1,0 +1,209 @@
+{
+  "pending_by_category": {
+    "conflicting_values": 20,
+    "out_of_domain": 40
+  },
+  "pending_by_qtype": {
+    "clarify": 20,
+    "abstain": 40
+  },
+  "scorable_by_qtype": {
+    "factual": 114,
+    "numeric_runtime": 146,
+    "abstain": 34,
+    "clarify": 68
+  },
+  "scorable_by_qtype_lang": {
+    "abstain/bn": 17,
+    "abstain/en": 17,
+    "clarify/bn": 34,
+    "clarify/en": 34,
+    "factual/bn": 57,
+    "factual/en": 57,
+    "numeric_runtime/bn": 73,
+    "numeric_runtime/en": 73
+  },
+  "test_columns": [
+    "answer",
+    "answer_kind",
+    "category",
+    "crop",
+    "crop_bn",
+    "crops",
+    "fact_id",
+    "gold_status",
+    "gold_trace",
+    "item_id",
+    "lang",
+    "origin",
+    "provenance",
+    "qtype",
+    "question",
+    "row_id",
+    "scenario",
+    "scenario_hash",
+    "scenario_hashes",
+    "scenarios",
+    "source_id",
+    "subtype"
+  ],
+  "bn_en_pairing_key_options": {
+    "pair_id": "column absent",
+    "fact_id": {
+      "factual": 57,
+      "numeric_runtime": 17,
+      "abstain": 17
+    },
+    "source_id": {
+      "factual": 57,
+      "numeric_runtime": 17,
+      "abstain": 17
+    },
+    "scenario_hash": {
+      "numeric_runtime": 17
+    }
+  },
+  "a6_pairing_key": "fact_id",
+  "annotators": {
+    "A1": 240,
+    "A2": 240,
+    "A3": 240,
+    "A4": 240,
+    "A5": 240
+  },
+  "is_overlap": {
+    "no": 700,
+    "yes": 500
+  },
+  "solo_arm_by_annotator": {
+    "A1": {
+      "llama31_8b_zeroshot": 32,
+      "llama31_8b_seed42_clarify": 34,
+      "mistral_nemo_seed42": 42,
+      "llama31_8b_seed42": 32
+    },
+    "A2": {
+      "llama31_8b_seed42_clarify": 36,
+      "mistral_nemo_seed42": 39,
+      "llama31_8b_zeroshot": 36,
+      "llama31_8b_seed42": 29
+    },
+    "A3": {
+      "llama31_8b_seed42": 31,
+      "llama31_8b_zeroshot": 35,
+      "mistral_nemo_seed42": 39,
+      "llama31_8b_seed42_clarify": 35
+    },
+    "A4": {
+      "mistral_nemo_seed42": 27,
+      "llama31_8b_seed42": 39,
+      "llama31_8b_zeroshot": 39,
+      "llama31_8b_seed42_clarify": 35
+    },
+    "A5": {
+      "mistral_nemo_seed42": 30,
+      "llama31_8b_seed42": 45,
+      "llama31_8b_seed42_clarify": 31,
+      "llama31_8b_zeroshot": 34
+    }
+  },
+  "arm_key_path": "reports\\s7\\stage7_arm_key_DO_NOT_SHARE.csv",
+  "human_rows_in_scorable_test": 182,
+  "human_rows_not_in_test_set": 18,
+  "assignment_key_path": null,
+  "human_arm_to_pred": {
+    "llama31_8b_zeroshot": "reports\\s6\\predictions\\llama31_8b_zeroshot.jsonl",
+    "llama31_8b_seed42": "reports\\s6\\predictions\\llama31_8b_seed42.jsonl",
+    "llama31_8b_seed42_clarify": "reports\\s6\\predictions\\llama31_8b_seed42_clarify.jsonl",
+    "mistral_nemo_seed42": "reports\\s6\\predictions\\mistral_nemo_seed42.jsonl"
+  },
+  "master_columns": [
+    "arm",
+    "item_id",
+    "row_id",
+    "qtype",
+    "lang",
+    "category",
+    "subtype",
+    "metric",
+    "value"
+  ],
+  "master_rows": 60741,
+  "master_arms": [
+    "llama31_8b_seed1337",
+    "llama31_8b_seed2024",
+    "llama31_8b_seed42",
+    "llama31_8b_seed42_clarify",
+    "llama31_8b_zeroshot",
+    "mistral_nemo_seed1337",
+    "mistral_nemo_seed2024",
+    "mistral_nemo_seed42",
+    "mistral_nemo_seed42_clarify",
+    "mistral_nemo_zeroshot",
+    "phi35_mini_seed1337",
+    "phi35_mini_seed2024",
+    "phi35_mini_seed42",
+    "phi35_mini_seed42_clarify",
+    "phi35_mini_zeroshot",
+    "phi4_mini_seed1337",
+    "phi4_mini_seed2024",
+    "phi4_mini_seed42",
+    "phi4_mini_seed42_clarify",
+    "phi4_mini_zeroshot"
+  ],
+  "master_metrics": [
+    "abs_err",
+    "abstain_correct",
+    "ape",
+    "bertscore_f1",
+    "calc_block_present",
+    "chrf_pp",
+    "clarify_exact",
+    "clarify_score",
+    "dice_char3",
+    "dice_char5",
+    "dice_word",
+    "em_0p1",
+    "em_1p0",
+    "exact_match",
+    "invented_value",
+    "invented_value_strict",
+    "multi_all_correct",
+    "net_extracted",
+    "rouge_l",
+    "slot_area_sqm_correct",
+    "slot_crop_correct",
+    "slot_et0_mm_correct",
+    "slot_kc_correct",
+    "slot_rainfall_mm_correct",
+    "slot_stage_correct",
+    "sq_err"
+  ],
+  "metric_availability": {
+    "exact_0.1": "per-row as 'em_0p1' (>= 78 rows/arm)",
+    "exact_1.0": "per-row as 'em_1p0' (>= 78 rows/arm)",
+    "abs_error": "per-row as 'abs_err' (>= 78 rows/arm)",
+    "net_extracted": "per-row as 'net_extracted' (>= 146 rows/arm)",
+    "predicted_class": "NOT IN MASTER -> recompute per row from predictions via s6_eval.classify_response",
+    "invented_value": "per-row as 'invented_value' (>= 68 rows/arm)",
+    "dice_word": "per-row as 'dice_word' (>= 114 rows/arm)",
+    "dice_char3": "per-row as 'dice_char3' (>= 114 rows/arm)",
+    "dice_char5": "per-row as 'dice_char5' (>= 114 rows/arm)",
+    "chrF++": "per-row as 'chrf_pp' (>= 114 rows/arm)",
+    "ROUGE-L": "per-row as 'rouge_l' (>= 114 rows/arm)",
+    "BERTScore": "per-row as 'bertscore_f1' (>= 114 rows/arm)",
+    "exact_clarify": "per-row as 'clarify_exact' (>= 68 rows/arm)",
+    "abstain_correct": "per-row as 'abstain_correct' (>= 34 rows/arm)"
+  },
+  "arms_in_master": 20,
+  "arms_with_predictions": 21,
+  "R_available": false,
+  "python_packages": {
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.0",
+    "krippendorff": "ok"
+  },
+  "gate": "PASS"
+}

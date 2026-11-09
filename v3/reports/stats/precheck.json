@@ -1,0 +1,140 @@
+{
+  "authored_18": {
+    "by_qtype": {
+      "clarify": 15,
+      "numeric_runtime": 3
+    },
+    "by_category": {
+      "unit_ambiguity": 5,
+      "misspelled_crop": 6,
+      "multi_crop": 1,
+      "missing_parameter": 5,
+      "code_switched": 1
+    },
+    "by_lang": {
+      "bn": 18
+    },
+    "by_translation_status": {
+      "authored_bn_pair": 18
+    },
+    "by_qtype_category": {
+      "clarify/missing_parameter": 5,
+      "clarify/misspelled_crop": 5,
+      "clarify/unit_ambiguity": 5,
+      "numeric_runtime/code_switched": 1,
+      "numeric_runtime/misspelled_crop": 1,
+      "numeric_runtime/multi_crop": 1
+    }
+  },
+  "human_sample_by_qtype": {
+    "abstain": {
+      "in_test": 20,
+      "authored": 0,
+      "all": 20
+    },
+    "clarify": {
+      "in_test": 25,
+      "authored": 15,
+      "all": 40
+    },
+    "factual": {
+      "in_test": 70,
+      "authored": 0,
+      "all": 70
+    },
+    "numeric_runtime": {
+      "in_test": 67,
+      "authored": 3,
+      "all": 70
+    }
+  },
+  "provenance_18": {
+    "script": "scripts/s7_gen_translated_bn.py",
+    "inference_function": "s6_eval.generate_arm (imported; same prompt template, greedy, num_beams=1)",
+    "predictions_dir": "reports\\s7\\predictions_translated_bn",
+    "log": "logs/s7_gen_translated_bn.log",
+    "arms": {
+      "llama31_8b_zeroshot": {
+        "stage6_adapter": "base weights (zero-shot)",
+        "stage7_adapter": "base weights (zero-shot)",
+        "stage6_n_lora": 0,
+        "stage7_n_lora": 0,
+        "stage6_n_lora_logged": 0,
+        "stage7_n_lora_logged": 0,
+        "stage6_max_new_tokens": 512,
+        "stage7_max_new_tokens": 512,
+        "stage7_rows": 18,
+        "match": true
+      },
+      "llama31_8b_seed42": {
+        "stage6_adapter": "S5 adapter models\\s5\\llama31_8b_seed42\\final_adapter",
+        "stage7_adapter": "S5 adapter models\\s5\\llama31_8b_seed42\\final_adapter",
+        "stage6_n_lora": 448,
+        "stage7_n_lora": 448,
+        "stage6_n_lora_logged": 448,
+        "stage7_n_lora_logged": 448,
+        "stage6_max_new_tokens": 512,
+        "stage7_max_new_tokens": 512,
+        "stage7_rows": 18,
+        "match": true
+      },
+      "llama31_8b_seed42_clarify": {
+        "stage6_adapter": "S5 adapter models\\s5\\llama31_8b_seed42_clarify\\final_adapter",
+        "stage7_adapter": "S5 adapter models\\s5\\llama31_8b_seed42_clarify\\final_adapter",
+        "stage6_n_lora": 448,
+        "stage7_n_lora": 448,
+        "stage6_n_lora_logged": 448,
+        "stage7_n_lora_logged": 448,
+        "stage6_max_new_tokens": 512,
+        "stage7_max_new_tokens": 512,
+        "stage7_rows": 18,
+        "match": true
+      },
+      "mistral_nemo_seed42": {
+        "stage6_adapter": "S5 adapter models\\s5\\mistral_nemo_seed42\\final_adapter",
+        "stage7_adapter": "S5 adapter models\\s5\\mistral_nemo_seed42\\final_adapter",
+        "stage6_n_lora": 560,
+        "stage7_n_lora": 560,
+        "stage6_n_lora_logged": 560,
+        "stage7_n_lora_logged": 560,
+        "stage6_max_new_tokens": 512,
+        "stage7_max_new_tokens": 512,
+        "stage7_rows": 18,
+        "match": true
+      }
+    },
+    "rating_sheet_matches_predictions": true
+  },
+  "finish_reason_stored": false,
+  "token_count_stored": false,
+  "tokenizer": {
+    "llama31_8b": "TokenizersBackend / meta-llama/Llama-3.1-8B-Instruct",
+    "mistral_nemo": "TokenizersBackend / mistralai/Mistral-Nemo-Instruct-2407",
+    "phi35_mini": "TokenizersBackend / microsoft/Phi-3.5-mini-instruct",
+    "phi4_mini": "TokenizersBackend / microsoft/Phi-4-mini-instruct"
+  },
+  "token_count_distribution": {
+    "llama31_8b_zeroshot": {
+      "n": 362,
+      "min": 12,
+      "median": 512.0,
+      "p90": 512.0,
+      "max": 513,
+      "n_ge_511": 206,
+      "pct_ge_511": 56.9,
+      "clarify_rows_ge_511": 37,
+      "clarify_rows_n": 68
+    },
+    "llama31_8b_seed42": {
+      "n": 362,
+      "min": 2,
+      "median": 58.0,
+      "p90": 168.0,
+      "max": 512,
+      "n_ge_511": 1,
+      "pct_ge_511": 0.3,
+      "clarify_rows_ge_511": 0,
+      "clarify_rows_n": 68
+    }
+  }
+}

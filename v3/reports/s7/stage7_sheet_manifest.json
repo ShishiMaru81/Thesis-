@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "items": 200,
+  "arms": 4,
+  "judgments": 800,
+  "arm_labels": {
+    "llama31_8b_zeroshot": "A",
+    "llama31_8b_seed42": "B",
+    "llama31_8b_seed42_clarify": "C",
+    "mistral_nemo_seed42": "D"
+  },
+  "lang": {
+    "en": 400,
+    "bn": 400
+  },
+  "qtype": {
+    "numeric_runtime": 280,
+    "clarify": 160,
+    "factual": 280,
+    "abstain": 80
+  },
+  "per_arm": {
+    "llama31_8b_zeroshot": 200,
+    "llama31_8b_seed42_clarify": 200,
+    "llama31_8b_seed42": 200,
+    "mistral_nemo_seed42": 200
+  },
+  "columns": [
+    "judgment_id",
+    "row_id",
+    "item_id",
+    "source_id",
+    "fact_id",
+    "pair_id",
+    "lang",
+    "qtype",
+    "category",
+    "subtype",
+    "origin",
+    "gold_status",
+    "answer_kind",
+    "crop",
+    "crop_bn",
+    "crops",
+    "scenario_hash",
+    "scenario_hashes",
+    "translation_status",
+    "question",
+    "gold_answer",
+    "model_answer",
+    "rating_1_5",
+    "would_give_farmer",
+    "notes"
+  ],
+  "rating_sheet_csv": "D:\\Research Lab\\Thesis\\v3\\reports\\s7\\stage7_rating_sheet.csv",
+  "rating_sheet_xlsx": "D:\\Research Lab\\Thesis\\v3\\reports\\s7\\stage7_rating_sheet.xlsx",
+  "rating_sheet_csv_sha256": "495375f721c87bcf2c95d4e7926e3ff1c5aec966128fa2f335b850482d63b9ca",
+  "arm_key": "D:\\Research Lab\\Thesis\\v3\\reports\\s7\\stage7_arm_key_DO_NOT_SHARE.csv",
+  "generation_sources": {
+    "native_test_rows": "reports/s6/predictions/{arm}.jsonl",
+    "authored_bn_rows": "reports/s7/predictions_translated_bn/{arm}.jsonl"
+  }
+}

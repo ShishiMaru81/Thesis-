@@ -1,0 +1,16 @@
+Stage 8B Step 0 FREEZE
+date: 2026-09-26 00:33:59 +0600
+P7: one Holm family of 8 (unchanged)
+
+prompt_P.txt  sha256=cfb493045a9f52e51857ca9f8b4f1cea7a1c0c23831e55cb1d3dbd28d541da0a
+fewshot_examples.json  sha256=329b484a4c9517bd37c2d36a4febe04d35635f781444756fcd6634add679c993
+plan.json  sha256=34ae9b65ef3c1c07dce107adcdf038b8746c14be5de0176bbd9faabf528396a8  (canonical: sha256 field null, then hash)
+
+These three files must not change. Any change requires a v1 copy and a LOG.md reason.
+
+---
+AMENDMENT v1 (frozen Step 0 files unchanged)
+date: 2026-09-26 00:43:47 +0600
+plan_amendment_v1.md  sha256=f495ddb447828a84359a3dbb48cea5ae4fee520046640ce2063dd798c683e744
+Reason: 50-row HW check batch composition invalidates byte-identity.
+New rule: full 422-row replication via s6_eval.generate_arm; PASS = class agree >=99% and headline counts within +/-1.

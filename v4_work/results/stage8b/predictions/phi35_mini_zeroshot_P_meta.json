@@ -1,0 +1,16 @@
+{
+  "arm": "phi35_mini_zeroshot_P",
+  "base_arm": "phi35_mini_zeroshot",
+  "base_model": "microsoft/Phi-3.5-mini-instruct",
+  "n_lora_modules": 0,
+  "wall_seconds": 1602.6,
+  "peak_vram_gb": 10.992,
+  "batch_size": 4,
+  "batch_size_requested": 4,
+  "max_new_tokens": 512,
+  "max_seq_len": 3072,
+  "rows": 422,
+  "prompt_tokens_min": 2086,
+  "prompt_tokens_max": 2347,
+  "adapter_sha256": null
+}

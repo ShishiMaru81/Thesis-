@@ -1,0 +1,30 @@
+crop_name_en,kc_ini,kc_mid,kc_end,kc_source,citation
+Aman_Rice,1.05,1.1,0.96,Islam (2021) Bangladesh-measured,Agrotechnology 10(7):213
+Aus_Rice,1.05,1.18,0.98,Islam (2021) Bangladesh-measured,Agrotechnology 10(7):213
+Boro_Rice,1.05,1.22,0.96,Islam (2021) Bangladesh-measured,Agrotechnology 10(7):213
+Groundnut,0.4,1.15,0.6,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Lentil,0.4,1.1,0.3,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Mungbean,0.4,1.05,0.6,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Pea,0.5,1.15,1.1,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Wheat,0.3,1.15,0.25,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Maize,0.3,1.2,0.6,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Mustard,0.3,1.15,0.35,FAO-56 Table 12 (Oil crop),Doorenbos & Pruitt 1977
+Sesame,0.35,1.1,0.25,FAO-56 Table 12 (Oil crop),Doorenbos & Pruitt 1977
+Brinjal,0.6,1.15,0.8,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Bottle_Gourd,0.5,1.0,0.8,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Onion,0.15,1.05,0.75,FAO-56 Table 12 (dry onion),Doorenbos & Pruitt 1977
+Potato,0.5,1.15,0.75,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Sweet_Potato,0.5,1.15,0.65,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Turmeric,0.5,1.1,0.95,FAO-56 Table 12 (Roots/Tubers),Doorenbos & Pruitt 1977
+Ginger,0.5,1.1,0.95,FAO-56 Table 12 (Roots/Tubers),Doorenbos & Pruitt 1977
+Mukhi_Kachu,0.5,1.1,0.95,FAO-56 Table 12 (Roots/Tubers),Doorenbos & Pruitt 1977
+Cotton,0.35,1.15,0.7,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Jute,0.35,1.15,0.7,FAO-56 Table 12 (Fiber crop),Doorenbos & Pruitt 1977
+Sugarcane,0.4,1.25,0.75,FAO-56 Table 12,Doorenbos & Pruitt 1977
+Guava,0.6,0.95,0.75,FAO-56 Table 12 (Perennial),Doorenbos & Pruitt 1977
+Mango,0.6,0.85,0.75,FAO-56 Table 12 (Tropical fruit),Doorenbos & Pruitt 1977
+Litchi,0.6,0.85,0.75,FAO-56 Table 12 (Tropical fruit),Doorenbos & Pruitt 1977
+Jackfruit,0.6,0.85,0.75,FAO-56 Table 12 (Tropical fruit),Doorenbos & Pruitt 1977
+Coconut,0.95,1.0,1.0,FAO-56 Table 12 (Palm tree),Doorenbos & Pruitt 1977
+Lemon,0.7,0.65,0.7,FAO-56 Table 12 (Citrus 70% canopy),Doorenbos & Pruitt 1977
+Jujube,0.6,0.85,0.75,FAO-56 Table 12 (Tropical fruit),Doorenbos & Pruitt 1977

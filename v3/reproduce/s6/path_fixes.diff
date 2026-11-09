@@ -1,0 +1,30 @@
+--- a/scripts/verify_s5_manifests.py
++++ b/scripts/verify_s5_manifests.py
+@@
+-REP = Path(r"D:\Research Lab\Thesis\v3\reports\s5")
++REP = Path(__file__).resolve().parents[1] / "reports" / "s5"
+
+--- a/scripts/s6d_eval_remaining_15.py
++++ b/scripts/s6d_eval_remaining_15.py
+@@
+-ENV_PYTHON = Path(r"D:\Research Lab\Thesis\finetune_env\Scripts\python.exe")
++ENV_PYTHON = PROJECT_ROOT.parent / "finetune_env" / "Scripts" / "python.exe"
+
+--- a/scripts/s6e_train_clarify_all_models.py
++++ b/scripts/s6e_train_clarify_all_models.py
+@@
+-ENV_PYTHON = Path(r"D:\Research Lab\Thesis\finetune_env\Scripts\python.exe")
++ENV_PYTHON = PROJECT_ROOT.parent / "finetune_env" / "Scripts" / "python.exe"
+
+--- a/scripts/s6e_eval_clarify_models.py
++++ b/scripts/s6e_eval_clarify_models.py
+@@
+-ENV_PYTHON = Path(r"D:\Research Lab\Thesis\finetune_env\Scripts\python.exe")
++ENV_PYTHON = PROJECT_ROOT.parent / "finetune_env" / "Scripts" / "python.exe"
+
+--- a/launch_stage5.ps1
++++ b/launch_stage5.ps1
+@@
+-$Python = "D:\Research Lab\Thesis\finetune_env\Scripts\python.exe"
++$Python = Join-Path (Split-Path $ProjectRoot -Parent) "finetune_env\Scripts\python.exe"
+

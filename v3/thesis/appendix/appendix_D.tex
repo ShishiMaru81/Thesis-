@@ -1,0 +1,35 @@
+\chapter{Rating Instructions}
+\label{app:D}
+\label{app:rubric}
+
+Annotators received a blinded workbook, \texttt{reports/s7/stage7\_rating\_sheet.xlsx}, with one row per judgement. The model name was not in the sheet. The README sheet of that workbook is the instruction they were given. It is reprinted below, then the 1--5 rule that the audit report records as the team's working rubric. The two sources do not say the same thing about what 1 and 2 mean; \cref{sec:impl-human} and the threats section treat that drift as a limit on the 1-versus-2 distinction.
+
+\section*{Text of the rating-sheet README}
+
+\begin{quote}
+\footnotesize
+STAGE 7 HUMAN RATING SHEET --- \HumUniqueOutputs{} judgements (\HumQuestions{} items $\times$ 4 model outputs).
+
+Each row $=$ one question $+$ one model's answer. The model is not identified. The same question appears four times in the sheet, in shuffled positions.
+
+Fill only the yellow columns:
+\begin{itemize}[leftmargin=1.4em]
+  \item \texttt{rating\_1\_5} --- integer 1 (unusable) .. 5 (correct, complete, safe to give)
+  \item \texttt{would\_give\_farmer} --- yes / no --- would you hand this answer to a farmer as-is?
+  \item \texttt{notes} --- optional, one line
+\end{itemize}
+Do not edit any other column. Do not sort or delete rows; \texttt{judgment\_id} is the join key. \texttt{gold\_answer} is the reference answer for the question (hide the column if you want to rate blind to the reference).
+\end{quote}
+
+\section*{Working 1--5 rule used in the audit}
+
+The Stage 7 audit report records the following working meanings, which are stricter than ``unusable'' / ``safe to give'':
+
+\begin{itemize}[leftmargin=1.4em]
+  \item 1 --- wrong in a way a farmer would not notice. Invented values are scored 1.
+  \item 2 --- wrong in a way a farmer would notice (rambling, unfinished, obviously broken).
+  \item 3 --- mixed or partly useful.
+  \item 4--5 --- good enough to hand over; asking for a missing input deserves 5.
+\end{itemize}
+
+The gold answer was shown. Annotators were the authors (\AUTHORINPUT{confirm annotator identities}); none is an agricultural expert. Two cells were corrected after return, as recorded in \texttt{reports/human\_eval/stage7\_audit\_report.md}: a blank farmer decision set to yes, and a rating-1 / farmer-yes contradiction set to no.

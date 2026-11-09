@@ -1,0 +1,158 @@
+{
+  "stage": "GATE 2",
+  "generated_at": "2026-08-27T07:34:25.851371+00:00",
+  "seed": 42,
+  "families_run": "CD",
+  "normalizer_version": "v3.1",
+  "input": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\train_seed.jsonl",
+  "input_rows": 632,
+  "input_sha256": "4d594e2bf8bdbee97a57b487d9df6eac91b4ecb6a15973f0cd26f9c94ba376de",
+  "blocklist": {
+    "path": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\heldout_scenario_hashes.json",
+    "distinct_hashes": 25,
+    "source_sha256": {
+      "val.jsonl": "2a494fc0807599872340713b4b33fa7134a87c68c7d4a232252566e59f644b24",
+      "test.jsonl": "ad90633b6c26a3f3402b13c122fb232c79d1ded5098d93db10f59bba0e887a11"
+    }
+  },
+  "output": "D:\\Research Lab\\Thesis\\v3\\data\\augmented\\train_augmented.jsonl",
+  "output_rows": 3552,
+  "output_sha256": "f4ba6742198d7e1d1e9d30f7fcfa090be6f7831afc7637bd7899be638bc2266d",
+  "table_by_origin": [
+    {
+      "origin": "seed",
+      "rows": 632,
+      "pct_bn": 50.0,
+      "pct_en": 50.0,
+      "pct_numeric": 18.7,
+      "pct_factual": 62.7,
+      "pct_abstain": 18.7
+    },
+    {
+      "origin": "synthetic",
+      "rows": 2610,
+      "pct_bn": 50.0,
+      "pct_en": 50.0,
+      "pct_numeric": 100.0,
+      "pct_factual": 0.0,
+      "pct_abstain": 0.0
+    },
+    {
+      "origin": "noise",
+      "rows": 310,
+      "pct_bn": 50.0,
+      "pct_en": 50.0,
+      "pct_numeric": 85.8,
+      "pct_factual": 11.0,
+      "pct_abstain": 3.2
+    }
+  ],
+  "rows_by_qtype": {
+    "abstain": 128,
+    "factual": 430,
+    "numeric_runtime": 2994
+  },
+  "rows_by_lang": {
+    "bn": 1776,
+    "en": 1776
+  },
+  "lang_balance_exact": true,
+  "balance_log": [
+    {
+      "qtype": "abstain",
+      "bn_before": 64,
+      "en_before": 66,
+      "target_each": 64,
+      "en_dropped_by_origin": {
+        "noise": 2
+      }
+    },
+    {
+      "qtype": "factual",
+      "bn_before": 215,
+      "en_before": 221,
+      "target_each": 215,
+      "en_dropped_by_origin": {
+        "noise": 6
+      }
+    },
+    {
+      "qtype": "numeric_runtime",
+      "bn_before": 1497,
+      "en_before": 1504,
+      "target_each": 1497,
+      "en_dropped_by_origin": {
+        "noise": 7
+      }
+    }
+  ],
+  "numeric_rows_total": 2994,
+  "numeric_target": 3000,
+  "zero_gold": {
+    "seed_numeric_zero_gold": 54,
+    "synthetic_rows": 2610,
+    "synthetic_zero_gold": 784,
+    "synthetic_zero_gold_pct": 30.0,
+    "quota_target_pct": 30.0
+  },
+  "pearson_et0_rainfall": {
+    "attempt": 0,
+    "n": 1305,
+    "r": 0.02987,
+    "p": 0.28087,
+    "within_tolerance": true
+  },
+  "pearson_attempts": [
+    {
+      "attempt": 0,
+      "n": 1305,
+      "r": 0.02987,
+      "p": 0.28087,
+      "within_tolerance": true
+    }
+  ],
+  "pearson_tolerance": 0.05,
+  "synthetic_sampling_stats": {
+    "points_forced_nonzero": 114,
+    "points_forced_zero": 341,
+    "points_flexible": 850,
+    "accepted_nonzero": 913,
+    "accepted_zero": 392
+  },
+  "noise_by_qtype": {
+    "abstain": {
+      "eligible": 118,
+      "requested": 12,
+      "made": 12
+    },
+    "factual": {
+      "eligible": 396,
+      "requested": 40,
+      "made": 40
+    },
+    "numeric_runtime": {
+      "eligible": 2728,
+      "requested": 273,
+      "made": 273
+    }
+  },
+  "synthetic_crop_stage_exposure": {
+    "rows_whose_fact_is_not_in_train_seed": 784,
+    "pct": 30.0,
+    "note": "Family C samples (crop, stage) across all 28 crops, as the spec's only stated constraint is scenario_hash. Rows counted here teach a Kc whose seed fact sits in a held-out split."
+  },
+  "dropped_by_check": {
+    "balance:noise": 15,
+    "noise:duplicate": 1,
+    "noise:no_target_token": 14
+  },
+  "dropped_total": 30,
+  "gemini": {
+    "skipped": true
+  },
+  "held_out_guard": {
+    "static_source_scan": "pass",
+    "runtime_open_guard": "installed",
+    "held_out_files_opened": 0
+  }
+}

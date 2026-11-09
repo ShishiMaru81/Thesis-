@@ -1,0 +1,15 @@
+\chapter{Reproducibility Record}
+\label{app:G}
+\label{app:repro}
+
+Every number in the body is a macro written by \texttt{scripts/thesis/make\_numbers.py} from the files listed in \texttt{thesis/generated/facts.md}. This appendix records the hashes that lock those files.
+
+The test set used for every Stage 6 and Stage 8 number is \texttt{data/hardened/test\_hardened.jsonl}. Its SHA-256 is checked against \texttt{data/hardened/test\_hardened.sha256} (prefix \TestShaShort) before evaluation and before any thesis script that reads the test set. The seed test split, hashed before hardening, has prefix \SeedTestShaShort.
+
+\Cref{tab:hashes} lists those two files and the SHA-256 prefix of every adapter loaded at evaluation. Re-verification after the fact found that all \AdapterArmsPass{} of the \AdapterArms{} fine-tuned and clarify-trained arms loaded an adapter whose hash matches its training manifest, even though the evaluation-time manifest check was skipped in \ManifestCheckSkippedRuns{} runs (\cref{sec:impl-training}).
+
+\input{generated/tables/tg_hashes}
+
+The software freeze used for Stage 8 is \texttt{reports/stats/env\_freeze.txt}. The analysis plan is \texttt{reports/stats/test\_plan.json}, version \PlanVersion. Python, NumPy, SciPy, statsmodels, scikit-learn, pandas and the \texttt{krippendorff} package versions are recorded in that plan's \texttt{environment} field. R is not available on the build machine.
+
+Training used Unsloth, TRL and Transformers as cited in \cref{ch:method}. Decoding was greedy, with at most \GenMaxNewTokens{} new tokens, and 4-bit base weights for every arm.

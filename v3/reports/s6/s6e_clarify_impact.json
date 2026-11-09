@@ -1,0 +1,35 @@
+[
+  {
+    "Model": "Mistral-NeMo-12B",
+    "Clarify before": "0.0%",
+    "Clarify after": "50.0%",
+    "Clarify \u0394": "+50.0 pp",
+    "Exact clarify before": "0.0%",
+    "Exact clarify after": "38.2%",
+    "Invented before": "100.0%",
+    "Invented after": "50.0%",
+    "Invented \u0394": "-50.0 pp"
+  },
+  {
+    "Model": "Phi-3.5-mini",
+    "Clarify before": "0.0%",
+    "Clarify after": "33.8%",
+    "Clarify \u0394": "+33.8 pp",
+    "Exact clarify before": "0.0%",
+    "Exact clarify after": "29.4%",
+    "Invented before": "100.0%",
+    "Invented after": "66.2%",
+    "Invented \u0394": "-33.8 pp"
+  },
+  {
+    "Model": "Phi-4-mini",
+    "Clarify before": "0.0%",
+    "Clarify after": "41.2%",
+    "Clarify \u0394": "+41.2 pp",
+    "Exact clarify before": "0.0%",
+    "Exact clarify after": "38.2%",
+    "Invented before": "100.0%",
+    "Invented after": "58.8%",
+    "Invented \u0394": "-41.2 pp"
+  }
+]

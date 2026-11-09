@@ -1,0 +1,16 @@
+{
+  "arm": "llama31_8b_zeroshot_P",
+  "base_arm": "llama31_8b_zeroshot",
+  "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+  "n_lora_modules": 0,
+  "wall_seconds": 3695.8,
+  "peak_vram_gb": 10.057,
+  "batch_size": 4,
+  "batch_size_requested": 4,
+  "max_new_tokens": 512,
+  "max_seq_len": 3072,
+  "rows": 422,
+  "prompt_tokens_min": 1907,
+  "prompt_tokens_max": 2146,
+  "adapter_sha256": null
+}

@@ -1,0 +1,296 @@
+{
+  "crop_name_bn": "পাট",
+  "crop_name_en": "Jute",
+  "source_document": "ফসল পঞ্জিকা - পাট; প্রযুক্তির সূত্র: বাংলাদেশ পাট গবেষণা ইনস্টিটিউট, ঢাকা",
+  "source_image": "Screenshot_20260521_004923.png",
+  "source_image_sha256": "20e0fc3c11b3f5b984303c8f098ac3dc65b657108c1c2bf1dcc6cb686a9e17b6",
+  "extraction_timestamp": "2026-07-19T14:34:58.807820+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "পাট",
+      "value_en": "Jute",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-পাট",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "আঁশ ফসল",
+      "value_en": "Fiber crop",
+      "provenance": "derived"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "তোষা পাটের জন্য চৈত্র থেকে মধ্য বৈশাখ (মধ্য মার্চ থেকে এপ্রিল) এবং দেশি পাটের জন্য বৈশাখ (মধ্য এপ্রিল থেকে মধ্য মে)",
+      "value_en": "Mid-March to April (Chaitra to mid-Baishakh) for Tosha jute, and mid-April to mid-May (Baishakh) for Deshi jute",
+      "provenance": "explicit",
+      "source_quote_bn": "তোষা পাটের জন্য চৈত্র থেকে মধ্য বৈশাখ (মধ্য মার্চ থেকে এপ্রিল) এবং দেশি পাটের জন্য বৈশাখ (মধ্য এপ্রিল থেকে মধ্য মে) উপযুক্ত সময়।",
+      "source": "বপনের সময়"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "মধ্য ফাল্গুন - মধ্য চৈত্র",
+          "bangla_span_en": "mid-Falgun to mid-Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "মধ্য চৈত্র - মধ্য বৈশাখ",
+          "bangla_span_en": "mid-Chaitra to mid-Boishakh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "মধ্য বৈশাখ - মধ্য জ্যৈষ্ঠ",
+          "bangla_span_en": "mid-Boishakh to mid-Joishtho",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "মধ্য জ্যৈষ্ঠ - মধ্য আষাঢ়",
+          "bangla_span_en": "mid-Joishtho to mid-Asharh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "মধ্য আষাঢ় - মধ্য শ্রাবণ",
+          "bangla_span_en": "mid-Asharh to mid-Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "মধ্য শ্রাবণ - মধ্য ভাদ্র",
+          "bangla_span_en": "mid-Srabon to mid-Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        }
+      ],
+      "provenance": "partial",
+      "note": "Weather classes are interpreted from explicit pictograms.",
+      "calendar_system_in_source": "gregorian",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": false,
+      "needs_reextraction": true,
+      "missing_months_gregorian": [
+        "জানুয়ারি",
+        "ফেব্রুয়ারি",
+        "সেপ্টেম্বর",
+        "অক্টোবর",
+        "নভেম্বর",
+        "ডিসেম্বর"
+      ]
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No irrigation section or first irrigation timing is mentioned in the calendar."
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No irrigation section or first irrigation type is mentioned in the calendar."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": null,
+      "condition_en": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No irrigation method is mentioned."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No critical growth stages for irrigation are mentioned."
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water depth in mm is mentioned."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water depth in cm is mentioned."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "পানি নিষ্কাশনের ব্যবস্থা করতে হবে",
+      "value_en": "Drainage must be arranged.",
+      "provenance": "explicit",
+      "source_quote_bn": "পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "source": "রোগ ও মাঠ ব্যবস্থাপনা"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No water-retention modifiers or mulching details are mentioned."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No seasonal irrigation narrative is provided."
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "provenance": "absent",
+      "note": "No establishment stage irrigation interval is mentioned."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No stage-specific irrigation schedule is mentioned."
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No rain-sensitive threshold is mentioned."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No dry-season strategy is mentioned."
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No monsoon-season strategy is mentioned."
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_bn": "গাছের বয়স ৩৫-৪৫ দিন (আগাছা দমন); বপনের ১১০ দিন পর (পাট কাটা)",
+      "value_en": "Plant age 35-45 days (weeding); 110 days after sowing (harvesting)",
+      "provenance": "explicit",
+      "source_quote_bn": "গাছের বয়স ৩৫-৪৫ দিনের মধ্যে একবার নিড়ানি দিয়ে আগাছা পরিষ্কার করতে হবে।; বপনের ১১০ দিন পর থেকে পাট কাটা যায়।",
+      "source": "আগাছা দমন, পাট কর্তন ও আঁশ সংরক্ষণ",
+      "parsed_day_values": [
+        {
+          "min": 35,
+          "max": 45,
+          "recurring": false,
+          "evidence": "35-45 দিন"
+        },
+        {
+          "min": 110,
+          "max": 110,
+          "recurring": false,
+          "evidence": "110 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No age-dependent irrigation rules are mentioned."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No soil-type-dependent irrigation adjustment is stated."
+    },
+    "24_জল_চাপ_সূচক": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No water-stress symptoms are mentioned."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Jute",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Jute",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 4,
+      "derived": 1,
+      "partial": 1,
+      "absent": 18
+    },
+    "absent_fields_list": [
+      "5_প্রথম_সেচ_সময়",
+      "6_প্রথম_সেচ_ধরন",
+      "7_সেচ_ব্যবধান_দিন",
+      "8_সেচ_পদ্ধতি",
+      "9_সংকটকাল_পর্যায়সমূহ",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "15_মৌসুমী_শর্তাবলী",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "19_শুষ্ক_ঋতু_কৌশল",
+      "20_বর্ষা_ঋতু_কৌশল",
+      "22_বয়স_নির্ভর_সেচ",
+      "23_মাটির_ধরন_প্রভাব",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 1,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_004923.png",
+  "source_image_bytes": 194774,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.568826+00:00",
+    "source_file": "Jute.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 004923.png' -> 'Screenshot_20260521_004923.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value bfedf33ab0d239a6… with computed 20e0fc3c11b3f5b9…",
+      "month_wheel: only 6/12 months present; missing জানুয়ারি, ফেব্রুয়ারি, সেপ্টেম্বর, অক্টোবর, নভেম্বর, ডিসেম্বর — FLAGGED, not fabricated",
+      "month_wheel: normalised gregorian -> gregorian index, bilingual span added (6 entries)",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 2 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 4, 'derived': 1, 'partial': 1, 'absent': 18}, 1 field(s) carry parsed numerics"
+    ]
+  }
+}

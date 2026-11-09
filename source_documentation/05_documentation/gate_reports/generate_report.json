@@ -1,0 +1,16 @@
+{
+  "rows_generated": 300,
+  "language_split": {
+    "bn": 150,
+    "en": 150
+  },
+  "slot_distribution": {
+    "rainfall_mm": 100,
+    "area_value": 100,
+    "stage": 100
+  },
+  "all_row_ids_unique": true,
+  "all_golds_non_empty": true,
+  "output": "D:\\Research Lab\\Thesis\\v3\\data\\augmented\\s6b_clarify_train.jsonl",
+  "seed": 42
+}

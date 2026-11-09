@@ -1,0 +1,23 @@
+{
+  "arm": "mistral_nemo_seed42_P",
+  "n_clarify_scored": 68,
+  "invented_value_n": 68,
+  "invented_value_rate": 100.0,
+  "clarify_exact_n": 0,
+  "clarify_exact_rate": 0.0,
+  "n_single_crop": 116,
+  "exact_0p1_n": 55,
+  "exact_0p1_rate": 47.4,
+  "n_numeric_all": 146,
+  "overask_n": 0,
+  "overask_rate": 0.0,
+  "clarify_score_keys": [
+    "clarify_exact",
+    "clarify_label",
+    "clarify_partial",
+    "clarify_score"
+  ],
+  "batch_size": 4,
+  "base_model": "mistralai/Mistral-Nemo-Instruct-2407",
+  "adapter_sha256": "8a3f5bb0d6e949c3e15f104638a8b898ef97dd41d83fe2cd136766dd173c8fd6"
+}

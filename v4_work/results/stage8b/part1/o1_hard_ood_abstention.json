@@ -1,0 +1,49 @@
+{
+  "test_id": "O1",
+  "rows": [
+    {
+      "model": "llama31_8b",
+      "n": 40,
+      "zeroshot_abstain_n": 1,
+      "zeroshot_abstain_pct": 2.5,
+      "seed42_abstain_n": 32,
+      "seed42_abstain_pct": 80.0,
+      "diff_pp_FT_minus_ZS": 77.5,
+      "mcnemar_b_ZS_only": 0,
+      "mcnemar_c_FT_only": 31
+    },
+    {
+      "model": "mistral_nemo",
+      "n": 40,
+      "zeroshot_abstain_n": 1,
+      "zeroshot_abstain_pct": 2.5,
+      "seed42_abstain_n": 32,
+      "seed42_abstain_pct": 80.0,
+      "diff_pp_FT_minus_ZS": 77.5,
+      "mcnemar_b_ZS_only": 0,
+      "mcnemar_c_FT_only": 31
+    },
+    {
+      "model": "phi35_mini",
+      "n": 40,
+      "zeroshot_abstain_n": 0,
+      "zeroshot_abstain_pct": 0.0,
+      "seed42_abstain_n": 18,
+      "seed42_abstain_pct": 45.0,
+      "diff_pp_FT_minus_ZS": 45.0,
+      "mcnemar_b_ZS_only": 0,
+      "mcnemar_c_FT_only": 18
+    },
+    {
+      "model": "phi4_mini",
+      "n": 40,
+      "zeroshot_abstain_n": 0,
+      "zeroshot_abstain_pct": 0.0,
+      "seed42_abstain_n": 24,
+      "seed42_abstain_pct": 60.0,
+      "diff_pp_FT_minus_ZS": 60.0,
+      "mcnemar_b_ZS_only": 0,
+      "mcnemar_c_FT_only": 24
+    }
+  ]
+}

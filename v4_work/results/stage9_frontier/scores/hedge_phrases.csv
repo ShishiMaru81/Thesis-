@@ -1,0 +1,29 @@
+arm,phrase,n_responses,responses_containing,total_occurrences
+gptoss_ZS,জানতে হবে,34,0,0
+gptoss_ZS,তথ্য প্রদান করেননি,34,0,0
+gptoss_ZS,সাধারণত,34,13,21
+gptoss_ZS,প্রদান করেননি,34,0,0
+gptoss_ZS+P,জানতে হবে,34,4,4
+gptoss_ZS+P,তথ্য প্রদান করেননি,34,0,0
+gptoss_ZS+P,সাধারণত,34,0,0
+gptoss_ZS+P,প্রদান করেননি,34,0,0
+llama_ZS,জানতে হবে,34,3,4
+llama_ZS,তথ্য প্রদান করেননি,34,0,0
+llama_ZS,সাধারণত,34,0,0
+llama_ZS,প্রদান করেননি,34,0,0
+llama_FT,জানতে হবে,34,0,0
+llama_FT,তথ্য প্রদান করেননি,34,0,0
+llama_FT,সাধারণত,34,0,0
+llama_FT,প্রদান করেননি,34,0,0
+llama_CL,জানতে হবে,34,5,5
+llama_CL,তথ্য প্রদান করেননি,34,0,0
+llama_CL,সাধারণত,34,0,0
+llama_CL,প্রদান করেননি,34,0,0
+llama_ZS+P,জানতে হবে,34,4,4
+llama_ZS+P,তথ্য প্রদান করেননি,34,0,0
+llama_ZS+P,সাধারণত,34,0,0
+llama_ZS+P,প্রদান করেননি,34,0,0
+llama_FT+P,জানতে হবে,34,0,0
+llama_FT+P,তথ্য প্রদান করেননি,34,0,0
+llama_FT+P,সাধারণত,34,0,0
+llama_FT+P,প্রদান করেননি,34,0,0

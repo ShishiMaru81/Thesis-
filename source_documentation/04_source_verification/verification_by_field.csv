@@ -1,0 +1,673 @@
+json_file,crop_name_en,field,provenance,needs_human_review,exclude_from_qa_generation,numeric_backfill_declined,has_value_en,has_value_bn
+Aman_Rice.json,Aman Rice,1_ফসলের_নাম,explicit,,,,True,True
+Aman_Rice.json,Aman Rice,2_ফসলের_ধরন,derived,,,,True,True
+Aman_Rice.json,Aman Rice,3_বপন_ঋতু,explicit,,,,True,True
+Aman_Rice.json,Aman Rice,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Aman_Rice.json,Aman Rice,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Aman_Rice.json,Aman Rice,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Aman_Rice.json,Aman Rice,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Aman_Rice.json,Aman Rice,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Aman_Rice.json,Aman Rice,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Aman_Rice.json,Aman Rice,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Aman_Rice.json,Aman Rice,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Aman_Rice.json,Aman Rice,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Aman_Rice.json,Aman Rice,13_নিষ্কাশন_নিয়ম,absent,,,,False,False
+Aman_Rice.json,Aman Rice,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Aman_Rice.json,Aman Rice,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Aman_Rice.json,Aman Rice,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Aman_Rice.json,Aman Rice,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Aman_Rice.json,Aman Rice,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Aman_Rice.json,Aman Rice,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Aman_Rice.json,Aman Rice,20_বর্ষা_ঋতু_কৌশল,explicit,,,,True,True
+Aman_Rice.json,Aman Rice,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Aman_Rice.json,Aman Rice,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Aman_Rice.json,Aman Rice,23_মাটির_ধরন_প্রভাব,absent,,,,False,False
+Aman_Rice.json,Aman Rice,24_জল_চাপ_সূচক,absent,,,,False,False
+Aus_Rice.json,Aus Rice,1_ফসলের_নাম,explicit,,,,True,True
+Aus_Rice.json,Aus Rice,2_ফসলের_ধরন,derived,,,,True,True
+Aus_Rice.json,Aus Rice,3_বপন_ঋতু,explicit,,,,True,True
+Aus_Rice.json,Aus Rice,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Aus_Rice.json,Aus Rice,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Aus_Rice.json,Aus Rice,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Aus_Rice.json,Aus Rice,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Aus_Rice.json,Aus Rice,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Aus_Rice.json,Aus Rice,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Aus_Rice.json,Aus Rice,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Aus_Rice.json,Aus Rice,11_পানি_গভীরতা_সেমি,explicit,,,,False,False
+Aus_Rice.json,Aus Rice,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Aus_Rice.json,Aus Rice,13_নিষ্কাশন_নিয়ম,absent,,,,False,False
+Aus_Rice.json,Aus Rice,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Aus_Rice.json,Aus Rice,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Aus_Rice.json,Aus Rice,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Aus_Rice.json,Aus Rice,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Aus_Rice.json,Aus Rice,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Aus_Rice.json,Aus Rice,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Aus_Rice.json,Aus Rice,20_বর্ষা_ঋতু_কৌশল,derived,,,,True,True
+Aus_Rice.json,Aus Rice,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Aus_Rice.json,Aus Rice,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Aus_Rice.json,Aus Rice,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Aus_Rice.json,Aus Rice,24_জল_চাপ_সূচক,absent,,,,False,False
+Boro_Rice.json,Boro Rice,1_ফসলের_নাম,explicit,,,,True,True
+Boro_Rice.json,Boro Rice,2_ফসলের_ধরন,absent,,,,False,False
+Boro_Rice.json,Boro Rice,3_বপন_ঋতু,explicit,,,,True,True
+Boro_Rice.json,Boro Rice,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Boro_Rice.json,Boro Rice,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Boro_Rice.json,Boro Rice,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Boro_Rice.json,Boro Rice,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Boro_Rice.json,Boro Rice,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Boro_Rice.json,Boro Rice,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Boro_Rice.json,Boro Rice,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Boro_Rice.json,Boro Rice,11_পানি_গভীরতা_সেমি,explicit,,,,False,False
+Boro_Rice.json,Boro Rice,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Boro_Rice.json,Boro Rice,13_নিষ্কাশন_নিয়ম,absent,,,,False,False
+Boro_Rice.json,Boro Rice,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Boro_Rice.json,Boro Rice,15_মৌসুমী_শর্তাবলী,absent,,,,False,False
+Boro_Rice.json,Boro Rice,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Boro_Rice.json,Boro Rice,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,derived,,,,True,True
+Boro_Rice.json,Boro Rice,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Boro_Rice.json,Boro Rice,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Boro_Rice.json,Boro Rice,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Boro_Rice.json,Boro Rice,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Boro_Rice.json,Boro Rice,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Boro_Rice.json,Boro Rice,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Boro_Rice.json,Boro Rice,24_জল_চাপ_সূচক,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,1_ফসলের_নাম,explicit,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,2_ফসলের_ধরন,derived,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,3_বপন_ঋতু,explicit,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Bottle_Gourd.json,Bottle Gourd,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Bottle_Gourd.json,Bottle Gourd,24_জল_চাপ_সূচক,explicit,,,,True,True
+Brinjal.json,Brinjal,1_ফসলের_নাম,explicit,,,,True,True
+Brinjal.json,Brinjal,2_ফসলের_ধরন,derived,,,,True,True
+Brinjal.json,Brinjal,3_বপন_ঋতু,explicit,,,,True,True
+Brinjal.json,Brinjal,4_আবহাওয়া_মাসিক_মানচিত্র,explicit,,,,False,False
+Brinjal.json,Brinjal,5_প্রথম_সেচ_সময়,explicit,,,,False,False
+Brinjal.json,Brinjal,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Brinjal.json,Brinjal,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Brinjal.json,Brinjal,8_সেচ_পদ্ধতি,absent,,,,False,False
+Brinjal.json,Brinjal,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Brinjal.json,Brinjal,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Brinjal.json,Brinjal,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Brinjal.json,Brinjal,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Brinjal.json,Brinjal,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Brinjal.json,Brinjal,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Brinjal.json,Brinjal,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Brinjal.json,Brinjal,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Brinjal.json,Brinjal,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Brinjal.json,Brinjal,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Brinjal.json,Brinjal,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Brinjal.json,Brinjal,20_বর্ষা_ঋতু_কৌশল,explicit,,,,True,True
+Brinjal.json,Brinjal,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Brinjal.json,Brinjal,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Brinjal.json,Brinjal,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Brinjal.json,Brinjal,24_জল_চাপ_সূচক,absent,,,,False,False
+Coconut.json,Coconut,1_ফসলের_নাম,explicit,,,,True,True
+Coconut.json,Coconut,2_ফসলের_ধরন,derived,,,,True,True
+Coconut.json,Coconut,3_বপন_ঋতু,explicit,,,,True,True
+Coconut.json,Coconut,4_আবহাওয়া_মাসিক_মানচিত্র,explicit,,,,False,False
+Coconut.json,Coconut,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Coconut.json,Coconut,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Coconut.json,Coconut,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Coconut.json,Coconut,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Coconut.json,Coconut,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Coconut.json,Coconut,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Coconut.json,Coconut,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Coconut.json,Coconut,12_বেসিন_জ্যামিতি,explicit,,,,False,False
+Coconut.json,Coconut,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Coconut.json,Coconut,14_জল_চাহিদা_সংশোধক,explicit,,,,True,True
+Coconut.json,Coconut,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Coconut.json,Coconut,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Coconut.json,Coconut,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Coconut.json,Coconut,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Coconut.json,Coconut,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Coconut.json,Coconut,20_বর্ষা_ঋতু_কৌশল,explicit,,,,True,True
+Coconut.json,Coconut,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Coconut.json,Coconut,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Coconut.json,Coconut,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Coconut.json,Coconut,24_জল_চাপ_সূচক,absent,,,,False,False
+Cotton.json,Cotton,1_ফসলের_নাম,explicit,,,,True,True
+Cotton.json,Cotton,2_ফসলের_ধরন,derived,,,,True,True
+Cotton.json,Cotton,3_বপন_ঋতু,explicit,,,,True,True
+Cotton.json,Cotton,4_আবহাওয়া_মাসিক_মানচিত্র,explicit,,,,False,False
+Cotton.json,Cotton,5_প্রথম_সেচ_সময়,explicit,,,,False,False
+Cotton.json,Cotton,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Cotton.json,Cotton,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Cotton.json,Cotton,8_সেচ_পদ্ধতি,absent,,,,False,False
+Cotton.json,Cotton,9_সংকটকাল_পর্যায়সমূহ,explicit,,,,True,True
+Cotton.json,Cotton,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Cotton.json,Cotton,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Cotton.json,Cotton,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Cotton.json,Cotton,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Cotton.json,Cotton,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Cotton.json,Cotton,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Cotton.json,Cotton,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Cotton.json,Cotton,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Cotton.json,Cotton,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Cotton.json,Cotton,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Cotton.json,Cotton,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Cotton.json,Cotton,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Cotton.json,Cotton,22_বয়স_নির্ভর_সেচ,explicit,,,,True,True
+Cotton.json,Cotton,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Cotton.json,Cotton,24_জল_চাপ_সূচক,explicit,,,,True,True
+Ginger.json,Ginger,1_ফসলের_নাম,explicit,,,,True,True
+Ginger.json,Ginger,2_ফসলের_ধরন,derived,,,,True,True
+Ginger.json,Ginger,3_বপন_ঋতু,explicit,,,,True,True
+Ginger.json,Ginger,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Ginger.json,Ginger,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Ginger.json,Ginger,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Ginger.json,Ginger,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Ginger.json,Ginger,8_সেচ_পদ্ধতি,absent,,,,False,False
+Ginger.json,Ginger,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Ginger.json,Ginger,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Ginger.json,Ginger,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Ginger.json,Ginger,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Ginger.json,Ginger,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Ginger.json,Ginger,14_জল_চাহিদা_সংশোধক,explicit,,,,True,True
+Ginger.json,Ginger,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Ginger.json,Ginger,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Ginger.json,Ginger,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Ginger.json,Ginger,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Ginger.json,Ginger,19_শুষ্ক_ঋতু_কৌশল,derived_from_shared_passage,,True,,True,True
+Ginger.json,Ginger,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Ginger.json,Ginger,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Ginger.json,Ginger,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Ginger.json,Ginger,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Ginger.json,Ginger,24_জল_চাপ_সূচক,absent,,,,False,False
+Groundnut.json,Groundnut,1_ফসলের_নাম,explicit,,,,True,True
+Groundnut.json,Groundnut,2_ফসলের_ধরন,derived,,,,True,True
+Groundnut.json,Groundnut,3_বপন_ঋতু,explicit,,,,True,True
+Groundnut.json,Groundnut,4_আবহাওয়া_মাসিক_মানচিত্র,explicit,,,,False,False
+Groundnut.json,Groundnut,5_প্রথম_সেচ_সময়,explicit,,,,False,False
+Groundnut.json,Groundnut,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Groundnut.json,Groundnut,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Groundnut.json,Groundnut,8_সেচ_পদ্ধতি,absent,,,,False,False
+Groundnut.json,Groundnut,9_সংকটকাল_পর্যায়সমূহ,explicit,,,,True,True
+Groundnut.json,Groundnut,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Groundnut.json,Groundnut,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Groundnut.json,Groundnut,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Groundnut.json,Groundnut,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Groundnut.json,Groundnut,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Groundnut.json,Groundnut,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Groundnut.json,Groundnut,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Groundnut.json,Groundnut,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Groundnut.json,Groundnut,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Groundnut.json,Groundnut,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Groundnut.json,Groundnut,20_বর্ষা_ঋতু_কৌশল,explicit,,,,True,True
+Groundnut.json,Groundnut,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Groundnut.json,Groundnut,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Groundnut.json,Groundnut,23_মাটির_ধরন_প্রভাব,explicit,,,,False,False
+Groundnut.json,Groundnut,24_জল_চাপ_সূচক,absent,,,,False,False
+Guava.json,Guava,1_ফসলের_নাম,explicit,,,,True,True
+Guava.json,Guava,2_ফসলের_ধরন,derived,,,,True,True
+Guava.json,Guava,3_বপন_ঋতু,explicit,,,,True,True
+Guava.json,Guava,4_আবহাওয়া_মাসিক_মানচিত্র,explicit,,,,False,False
+Guava.json,Guava,5_প্রথম_সেচ_সময়,explicit,,,,False,False
+Guava.json,Guava,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Guava.json,Guava,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Guava.json,Guava,8_সেচ_পদ্ধতি,absent,,,,False,False
+Guava.json,Guava,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Guava.json,Guava,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Guava.json,Guava,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Guava.json,Guava,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Guava.json,Guava,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Guava.json,Guava,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Guava.json,Guava,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Guava.json,Guava,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,explicit,,,,False,False
+Guava.json,Guava,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Guava.json,Guava,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Guava.json,Guava,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Guava.json,Guava,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Guava.json,Guava,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Guava.json,Guava,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Guava.json,Guava,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Guava.json,Guava,24_জল_চাপ_সূচক,absent,,,,False,False
+Jackfruit.json,Jackfruit,1_ফসলের_নাম,explicit,,,,True,True
+Jackfruit.json,Jackfruit,2_ফসলের_ধরন,derived,,,,True,True
+Jackfruit.json,Jackfruit,3_বপন_ঋতু,explicit,,,,True,True
+Jackfruit.json,Jackfruit,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Jackfruit.json,Jackfruit,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Jackfruit.json,Jackfruit,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Jackfruit.json,Jackfruit,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Jackfruit.json,Jackfruit,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Jackfruit.json,Jackfruit,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Jackfruit.json,Jackfruit,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Jackfruit.json,Jackfruit,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Jackfruit.json,Jackfruit,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Jackfruit.json,Jackfruit,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Jackfruit.json,Jackfruit,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Jackfruit.json,Jackfruit,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Jackfruit.json,Jackfruit,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Jackfruit.json,Jackfruit,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Jackfruit.json,Jackfruit,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Jackfruit.json,Jackfruit,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Jackfruit.json,Jackfruit,20_বর্ষা_ঋতু_কৌশল,derived_from_shared_passage,,True,,True,True
+Jackfruit.json,Jackfruit,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Jackfruit.json,Jackfruit,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Jackfruit.json,Jackfruit,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Jackfruit.json,Jackfruit,24_জল_চাপ_সূচক,absent,,,,False,False
+Jujube.json,Jujube,1_ফসলের_নাম,explicit,,,,True,True
+Jujube.json,Jujube,2_ফসলের_ধরন,derived,,,,True,True
+Jujube.json,Jujube,3_বপন_ঋতু,explicit,,,,True,True
+Jujube.json,Jujube,4_আবহাওয়া_মাসিক_মানচিত্র,explicit,,,,False,False
+Jujube.json,Jujube,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Jujube.json,Jujube,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Jujube.json,Jujube,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Jujube.json,Jujube,8_সেচ_পদ্ধতি,absent,,,,False,False
+Jujube.json,Jujube,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Jujube.json,Jujube,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Jujube.json,Jujube,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Jujube.json,Jujube,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Jujube.json,Jujube,13_নিষ্কাশন_নিয়ম,absent,,,,False,False
+Jujube.json,Jujube,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Jujube.json,Jujube,15_মৌসুমী_শর্তাবলী,absent,,,,False,False
+Jujube.json,Jujube,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Jujube.json,Jujube,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Jujube.json,Jujube,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Jujube.json,Jujube,19_শুষ্ক_ঋতু_কৌশল,absent,,,,False,False
+Jujube.json,Jujube,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Jujube.json,Jujube,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Jujube.json,Jujube,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Jujube.json,Jujube,23_মাটির_ধরন_প্রভাব,absent,,,,False,False
+Jujube.json,Jujube,24_জল_চাপ_সূচক,absent,,,,False,False
+Jute.json,Jute,1_ফসলের_নাম,explicit,,,,True,True
+Jute.json,Jute,2_ফসলের_ধরন,derived,,,,True,True
+Jute.json,Jute,3_বপন_ঋতু,explicit,,,,True,True
+Jute.json,Jute,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Jute.json,Jute,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Jute.json,Jute,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Jute.json,Jute,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Jute.json,Jute,8_সেচ_পদ্ধতি,absent,,,,False,False
+Jute.json,Jute,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Jute.json,Jute,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Jute.json,Jute,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Jute.json,Jute,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Jute.json,Jute,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Jute.json,Jute,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Jute.json,Jute,15_মৌসুমী_শর্তাবলী,absent,,,,False,False
+Jute.json,Jute,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Jute.json,Jute,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Jute.json,Jute,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Jute.json,Jute,19_শুষ্ক_ঋতু_কৌশল,absent,,,,False,False
+Jute.json,Jute,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Jute.json,Jute,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Jute.json,Jute,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Jute.json,Jute,23_মাটির_ধরন_প্রভাব,absent,,,,False,False
+Jute.json,Jute,24_জল_চাপ_সূচক,absent,,,,False,False
+Lemon.json,Lemon,1_ফসলের_নাম,explicit,,,,True,True
+Lemon.json,Lemon,2_ফসলের_ধরন,derived,,,,True,True
+Lemon.json,Lemon,3_বপন_ঋতু,explicit,,,,True,True
+Lemon.json,Lemon,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Lemon.json,Lemon,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Lemon.json,Lemon,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Lemon.json,Lemon,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Lemon.json,Lemon,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Lemon.json,Lemon,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Lemon.json,Lemon,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Lemon.json,Lemon,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Lemon.json,Lemon,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Lemon.json,Lemon,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Lemon.json,Lemon,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Lemon.json,Lemon,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Lemon.json,Lemon,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,explicit,,,,True,True
+Lemon.json,Lemon,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Lemon.json,Lemon,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Lemon.json,Lemon,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Lemon.json,Lemon,20_বর্ষা_ঋতু_কৌশল,derived_from_shared_passage,,True,,True,True
+Lemon.json,Lemon,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Lemon.json,Lemon,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Lemon.json,Lemon,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Lemon.json,Lemon,24_জল_চাপ_সূচক,absent,,,,False,False
+Litchi.json,Litchi,1_ফসলের_নাম,explicit,,,,True,True
+Litchi.json,Litchi,2_ফসলের_ধরন,derived,,,,True,True
+Litchi.json,Litchi,3_বপন_ঋতু,explicit,,,,True,True
+Litchi.json,Litchi,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Litchi.json,Litchi,5_প্রথম_সেচ_সময়,explicit,True,,No sowing/transplanting anchor in the quote; the day value is relative to an unspecified prior event and cannot be typed as a days-after-sowing offset.,True,True
+Litchi.json,Litchi,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Litchi.json,Litchi,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Litchi.json,Litchi,8_সেচ_পদ্ধতি,absent,,,,False,False
+Litchi.json,Litchi,9_সংকটকাল_পর্যায়সমূহ,explicit,,,,True,True
+Litchi.json,Litchi,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Litchi.json,Litchi,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Litchi.json,Litchi,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Litchi.json,Litchi,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Litchi.json,Litchi,14_জল_চাহিদা_সংশোধক,explicit,,,,True,True
+Litchi.json,Litchi,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Litchi.json,Litchi,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,explicit,,,,False,False
+Litchi.json,Litchi,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Litchi.json,Litchi,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Litchi.json,Litchi,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Litchi.json,Litchi,20_বর্ষা_ঋতু_কৌশল,derived_from_shared_passage,,True,,True,True
+Litchi.json,Litchi,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Litchi.json,Litchi,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Litchi.json,Litchi,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Litchi.json,Litchi,24_জল_চাপ_সূচক,derived,,,,True,True
+Maize.json,Maize,1_ফসলের_নাম,explicit,,,,True,True
+Maize.json,Maize,2_ফসলের_ধরন,derived,,,,True,True
+Maize.json,Maize,3_বপন_ঋতু,explicit,,,,True,True
+Maize.json,Maize,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Maize.json,Maize,5_প্রথম_সেচ_সময়,explicit,True,,,True,True
+Maize.json,Maize,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Maize.json,Maize,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Maize.json,Maize,8_সেচ_পদ্ধতি,absent,,,,False,False
+Maize.json,Maize,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Maize.json,Maize,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Maize.json,Maize,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Maize.json,Maize,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Maize.json,Maize,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Maize.json,Maize,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Maize.json,Maize,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Maize.json,Maize,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Maize.json,Maize,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Maize.json,Maize,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Maize.json,Maize,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Maize.json,Maize,20_বর্ষা_ঋতু_কৌশল,derived,,,,True,True
+Maize.json,Maize,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Maize.json,Maize,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Maize.json,Maize,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Maize.json,Maize,24_জল_চাপ_সূচক,absent,,,,False,False
+Mango.json,Mango,1_ফসলের_নাম,explicit,,,,True,True
+Mango.json,Mango,2_ফসলের_ধরন,derived,,,,True,True
+Mango.json,Mango,3_বপন_ঋতু,explicit,,,,True,True
+Mango.json,Mango,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Mango.json,Mango,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Mango.json,Mango,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Mango.json,Mango,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Mango.json,Mango,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Mango.json,Mango,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Mango.json,Mango,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Mango.json,Mango,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Mango.json,Mango,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Mango.json,Mango,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Mango.json,Mango,14_জল_চাহিদা_সংশোধক,explicit,,,,True,True
+Mango.json,Mango,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Mango.json,Mango,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,explicit,,,,True,True
+Mango.json,Mango,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Mango.json,Mango,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Mango.json,Mango,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Mango.json,Mango,20_বর্ষা_ঋতু_কৌশল,explicit,,,,True,True
+Mango.json,Mango,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Mango.json,Mango,22_বয়স_নির্ভর_সেচ,explicit,,,,True,True
+Mango.json,Mango,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Mango.json,Mango,24_জল_চাপ_সূচক,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,1_ফসলের_নাম,explicit,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,2_ফসলের_ধরন,derived,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,3_বপন_ঋতু,explicit,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,5_প্রথম_সেচ_সময়,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,8_সেচ_পদ্ধতি,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,explicit,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,20_বর্ষা_ঋতু_কৌশল,explicit,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Mukhi_Kachu.json,Mukhi Kachu,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Mukhi_Kachu.json,Mukhi Kachu,24_জল_চাপ_সূচক,absent,,,,False,False
+Mungbean.json,Mungbean,1_ফসলের_নাম,explicit,,,,True,True
+Mungbean.json,Mungbean,2_ফসলের_ধরন,derived,,,,True,True
+Mungbean.json,Mungbean,3_বপন_ঋতু,explicit,,,,True,True
+Mungbean.json,Mungbean,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Mungbean.json,Mungbean,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Mungbean.json,Mungbean,6_প্রথম_সেচ_ধরন,derived,,,,True,True
+Mungbean.json,Mungbean,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Mungbean.json,Mungbean,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Mungbean.json,Mungbean,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Mungbean.json,Mungbean,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Mungbean.json,Mungbean,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Mungbean.json,Mungbean,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Mungbean.json,Mungbean,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Mungbean.json,Mungbean,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Mungbean.json,Mungbean,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Mungbean.json,Mungbean,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Mungbean.json,Mungbean,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Mungbean.json,Mungbean,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Mungbean.json,Mungbean,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Mungbean.json,Mungbean,20_বর্ষা_ঋতু_কৌশল,derived,,,,True,True
+Mungbean.json,Mungbean,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Mungbean.json,Mungbean,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Mungbean.json,Mungbean,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Mungbean.json,Mungbean,24_জল_চাপ_সূচক,explicit,,,,True,True
+Mustard.json,Mustard,1_ফসলের_নাম,explicit,,,,True,True
+Mustard.json,Mustard,2_ফসলের_ধরন,derived,,,,True,True
+Mustard.json,Mustard,3_বপন_ঋতু,explicit,,,,True,True
+Mustard.json,Mustard,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Mustard.json,Mustard,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Mustard.json,Mustard,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Mustard.json,Mustard,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Mustard.json,Mustard,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Mustard.json,Mustard,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Mustard.json,Mustard,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Mustard.json,Mustard,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Mustard.json,Mustard,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Mustard.json,Mustard,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Mustard.json,Mustard,14_জল_চাহিদা_সংশোধক,explicit,,,,True,True
+Mustard.json,Mustard,15_মৌসুমী_শর্তাবলী,derived,,,,True,True
+Mustard.json,Mustard,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Mustard.json,Mustard,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,False,False
+Mustard.json,Mustard,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Mustard.json,Mustard,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Mustard.json,Mustard,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Mustard.json,Mustard,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Mustard.json,Mustard,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Mustard.json,Mustard,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Mustard.json,Mustard,24_জল_চাপ_সূচক,absent,,,,False,False
+Onion.json,Onion,1_ফসলের_নাম,explicit,,,,True,True
+Onion.json,Onion,2_ফসলের_ধরন,derived,,,,True,True
+Onion.json,Onion,3_বপন_ঋতু,explicit,,,,True,True
+Onion.json,Onion,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Onion.json,Onion,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Onion.json,Onion,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Onion.json,Onion,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Onion.json,Onion,8_সেচ_পদ্ধতি,explicit,,,,True,True
+Onion.json,Onion,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Onion.json,Onion,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Onion.json,Onion,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Onion.json,Onion,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Onion.json,Onion,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Onion.json,Onion,14_জল_চাহিদা_সংশোধক,explicit,,,,True,True
+Onion.json,Onion,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Onion.json,Onion,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,explicit,,,,False,False
+Onion.json,Onion,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Onion.json,Onion,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Onion.json,Onion,19_শুষ্ক_ঋতু_কৌশল,absent,,,,False,False
+Onion.json,Onion,20_বর্ষা_ঋতু_কৌশল,explicit,,,,True,True
+Onion.json,Onion,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Onion.json,Onion,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Onion.json,Onion,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Onion.json,Onion,24_জল_চাপ_সূচক,absent,,,,False,False
+Pea.json,Pea,1_ফসলের_নাম,explicit,,,,True,True
+Pea.json,Pea,2_ফসলের_ধরন,derived,,,,True,True
+Pea.json,Pea,3_বপন_ঋতু,explicit,,,,True,True
+Pea.json,Pea,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Pea.json,Pea,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Pea.json,Pea,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Pea.json,Pea,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Pea.json,Pea,8_সেচ_পদ্ধতি,derived,,,,True,True
+Pea.json,Pea,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Pea.json,Pea,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Pea.json,Pea,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Pea.json,Pea,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Pea.json,Pea,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Pea.json,Pea,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Pea.json,Pea,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Pea.json,Pea,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Pea.json,Pea,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Pea.json,Pea,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Pea.json,Pea,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Pea.json,Pea,20_বর্ষা_ঋতু_কৌশল,derived,,,,True,True
+Pea.json,Pea,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Pea.json,Pea,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Pea.json,Pea,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Pea.json,Pea,24_জল_চাপ_সূচক,absent,,,,False,False
+Potato.json,Potato,1_ফসলের_নাম,explicit,,,,True,True
+Potato.json,Potato,2_ফসলের_ধরন,derived,,,,True,True
+Potato.json,Potato,3_বপন_ঋতু,explicit,,,,True,True
+Potato.json,Potato,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Potato.json,Potato,5_প্রথম_সেচ_সময়,explicit,,,,False,False
+Potato.json,Potato,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Potato.json,Potato,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Potato.json,Potato,8_সেচ_পদ্ধতি,absent,,,,False,False
+Potato.json,Potato,9_সংকটকাল_পর্যায়সমূহ,explicit,,,,True,True
+Potato.json,Potato,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Potato.json,Potato,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Potato.json,Potato,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Potato.json,Potato,13_নিষ্কাশন_নিয়ম,absent,,,,False,False
+Potato.json,Potato,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Potato.json,Potato,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Potato.json,Potato,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,derived,,,,False,False
+Potato.json,Potato,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Potato.json,Potato,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Potato.json,Potato,19_শুষ্ক_ঋতু_কৌশল,derived,,,,True,True
+Potato.json,Potato,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Potato.json,Potato,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Potato.json,Potato,22_বয়স_নির্ভর_সেচ,explicit,,,,True,True
+Potato.json,Potato,23_মাটির_ধরন_প্রভাব,absent,,,,False,False
+Potato.json,Potato,24_জল_চাপ_সূচক,absent,,,,False,False
+Sesame.json,Sesame,1_ফসলের_নাম,explicit,,,,True,True
+Sesame.json,Sesame,2_ফসলের_ধরন,derived,,,,True,True
+Sesame.json,Sesame,3_বপন_ঋতু,explicit,,,,True,True
+Sesame.json,Sesame,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Sesame.json,Sesame,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Sesame.json,Sesame,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Sesame.json,Sesame,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Sesame.json,Sesame,8_সেচ_পদ্ধতি,absent,,,,False,False
+Sesame.json,Sesame,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Sesame.json,Sesame,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Sesame.json,Sesame,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Sesame.json,Sesame,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Sesame.json,Sesame,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Sesame.json,Sesame,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Sesame.json,Sesame,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Sesame.json,Sesame,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Sesame.json,Sesame,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,False,False
+Sesame.json,Sesame,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Sesame.json,Sesame,19_শুষ্ক_ঋতু_কৌশল,derived_from_shared_passage,,True,,True,True
+Sesame.json,Sesame,20_বর্ষা_ঋতু_কৌশল,derived_from_shared_passage,,True,,True,True
+Sesame.json,Sesame,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,False,False
+Sesame.json,Sesame,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Sesame.json,Sesame,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Sesame.json,Sesame,24_জল_চাপ_সূচক,absent,,,,False,False
+Sugarcane.json,Sugarcane,1_ফসলের_নাম,explicit,,,,True,True
+Sugarcane.json,Sugarcane,2_ফসলের_ধরন,derived,,,,True,True
+Sugarcane.json,Sugarcane,3_বপন_ঋতু,explicit,,,,True,True
+Sugarcane.json,Sugarcane,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Sugarcane.json,Sugarcane,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Sugarcane.json,Sugarcane,6_প্রথম_সেচ_ধরন,explicit,,,,True,True
+Sugarcane.json,Sugarcane,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Sugarcane.json,Sugarcane,8_সেচ_পদ্ধতি,absent,,,,False,False
+Sugarcane.json,Sugarcane,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Sugarcane.json,Sugarcane,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Sugarcane.json,Sugarcane,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Sugarcane.json,Sugarcane,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Sugarcane.json,Sugarcane,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Sugarcane.json,Sugarcane,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Sugarcane.json,Sugarcane,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Sugarcane.json,Sugarcane,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Sugarcane.json,Sugarcane,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Sugarcane.json,Sugarcane,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Sugarcane.json,Sugarcane,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Sugarcane.json,Sugarcane,20_বর্ষা_ঋতু_কৌশল,derived,,,,True,True
+Sugarcane.json,Sugarcane,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,True,True
+Sugarcane.json,Sugarcane,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Sugarcane.json,Sugarcane,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Sugarcane.json,Sugarcane,24_জল_চাপ_সূচক,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,1_ফসলের_নাম,explicit,,,,True,True
+Sweet_Potato.json,Sweet Potato,2_ফসলের_ধরন,derived,,,,True,True
+Sweet_Potato.json,Sweet Potato,3_বপন_ঋতু,explicit,,,,True,True
+Sweet_Potato.json,Sweet Potato,4_আবহাওয়া_মাসিক_মানচিত্র,derived,,,,False,False
+Sweet_Potato.json,Sweet Potato,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Sweet_Potato.json,Sweet Potato,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Sweet_Potato.json,Sweet Potato,8_সেচ_পদ্ধতি,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,9_সংকটকাল_পর্যায়সমূহ,derived,,,,True,True
+Sweet_Potato.json,Sweet Potato,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Sweet_Potato.json,Sweet Potato,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Sweet_Potato.json,Sweet Potato,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,explicit,,,,False,False
+Sweet_Potato.json,Sweet Potato,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,True,True
+Sweet_Potato.json,Sweet Potato,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,19_শুষ্ক_ঋতু_কৌশল,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Sweet_Potato.json,Sweet Potato,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,derived,,,,True,True
+Sweet_Potato.json,Sweet Potato,22_বয়স_নির্ভর_সেচ,explicit,,,,True,True
+Sweet_Potato.json,Sweet Potato,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Sweet_Potato.json,Sweet Potato,24_জল_চাপ_সূচক,absent,,,,False,False
+Turmeric.json,Turmeric,1_ফসলের_নাম,explicit,,,,True,True
+Turmeric.json,Turmeric,2_ফসলের_ধরন,derived,,,,True,True
+Turmeric.json,Turmeric,3_বপন_ঋতু,explicit,,,,True,True
+Turmeric.json,Turmeric,4_আবহাওয়া_মাসিক_মানচিত্র,explicit,,,,False,False
+Turmeric.json,Turmeric,5_প্রথম_সেচ_সময়,explicit,True,,"All day values in this quote describe a recurring interval, not a first-irrigation offset. Value belongs in field 7.",True,True
+Turmeric.json,Turmeric,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Turmeric.json,Turmeric,7_সেচ_ব্যবধান_দিন,explicit,,,,False,False
+Turmeric.json,Turmeric,8_সেচ_পদ্ধতি,absent,,,,False,False
+Turmeric.json,Turmeric,9_সংকটকাল_পর্যায়সমূহ,absent,,,,False,False
+Turmeric.json,Turmeric,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Turmeric.json,Turmeric,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Turmeric.json,Turmeric,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Turmeric.json,Turmeric,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Turmeric.json,Turmeric,14_জল_চাহিদা_সংশোধক,explicit,,,,True,True
+Turmeric.json,Turmeric,15_মৌসুমী_শর্তাবলী,explicit,,,,True,True
+Turmeric.json,Turmeric,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Turmeric.json,Turmeric,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,absent,,,,False,False
+Turmeric.json,Turmeric,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Turmeric.json,Turmeric,19_শুষ্ক_ঋতু_কৌশল,explicit,,,,True,True
+Turmeric.json,Turmeric,20_বর্ষা_ঋতু_কৌশল,derived_from_shared_passage,,True,,True,True
+Turmeric.json,Turmeric,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,absent,,,,False,False
+Turmeric.json,Turmeric,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Turmeric.json,Turmeric,23_মাটির_ধরন_প্রভাব,explicit,,,,True,True
+Turmeric.json,Turmeric,24_জল_চাপ_সূচক,absent,,,,False,False
+Wheat.json,Wheat,1_ফসলের_নাম,explicit,,,,True,True
+Wheat.json,Wheat,2_ফসলের_ধরন,derived,,,,True,True
+Wheat.json,Wheat,3_বপন_ঋতু,explicit,,,,True,True
+Wheat.json,Wheat,4_আবহাওয়া_মাসিক_মানচিত্র,partial,,,,False,False
+Wheat.json,Wheat,5_প্রথম_সেচ_সময়,explicit,,,,True,True
+Wheat.json,Wheat,6_প্রথম_সেচ_ধরন,absent,,,,False,False
+Wheat.json,Wheat,7_সেচ_ব্যবধান_দিন,absent,,,,False,False
+Wheat.json,Wheat,8_সেচ_পদ্ধতি,absent,,,,False,False
+Wheat.json,Wheat,9_সংকটকাল_পর্যায়সমূহ,derived,,,,False,False
+Wheat.json,Wheat,10_পানি_গভীরতা_মিমি,absent,,,,False,False
+Wheat.json,Wheat,11_পানি_গভীরতা_সেমি,absent,,,,False,False
+Wheat.json,Wheat,12_বেসিন_জ্যামিতি,absent,,,,False,False
+Wheat.json,Wheat,13_নিষ্কাশন_নিয়ম,explicit,,,,True,True
+Wheat.json,Wheat,14_জল_চাহিদা_সংশোধক,absent,,,,False,False
+Wheat.json,Wheat,15_মৌসুমী_শর্তাবলী,derived,,,,True,True
+Wheat.json,Wheat,16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান,absent,,,,False,False
+Wheat.json,Wheat,17_পর্যায়_সংক্রান্ত_সেচ_সূচী,explicit,,,,False,False
+Wheat.json,Wheat,18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড,absent,,,,False,False
+Wheat.json,Wheat,19_শুষ্ক_ঋতু_কৌশল,derived_from_shared_passage,,True,,True,True
+Wheat.json,Wheat,20_বর্ষা_ঋতু_কৌশল,absent,,,,False,False
+Wheat.json,Wheat,21_বৃদ্ধি_পর্যায়_দিনের_সীমা,explicit,,,,False,False
+Wheat.json,Wheat,22_বয়স_নির্ভর_সেচ,absent,,,,False,False
+Wheat.json,Wheat,23_মাটির_ধরন_প্রভাব,derived_from_shared_passage,,True,,True,True
+Wheat.json,Wheat,24_জল_চাপ_সূচক,absent,,,,False,False

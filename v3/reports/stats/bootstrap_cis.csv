@@ -1,0 +1,241 @@
+arm,metric,subset,n,estimate,ci_low,ci_high,kind
+llama31_8b_seed1337,em_0p1,numeric,146,0.5547945205479452,0.4726027397260274,0.636986301369863,bootstrap
+llama31_8b_seed1337,em_1p0,numeric,116,0.9396551724137931,0.8879310344827587,0.9827586206896551,bootstrap
+llama31_8b_seed1337,mae,numeric_single_extracted,116,0.18732758620689655,0.10913577586206893,0.28724568965517233,bootstrap
+llama31_8b_seed1337,net_extract_rate,numeric,146,1.0,1.0,1.0,bootstrap
+llama31_8b_seed1337,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+llama31_8b_seed1337,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+llama31_8b_seed1337,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+llama31_8b_seed1337,dice_word,factual,114,0.3044540366679359,0.2553310049686784,0.35546569163554015,bootstrap
+llama31_8b_seed1337,chrf_pp,factual,114,29.54759956631628,25.06080857591859,34.33918172993432,bootstrap
+llama31_8b_seed1337,bertscore_f1,factual,114,0.7583347972024951,0.7416953515196055,0.7755992357014564,bootstrap
+llama31_8b_seed2024,em_0p1,numeric,146,0.5684931506849316,0.4863013698630137,0.6506849315068494,bootstrap
+llama31_8b_seed2024,em_1p0,numeric,116,0.9913793103448276,0.9741379310344828,1.0,bootstrap
+llama31_8b_seed2024,mae,numeric_single_extracted,116,0.09706896551724133,0.06637931034482757,0.1412931034482758,bootstrap
+llama31_8b_seed2024,net_extract_rate,numeric,146,0.9863013698630136,0.9657534246575342,1.0,bootstrap
+llama31_8b_seed2024,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+llama31_8b_seed2024,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+llama31_8b_seed2024,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+llama31_8b_seed2024,dice_word,factual,114,0.29762002303426593,0.24873898008075457,0.34953951468399486,bootstrap
+llama31_8b_seed2024,chrf_pp,factual,114,29.788943976928724,25.28141722611137,34.64575687087591,bootstrap
+llama31_8b_seed2024,bertscore_f1,factual,114,0.7527625594745603,0.7349413140301119,0.7711433391952723,bootstrap
+llama31_8b_seed42,em_0p1,numeric,146,0.5273972602739726,0.4452054794520548,0.6095890410958904,bootstrap
+llama31_8b_seed42,em_1p0,numeric,116,0.9827586206896551,0.9568965517241379,1.0,bootstrap
+llama31_8b_seed42,mae,numeric_single_extracted,116,0.1462931034482758,0.08077586206896548,0.23551939655172405,bootstrap
+llama31_8b_seed42,net_extract_rate,numeric,146,1.0,1.0,1.0,bootstrap
+llama31_8b_seed42,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+llama31_8b_seed42,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+llama31_8b_seed42,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+llama31_8b_seed42,dice_word,factual,114,0.2989364814875758,0.25406021524411165,0.346917472203842,bootstrap
+llama31_8b_seed42,chrf_pp,factual,114,29.19837792432402,24.99544438992472,33.7094013697469,bootstrap
+llama31_8b_seed42,bertscore_f1,factual,114,0.7557918931308546,0.7399167798198106,0.7724769524184235,bootstrap
+llama31_8b_seed42_clarify,em_0p1,numeric,146,0.541095890410959,0.4589041095890411,0.6232876712328768,bootstrap
+llama31_8b_seed42_clarify,em_1p0,numeric,116,0.9827586206896551,0.9568965517241379,1.0,bootstrap
+llama31_8b_seed42_clarify,mae,numeric_single_extracted,116,0.10939655172413786,0.07939655172413787,0.1452607758620689,bootstrap
+llama31_8b_seed42_clarify,net_extract_rate,numeric,146,0.9863013698630136,0.9657534246575342,1.0,bootstrap
+llama31_8b_seed42_clarify,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+llama31_8b_seed42_clarify,clarify_exact,clarify,68,0.3382352941176471,0.22058823529411764,0.45588235294117646,bootstrap
+llama31_8b_seed42_clarify,invented_value_rate,clarify,68,0.6323529411764706,0.5147058823529411,0.75,bootstrap
+llama31_8b_seed42_clarify,dice_word,factual,114,0.3013472350261523,0.253362579589298,0.3531945467060577,bootstrap
+llama31_8b_seed42_clarify,chrf_pp,factual,114,28.91387179473595,24.451204280266694,33.79189436619244,bootstrap
+llama31_8b_seed42_clarify,bertscore_f1,factual,114,0.7530862323024816,0.7353397871972176,0.7715946643106769,bootstrap
+llama31_8b_zeroshot,em_0p1,numeric,146,0.00684931506849315,0.0,0.02054794520547945,bootstrap
+llama31_8b_zeroshot,em_1p0,numeric,116,0.13793103448275862,0.07758620689655173,0.20689655172413793,bootstrap
+llama31_8b_zeroshot,mae,numeric_single_extracted,99,55.10931090909091,17.79924931818182,107.61607618181817,bootstrap
+llama31_8b_zeroshot,net_extract_rate,numeric,146,0.8561643835616438,0.7945205479452054,0.910958904109589,bootstrap
+llama31_8b_zeroshot,abstain_accuracy,abstain,34,0.14705882352941177,0.029411764705882353,0.2647058823529412,bootstrap
+llama31_8b_zeroshot,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+llama31_8b_zeroshot,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+llama31_8b_zeroshot,dice_word,factual,114,0.06315718338926693,0.05368251987789558,0.07418438576412058,bootstrap
+llama31_8b_zeroshot,chrf_pp,factual,114,11.946788320573242,10.858413602260212,13.092924527175343,bootstrap
+llama31_8b_zeroshot,bertscore_f1,factual,114,0.6123925060556646,0.6053874613292384,0.6195383687944789,bootstrap
+mistral_nemo_seed1337,em_0p1,numeric,146,0.5616438356164384,0.4794520547945205,0.636986301369863,bootstrap
+mistral_nemo_seed1337,em_1p0,numeric,116,0.9827586206896551,0.9568965517241379,1.0,bootstrap
+mistral_nemo_seed1337,mae,numeric_single_extracted,116,0.10681034482758618,0.07042887931034479,0.15353448275862064,bootstrap
+mistral_nemo_seed1337,net_extract_rate,numeric,146,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed1337,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed1337,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+mistral_nemo_seed1337,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed1337,dice_word,factual,114,0.31483402871475985,0.26922103589841617,0.3633786105021056,bootstrap
+mistral_nemo_seed1337,chrf_pp,factual,114,29.288669720238644,25.408520515645872,33.52351238192724,bootstrap
+mistral_nemo_seed1337,bertscore_f1,factual,114,0.7623686340817234,0.7473809989528697,0.7785823476288403,bootstrap
+mistral_nemo_seed2024,em_0p1,numeric,146,0.5273972602739726,0.4452054794520548,0.6095890410958904,bootstrap
+mistral_nemo_seed2024,em_1p0,numeric,116,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed2024,mae,numeric_single_extracted,116,0.08784482758620683,0.06681034482758616,0.11146767241379306,bootstrap
+mistral_nemo_seed2024,net_extract_rate,numeric,146,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed2024,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed2024,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+mistral_nemo_seed2024,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed2024,dice_word,factual,114,0.322391830390159,0.27258044768952555,0.3754647380659819,bootstrap
+mistral_nemo_seed2024,chrf_pp,factual,114,30.284020336607366,25.731421260720168,35.1824303349258,bootstrap
+mistral_nemo_seed2024,bertscore_f1,factual,114,0.763712824959504,0.746642928374441,0.7817287526501898,bootstrap
+mistral_nemo_seed42,em_0p1,numeric,146,0.5068493150684932,0.4246575342465753,0.589041095890411,bootstrap
+mistral_nemo_seed42,em_1p0,numeric,116,0.9827586206896551,0.9568965517241379,1.0,bootstrap
+mistral_nemo_seed42,mae,numeric_single_extracted,116,0.14232758620689653,0.08922413793103447,0.2114655172413793,bootstrap
+mistral_nemo_seed42,net_extract_rate,numeric,146,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed42,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed42,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+mistral_nemo_seed42,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed42,dice_word,factual,114,0.3117134014764476,0.264221245846976,0.3604242939028678,bootstrap
+mistral_nemo_seed42,chrf_pp,factual,114,31.18983299843065,26.83900429776921,35.79070257350564,bootstrap
+mistral_nemo_seed42,bertscore_f1,factual,114,0.7580218108599646,0.7413544019390094,0.7751020126240817,bootstrap
+mistral_nemo_seed42_clarify,em_0p1,numeric,146,0.5273972602739726,0.4452054794520548,0.6095890410958904,bootstrap
+mistral_nemo_seed42_clarify,em_1p0,numeric,116,0.9568965517241379,0.9137931034482759,0.9913793103448276,bootstrap
+mistral_nemo_seed42_clarify,mae,numeric_single_extracted,113,0.12106194690265484,0.07026548672566373,0.1987632743362831,bootstrap
+mistral_nemo_seed42_clarify,net_extract_rate,numeric,146,0.9657534246575342,0.9315068493150684,0.9931506849315068,bootstrap
+mistral_nemo_seed42_clarify,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+mistral_nemo_seed42_clarify,clarify_exact,clarify,68,0.38235294117647056,0.2647058823529412,0.5,bootstrap
+mistral_nemo_seed42_clarify,invented_value_rate,clarify,68,0.5,0.38235294117647056,0.6176470588235294,bootstrap
+mistral_nemo_seed42_clarify,dice_word,factual,114,0.3148406389522771,0.26781316065406513,0.36335226640771173,bootstrap
+mistral_nemo_seed42_clarify,chrf_pp,factual,114,30.714236513069515,26.53894805259595,35.22931195437262,bootstrap
+mistral_nemo_seed42_clarify,bertscore_f1,factual,114,0.7626615051637616,0.747119357946672,0.7790120542310831,bootstrap
+mistral_nemo_zeroshot,em_0p1,numeric,146,0.0273972602739726,0.00684931506849315,0.0547945205479452,bootstrap
+mistral_nemo_zeroshot,em_1p0,numeric,116,0.14655172413793102,0.08620689655172414,0.21551724137931033,bootstrap
+mistral_nemo_zeroshot,mae,numeric_single_extracted,113,208.59444159292036,11.578253716814162,526.9239957964601,bootstrap
+mistral_nemo_zeroshot,net_extract_rate,numeric,146,0.9794520547945206,0.952054794520548,1.0,bootstrap
+mistral_nemo_zeroshot,abstain_accuracy,abstain,34,0.14705882352941177,0.029411764705882353,0.2647058823529412,bootstrap
+mistral_nemo_zeroshot,clarify_exact,clarify,68,0.014705882352941176,0.0,0.04411764705882353,bootstrap
+mistral_nemo_zeroshot,invented_value_rate,clarify,68,0.9705882352941176,0.9264705882352942,1.0,bootstrap
+mistral_nemo_zeroshot,dice_word,factual,114,0.04307667883550262,0.03540134936955512,0.05124016435843782,bootstrap
+mistral_nemo_zeroshot,chrf_pp,factual,114,8.146813451913449,6.955983922871455,9.341168047639426,bootstrap
+mistral_nemo_zeroshot,bertscore_f1,factual,114,0.5811223978536171,0.5729097572204314,0.5890800369543987,bootstrap
+phi35_mini_seed1337,em_0p1,numeric,146,0.3219178082191781,0.2465753424657534,0.3972602739726027,bootstrap
+phi35_mini_seed1337,em_1p0,numeric,116,0.8275862068965517,0.7586206896551724,0.896551724137931,bootstrap
+phi35_mini_seed1337,mae,numeric_single_extracted,112,0.6643749999999999,0.3559799107142857,1.112328125,bootstrap
+phi35_mini_seed1337,net_extract_rate,numeric,146,0.9726027397260274,0.9452054794520548,0.9931506849315068,bootstrap
+phi35_mini_seed1337,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+phi35_mini_seed1337,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+phi35_mini_seed1337,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+phi35_mini_seed1337,dice_word,factual,114,0.21770299586156447,0.17711681770344817,0.2617607366973128,bootstrap
+phi35_mini_seed1337,chrf_pp,factual,114,21.571559012386935,17.84246145576652,25.707290126111168,bootstrap
+phi35_mini_seed1337,bertscore_f1,factual,114,0.7161339003788797,0.6973240180496584,0.7350825620847836,bootstrap
+phi35_mini_seed2024,em_0p1,numeric,146,0.3013698630136986,0.22602739726027396,0.3767123287671233,bootstrap
+phi35_mini_seed2024,em_1p0,numeric,116,0.8103448275862069,0.7413793103448276,0.8793103448275862,bootstrap
+phi35_mini_seed2024,mae,numeric_single_extracted,112,0.4859821428571428,0.33276562499999995,0.6638549107142854,bootstrap
+phi35_mini_seed2024,net_extract_rate,numeric,146,0.9657534246575342,0.9315068493150684,0.9931506849315068,bootstrap
+phi35_mini_seed2024,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+phi35_mini_seed2024,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+phi35_mini_seed2024,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+phi35_mini_seed2024,dice_word,factual,114,0.2176132523107055,0.1796913787399648,0.2580131064212886,bootstrap
+phi35_mini_seed2024,chrf_pp,factual,114,20.75659736888137,17.401611894237544,24.4305720230758,bootstrap
+phi35_mini_seed2024,bertscore_f1,factual,114,0.7201036460566939,0.703533027373385,0.7371850092290786,bootstrap
+phi35_mini_seed42,em_0p1,numeric,146,0.3013698630136986,0.22602739726027396,0.3767123287671233,bootstrap
+phi35_mini_seed42,em_1p0,numeric,116,0.7844827586206896,0.7068965517241379,0.853448275862069,bootstrap
+phi35_mini_seed42,mae,numeric_single_extracted,108,0.5569444444444445,0.37536342592592586,0.7662986111111112,bootstrap
+phi35_mini_seed42,net_extract_rate,numeric,146,0.9315068493150684,0.8904109589041096,0.9657534246575342,bootstrap
+phi35_mini_seed42,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+phi35_mini_seed42,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+phi35_mini_seed42,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+phi35_mini_seed42,dice_word,factual,114,0.2386492090242403,0.1980414993309609,0.28145006503963793,bootstrap
+phi35_mini_seed42,chrf_pp,factual,114,22.37192031631451,18.72293795428288,26.244641324857984,bootstrap
+phi35_mini_seed42,bertscore_f1,factual,114,0.7284913272188421,0.7122297578867067,0.7449706998964151,bootstrap
+phi35_mini_seed42_clarify,em_0p1,numeric,146,0.273972602739726,0.2054794520547945,0.3493150684931507,bootstrap
+phi35_mini_seed42_clarify,em_1p0,numeric,116,0.7327586206896551,0.6551724137931034,0.8103448275862069,bootstrap
+phi35_mini_seed42_clarify,mae,numeric_single_extracted,101,0.43054455445544537,0.30742450495049506,0.5698551980198019,bootstrap
+phi35_mini_seed42_clarify,net_extract_rate,numeric,146,0.8561643835616438,0.8013698630136986,0.910958904109589,bootstrap
+phi35_mini_seed42_clarify,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+phi35_mini_seed42_clarify,clarify_exact,clarify,68,0.29411764705882354,0.19117647058823528,0.39705882352941174,bootstrap
+phi35_mini_seed42_clarify,invented_value_rate,clarify,68,0.6617647058823529,0.5441176470588235,0.7794117647058824,bootstrap
+phi35_mini_seed42_clarify,dice_word,factual,114,0.22477190512915418,0.18391577011403917,0.26814296716875446,bootstrap
+phi35_mini_seed42_clarify,chrf_pp,factual,114,21.3892478236435,17.71131045410526,25.416121513348145,bootstrap
+phi35_mini_seed42_clarify,bertscore_f1,factual,114,0.7110688780483446,0.6917530213008848,0.7307826316408944,bootstrap
+phi35_mini_zeroshot,em_0p1,numeric,146,0.0136986301369863,0.0,0.03424657534246575,bootstrap
+phi35_mini_zeroshot,em_1p0,numeric,116,0.08620689655172414,0.04310344827586207,0.13793103448275862,bootstrap
+phi35_mini_zeroshot,mae,numeric_single_extracted,78,870.5461243589743,41.32807631410256,2152.9783321153845,bootstrap
+phi35_mini_zeroshot,net_extract_rate,numeric,146,0.684931506849315,0.6095890410958904,0.7602739726027398,bootstrap
+phi35_mini_zeroshot,abstain_accuracy,abstain,34,0.20588235294117646,0.08823529411764706,0.35294117647058826,bootstrap
+phi35_mini_zeroshot,clarify_exact,clarify,68,0.029411764705882353,0.0,0.07352941176470588,bootstrap
+phi35_mini_zeroshot,invented_value_rate,clarify,68,0.9852941176470589,0.9558823529411765,1.0,bootstrap
+phi35_mini_zeroshot,dice_word,factual,114,0.03821583821644697,0.031322532593504177,0.04547464677285779,bootstrap
+phi35_mini_zeroshot,chrf_pp,factual,114,8.8003095072088,7.846136303295806,9.793826431993919,bootstrap
+phi35_mini_zeroshot,bertscore_f1,factual,114,0.5860730540334133,0.5795086074424418,0.5924819846817275,bootstrap
+phi4_mini_seed1337,em_0p1,numeric,146,0.3493150684931507,0.273972602739726,0.4246575342465753,bootstrap
+phi4_mini_seed1337,em_1p0,numeric,116,0.8189655172413793,0.75,0.8879310344827587,bootstrap
+phi4_mini_seed1337,mae,numeric_single_extracted,108,0.3635185185185186,0.24971990740740738,0.5005601851851852,bootstrap
+phi4_mini_seed1337,net_extract_rate,numeric,146,0.9383561643835616,0.8972602739726028,0.9726027397260274,bootstrap
+phi4_mini_seed1337,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+phi4_mini_seed1337,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+phi4_mini_seed1337,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+phi4_mini_seed1337,dice_word,factual,114,0.2489451520047088,0.2060297178853609,0.2960608821427075,bootstrap
+phi4_mini_seed1337,chrf_pp,factual,114,23.86655568305462,20.05870087159295,28.034032419994258,bootstrap
+phi4_mini_seed1337,bertscore_f1,factual,114,0.7318084875219747,0.7135294923722222,0.7507077693939209,bootstrap
+phi4_mini_seed2024,em_0p1,numeric,146,0.3356164383561644,0.2602739726027397,0.410958904109589,bootstrap
+phi4_mini_seed2024,em_1p0,numeric,116,0.8189655172413793,0.75,0.8879310344827587,bootstrap
+phi4_mini_seed2024,mae,numeric_single_extracted,104,0.33076923076923076,0.22086298076923075,0.45990624999999996,bootstrap
+phi4_mini_seed2024,net_extract_rate,numeric,146,0.910958904109589,0.863013698630137,0.952054794520548,bootstrap
+phi4_mini_seed2024,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+phi4_mini_seed2024,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+phi4_mini_seed2024,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+phi4_mini_seed2024,dice_word,factual,114,0.23415697840371888,0.19097703884951875,0.28075011296518665,bootstrap
+phi4_mini_seed2024,chrf_pp,factual,114,23.132578065246413,19.17439865079855,27.42321704430588,bootstrap
+phi4_mini_seed2024,bertscore_f1,factual,114,0.7274673105331889,0.7102327040151546,0.7453083666531664,bootstrap
+phi4_mini_seed42,em_0p1,numeric,146,0.3356164383561644,0.2602739726027397,0.410958904109589,bootstrap
+phi4_mini_seed42,em_1p0,numeric,116,0.8448275862068966,0.7758620689655172,0.9051724137931034,bootstrap
+phi4_mini_seed42,mae,numeric_single_extracted,108,0.3875,0.24796296296296294,0.548986111111111,bootstrap
+phi4_mini_seed42,net_extract_rate,numeric,146,0.9452054794520548,0.9041095890410958,0.9794520547945206,bootstrap
+phi4_mini_seed42,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+phi4_mini_seed42,clarify_exact,clarify,68,0.0,0.0,0.0,bootstrap
+phi4_mini_seed42,invented_value_rate,clarify,68,1.0,1.0,1.0,bootstrap
+phi4_mini_seed42,dice_word,factual,114,0.25938343658469276,0.21710567602967998,0.3047998732120052,bootstrap
+phi4_mini_seed42,chrf_pp,factual,114,24.796825988166287,20.98693691857473,28.961372355449218,bootstrap
+phi4_mini_seed42,bertscore_f1,factual,114,0.7353678037200058,0.7186403079383206,0.7529419006747111,bootstrap
+phi4_mini_seed42_clarify,em_0p1,numeric,146,0.3424657534246575,0.2671232876712329,0.4178082191780822,bootstrap
+phi4_mini_seed42_clarify,em_1p0,numeric,116,0.6982758620689655,0.6120689655172413,0.7844827586206896,bootstrap
+phi4_mini_seed42_clarify,mae,numeric_single_extracted,87,0.27310344827586214,0.17655172413793108,0.38368678160919534,bootstrap
+phi4_mini_seed42_clarify,net_extract_rate,numeric,146,0.7671232876712328,0.6986301369863014,0.8356164383561644,bootstrap
+phi4_mini_seed42_clarify,abstain_accuracy,abstain,34,1.0,1.0,1.0,bootstrap
+phi4_mini_seed42_clarify,clarify_exact,clarify,68,0.38235294117647056,0.2647058823529412,0.5,bootstrap
+phi4_mini_seed42_clarify,invented_value_rate,clarify,68,0.5882352941176471,0.47058823529411764,0.7058823529411765,bootstrap
+phi4_mini_seed42_clarify,dice_word,factual,114,0.23409770589353857,0.19040551016211432,0.2809420237888352,bootstrap
+phi4_mini_seed42_clarify,chrf_pp,factual,114,23.860342138648512,19.772961214657023,28.277943567234583,bootstrap
+phi4_mini_seed42_clarify,bertscore_f1,factual,114,0.7250295958498068,0.7070915838932259,0.7433050051592943,bootstrap
+phi4_mini_zeroshot,em_0p1,numeric,146,0.0,0.0,0.0,bootstrap
+phi4_mini_zeroshot,em_1p0,numeric,116,0.1810344827586207,0.11206896551724138,0.25,bootstrap
+phi4_mini_zeroshot,mae,numeric_single_extracted,99,1743.8629191919192,6.406540151515151,4483.523114141414,bootstrap
+phi4_mini_zeroshot,net_extract_rate,numeric,146,0.8561643835616438,0.7945205479452054,0.910958904109589,bootstrap
+phi4_mini_zeroshot,abstain_accuracy,abstain,34,0.08823529411764706,0.0,0.20588235294117646,bootstrap
+phi4_mini_zeroshot,clarify_exact,clarify,68,0.029411764705882353,0.0,0.07352941176470588,bootstrap
+phi4_mini_zeroshot,invented_value_rate,clarify,68,0.9852941176470589,0.9558823529411765,1.0,bootstrap
+phi4_mini_zeroshot,dice_word,factual,114,0.04293709825693152,0.03536013572900734,0.050986630846074195,bootstrap
+phi4_mini_zeroshot,chrf_pp,factual,114,8.641484099967633,7.578983046561277,9.747021370622786,bootstrap
+phi4_mini_zeroshot,bertscore_f1,factual,114,0.5842349006418597,0.5758304093359855,0.5924639929674174,bootstrap
+llama31_8b_FT_3seeds,em_0p1,numeric,3,0.5502283105022832,0.5293033073289688,0.5711533136755975,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,em_1p0,numeric,3,0.9712643678160919,0.9435527276982961,0.9989760079338877,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,mae,numeric_single_extracted,3,0.14356321839080455,0.09837202614585466,0.18875441063575443,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,net_extract_rate,numeric,3,0.9954337899543378,0.9875248821572197,1.0033426977514561,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,abstain_accuracy,abstain,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,clarify_exact,clarify,3,0.0,0.0,0.0,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,invented_value_rate,clarify,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,dice_word,factual,3,0.3003368470632592,0.29671100876081574,0.30396268536570265,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,chrf_pp,factual,3,29.511640489189674,29.214719865043886,29.80856111333546,mean±std across seeds 42/1337/2024
+llama31_8b_FT_3seeds,bertscore_f1,factual,3,0.75562974993597,0.7528400947357902,0.7584194051361498,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,em_0p1,numeric,3,0.5319634703196348,0.5042822930297212,0.5596446476095484,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,em_1p0,numeric,3,0.9885057471264368,0.9785514321404087,0.9984600621124649,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,mae,numeric_single_extracted,3,0.11232758620689652,0.08467035006410262,0.13998482234969042,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,net_extract_rate,numeric,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,abstain_accuracy,abstain,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,clarify_exact,clarify,3,0.0,0.0,0.0,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,invented_value_rate,clarify,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,dice_word,factual,3,0.3163130868604555,0.31082237463297,0.321803799087941,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,chrf_pp,factual,3,30.254174351758888,29.30324136795029,31.205107335567487,mean±std across seeds 42/1337/2024
+mistral_nemo_FT_3seeds,bertscore_f1,factual,3,0.7613677566337307,0.7583931596661208,0.7643423536013406,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,em_0p1,numeric,3,0.3082191780821918,0.29635581638651454,0.32008253977786905,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,em_1p0,numeric,3,0.807471264367816,0.7857763378296817,0.8291661909059503,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,mae,numeric_single_extracted,3,0.569100529100529,0.4792849922178583,0.6589160659831996,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,net_extract_rate,numeric,3,0.9566210045662101,0.9346035370753586,0.9786384720570617,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,abstain_accuracy,abstain,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,clarify_exact,clarify,3,0.0,0.0,0.0,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,invented_value_rate,clarify,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,dice_word,factual,3,0.2246551523988368,0.21253586078989856,0.23677444400777503,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,chrf_pp,factual,3,21.566692232527604,20.75901976160534,22.374364703449867,mean±std across seeds 42/1337/2024
+phi35_mini_FT_3seeds,bertscore_f1,factual,3,0.7215762912181386,0.7152673283592449,0.7278852540770323,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,em_0p1,numeric,3,0.3401826484018265,0.3322737406047083,0.34809155619894466,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,em_1p0,numeric,3,0.8275862068965517,0.8126547344175097,0.8425176793755937,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,mae,numeric_single_extracted,3,0.36059591642924976,0.33211783281030083,0.3890740000481987,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,net_extract_rate,numeric,3,0.9315068493150683,0.9133852649927081,0.9496284336374285,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,abstain_accuracy,abstain,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,clarify_exact,clarify,3,0.0,0.0,0.0,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,invented_value_rate,clarify,3,1.0,1.0,1.0,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,dice_word,factual,3,0.2474951889977068,0.23481960843386826,0.2601707695615454,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,chrf_pp,factual,3,23.931986578822443,23.097935507948176,24.76603764969671,mean±std across seeds 42/1337/2024
+phi4_mini_FT_3seeds,bertscore_f1,factual,3,0.7315478672583898,0.7275911779428031,0.7355045565739765,mean±std across seeds 42/1337/2024

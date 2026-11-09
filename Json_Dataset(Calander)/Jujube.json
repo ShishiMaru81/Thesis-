@@ -1,0 +1,307 @@
+{
+  "crop_name_bn": "কুল",
+  "crop_name_en": "Jujube",
+  "source_document": "ফসল পঞ্জিকা - কুল (BARC / AFACI)",
+  "source_image": "Jujube.jpg",
+  "source_image_sha256": "603cf3352ae4b140c899f36daef0aaf79da9a61e41b2c70edff6615c0e75b8ea",
+  "extraction_timestamp": "2026-07-19T14:08:54.701051+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "কুল",
+      "value_en": "Jujube",
+      "provenance": "explicit"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "ফল গাছ",
+      "value_en": "Fruit tree",
+      "provenance": "derived"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "জুন-জুলাই (মধ্য জ্যৈষ্ঠ-মধ্য শ্রাবণ) এবং সেপ্টেম্বর-অক্টোবর (মধ্য ভাদ্র-মধ্য কার্তিক)",
+      "value_en": "June-July (mid-Jaishtha to mid-Shraban) and September-October (mid-Bhadra to mid-Kartik)",
+      "provenance": "explicit",
+      "source_quote_bn": "জুন-জুলাই (মধ্য জ্যৈষ্ঠ - মধ্য শ্রাবণ) এবং সেপ্টেম্বর-অক্টোবর (মধ্য ভাদ্র - মধ্য কার্তিক) মাস চারা লাগানোর উপযুক্ত সময়।",
+      "source": "চারা রোপণ"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "শ্রাবণ",
+          "bangla_span_en": "Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "ভাদ্র",
+          "bangla_span_en": "Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 8,
+          "month_gregorian_bn": "সেপ্টেম্বর",
+          "month_gregorian_en": "September",
+          "bangla_span_bn": "আশ্বিন",
+          "bangla_span_en": "Ashwin",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 9,
+          "month_gregorian_bn": "অক্টোবর",
+          "month_gregorian_en": "October",
+          "bangla_span_bn": "কার্তিক",
+          "bangla_span_en": "Kartik",
+          "class": "mixed",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "অগ্রহায়ণ",
+          "bangla_span_en": "Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "পৌষ",
+          "bangla_span_en": "Poush",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মাঘ",
+          "bangla_span_en": "Magh",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "ফাল্গুন",
+          "bangla_span_en": "Falgun",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "চৈত্র",
+          "bangla_span_en": "Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "বৈশাখ",
+          "bangla_span_en": "Boishakh",
+          "class": "mixed",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "জ্যৈষ্ঠ",
+          "bangla_span_en": "Joishtho",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "আষাঢ়",
+          "bangla_span_en": "Asharh",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        }
+      ],
+      "provenance": "explicit",
+      "source": "আবহাওয়া মাসিক মানচিত্র",
+      "calendar_system_in_source": "bangla",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": true,
+      "needs_reextraction": false
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not explicitly state a specific timing for the first irrigation event."
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not explicitly state the type of first irrigation."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No irrigation interval is stated in the calendar."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not explicitly state a specific irrigation method."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No critical irrigation stage is stated."
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state water depth in mm."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state water depth in cm."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "note": "Calendar does not specify basin geometry in the irrigation section."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No drainage rule is stated."
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "The source only recommends regular light cultivation or hoeing for weed control; no water-demand effect is stated."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No seasonal irrigation narrative is present."
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not explicitly state a specific irrigation interval for the establishment stage."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No stage-specific irrigation schedule is stated."
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state a numeric rain threshold for irrigation."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No dry-season irrigation strategy is stated."
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No monsoon irrigation strategy is stated."
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not provide day ranges for growth stages."
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Age brackets are only present in the fertilizer table, not in the irrigation section."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value": null,
+      "irrigation_adjustment_stated": false,
+      "provenance": "absent",
+      "note": "The calendar gives land-preparation and planting-location guidance but no soil-type irrigation adjustment."
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state visual water stress symptoms."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Jujube",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Jujube",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 3,
+      "derived": 1,
+      "absent": 20
+    },
+    "absent_fields_list": [
+      "5_প্রথম_সেচ_সময়",
+      "6_প্রথম_সেচ_ধরন",
+      "7_সেচ_ব্যবধান_দিন",
+      "8_সেচ_পদ্ধতি",
+      "9_সংকটকাল_পর্যায়সমূহ",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "13_নিষ্কাশন_নিয়ম",
+      "14_জল_চাহিদা_সংশোধক",
+      "15_মৌসুমী_শর্তাবলী",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "19_শুষ্ক_ঋতু_কৌশল",
+      "20_বর্ষা_ঋতু_কৌশল",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা",
+      "22_বয়স_নির্ভর_সেচ",
+      "23_মাটির_ধরন_প্রভাব",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 0,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Jujube.jpg",
+  "source_image_bytes": 264214,
+  "extraction_model_reported": "gemini-2.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.566413+00:00",
+    "source_file": "Jujube.json",
+    "changes": [
+      "sha256: replaced UNVERIFIABLE value 6fbde1728a574a22… with computed 603cf3352ae4b140…",
+      "month_wheel: normalised bangla -> gregorian index, bilingual span added (12 entries)",
+      "audit block recomputed: {'explicit': 3, 'derived': 1, 'absent': 20}, 0 field(s) carry parsed numerics"
+    ]
+  }
+}

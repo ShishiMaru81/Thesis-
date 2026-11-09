@@ -1,0 +1,576 @@
+{
+  "registered_bn_markers": [
+    "ধরে",
+    "ধরা যাক",
+    "অনুমান",
+    "দেওয়া নেই",
+    "উল্লেখ নেই"
+  ],
+  "unlisted_candidates": {
+    "জানতে হবে": "need to know",
+    "জানা প্রয়োজন": "need to know (alt)",
+    "জানাতে হবে": "you will need to tell",
+    "জানান": "please tell / let me know",
+    "প্রদান করেননি": "you did not provide",
+    "প্রদান করা হয়নি": "was not provided",
+    "উল্লেখ করেননি": "you did not mention",
+    "উল্লেখ করা হয়নি": "was not mentioned",
+    "দেননি": "did not give",
+    "ধরে নি": "assume (ধরে নিই / ধরে নিলে / ধরে নেওয়া)",
+    "ধরি": "let us assume",
+    "সাধারণত": "typically",
+    "আনুমানিক": "approximate/estimated value",
+    "যদি": "if (conditional)",
+    "তথ্য নেই": "no information",
+    "নির্দিষ্ট করা হয়নি": "not specified",
+    "জানা নেই": "not known"
+  },
+  "n_bn_clarify_rows": 34,
+  "arms": {
+    "llama31_8b_zeroshot": {
+      "n": 34,
+      "n_outputs_in_bengali_script": 34,
+      "n_invented": 34,
+      "registered_bn_marker_hits": 1,
+      "unlisted_hedge_hits": 7,
+      "unlisted_hit_counts_by_phrase": {
+        "যদি": 5,
+        "জানতে হবে": 3
+      },
+      "any_hedge_registered_or_unlisted": 7,
+      "confident_error_a_rate_bn": 0.0,
+      "confident_error_b_strict_registered_rate_bn": 0.0,
+      "confident_error_b_strict_extended_rate_bn_EXPLORATORY": 0.0,
+      "hand_read_sample": [],
+      "examples_with_hedge": [
+        {
+          "row_id": "c5792e55-ecec-4413-a67d-371cc4794cac",
+          "hits": [
+            "যদি"
+          ],
+          "text": "আপনার তুল ক্ষেতে মধ্য-মৌসুম পর্যায়ে সেচ দেওয়ার প্রয়োজনীয় পানির পরিমাণ গণনা করতে, আপনাকে প্রথমে প্রয়োজনীয় পানির পরিমাণ নির্ধারণ করতে হবে। প্রয়োজনীয় পানির পরিমাণ = ET0 - বৃষ্টির পরিমাণ = 6.1 মিমি - 7.3 মিমি = -1.2 মিমি যেহেতু পানির পরিমাণ ঋণাত্মক, এর মানে হল যে আপনার ক্ষেতে বৃষ্টির পরিমাণ প্রয"
+        },
+        {
+          "row_id": "9a3f3687-03c4-4b86-9fd7-c22bb1de0ddd",
+          "hits": [
+            "যদি"
+          ],
+          "text": "আপনার লেচু ক্ষেতের জন্য প্রয়োজনীয় পানির পরিমাণ গণনা করতে, আপনাকে প্রথমে প্রয়োজনীয় পানির পরিমাণ নির্ধারণ করতে হবে। প্রয়োজনীয় পানির পরিমাণ = ET0 - বৃষ্টির পরিমাণ = 6.8 মিমি - 8.7 মিমি = -1.9 মিমি যেহেতু পানির পরিমাণ ঋণাত্মক, এর মানে হল যে আপনার ক্ষেতে বৃষ্টির পরিমাণ প্রয়োজনীয় পানির পরিমাণের চে"
+        },
+        {
+          "row_id": "f546226e-2d4a-4939-9b03-a8d63afca6bf",
+          "hits": [
+            "যদি"
+          ],
+          "text": "আপনার লিবু ক্ষেতে সেচ দেওয়ার প্রয়োজনীয় পানির পরিমাণ গণনা করতে, আপনাকে প্রথমে প্রয়োজনীয় পানির পরিমাণ নির্ধারণ করতে হবে। প্রয়োজনীয় পানির পরিমাণ = ET0 - বৃষ্টির পরিমাণ = ৫.১ মিমি - ৯.০ মিমি = -৩.৯ মিমি যেহেতু পানির পরিমাণ ঋণাত্মক, তাই আপনাকে বৃষ্টির পরিমাণ থেকে বেশি পানি দিতে হবে না। প্রয়োজনীয়"
+        },
+        {
+          "row_id": "51528a7b-d5a0-4469-8d33-8f3cb25bc527",
+          "hits": [
+            "জানতে হবে",
+            "যদি"
+          ],
+          "text": "আখ ক্ষেতে পানির প্রয়োজনীয়তা নির্ধারণ করার জন্য, আমাদের প্রথমে একক একর জমির জন্য পানির প্রয়োজনীয়তা জানতে হবে। আখ ক্ষেতে পানির প্রয়োজনীয়তা প্রায় ১০-১৫ মিমি প্রতিদিন। যদি আমরা এই প্রয়োজনীয়তাকে একক একর জমির জন্য নিই, তাহলে আখ ক্ষেতে প্রতিদিন পানির প্রয়োজনীয়তা হবে: ১০-১৫ মিমি/দিন x 0.25 একর = "
+        },
+        {
+          "row_id": "ba154589-f471-4f8e-854d-18d7d8f5a620",
+          "hits": [
+            "যদি"
+          ],
+          "text": "আপনার মিষ্টি আলু ক্ষেতের জন্য প্রয়োজনীয় পানির পরিমাণ গণনা করতে, আপনাকে জমির পরিমাণ এবং প্রয়োজনীয় পানির পরিমাণ (ET0) দিয়ে ভাগ করতে হবে। আপনার জমির পরিমাণ 0.75 একর, এবং আজ ET0 5.1 মিমি। প্রয়োজনীয় পানির পরিমাণ = জমির পরিমাণ x ET0 = 0.75 একর x 5.1 মিমি = 3.825 মিমি এখন, আপনাকে এই পরিমাণ পানি সেচ "
+        }
+      ]
+    },
+    "llama31_8b_seed42": {
+      "n": 34,
+      "n_outputs_in_bengali_script": 34,
+      "n_invented": 34,
+      "registered_bn_marker_hits": 0,
+      "unlisted_hedge_hits": 0,
+      "unlisted_hit_counts_by_phrase": {},
+      "any_hedge_registered_or_unlisted": 0,
+      "confident_error_a_rate_bn": 0.9705882352941176,
+      "confident_error_b_strict_registered_rate_bn": 0.9705882352941176,
+      "confident_error_b_strict_extended_rate_bn_EXPLORATORY": 0.9705882352941176,
+      "hand_read_sample": [
+        {
+          "row_id": "6c316ea0-d9de-4ab7-b1f3-51da4bc1cc86",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৭.০ − ৫.৩৭ = ২.৮৮ মিমি। ০.২৫ একর (১০১২ বর্গমিটার)-এর জন্য আজ প্রায় ২৯০৩ লিটার।"
+        },
+        {
+          "row_id": "b55f947a-ce64-494d-afc7-147678288113",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১×৪.৬ − ৪.৫৫ = ০.৫১ মিমি। ৮.০ একর (৩২৪৯০ বর্গমিটার)-এর জন্য আজ প্রায় ১৬৫২৪ লিটার।"
+        },
+        {
+          "row_id": "e73053a0-d06c-4cc5-a051-ab395b737a64",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৮.৫ − ৩.৮৩ = ৫.৯৩ মিমি। ৫.০ একর (২০২৩৩ বর্গমিটার)-এর জন্য আজ প্রায় ১২০০০০ লিটার।"
+        },
+        {
+          "row_id": "0dc2d6f6-f457-452d-a32e-12e0b445342f",
+          "category": "unit_ambiguity",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৩×৫.০ − ০.৪৫ = ১.০৫ মিমি। ১ কুড়া (৬৬ বর্গমিটার)-এর জন্য আজ প্রায় ৭০ লিটার।"
+        },
+        {
+          "row_id": "9c38420f-338f-4c76-946a-0e1b4e9c8411",
+          "category": "unit_ambiguity",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৭৫×৪.১ − ১.০ = ১.৯৫ মিমি। ২ কুড়া (১৩৩ বর্গমিটার)-এর জন্য আজ প্রায় ২৫৮ লিটার।"
+        },
+        {
+          "row_id": "f546226e-2d4a-4939-9b03-a8d63afca6bf",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৭×৫.১ − ৪.০৫ = ০.০ মিমি। ২.০ একর (৮০৯৪ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "17a1b32f-c6d2-495c-a166-eb1f17cb3999",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৯৫×৫.২ − ২.৩৩ = ২.৬১ মিমি। ১০.০ একর (৪০৫০৩ বর্গমিটার)-এর জন্য আজ প্রায় ১০৫৫৮০ লিটার।"
+        },
+        {
+          "row_id": "9a3f3687-03c4-4b86-9fd7-c22bb1de0ddd",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬×৬.৮ − ৩.৯১ = ০.০ মিমি। ৮.০ একর (৩২৪৯০ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "a0f3b50e-ac3d-4278-8107-e069a70e650d",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১×৫.৮ − ৩.৯৮ = ২.২ মিমি। ১ বর্গমিটার (১ বর্গমিটার)-এর জন্য আজ প্রায় ২ লিটার।"
+        },
+        {
+          "row_id": "3bcdf6b1-c7e9-40fc-b8e7-f769cd062319",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৯৫×৩.১ − ২.৫৩ = ০.৩৭ মিমি। ১০.০ একর (৪০৫০৩ বর্গমিটার)-এর জন্য আজ প্রায় ১৪৯১১ লিটার।"
+        }
+      ],
+      "examples_with_hedge": []
+    },
+    "mistral_nemo_zeroshot": {
+      "n": 34,
+      "n_outputs_in_bengali_script": 1,
+      "n_invented": 32,
+      "registered_bn_marker_hits": 0,
+      "unlisted_hedge_hits": 0,
+      "unlisted_hit_counts_by_phrase": {},
+      "any_hedge_registered_or_unlisted": 19,
+      "confident_error_a_rate_bn": 0.7941176470588235,
+      "confident_error_b_strict_registered_rate_bn": 0.38235294117647056,
+      "confident_error_b_strict_extended_rate_bn_EXPLORATORY": 0.38235294117647056,
+      "hand_read_sample": [],
+      "examples_with_hedge": [
+        {
+          "row_id": "085dd6b2-2519-40f9-8db5-4d141c80353c",
+          "hits": [],
+          "text": "To calculate the amount of water to apply to your paddy field, we need to determine the irrigation requirement. The irrigation requirement is the difference between the evapotranspiration (ET0) and the effective rainfall (rainfall minus runoff). Given: - ET0 (evapotranspiration) = 5.2 mm - Rainfall "
+        },
+        {
+          "row_id": "b55f947a-ce64-494d-afc7-147678288113",
+          "hits": [],
+          "text": "To calculate the amount of water to be applied, we need to determine the crop water requirement (CWR) and then adjust it based on the effective rainfall (ER) and the available water (AW) in the soil profile. First, let's calculate the crop water requirement (CWR) using the ET0 value provided: CWR = "
+        },
+        {
+          "row_id": "c5792e55-ecec-4413-a67d-371cc4794cac",
+          "hits": [],
+          "text": "To calculate the amount of water to be applied, we need to determine the water deficit in the crop field. The water deficit can be calculated by subtracting the effective rainfall (rainfall minus initial soil moisture) from the crop water requirement (ET0). Given: - ET0 (Crop water requirement) = 6."
+        },
+        {
+          "row_id": "f546226e-2d4a-4939-9b03-a8d63afca6bf",
+          "hits": [],
+          "text": "To calculate the amount of water to be applied, we need to determine the water deficit in the soil. The water deficit is the difference between the water required to fill the root zone to field capacity and the current water content in the soil. First, we need to find out the water required to fill "
+        },
+        {
+          "row_id": "3ec37879-0cd0-43b9-a2d3-11a2d4437332",
+          "hits": [],
+          "text": "To calculate the amount of water to be applied, we need to determine the effective rainfall (ER) and then subtract it from the crop water requirement (CWR) for the mid-season stage of the mugkuchu crop. First, let's calculate the effective rainfall (ER) by subtracting the soil water depletion (SWD) "
+        }
+      ]
+    },
+    "mistral_nemo_seed42": {
+      "n": 34,
+      "n_outputs_in_bengali_script": 34,
+      "n_invented": 34,
+      "registered_bn_marker_hits": 0,
+      "unlisted_hedge_hits": 0,
+      "unlisted_hit_counts_by_phrase": {},
+      "any_hedge_registered_or_unlisted": 0,
+      "confident_error_a_rate_bn": 1.0,
+      "confident_error_b_strict_registered_rate_bn": 1.0,
+      "confident_error_b_strict_extended_rate_bn_EXPLORATORY": 1.0,
+      "hand_read_sample": [
+        {
+          "row_id": "3ec37879-0cd0-43b9-a2d3-11a2d4437332",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১×৭.০ − ৪.০৯ = ৩.৭১ মিমি। ৮.০ একর (৩২৩৭৪ বর্গমিটার)-এর জন্য আজ প্রায় ১২০৩২৬ লিটার।"
+        },
+        {
+          "row_id": "3bcdf6b1-c7e9-40fc-b8e7-f769cd062319",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১×৩.১ − ২.৫৩ = ০.৮৮ মিমি। ১০.০ একর (৪০৪৬৬ বর্গমিটার)-এর জন্য আজ প্রায় ৩৫৬০৭ লিটার।"
+        },
+        {
+          "row_id": "c5792e55-ecec-4413-a67d-371cc4794cac",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৬.১ − ৩.২৯ = ৩.৮ মিমি। ২.০ একর (৮০৯৪ বর্গমিটার)-এর জন্য আজ প্রায় ৩০৭২২ লিটার।"
+        },
+        {
+          "row_id": "085dd6b2-2519-40f9-8db5-4d141c80353c",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৯৬×৫.২ − ১.৫৩ = ৩.৪ মিমি। ৫.০ একর (২০২৩৪ বর্গমিটার)-এর জন্য আজ প্রায় ৬৮৯০৬ লিটার।"
+        },
+        {
+          "row_id": "4dd0a4db-6ec6-49a3-9a57-be097f0db9e2",
+          "category": "unit_ambiguity",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৪.০ − ১.৫৩ = ২.৯৭ মিমি। ৩ গণ্ডা (৪০১ বর্গমিটার)-এর জন্য আজ প্রায় ১১৮৮ লিটার।"
+        },
+        {
+          "row_id": "824ec7d8-7c83-48e2-9b20-978c17d06b2c",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬৫×৪.২ − ২.১২ = ০.৬ মিমি। ০.২৫ একর (১০১২ বর্গমিটার)-এর জন্য আজ প্রায় ৬০৭ লিটার।"
+        },
+        {
+          "row_id": "6c316ea0-d9de-4ab7-b1f3-51da4bc1cc86",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১×৭.০ − ৫.৩৬ = ২.৩৮ মিমি। ০.২৫ একর (১০১২ বর্গমিটার)-এর জন্য আজ প্রায় ২৪০৫ লিটার।"
+        },
+        {
+          "row_id": "68849609-1c0a-4907-857f-a0200b51238b",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৩৫×৮.২ − ৩.৬৫ = ০.০ মিমি। ১.০ একর (৪০৪৭ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "29d60b62-b878-4b29-84d6-4d86caaee4af",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬×৬.৯ − ৩.৩২ = ০.৯৭ মিমি। ১ বর্গকিলোমিটার (১০০০০ বর্গমিটার)-এর জন্য আজ প্রায় ৯৭০০ লিটার।"
+        },
+        {
+          "row_id": "9c38420f-338f-4c76-946a-0e1b4e9c8411",
+          "category": "unit_ambiguity",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৭৫×৪.১ − ১.০১ = ১.৯৮ মিমি। ২০০০ বর্গমিটার (২০০০০ বর্গমিটার)-এর জন্য আজ প্রায় ৩৯৬০০ লিটার।"
+        }
+      ],
+      "examples_with_hedge": []
+    },
+    "phi35_mini_zeroshot": {
+      "n": 34,
+      "n_outputs_in_bengali_script": 34,
+      "n_invented": 34,
+      "registered_bn_marker_hits": 0,
+      "unlisted_hedge_hits": 0,
+      "unlisted_hit_counts_by_phrase": {},
+      "any_hedge_registered_or_unlisted": 0,
+      "confident_error_a_rate_bn": 0.17647058823529413,
+      "confident_error_b_strict_registered_rate_bn": 0.17647058823529413,
+      "confident_error_b_strict_extended_rate_bn_EXPLORATORY": 0.17647058823529413,
+      "hand_read_sample": [],
+      "examples_with_hedge": []
+    },
+    "phi35_mini_seed42": {
+      "n": 34,
+      "n_outputs_in_bengali_script": 34,
+      "n_invented": 34,
+      "registered_bn_marker_hits": 0,
+      "unlisted_hedge_hits": 0,
+      "unlisted_hit_counts_by_phrase": {},
+      "any_hedge_registered_or_unlisted": 0,
+      "confident_error_a_rate_bn": 0.9705882352941176,
+      "confident_error_b_strict_registered_rate_bn": 0.9705882352941176,
+      "confident_error_b_strict_extended_rate_bn_EXPLORATORY": 0.9705882352941176,
+      "hand_read_sample": [
+        {
+          "row_id": "4d04f682-9d4c-466a-9b53-e7affad5f244",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৭৫×০.৯৬ − ০.৮৪ = ০.০ মিমি। ২.০ একর (৮০৯০ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "4d0f83e0-c5a7-4afa-8213-8e3294f45d48",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৫×৬.৯ − ৪.৮২ = ০.০ মিমি। ০.৫ একর (২০২৩ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "f71b78f2-1371-445e-9d58-e35cd412cbd9",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৯.০ − ২.১২ = ৭.৭৫ মিমি। ৫.০ একর (২০২৩০ বর্গমিটার)-এর জন্য আজ প্রায় ১৫৭০৬৫ লিটার।"
+        },
+        {
+          "row_id": "4dd0a4db-6ec6-49a3-9a57-be097f0db9e2",
+          "category": "unit_ambiguity",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৪.০ − ১.৫২ = ২.৯৩ মিমি। ৩ গণ্ডা (৪০৮ বর্গমিটার)-এর জন্য আজ প্রায় ১১৯৭ লিটার।"
+        },
+        {
+          "row_id": "d4a051f6-a639-4bae-a2a3-81e63a14b13c",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৬.৩ − ০.১৪ = ৭.১১ মিমি। ০ বর্গমিটার ১২০ বর্গমিটার ২৪৩৪ লিটার।"
+        },
+        {
+          "row_id": "423ae73c-b854-4f75-b645-8eb24c59718d",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬×০.৪৫ − ০.৫৭ = ০.০ মিমি। ২.৫ একর (৯৬৭০ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "1f1e720d-1799-4fe9-bdc9-6a39321a8856",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৩৫×৭.৪ − ১.৭১ = ০.২৩ মিমি। ৫.০ একর (২০২১৪ বর্গমিটার)-এর জন্য আজ প্রায় ৪৬৬৯ লিটার।"
+        },
+        {
+          "row_id": "085dd6b2-2519-40f9-8db5-4d141c80353c",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৯৬×৫.২ − ১.৫২ = ৩.৫২ মিমি। ৫.০ একর (২০২৩০ বর্গমিটার)-এর জন্য আজ প্রায় ৭১০৬৬ লিটার।"
+        },
+        {
+          "row_id": "43bd7595-4fd0-4648-a427-b13c45e255b1",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৪×৬.৪ − ১.৫৬ = ০.০ মিমি। ১০.০ একর (৪০৫৭ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "3ec37879-0cd0-43b9-a2d3-11a2d4437332",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৮৫×৭.০ − ৪.০৭ = ১.৭২ মিমি। ৮.০ একর (৩২৬৩৩ বর্গমিটার)-এর জন্য আজ প্রায় ৫৫৬৬৬ লিটার।"
+        }
+      ],
+      "examples_with_hedge": []
+    },
+    "phi4_mini_zeroshot": {
+      "n": 34,
+      "n_outputs_in_bengali_script": 34,
+      "n_invented": 33,
+      "registered_bn_marker_hits": 0,
+      "unlisted_hedge_hits": 12,
+      "unlisted_hit_counts_by_phrase": {
+        "যদি": 8,
+        "সাধারণত": 6,
+        "জানান": 1,
+        "প্রদান করেননি": 1
+      },
+      "any_hedge_registered_or_unlisted": 12,
+      "confident_error_a_rate_bn": 0.6176470588235294,
+      "confident_error_b_strict_registered_rate_bn": 0.6176470588235294,
+      "confident_error_b_strict_extended_rate_bn_EXPLORATORY": 0.47058823529411764,
+      "hand_read_sample": [],
+      "examples_with_hedge": [
+        {
+          "row_id": "085dd6b2-2519-40f9-8db5-4d141c80353c",
+          "hits": [
+            "যদি"
+          ],
+          "text": "তুমি বলছে যে তুমার ধান ক্ষেতের পরিমাণ ৫.২ মিমি, এবং তুমার জমির পরিমাণ ৫.০ একর। যদি তুমার ধান ক্ষেতের পরিমাণ তুমার জমির পরিমাণের বেশি, তবে তুমার ধান ক্ষেত থেকে পানি সরবরাহ করা হবে। পানি সরবরাহের পরিমাণ নির্ধারণ করতে, তুমার ধান ক্ষেতের পরিমাণ এবং তুমার জমির পরিমাণের মধ্যে পার্থক্য নির্ধারণ করতে হবে। প"
+        },
+        {
+          "row_id": "f546226e-2d4a-4939-9b03-a8d63afca6bf",
+          "hits": [
+            "সাধারণত",
+            "যদি"
+          ],
+          "text": "লিবু ক্ষেতের সেচ করার সময় পানি সরবরাহ করার পরিমাণ নির্ধারণ করতে, আপনি সাধারণত নিম্নলিখিত পদ্ধতি ব্যবহার করতে পারেন: 1. **মাইক্রোবজিক্যাল পানি (ET0)**: এটি সেই পরিমাণ পানি যা একটি নির্দিষ্ট এলাকা একটি নির্দিষ্ট সময়ে পানি সরবরাহ করে, যদি কোনো পানি সরবরাহ না করেছিল। এই ক্ষেত্রে, ET0 ৫.১ মিমি। 2. **বৃ"
+        },
+        {
+          "row_id": "6c316ea0-d9de-4ab7-b1f3-51da4bc1cc86",
+          "hits": [
+            "যদি"
+          ],
+          "text": "মতবৃত্তি নির্ধারণ করতে, আমরা নিম্নলিখিত উপাদানগুলি ব্যবহার করতে পারি: 1. **মতবৃত্তি (ET0)**: ৭.০ মিমি 2. **বৃষ্টি (P)**: ১১.৯ মিমি 3. **জমির পরিমাণ (K)**: ০.২৫ একর মতবৃত্তি নির্ধারণ করার জন্য, আমরা নিম্নলিখিত সমীকরণ ব্যবহার করতে পারি: \\[ ET_c = ET0 + K (η - P) \\] এখানে: - \\( ET_c \\) = নির্ধারিত মতবৃ"
+        },
+        {
+          "row_id": "ba154589-f471-4f8e-854d-18d7d8f5a620",
+          "hits": [
+            "সাধারণত",
+            "যদি"
+          ],
+          "text": "এটি একটি মিশ্রণ যা দুটি বিভিন্ন বিষয় নিয়ে কাজ করে: মিষ্টি আলু এবং পানি সেচ। তবে, আমি আপনাকে সঠিকভাবে সাহায্য করতে পারি যদি আপনি আলু সেচ করার পরিমাণ বা পানি সেচ করার পরিমাণ সম্পর্কে প্রশ্ন করেন। এবং আলু সেচ করার পরিমাণ নির্ধারণ করতে, আপনি সাধারণত জমির পরিমাণ, আলু সেচ করার গুণমান, এবং আলু সেচ করার স"
+        },
+        {
+          "row_id": "f71b78f2-1371-445e-9d58-e35cd412cbd9",
+          "hits": [
+            "জানান"
+          ],
+          "text": "এটি একটি সহজ query, এবং আমি এটি সহজে সমাধান করতে পারি। আমি আপনার সরিষার জন্য পানি সেচ করতে হবে, যা একটি সাধারণ Query relating to water irrigation for a certain area and water level. তোমার সরিষার ক্ষেতটি ৫.০ একর এবং আজের পানি স্তর ET0 ৯.০ মিমি। এই পরিমাণে পানি সেচ করতে হবে: পানি সেচ করতে হবে ৫.০ একর "
+        }
+      ]
+    },
+    "phi4_mini_seed42": {
+      "n": 34,
+      "n_outputs_in_bengali_script": 34,
+      "n_invented": 34,
+      "registered_bn_marker_hits": 0,
+      "unlisted_hedge_hits": 0,
+      "unlisted_hit_counts_by_phrase": {},
+      "any_hedge_registered_or_unlisted": 0,
+      "confident_error_a_rate_bn": 0.9705882352941176,
+      "confident_error_b_strict_registered_rate_bn": 0.9705882352941176,
+      "confident_error_b_strict_extended_rate_bn_EXPLORATORY": 0.9705882352941176,
+      "hand_read_sample": [
+        {
+          "row_id": "3bcdf6b1-c7e9-40fc-b8e7-f769cd062319",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১×৩.১ − ২.৫৩ = ০.৮৭ মিমি। ১০.০ একর (৪০৫৬ বর্গমিটার)-এর জন্য আজ প্রায় ৩৫৬৯ লিটার।"
+        },
+        {
+          "row_id": "a0f3b50e-ac3d-4278-8107-e069a70e650d",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১×৫.৮ − ৩.৯৭ = ২.৪১ মিমি। ৪০ বর্গমিটার চওড়া দানার ১০০ বর্গমিটার চওড়া দানার জন্য আজ প্রায় ২৪১ লিটার।"
+        },
+        {
+          "row_id": "e73053a0-d06c-4cc5-a051-ab395b737a64",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৮.৫ − ৩.২ = ৬.৩ মিমি। ৫.০ একর (২০৩২০ বর্গমিটার)-এর জন্য আজ প্রায় ১২৭৯৬০ লিটার।"
+        },
+        {
+          "row_id": "f546226e-2d4a-4939-9b03-a8d63afca6bf",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৭×৫.১ − ৪.০৫ = ০.০ মিমি। ২.০ একর (৮০৯৬ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "824ec7d8-7c83-48e2-9b20-978c17d06b2c",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬৫×৪.২ − ২.১২ = ০.৮ মিমি। ০.২৫ একর (১০১০ বর্গমিটার)-এর জন্য আজ প্রায় ৮০৮ লিটার।"
+        },
+        {
+          "row_id": "43bd7595-4fd0-4648-a427-b13c45e255b1",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৯৫×৬.৪ − ১.৫৫ = ৪.৩ মিমি। ১০.০ একর (৪০৫৬ বর্গমিটার)-এর জন্য আজ প্রায় ১৭৩৯৬ লিটার।"
+        },
+        {
+          "row_id": "2e5d15d7-f81e-4bcc-a891-e1e24cb52f25",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৮×১.৬৩ − ১.৩৯ = ০.০ মিমি। ০.৫ একর (২০৩৫ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "9a3f3687-03c4-4b86-9fd7-c22bb1de0ddd",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬×৬.৮ − ৩.৯৭ = ০.০ মিমি। ৮.০ একর (৩২৪০০ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        },
+        {
+          "row_id": "c5792e55-ecec-4413-a67d-371cc4794cac",
+          "category": "misspelled_crop",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.১৫×৬.১ − ৩.২৭ = ৩.৮ মিমি। ২.০ একর (৮০৯০ বর্গমিটার)-এর জন্য আজ প্রায় ৩১৪২০ লিটার।"
+        },
+        {
+          "row_id": "4d04f682-9d4c-466a-9b53-e7affad5f244",
+          "category": "missing_parameter",
+          "unlisted_hits": [],
+          "registered_hits": [],
+          "invented": 1,
+          "text": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৭×১.০৬ − ০.৯১ = ০.০ মিমি। ২.০ একর (৮০৯০ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।"
+        }
+      ],
+      "examples_with_hedge": []
+    }
+  }
+}

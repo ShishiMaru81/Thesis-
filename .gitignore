@@ -1,0 +1,56 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.netrc
+
+# Python environments and generated caches
+.venv/
+venv/
+finetune_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+unsloth_compiled_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Model binaries and training checkpoints (metadata may be tracked)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.pkl
+**/checkpoints/
+**/checkpoint-*/
+
+# Generated logs, archives, and LaTeX intermediate files
+*.log
+*.zip
+*.bak
+*.aux
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.ilg
+*.lof
+*.lot
+*.nlo
+*.nls
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

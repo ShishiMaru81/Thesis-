@@ -1,0 +1,303 @@
+{
+  "crop_name_bn": "আউশ ধান",
+  "crop_name_en": "Aus Rice",
+  "source_document": "ফসল পঞ্জিকা - আউশ ধান (BARC / AFACI)",
+  "source_image": "Screenshot_20260521_004808.png",
+  "source_image_sha256": "645e7d503300de508eaf2c9d4bc71445b79067d167afe95aa52821513fa9853c",
+  "extraction_timestamp": "2026-07-19T14:32:25.772166+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "আউশ ধান",
+      "value_en": "Aus Rice",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-আউশ ধান",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "দানা জাতীয় ফসল",
+      "value_en": "Cereal",
+      "provenance": "derived"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "রোপা আউশ: ৩০ মার্চ - ২০ এপ্রিল (বীজতলায় বপন); বোনা আউশ: ১৫ মার্চ - ১৫ এপ্রিল",
+      "value_en": "Transplanted Aus: 30 March - 20 April (sowing in seedbed); Sown Aus: 15 March - 15 April",
+      "provenance": "explicit",
+      "source_quote_bn": "রোপা আউশের বীজতলায় ৩০ মার্চ থেকে ২০ এপ্রিলের মধ্যে অঙ্কুরিত বীজ বপন করতে হবে। বোনা আউশ: ১৫ মার্চ - ১৫ এপ্রিল পর্যন্ত (চৈত্র মাস)।",
+      "source": "বীজ বপন"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "চৈত্র",
+          "bangla_span_en": "Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "বৈশাখ",
+          "bangla_span_en": "Boishakh",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "জ্যৈষ্ঠ",
+          "bangla_span_en": "Joishtho",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "আষাঢ়",
+          "bangla_span_en": "Asharh",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "শ্রাবণ",
+          "bangla_span_en": "Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "ভাদ্র",
+          "bangla_span_en": "Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        }
+      ],
+      "provenance": "partial",
+      "note": "Month/icon observations are explicit; normalized weather classes are derived from the pictograms.",
+      "calendar_system_in_source": "bangla",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": false,
+      "needs_reextraction": true,
+      "missing_months_gregorian": [
+        "জানুয়ারি",
+        "ফেব্রুয়ারি",
+        "সেপ্টেম্বর",
+        "অক্টোবর",
+        "নভেম্বর",
+        "ডিসেম্বর"
+      ]
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value_bn": "বপন ও রোপণের সময় বৃষ্টি না হলে",
+      "value_en": "During sowing and transplanting if there is no rain",
+      "provenance": "explicit",
+      "source_quote_bn": "বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value_bn": "সম্পূরক সেচ",
+      "value_en": "Supplementary irrigation",
+      "provenance": "explicit",
+      "source_quote_bn": "বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": null,
+      "condition_en": null,
+      "provenance": "absent",
+      "note": "No specific day interval is mentioned for irrigation."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value_bn": "আইল বেঁধে পানি ধরে রাখা",
+      "value_en": "Retaining water by building dikes/bunds",
+      "provenance": "explicit",
+      "source_quote_bn": "ক্ষেতে পানি ধরে রাখার জন্য আইল বেঁধে দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value_bn": "বপন ও রোপণের সময়",
+      "value_en": "Sowing and transplanting time",
+      "provenance": "derived",
+      "source_quote_bn": "বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth is specified in centimeters, not millimeters."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value_cm_min": 2,
+      "value_cm_max": 3,
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে সব সময় প্রয়োজনীয় ২-৩ সেন্টিমিটার পানি রাখতে হবে।",
+      "source": "গুটি ইউরিয়া ব্যবহার"
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "note": "This is a field crop (rice), not a tree crop, so basin geometry is not applicable."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No drainage rules are mentioned in the irrigation section."
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No water-demand modifiers like mulching are mentioned."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "বোনা আউশে সাধারণত সেচের প্রয়োজন হয় না, কিন্তু রোপা আউশে বৃষ্টির পানি ব্যবহার করে চাষ করতে হলে ক্ষেতে পানি ধরে রাখার জন্য আইল বেঁধে দিতে হবে। বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "value_en": "Sown Aus generally does not require irrigation, but for transplanted Aus, if cultivating using rainwater, dikes must be built to retain water in the field. If there is no rain during sowing and transplanting, supplementary irrigation must be provided.",
+      "provenance": "explicit",
+      "source_quote_bn": "বোনা আউশে সাধারণত সেচের প্রয়োজন হয় না, কিন্তু রোপা আউশে বৃষ্টির পানি ব্যবহার করে চাষ করতে হলে ক্ষেতে পানি ধরে রাখার জন্য আইল বেঁধে দিতে হবে। বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific establishment stage irrigation interval is mentioned."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No stage-specific irrigation schedule is mentioned."
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No numeric rain threshold is mentioned."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "value_en": "If there is no rain during sowing and transplanting, supplementary irrigation must be provided.",
+      "provenance": "derived",
+      "source_quote_bn": "বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": "বোনা আউশে সাধারণত সেচের প্রয়োজন হয় না। কিন্তু রোপা আউশে বৃষ্টির পানি ব্যবহার করে চাষ করতে হলে ক্ষেতে পানি ধরে রাখার জন্য আইল বেঁধে দিতে হবে। বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "value_en": "Generally, irrigation is not required for broadcast Aus. But for transplanted Aus, if cultivating using rainwater, dikes must be built to retain water in the field. If there is no rain during sowing and transplanting, supplementary irrigation must be provided.",
+      "provenance": "derived",
+      "source_quote_bn": "বোনা আউশে সাধারণত সেচের প্রয়োজন হয় না। কিন্তু রোপা আউশে বৃষ্টির পানি ব্যবহার করে চাষ করতে হলে ক্ষেতে পানি ধরে রাখার জন্য আইল বেঁধে দিতে হবে। বপন ও রোপণের সময় বৃষ্টি না হলে সম্পূরক সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_bn": "চারার বয়স: ২০-২৫ দিন; চারা রোপণের ৭-১০ দিন পর গুটি ইউরিয়া প্রয়োগ; কাইচথোড় আসার ৫-৭ দিন পূর্বে ৩য় কিস্তি সার প্রয়োগ",
+      "value_en": "Seedling age: 20-25 days; Guti Urea application 7-10 days after transplanting; 3rd fertilizer installment 5-7 days before panicle initiation",
+      "provenance": "explicit",
+      "source_quote_bn": "রোপা আউশে সাধারণত ২০-২৫ দিন বয়সের চারা রোপণ করতে হবে। চারা রোপণের ৭-১০ দিনের মধ্যে গুটি ইউরিয়া প্রয়োগ করতে হবে। কাইচথোড় আসার ৫-৭ দিন পূর্বে ৩য় কিস্তি সার প্রয়োগ করতে হবে।",
+      "source": "চারা রোপণের নিয়ম / গুটি ইউরিয়ার ব্যবহার / সার প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 20,
+          "max": 25,
+          "recurring": false,
+          "evidence": "20-25 দিন"
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "recurring": false,
+          "evidence": "7-10 দিন"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "recurring": false,
+          "evidence": "5-7 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No age-dependent irrigation rules are mentioned."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "জমিতে প্রয়োজন অনুযায়ী পানি দিয়ে মাটির প্রকারভেদে ৩-৪ টি চাষ ও মই দিতে হবে যেন মাটি থকথকে কাদাময় হয়।",
+      "value_en": "Depending on the soil type, 3-4 ploughings and ladderings should be done with required water so that the soil becomes muddy.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে প্রয়োজন অনুযায়ী পানি দিয়ে মাটির প্রকারভেদে ৩-৪ টি চাষ ও মই দিতে হবে যেন মাটি থকথকে কাদাময় হয়।",
+      "source": "মূল জমি তৈরি (রোপা আউশ)"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptoms are mentioned."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Aus Rice",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Aus Rice",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 9,
+      "derived": 4,
+      "partial": 1,
+      "absent": 10
+    },
+    "absent_fields_list": [
+      "7_সেচ_ব্যবধান_দিন",
+      "10_পানি_গভীরতা_মিমি",
+      "12_বেসিন_জ্যামিতি",
+      "13_নিষ্কাশন_নিয়ম",
+      "14_জল_চাহিদা_সংশোধক",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 1,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_004808.png",
+  "source_image_bytes": 212394,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.535574+00:00",
+    "source_file": "Aus_Rice.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 004808.png' -> 'Screenshot_20260521_004808.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value 6ae83a82df873484… with computed 645e7d503300de50…",
+      "month_wheel: only 6/12 months present; missing জানুয়ারি, ফেব্রুয়ারি, সেপ্টেম্বর, অক্টোবর, নভেম্বর, ডিসেম্বর — FLAGGED, not fabricated",
+      "month_wheel: normalised bangla -> gregorian index, bilingual span added (6 entries)",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 3 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 9, 'derived': 4, 'partial': 1, 'absent': 10}, 1 field(s) carry parsed numerics"
+    ]
+  }
+}

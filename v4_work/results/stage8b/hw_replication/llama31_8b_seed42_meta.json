@@ -1,0 +1,13 @@
+{
+  "arm": "llama31_8b_seed42",
+  "n_lora_modules": 448,
+  "wall_seconds": 697.8,
+  "peak_vram_gb": 12.391,
+  "batch_size": 16,
+  "max_new_tokens": 512,
+  "rows": 422,
+  "code_path": "v3/scripts/s6_eval.py :: generate_arm",
+  "row_order": "load_test_rows() order (same as Stage 6)",
+  "max_seq_len": 2048,
+  "replication": true
+}

@@ -1,0 +1,219 @@
+%*******************************************************************
+%   Based on: BracU Thesis Template, Ayesha Abed Library, Brac University
+%   (FINAL YEAR THESIS Template_CSE400_Fall 2024 ONWARDS).
+%   Adapted for XeLaTeX (the thesis contains Bengali text) and for IEEE
+%   numbered references. Every deviation from the template is listed in
+%   BUILD_REPORT.md.
+%
+%   Build: latexmk (see latexmkrc: XeLaTeX + biber + makeindex for nomencl).
+%   On Overleaf: Menu > Compiler > XeLaTeX.
+%
+% Project structure (template layout):
+%   core/          front matter (title page, declaration, approval, ethics
+%                  statement, abstract, acknowledgement, abbreviations)
+%   chapters/      chapter_1.tex ... chapter_6.tex
+%   appendix/      appendix_A.tex ... appendix_H.tex
+%   bibliography/  references.bib
+%   images/        figures (PDF, with PNG fallback)
+%   generated/     numbers.tex and tables written by scripts/thesis/*.py
+%                  (never edit by hand)
+%   fonts/         Noto Serif/Sans Bengali (SIL OFL 1.1, see fonts/OFL.txt)
+%*******************************************************************
+
+\documentclass[Times,12pt,oneside,openany,print,index]{report}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[english]{babel}
+% inputenc removed: XeLaTeX reads UTF-8 natively.
+\usepackage{fontspec}
+\usepackage{csquotes} % Provides advanced facilities for in-line and display quotations
+\usepackage{amsmath} % To use mathematical equations
+\usepackage{unicode-math}
+% Main font: TeX Gyre Termes (Times metrics; ships with TeX Live and Overleaf).
+% Loaded by file name so that the build does not depend on system fonts.
+\setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
+  ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
+\setmathfont{texgyretermes-math.otf}
+% Bengali: Noto Serif Bengali, bundled in fonts/ (SIL Open Font License 1.1).
+% Script=Bengali makes XeTeX shape conjuncts and vowel signs correctly.
+\newfontfamily\bengalifont{NotoSerifBengali}[Path=fonts/, Extension=.ttf,
+  UprightFont=*-Regular, BoldFont=*-Bold, Script=Bengali]
+\newfontfamily\bengalisansfont{NotoSansBengali}[Path=fonts/, Extension=.ttf,
+  UprightFont=*-Regular, BoldFont=*-Bold, Script=Bengali]
+\newcommand{\bn}[1]{{\bengalifont #1}}
+
+\pagestyle{plain} % Just a plain page number
+
+\usepackage{graphicx} % to use the graphicx package
+\graphicspath{{images/}} % Path to image files
+\usepackage{caption} % To use caption with figure and images
+\captionsetup{font=small, labelfont=bf}
+\usepackage{array} % Column alignment in tables
+
+\usepackage[nottoc]{tocbibind} % Adds LoF and LoT to the Table of Contents
+
+\usepackage[normalem]{ulem} % Underlining that can break across lines
+
+% ---- packages added for this thesis (see BUILD_REPORT.md) ----
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, fit, calc, backgrounds}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{etoolbox}
+\usepackage[section]{placeins} % floats stay inside their section
+\usepackage{xspace}
+\xspaceaddexceptions{\% \, ] \textsuperscript}
+
+\usepackage{hyperref} % Hyperlinks within the document
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=black,
+    citecolor=black,
+}
+\urlstyle{same}
+
+% IEEE-style cross-references: "Fig. 4.2", "Table 4.1", equations as "(4.1)".
+\usepackage[capitalise]{cleveref}
+\crefname{figure}{Fig.}{Figs.}
+\Crefname{figure}{Fig.}{Figs.}
+\crefname{table}{Table}{Tables}
+\Crefname{table}{Table}{Tables}
+\crefname{chapter}{Chapter}{Chapters}
+\crefname{section}{Section}{Sections}
+\crefname{subsection}{Section}{Sections}
+\crefname{subsubsection}{Section}{Sections}
+\crefname{appendix}{Appendix}{Appendices}
+\crefformat{equation}{(#2#1#3)}
+\Crefformat{equation}{Equation~(#2#1#3)}
+
+\setlength{\parindent}{0em} % To control indentation of paragraphs
+\setlength{\parskip}{0.55em plus 0.1em} % separates paragraphs (BUILD_REPORT.md: judgment call)
+\setlength{\emergencystretch}{1.5em} % lets lines with long model names break without overfull boxes
+
+% List of Abbreviations and Symbols (nomencl). [intoc] puts it in the TOC.
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{List of Abbreviations and Symbols}
+\renewcommand{\nompreamble}{The following list describes the abbreviations and symbols used in the body of the document.}
+\renewcommand{\nomgroup}[1]{%
+  \item[\bfseries\ifstrequal{#1}{A}{Abbreviations}{\ifstrequal{#1}{S}{Symbols}{}}]}
+\makenomenclature
+
+% IEEE bibliography, numbered in order of first citation (sorting=none).
+\usepackage[backend=biber,style=ieee,sorting=none]{biblatex}
+\addbibresource{bibliography/references.bib}
+
+\let\cleardoublepage=\clearpage % removes unwanted double pages
+
+% ---- placeholders for content only the authors can supply ----
+% Every use is listed in BUILD_REPORT.md.
+\newcommand{\phbox}[2]{{\setlength{\fboxsep}{1.2pt}%
+  \fcolorbox{red!75!black}{red!7}{\color{red!75!black}\sffamily\footnotesize\bfseries #1: \mdseries #2}}}
+\newtcolorbox{placeholderbox}{colback=red!6, colframe=red!70!black, boxrule=0.6pt, arc=1pt,
+  left=3pt, right=3pt, top=2pt, bottom=2pt, fontupper=\sffamily\small\color{red!60!black}, breakable}
+\newcommand{\AUTHORINPUT}[1]{\phbox{AUTHOR INPUT}{#1}}
+\newcommand{\AUTHORINPUTPAR}[1]{\begin{placeholderbox}\textbf{AUTHOR INPUT:} #1\end{placeholderbox}}
+\newcommand{\PENDINGCONSENT}[1]{\phbox{PENDING CONSENT}{signed consent forms#1}}
+\newcommand{\PENDINGREVIEW}[1]{\phbox{PENDING REVIEW}{#1}}
+\newcommand{\MISSING}[2]{\phbox{MISSING}{#1 (looked in #2)}}
+\newcommand{\CITENEEDED}[1]{\phbox{CITATION NEEDED}{#1}}
+\newcommand{\STAGEEIGHTB}[1]{\phbox{STAGE 8B, NOT YET RUN}{#1}}
+\newcommand{\STAGEEIGHTBPAR}[1]{\begin{placeholderbox}\textbf{STAGE 8B, NOT YET RUN:} #1\end{placeholderbox}}
+
+% Every number in the thesis is a macro written by scripts/thesis/make_numbers.py.
+\input{generated/numbers}
+% Author-supplied details (names, IDs, supervisors, dates): one file.
+\input{core/thesis_info}
+
+\begin{document}
+
+\thispagestyle{empty} % removes page number from title page
+\input{core/titlepage} % Add title page
+\cleardoublepage
+
+\pagenumbering{roman} % Roman numbers for all pages before Chapter 1
+
+\input{core/abbreviations} % \nomenclature entries (no output here)
+
+%*******************************************************************
+% Front matter in the template's order. The template's optional
+% Dedication page is omitted: the authors have not supplied one.
+%*******************************************************************
+\phantomsection
+\addcontentsline{toc}{chapter}{Declaration}
+\input{core/declaration}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Approval}
+\input{core/approval}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Ethics Statement}
+\input{core/ethics_statement}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
+\input{core/abstract}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Acknowledgement}
+\input{core/acknowledgement}
+
+\renewcommand{\contentsname}{Table of Contents}
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+\tableofcontents
+
+\listoffigures
+\listoftables
+
+\printnomenclature
+\cleardoublepage
+
+\pagenumbering{arabic} % Page numbers 1, 2, 3, ...
+
+\chapter{Introduction}
+\label{ch:intro}
+\input{chapters/chapter_1}
+
+\chapter{Literature Review}
+\label{ch:literature}
+\input{chapters/chapter_2}
+
+\chapter{Requirements, Impacts and Constraints}
+\label{ch:requirements}
+\input{chapters/chapter_3}
+
+\chapter{Proposed Methodology}
+\label{ch:method}
+\input{chapters/chapter_4}
+
+\chapter{Result Analysis}
+\label{ch:results}
+\input{chapters/chapter_5}
+
+\chapter{Conclusion}
+\label{ch:conclusion}
+\input{chapters/chapter_6}
+
+\cleardoublepage
+\phantomsection
+\printbibliography[heading=bibintoc, title={Bibliography}]
+
+% ********************************** Appendices ********************************
+\appendix
+\input{appendix/appendix_A}
+\input{appendix/appendix_B}
+\input{appendix/appendix_C}
+\input{appendix/appendix_D}
+\input{appendix/appendix_E}
+\input{appendix/appendix_F}
+\input{appendix/appendix_G}
+\input{appendix/appendix_H}
+
+\end{document}

@@ -1,0 +1,90 @@
+==============================================================================
+STAGE 7 — HELD-OUT NUMERIC EVALUATION SUMMARY
+==============================================================================
+Model: D:\Research Lab\Thesis\models\v2_run\merged_model
+Test set: D:\Research Lab\Thesis\data\v2\test.jsonl  (numeric_runtime rows: 180)
+NOTE: spec estimated ~72 rows from v1's test set; v2's actual allocation is 180.
+NOTE: evaluated LIVE model generations (greedy decode), not the gold tool call stored in messages[1] — comparing gold to itself would be tautological.
+Inference wall time: 293.3s (1.63s/row)
+
+-- A. Parse success --
+parse_success_rate: 100.0%  (180/180)  target >=95%: PASS
+
+-- B. Slot accuracy (recall = correct/total_rows; precision = correct/parsed_rows) --
+slot            accuracy(recall)   precision        F1
+crop                       99.4%       99.4%     0.994
+stage                     100.0%      100.0%     1.000
+et0_mm                    100.0%      100.0%     1.000
+rainfall_mm               100.0%      100.0%     1.000
+area_value                100.0%      100.0%     1.000
+area_unit                 100.0%      100.0%     1.000
+
+macro-F1 across 6 slots: 0.999   target >=0.90: PASS
+
+-- C. End-to-end numeric error --
+rows with a computable prediction: 180/180 (0 excluded: parse or calc failure)
+MAE_mm  (full, n=180): 0.00988888888888889
+RMSE_mm (full, n=180): 0.13267336666498752
+MAE_liters  (full): 0.6616666666666666
+RMSE_liters (full): 8.877189870674165
+
+fraction of gold rows floored to 0mm: 112/180 (62.2%)
+non-zero-gold rows: 68/180  (0 excluded from non-zero metrics due to parse/calc failure)
+MAE_mm  (non-zero subset, n=68): 0.026176470588235294
+RMSE_mm (non-zero subset, n=68): 0.21585670628233636
+MAE_liters  (non-zero subset): 1.7514705882352941
+RMSE_liters (non-zero subset): 14.442996470913629
+MAPE (non-zero subset, net_mm): 1.5%
+
+-- D. Per-language --
+lang      n   accuracy(all-slots)    MAE_mm  n_w/pred
+en       90                100.0%     0.000        90
+bn       90                 98.9%     0.020        90
+
+-- D. Per-tier (effective-rainfall tier) --
+tier    range           n   accuracy(all-slots)    MAE_mm  n_w/pred
+1       <=5mm          66                 98.5%     0.027        66
+2       5-15mm         58                100.0%     0.000        58
+3       >15mm          56                100.0%     0.000        56
+
+-- D. Crop coverage: 26 distinct crops / 28 total in test set --
+  Turmeric         14
+  Wheat            14
+  Onion            12
+  Litchi           10
+  Potato           10
+  Coconut          10
+  Mango            10
+  Sweet Potato     8
+  Jackfruit        8
+  Mukhi Kachu      8
+  Groundnut        8
+  Bottle Gourd     6
+  Cotton           6
+  Ginger           6
+  Aus Rice         6
+  Sesame           6
+  Lemon            6
+  Jute             4
+  Mungbean         4
+  Mustard          4
+  Brinjal          4
+  Maize            4
+  Sugarcane        4
+  Boro Rice        4
+  Pea              2
+  Guava            2
+
+-- D. Stage coverage: 3 distinct stages (expect 3) --
+  initial        56
+  late-season    76
+  mid-season     48
+
+-- D. Area-unit distribution --
+  ha         64
+  acre       50
+  decimal    50
+  katha      16
+
+-- Error cases (1) --
+  id=Sugarcane_numeric_runtime_bn_96ce6ca80390  lang=bn  type=slot_mismatch

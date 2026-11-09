@@ -1,0 +1,20 @@
+test_id,family,expected_direction,seed42,seed1337,seed2024,robust_all_3_seeds
+A1_llama31_8b,A1,FT > zero-shot,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,True
+A1_mistral_nemo,A1,FT > zero-shot,p_holm=<0.001 eff=71.00 SIG,p_holm=<0.001 eff=79.00 SIG,p_holm=<0.001 eff=74.00 SIG,True
+A1_phi35_mini,A1,FT > zero-shot,p_holm=<0.001 eff=43.00 SIG,p_holm=<0.001 eff=23.50 SIG,p_holm=<0.001 eff=22.00 SIG,True
+A1_phi4_mini,A1,FT > zero-shot,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,True
+A2_friedman,A2,any difference,p_holm=<0.001 eff=0.09 SIG,p_holm=<0.001 eff=0.09 SIG,p_holm=<0.001 eff=0.11 SIG,True
+A2_llama_vs_mistral,A2,not significant (null expected),p_holm=0.766 eff=0.88 ns,p_holm=1.000 eff=1.04 ns,p_holm=0.451 eff=0.76 ns,False
+A2_tier,A2,large tier > small tier,p_holm=<0.001 eff=0.73 SIG,p_holm=<0.001 eff=0.72 SIG,p_holm=<0.001 eff=0.80 SIG,True
+A6_num_unpaired_llama31_8b,A6,no consistent direction,p_holm=1.000 eff=1.06 ns,p_holm=1.000 eff=0.95 ns,p_holm=1.000 eff=1.06 ns,False
+A6_fac_llama31_8b,A6,English > Bengali,p_holm=0.526 eff=0.23 ns,p_holm=0.266 eff=0.30 ns,p_holm=1.000 eff=0.14 ns,False
+A6_num_unpaired_mistral_nemo,A6,no consistent direction,p_holm=1.000 eff=1.00 ns,p_holm=1.000 eff=1.12 ns,p_holm=1.000 eff=1.18 ns,False
+A6_fac_mistral_nemo,A6,English > Bengali,p_holm=0.002 eff=0.56 SIG,p_holm=0.058 eff=0.40 ns,p_holm=0.285 eff=0.30 ns,False
+A6_num_unpaired_phi35_mini,A6,no consistent direction,p_holm=0.520 eff=1.93 ns,p_holm=1.000 eff=1.21 ns,p_holm=0.520 eff=1.93 ns,False
+A6_fac_phi35_mini,A6,English > Bengali,p_holm=0.001 eff=0.57 SIG,p_holm=0.006 eff=0.51 SIG,p_holm=<0.001 eff=0.68 SIG,True
+A6_num_unpaired_phi4_mini,A6,no consistent direction,p_holm=1.000 eff=1.20 ns,p_holm=1.000 eff=1.06 ns,p_holm=1.000 eff=0.94 ns,False
+A6_fac_phi4_mini,A6,English > Bengali,p_holm=<0.001 eff=0.61 SIG,p_holm=<0.001 eff=0.62 SIG,p_holm=<0.001 eff=0.60 SIG,True
+A7_llama31_8b,A7,FT > zero-shot,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,True
+A7_mistral_nemo,A7,FT > zero-shot,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,True
+A7_phi35_mini,A7,FT > zero-shot,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,p_holm=<0.001 eff=inf SIG,True
+A7_phi4_mini,A7,FT > zero-shot,p_holm=<0.001 eff=17.00 SIG,p_holm=<0.001 eff=17.00 SIG,p_holm=<0.001 eff=17.00 SIG,True

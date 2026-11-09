@@ -1,0 +1,203 @@
+{
+ "note": "Found while writing the thesis (2026-09-24): on missing-stage rows the",
+ "arms": {
+  "llama31_8b_zeroshot": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "llama31_8b_seed42": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "llama31_8b_seed1337": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "llama31_8b_seed2024": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "llama31_8b_seed42_clarify": {
+   "n": 68,
+   "exact": 23,
+   "asks_unrecognised": 13,
+   "asks_unrecognised_by_subtype": {
+    "missing_et0": 3,
+    "missing_stage": 10
+   },
+   "examples": {
+    "missing_et0": {
+     "row_id": "423ae73c-b854-4f75-b645-8eb24c59718d",
+     "generation": "এই সপ্তাহে কত বৃষ্টি হয়েছে? মিলিমিটারে জানান। তারপর আমি হিসাব করব।"
+    },
+    "missing_stage": {
+     "row_id": "5aa35fba-1130-4311-83f9-260d082b47ab",
+     "generation": "Which growth stage is your Sesame in? (initial / mid-season / late-season) — this affects water needs."
+    }
+   }
+  },
+  "mistral_nemo_zeroshot": {
+   "n": 68,
+   "exact": 1,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "mistral_nemo_seed42": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "mistral_nemo_seed1337": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "mistral_nemo_seed2024": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "mistral_nemo_seed42_clarify": {
+   "n": 68,
+   "exact": 26,
+   "asks_unrecognised": 20,
+   "asks_unrecognised_by_subtype": {
+    "ambiguous": 8,
+    "missing_stage": 10,
+    "unknown_local_unit": 2
+   },
+   "examples": {
+    "ambiguous": {
+     "row_id": "085dd6b2-2519-40f9-8db5-4d141c80353c",
+     "generation": "এই সপ্তাহে কত বৃষ্টি হয়েছে? মিলিমিটারে জানান। তারপর আমি হিসাব করব।"
+    },
+    "missing_stage": {
+     "row_id": "5aa35fba-1130-4311-83f9-260d082b47ab",
+     "generation": "Which growth stage is your Sesame in? (initial / mid-season / late-season) — this affects water needs."
+    },
+    "unknown_local_unit": {
+     "row_id": "a10ca4f0-b07e-4e14-a57f-ac547999f7cc",
+     "generation": "I need your location to calculate net irrigation depth. Please tell me: Apache County, Arizona, USA; Banswara, Rajasthan, India; or Taipei, Taiwan?"
+    }
+   }
+  },
+  "phi35_mini_zeroshot": {
+   "n": 68,
+   "exact": 2,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "phi35_mini_seed42": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "phi35_mini_seed1337": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "phi35_mini_seed2024": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "phi35_mini_seed42_clarify": {
+   "n": 68,
+   "exact": 20,
+   "asks_unrecognised": 12,
+   "asks_unrecognised_by_subtype": {
+    "missing_et0": 2,
+    "missing_stage": 10
+   },
+   "examples": {
+    "missing_et0": {
+     "row_id": "c7c22f3e-6da5-4c60-9912-62913468f04a",
+     "generation": "I need to know this week's rainfall to calculate net irrigation. Could you provide it in millimeters?"
+    },
+    "missing_stage": {
+     "row_id": "5aa35fba-1130-4311-83f9-260d082b47ab",
+     "generation": "Which growth stage is your Sesame in? (initial / mid-season / late-season) — this affects water needs."
+    }
+   }
+  },
+  "phi4_mini_zeroshot": {
+   "n": 68,
+   "exact": 2,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "phi4_mini_seed42": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "phi4_mini_seed1337": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "phi4_mini_seed2024": {
+   "n": 68,
+   "exact": 0,
+   "asks_unrecognised": 0,
+   "asks_unrecognised_by_subtype": {},
+   "examples": {}
+  },
+  "phi4_mini_seed42_clarify": {
+   "n": 68,
+   "exact": 26,
+   "asks_unrecognised": 17,
+   "asks_unrecognised_by_subtype": {
+    "ambiguous": 6,
+    "missing_et0": 1,
+    "missing_stage": 10
+   },
+   "examples": {
+    "ambiguous": {
+     "row_id": "8cf54451-3228-4758-9da1-bb8f38bc6834",
+     "generation": "Which growth stage is your poteto in? (initial / mid-season / late-season) — this affects water needs."
+    },
+    "missing_et0": {
+     "row_id": "f7820efc-ae78-454d-be74-82b3ab919d37",
+     "generation": "I need to know this week's rainfall to calculate net irrigation. Could you provide it in millimeters?"
+    },
+    "missing_stage": {
+     "row_id": "5aa35fba-1130-4311-83f9-260d082b47ab",
+     "generation": "Which growth stage is your Sesame in? (initial / mid-season / late-season) — this affects water needs."
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+  "test_questions": {
+    "en": "My Brinjal field is at the late-season stage. Today ET0 is 7.9 mm, it rained 25.3 mm, and the field is 4.1 acre. How much irrigation water does it need today?",
+    "bn": "আমার বেগুন ক্ষেত শেষ-মৌসুম পর্যায়ে আছে। আজ ET0 ৭.৯ মিমি, বৃষ্টি হয়েছে ২৫.৩ মিমি, জমির পরিমাণ ৪.১ একর। আজ কত পানি সেচ দিতে হবে?"
+  },
+  "construction": "system=P then (user,assistant)×3 then user=test; if system rejected or dropped, P prepended to first user turn",
+  "models": {
+    "llama31_8b": {
+      "tokenizer_path": "v3/models/s5/llama31_8b_seed42/final_adapter",
+      "has_chat_template": true,
+      "languages": {
+        "en": {
+          "layout": "system+3_examples+user",
+          "system_role_supported": true,
+          "prompt_tokens": 1950,
+          "test_question_row_lang": "en",
+          "note": null
+        },
+        "bn": {
+          "layout": "system+3_examples+user",
+          "system_role_supported": true,
+          "prompt_tokens": 2058,
+          "test_question_row_lang": "bn",
+          "note": null
+        }
+      }
+    },
+    "mistral_nemo": {
+      "tokenizer_path": "v3/models/s5/mistral_nemo_seed42/final_adapter",
+      "has_chat_template": true,
+      "languages": {
+        "en": {
+          "layout": "system+3_examples+user",
+          "system_role_supported": true,
+          "prompt_tokens": 1864,
+          "test_question_row_lang": "en",
+          "note": null
+        },
+        "bn": {
+          "layout": "system+3_examples+user",
+          "system_role_supported": true,
+          "prompt_tokens": 1883,
+          "test_question_row_lang": "bn",
+          "note": null
+        }
+      }
+    },
+    "phi35_mini": {
+      "tokenizer_path": "v3/models/s5/phi35_mini_seed42/final_adapter",
+      "has_chat_template": true,
+      "languages": {
+        "en": {
+          "layout": "system+3_examples+user",
+          "system_role_supported": true,
+          "prompt_tokens": 2133,
+          "test_question_row_lang": "en",
+          "note": null
+        },
+        "bn": {
+          "layout": "system+3_examples+user",
+          "system_role_supported": true,
+          "prompt_tokens": 2248,
+          "test_question_row_lang": "bn",
+          "note": null
+        }
+      }
+    },
+    "phi4_mini": {
+      "tokenizer_path": "v3/models/s5/phi4_mini_seed42/final_adapter",
+      "has_chat_template": true,
+      "languages": {
+        "en": {
+          "layout": "system+3_examples+user",
+          "system_role_supported": true,
+          "prompt_tokens": 1676,
+          "test_question_row_lang": "en",
+          "note": null
+        },
+        "bn": {
+          "layout": "system+3_examples+user",
+          "system_role_supported": true,
+          "prompt_tokens": 1683,
+          "test_question_row_lang": "bn",
+          "note": null
+        }
+      }
+    }
+  }
+}

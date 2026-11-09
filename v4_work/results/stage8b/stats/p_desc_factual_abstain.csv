@@ -1,0 +1,17 @@
+test_id,model,arm,metric,n,rate_or_mean,ci_low,ci_high
+P_DESC,llama31_8b,llama31_8b_zeroshot_P,chrf_pp,114,15.174,13.531,17.007
+P_DESC,llama31_8b,llama31_8b_zeroshot_P,abstain_correct,34,0.5,0.3235,0.6765
+P_DESC,llama31_8b,llama31_8b_seed42_P,chrf_pp,114,13.331,9.736,17.329
+P_DESC,llama31_8b,llama31_8b_seed42_P,abstain_correct,34,1.0,1.0,1.0
+P_DESC,mistral_nemo,mistral_nemo_zeroshot_P,chrf_pp,114,14.158,12.174,16.294
+P_DESC,mistral_nemo,mistral_nemo_zeroshot_P,abstain_correct,34,0.6471,0.4706,0.7941
+P_DESC,mistral_nemo,mistral_nemo_seed42_P,chrf_pp,114,21.924,18.933,25.27
+P_DESC,mistral_nemo,mistral_nemo_seed42_P,abstain_correct,34,1.0,1.0,1.0
+P_DESC,phi35_mini,phi35_mini_zeroshot_P,chrf_pp,114,11.27,9.992,12.594
+P_DESC,phi35_mini,phi35_mini_zeroshot_P,abstain_correct,34,0.7059,0.5588,0.8529
+P_DESC,phi35_mini,phi35_mini_seed42_P,chrf_pp,114,6.687,5.381,8.051
+P_DESC,phi35_mini,phi35_mini_seed42_P,abstain_correct,34,1.0,1.0,1.0
+P_DESC,phi4_mini,phi4_mini_zeroshot_P,chrf_pp,114,13.462,11.968,15.017
+P_DESC,phi4_mini,phi4_mini_zeroshot_P,abstain_correct,34,0.5882,0.4118,0.7353
+P_DESC,phi4_mini,phi4_mini_seed42_P,chrf_pp,114,16.882,14.607,19.449
+P_DESC,phi4_mini,phi4_mini_seed42_P,abstain_correct,34,1.0,1.0,1.0

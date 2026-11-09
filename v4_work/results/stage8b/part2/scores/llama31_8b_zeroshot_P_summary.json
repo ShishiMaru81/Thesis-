@@ -1,0 +1,23 @@
+{
+  "arm": "llama31_8b_zeroshot_P",
+  "n_clarify_scored": 68,
+  "invented_value_n": 41,
+  "invented_value_rate": 60.3,
+  "clarify_exact_n": 13,
+  "clarify_exact_rate": 19.1,
+  "n_single_crop": 116,
+  "exact_0p1_n": 4,
+  "exact_0p1_rate": 3.4,
+  "n_numeric_all": 146,
+  "overask_n": 33,
+  "overask_rate": 22.6,
+  "clarify_score_keys": [
+    "clarify_exact",
+    "clarify_label",
+    "clarify_partial",
+    "clarify_score"
+  ],
+  "batch_size": 4,
+  "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+  "adapter_sha256": null
+}

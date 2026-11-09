@@ -1,0 +1,52 @@
+{
+  "test_hardened_sha_expected": "9314d18153ef1f41e6bfd64c70011a412ddbaf8c5ebf732a6e3da9ace3e26955",
+  "test_hardened_sha_got": "9314d18153ef1f41e6bfd64c70011a412ddbaf8c5ebf732a6e3da9ace3e26955",
+  "test_sha_ok": true,
+  "n_pending_human": 60,
+  "coverage": {
+    "llama31_8b_zeroshot": {
+      "n_preds": 422,
+      "pending_covered": 60,
+      "pending_missing": []
+    },
+    "mistral_nemo_zeroshot": {
+      "n_preds": 422,
+      "pending_covered": 60,
+      "pending_missing": []
+    },
+    "phi35_mini_zeroshot": {
+      "n_preds": 422,
+      "pending_covered": 60,
+      "pending_missing": []
+    },
+    "phi4_mini_zeroshot": {
+      "n_preds": 422,
+      "pending_covered": 60,
+      "pending_missing": []
+    },
+    "llama31_8b_seed42": {
+      "n_preds": 422,
+      "pending_covered": 60,
+      "pending_missing": []
+    },
+    "mistral_nemo_seed42": {
+      "n_preds": 422,
+      "pending_covered": 60,
+      "pending_missing": []
+    },
+    "phi35_mini_seed42": {
+      "n_preds": 422,
+      "pending_covered": 60,
+      "pending_missing": []
+    },
+    "phi4_mini_seed42": {
+      "n_preds": 422,
+      "pending_covered": 60,
+      "pending_missing": []
+    }
+  },
+  "all_pending_covered": true,
+  "check_freeze_exit": 0,
+  "check_freeze_ok": true,
+  "check_freeze_stdout": "FROZEN=D:\\Research Lab\\Thesis\\v3\nFREEZE_TIME=2026-09-25T22:15:00+06:00\nhits=0"
+}

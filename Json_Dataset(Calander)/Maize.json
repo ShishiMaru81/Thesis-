@@ -1,0 +1,426 @@
+{
+  "crop_name_bn": "ভুট্টা",
+  "crop_name_en": "Maize",
+  "source_document": "ফসল পঞ্জিকা - ভুট্টা; প্রযুক্তির সূত্র: বাংলাদেশ কৃষি গবেষণা ইনস্টিটিউট, গাজীপুর",
+  "source_image": "Screenshot_20260521_004943.png",
+  "source_image_sha256": "0b98f7925e47f6f9d005dbc11313f60ce98f9fbce9c4b7f5345c3de70ec0ccc4",
+  "extraction_timestamp": "2026-07-19T14:35:39.400777+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "ভুট্টা",
+      "value_en": "Maize",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-ভুট্টা",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "দানা জাতীয় ফসল",
+      "value_en": "Cereal crop",
+      "provenance": "derived",
+      "source_quote_bn": null,
+      "source": "Title"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "রবি মৌসুমে কার্তিকের ৩য় সপ্তাহ থেকে অগ্রহায়ণের ৩য় সপ্তাহ পর্যন্ত (মধ্য অক্টোবর হতে ডিসেম্বরের ১ম সপ্তাহ) এবং খরিপ-১ মৌসুমে ফাল্গুনের ১ম সপ্তাহ থেকে চৈত্রের ২য় সপ্তাহ পর্যন্ত (মধ্য ফেব্রুয়ারি থেকে মার্চের শেষ সপ্তাহ)",
+      "value_en": "Rabi season: Kartik to 3rd week of Agrahayan (mid-October to 1st week of December) and Kharif-1 season: 1st week of Falgun to 2nd week of Chaitra (mid-February to last week of March)",
+      "provenance": "explicit",
+      "source_quote_bn": "রবি মৌসুমে কার্তিকের ৩য় সপ্তাহ থেকে অগ্রহায়ণের ৩য় সপ্তাহ পর্যন্ত (মধ্য অক্টোবর হতে ডিসেম্বরের ১ম সপ্তাহ) এবং খরিপ-১ মৌসুমে ফাল্গুনের ১ম সপ্তাহ থেকে চৈত্রের ২য় সপ্তাহ পর্যন্ত (মধ্য ফেব্রুয়ারি থেকে মার্চের শেষ সপ্তাহ) বীজ বপনের জন্য উপযুক্ত সময়।",
+      "source": "বপন সময়"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 9,
+          "month_gregorian_bn": "অক্টোবর",
+          "month_gregorian_en": "October",
+          "bangla_span_bn": "মধ্য আশ্বিন - মধ্য কার্তিক",
+          "bangla_span_en": "mid-Ashwin to mid-Kartik",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "মধ্য কার্তিক - মধ্য অগ্রহায়ণ",
+          "bangla_span_en": "mid-Kartik to mid-Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "মধ্য অগ্রহায়ণ - মধ্য পৌষ",
+          "bangla_span_en": "mid-Agrahayon to mid-Poush",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মধ্য পৌষ - মধ্য মাঘ",
+          "bangla_span_en": "mid-Poush to mid-Magh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "মধ্য মাঘ - মধ্য ফাল্গুন",
+          "bangla_span_en": "mid-Magh to mid-Falgun",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "মধ্য ফাল্গুন - মধ্য চৈত্র",
+          "bangla_span_en": "mid-Falgun to mid-Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "মধ্য চৈত্র - মধ্য বৈশাখ",
+          "bangla_span_en": "mid-Chaitra to mid-Boishakh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "মধ্য বৈশাখ - মধ্য জ্যৈষ্ঠ",
+          "bangla_span_en": "mid-Boishakh to mid-Joishtho",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        }
+      ],
+      "provenance": "partial",
+      "note": "Weather classes are interpreted from explicit pictograms.",
+      "calendar_system_in_source": "gregorian",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": false,
+      "needs_reextraction": true,
+      "missing_months_gregorian": [
+        "জুন",
+        "জুলাই",
+        "আগস্ট",
+        "সেপ্টেম্বর"
+      ]
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value_bn": "রবি মৌসুমে বীজ বপনের ১৫-২০ দিন পর এবং খরিপ মৌসুমে বীজ গজানোর জন্য বপনের পর",
+      "value_en": "15-20 days after sowing in Rabi season, and after sowing for seed germination in Kharif season",
+      "provenance": "explicit",
+      "source_quote_bn": "রবি মৌসুমে বীজ বপনের ১৫-২০, ৩৫-৪০, ৬৫-৭০, ৯৫-১০০ দিন পর অর্থাৎ ৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময় সেচ দিতে হবে। খরিপ মৌসুমে সাধারণত সেচের প্রয়োজন হয় না। তবে বীজ গজানোর জন্য বপনের পর সেচ দিতে হয়।",
+      "source": "সেচ প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 15,
+          "max": 20,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 35,
+          "max": 40,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 65,
+          "max": 70,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 95,
+          "max": 100,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2",
+      "value_days_min": 15,
+      "value_days_max": 20,
+      "numeric_provenance": "parsed_from_source_quote",
+      "parser_confidence": "medium_earliest_of_several",
+      "needs_human_review": true,
+      "other_day_candidates": [
+        {
+          "min": 35,
+          "max": 40
+        },
+        {
+          "min": 65,
+          "max": 70
+        },
+        {
+          "min": 95,
+          "max": 100
+        }
+      ]
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "First irrigation type is not explicitly mentioned."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": null,
+      "condition_en": null,
+      "provenance": "absent",
+      "note": "The source gives days-after-sowing stages, not a recurring interval."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Irrigation method is not explicitly mentioned."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value_bn": "৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময়",
+      "value_en": "3-5 leaf stage, 8-10 leaf stage, before male flowering (tasseling), and grain filling stage in cob",
+      "provenance": "derived",
+      "source_quote_bn": "অর্থাৎ ৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময় সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in mm is not mentioned."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in cm is not mentioned."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "value_en": "Drainage must be arranged if there is excess rainfall.",
+      "provenance": "explicit",
+      "source_quote_bn": "অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water-retention modifier or mulching mentioned."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "রবি মৌসুমে ৪টি নির্দিষ্ট সময়ে সেচ দিতে হবে। খরিপ মৌসুমে সাধারণত সেচের প্রয়োজন হয় না, তবে বীজ গজানোর জন্য বপনের পর সেচ দিতে হয় এবং অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশন করতে হবে।",
+      "value_en": "In Rabi season, irrigation is required at 4 specific stages. In Kharif season, irrigation is generally not needed, but irrigation is required after sowing for seed germination, and drainage must be managed in case of excess rain.",
+      "provenance": "explicit",
+      "source_quote_bn": "রবি মৌসুমে বীজ বপনের ১৫-২০, ৩৫-৪০, ৬৫-৭০, ৯৫-১০০ দিন পর অর্থাৎ ৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময় সেচ দিতে হবে। খরিপ মৌসুমে সাধারণত সেচের প্রয়োজন হয় না। তবে বীজ গজানোর জন্য বপনের পর সেচ দিতে হয়। অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific establishment stage interval is mentioned."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value_bn": "রবি মৌসুমে: ১৫-২০ দিন পর (৩-৫ পাতা), ৩৫-৪০ দিন পর (৮-১০ পাতা), ৬৫-৭০ দিন পর (পুরুষ ফুল বের হওয়ার আগে), ৯৫-১০০ দিন পর (মোচায় দানার সময়)",
+      "value_en": "Rabi season: 15-20 days after (3-5 leaf stage), 35-40 days after (8-10 leaf stage), 65-70 days after (before male flowering), 95-100 days after (grain filling stage in cob)",
+      "provenance": "explicit",
+      "source_quote_bn": "রবি মৌসুমে বীজ বপনের ১৫-২০, ৩৫-৪০, ৬৫-৭০, ৯৫-১০০ দিন পর অর্থাৎ ৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময় সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 15,
+          "max": 20,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 35,
+          "max": 40,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 65,
+          "max": 70,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 95,
+          "max": 100,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No numeric rain threshold mentioned."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "রবি মৌসুমে বীজ বপনের ১৫-২০, ৩৫-৪০, ৬৫-৭০, ৯৫-১০০ দিন পর অর্থাৎ ৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময় সেচ দিতে হবে।",
+      "value_en": "In Rabi season, apply irrigation at 15-20, 35-40, 65-70, and 95-100 days after sowing (corresponding to 3-5 leaf, 8-10 leaf, before male flowering, and grain filling stages).",
+      "provenance": "derived",
+      "source_quote_bn": "রবি মৌসুমে বীজ বপনের ১৫-২০, ৩৫-৪০, ৬৫-৭০, ৯৫-১০০ দিন পর অর্থাৎ ৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময় সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": "খরিপ মৌসুমে সাধারণত সেচের প্রয়োজন হয় না। তবে বীজ গজানোর জন্য বপনের পর সেচ দিতে হয়। অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "value_en": "In Kharif season, irrigation is generally not required, but irrigation is applied after sowing for seed germination. Drainage must be arranged in case of excess rain.",
+      "provenance": "derived",
+      "source_quote_bn": "খরিপ মৌসুমে সাধারণত সেচের প্রয়োজন হয় না। তবে বীজ গজানোর জন্য বপনের পর সেচ দিতে হয়। অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_bn": "সেচ: বপনের ১৫-২০, ৩৫-৪০, ৬৫-৭০ ও ৯৫-১০০ দিন পর। রবি সার প্রয়োগ: বীজ গজানোর ৩০-৩৫ ও ৬০-৬৫ দিন পর। খরিফ সার প্রয়োগ: বীজ গজানোর ২০-২৫ ও ৪০-৪৫ দিন পর।",
+      "value_en": "Irrigation: 15-20, 35-40, 65-70 and 95-100 days after sowing. Rabi fertilizer: 30-35 and 60-65 days after germination. Kharif fertilizer: 20-25 and 40-45 days after germination.",
+      "provenance": "explicit",
+      "source_quote_bn": "রবি মৌসুমে বীজ বপনের ১৫-২০, ৩৫-৪০, ৬৫-৭০, ৯৫-১০০ দিন পর অর্থাৎ ৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময় সেচ দিতে হবে। ... রবি মৌসুমে বীজ গজানোর ৩০-৩৫ দিন পর (৮-১০ পাতার সময়) ... এবং ৬০-৬৫ দিন পর (গাছের মাথায় পুরুষ ফুল বের হওয়ার আগে) ... খরিপ মৌসুমে ভুট্টার জীবনকাল কিছুটা কম হওয়ায় বীজ গজানোর ২০-২৫ দিন পর ... এবং ৪০-৪৫ দিন পর ...",
+      "source": "সেচ প্রয়োগ ও সার প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 15,
+          "max": 20,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 35,
+          "max": 40,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 65,
+          "max": 70,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 95,
+          "max": 100,
+          "recurring": false,
+          "evidence": "15-20, 35-40, 65-70, 95-100 দিন"
+        },
+        {
+          "min": 30,
+          "max": 35,
+          "recurring": false,
+          "evidence": "30-35 দিন"
+        },
+        {
+          "min": 60,
+          "max": 65,
+          "recurring": false,
+          "evidence": "60-65 দিন"
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "recurring": false,
+          "evidence": "20-25 দিন"
+        },
+        {
+          "min": 40,
+          "max": 45,
+          "recurring": false,
+          "evidence": "40-45 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Maize is an annual crop; no tree-age-dependent irrigation is mentioned."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "মাটিতে ‘জো’ থাকা অবস্থায় চাষ ও মই দিয়ে জমি তৈরি করতে হবে। স্বল্প চাষ অথবা বিনা চাষেও ভুট্টা চাষ করা যায়।",
+      "value_en": "Land should be prepared by ploughing and laddering when the soil has 'jo' (optimum moisture condition). Maize can also be cultivated with minimum tillage or zero tillage.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "মাটিতে ‘জো’ থাকা অবস্থায় চাষ ও মই দিয়ে জমি তৈরি করতে হবে। স্বল্প চাষ অথবা বিনা চাষেও ভুট্টা চাষ করা যায়।",
+      "source": "জমি তৈরি"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptoms mentioned."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Maize",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Maize",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 8,
+      "derived": 4,
+      "partial": 1,
+      "absent": 11
+    },
+    "absent_fields_list": [
+      "6_প্রথম_সেচ_ধরন",
+      "7_সেচ_ব্যবধান_দিন",
+      "8_সেচ_পদ্ধতি",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 3,
+    "fields_needing_human_review": [
+      "5_প্রথম_সেচ_সময়"
+    ],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_004943.png",
+  "source_image_bytes": 201393,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.577532+00:00",
+    "source_file": "Maize.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 004943.png' -> 'Screenshot_20260521_004943.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value 0a62892dc5482f6e… with computed 0b98f7925e47f6f9…",
+      "month_wheel: only 8/12 months present; missing জুন, জুলাই, আগস্ট, সেপ্টেম্বর — FLAGGED, not fabricated",
+      "month_wheel: normalised gregorian -> gregorian index, bilingual span added (8 entries)",
+      "5_প্রথম_সেচ_সময়: backfilled 15-20 days (earliest of 4 non-recurring candidate(s), evidence: 15-20, 35-40, 65-70, 95-100 দিন)",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী: extracted 4 day value(s) into parsed_day_values",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 8 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 8, 'derived': 4, 'partial': 1, 'absent': 11}, 3 field(s) carry parsed numerics"
+    ]
+  }
+}

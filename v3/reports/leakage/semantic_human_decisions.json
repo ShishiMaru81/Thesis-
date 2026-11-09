@@ -1,0 +1,4 @@
+{
+  "_readme": "Add one entry per Detector-3 candidate pair_key. decision must be 'legitimate' or 'leakage'. A 'leakage' decision fails GATE 3 Detector 3.",
+  "decisions": {}
+}

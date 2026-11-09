@@ -1,0 +1,324 @@
+{
+  "crop_name_bn": "বেগুন",
+  "crop_name_en": "Brinjal",
+  "source_document": "ফসল পঞ্জিকা - বেগুন (BARC / AFACI)",
+  "source_image": "Brinjal.jpg",
+  "source_image_sha256": "c7ac8b19ef8dc224e56dd5f7ff895038343bc7c44dd9351fce3c58181a2bf089",
+  "extraction_timestamp": "2026-07-19T14:04:40.251641+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "বেগুন",
+      "value_en": "Brinjal",
+      "provenance": "explicit"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "সবজি ফসল",
+      "value_en": "Vegetable crop",
+      "provenance": "derived"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "ভাদ্র-আশ্বিন মাস (খরিফ-২ মৌসুম) এবং মাঘ মাস (রবি মৌসুম- মাদা চারা)",
+      "value_en": "Bhadra-Ashwin month (Kharif-2 season) and Magh month (Rabi season - seedling)",
+      "provenance": "explicit",
+      "source_quote_bn": "ভাদ্র-আশ্বিন মাস (খরিফ-২ মৌসুম) এবং মাঘ মাস (রবি মৌসুম- মাদা চারা)",
+      "source": "বপন"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "শ্রাবণ",
+          "bangla_span_en": "Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "ভাদ্র",
+          "bangla_span_en": "Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 8,
+          "month_gregorian_bn": "সেপ্টেম্বর",
+          "month_gregorian_en": "September",
+          "bangla_span_bn": "আশ্বিন",
+          "bangla_span_en": "Ashwin",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 9,
+          "month_gregorian_bn": "অক্টোবর",
+          "month_gregorian_en": "October",
+          "bangla_span_bn": "কার্তিক",
+          "bangla_span_en": "Kartik",
+          "class": "mixed",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "অগ্রহায়ণ",
+          "bangla_span_en": "Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "পৌষ",
+          "bangla_span_en": "Poush",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মাঘ",
+          "bangla_span_en": "Magh",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "ফাল্গুন",
+          "bangla_span_en": "Falgun",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "চৈত্র",
+          "bangla_span_en": "Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "বৈশাখ",
+          "bangla_span_en": "Boishakh",
+          "class": "mixed",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "জ্যৈষ্ঠ",
+          "bangla_span_en": "Joishtho",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "আষাঢ়",
+          "bangla_span_en": "Asharh",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        }
+      ],
+      "provenance": "explicit",
+      "calendar_system_in_source": "bangla",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": true,
+      "needs_reextraction": false
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value_days_min": 3,
+      "value_days_max": 4,
+      "timing_bn": "চারা রোপণের ৩-৪ দিন পর",
+      "timing_en": "3-4 days after transplanting",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা রোপণের ৩-৪ দিন পর হালকা সেচ ও পরবর্তীতে প্রতি কিস্তি সার প্রয়োগের পর জমিতে সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 3,
+          "max": 4,
+          "recurring": false,
+          "evidence": "3-4 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value_bn": "হালকা সেচ",
+      "value_en": "Light irrigation",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা রোপণের ৩-৪ দিন পর হালকা সেচ ও পরবর্তীতে প্রতি কিস্তি সার প্রয়োগের পর জমিতে সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "The 3-4 day value is first-irrigation timing, not a repeating irrigation interval. Later irrigation is event-based after each fertilizer installment."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state a specific irrigation method."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No critical irrigation growth stage is stated."
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state water depth in mm."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state water depth in cm for irrigation."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "note": "Not a tree crop, and no basin geometry specified for irrigation."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "বৃষ্টির অতিরিক্ত পানি দ্রুত নিষ্কাশনের জন্য ৩০-৪০ সেমি চওড়া নালার ব্যবস্থা রাখতে হবে।",
+      "value_en": "To quickly drain excess rainwater, arrangements for 30-40 cm wide channels must be kept.",
+      "provenance": "explicit",
+      "source_quote_bn": "বৃষ্টির অতিরিক্ত পানি দ্রুত নিষ্কাশনের জন্য ৩০-৪০ সেমি চওড়া নালার ব্যবস্থা রাখতে হবে।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "The calendar permits polythene or straw mulch on raised beds in saline areas but does not state a water-demand effect."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "চারা রোপণের ৩-৪ দিন পর হালকা সেচ দিতে হবে এবং পরবর্তীতে প্রতি কিস্তি সার প্রয়োগের পর সেচ দিতে হবে। গ্রীষ্ম ও শীত মৌসুমে জমির রসের উপর নির্ভর করে সেচের প্রয়োজন হয়। বর্ষা মৌসুমে প্রয়োজনবোধে সেচ দেওয়া যেতে পারে। অতিরিক্ত বৃষ্টির পানি দ্রুত নিষ্কাশনের জন্য ৩০-৪০ সেমি চওড়া নালা রাখতে হবে।",
+      "value_en": "Give a light irrigation 3-4 days after transplanting and irrigate after each subsequent fertilizer installment. In summer and winter, irrigation depends on soil moisture. During monsoon, irrigate if needed. Maintain 30-40 cm wide channels to drain excess rainwater quickly.",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা রোপণের ৩-৪ দিন পর হালকা সেচ ও পরবর্তীতে প্রতি কিস্তি সার প্রয়োগের পর জমিতে সেচ দিতে হবে। গ্রীষ্ম ও শীত মৌসুমে জমির রসের উপর নির্ভর করে সেচের প্রয়োজন হয়। বর্ষা মৌসুমে প্রয়োজনবোধে সেচ দেওয়া যেতে পারে। বৃষ্টির অতিরিক্ত পানি দ্রুত নিষ্কাশনের জন্য ৩০-৪০ সেমি চওড়া নালার ব্যবস্থা রাখতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state a specific irrigation interval for the establishment stage."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not provide a stage-specific irrigation schedule."
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state a numeric rain threshold for irrigation."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "গ্রীষ্ম ও শীত মৌসুমে জমির রসের উপর নির্ভর করে সেচের প্রয়োজন হয়।",
+      "value_en": "In summer and winter, irrigation is needed according to soil moisture.",
+      "provenance": "explicit",
+      "source_quote_bn": "গ্রীষ্ম ও শীত মৌসুমে জমির রসের উপর নির্ভর করে সেচের প্রয়োজন হয়।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": "বর্ষা মৌসুমে প্রয়োজনবোধে সেচ দেওয়া যেতে পারে।",
+      "value_en": "In monsoon season, irrigation can be given as needed.",
+      "provenance": "explicit",
+      "source_quote_bn": "বর্ষা মৌসুমে প্রয়োজনবোধে সেচ দেওয়া যেতে পারে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state growth stage day ranges."
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Age brackets are present in the fertilizer table but not in the irrigation section."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "মাটিতে জোঁ থাকা অবস্থায় ৪-৫ বার চাষ ও মই দিয়ে মাটি ঝুরঝুরে করে বেড তৈরি করতে হবে। লবণাক্ত এলাকায় উঁচু বেড তৈরি করে পলিথিন বা খড় মালচিং হিসেবে ব্যবহার করা যেতে পারে।",
+      "value_en": "While the soil has suitable moisture, plough and ladder it 4-5 times to make it friable and form beds. In saline areas, raised beds may be made and polythene or straw used as mulch.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "মাটিতে জোঁ থাকা অবস্থায় ৪-৫ বার চাষ ও মই দিয়ে মাটি ঝুরঝুরে করে নিতে হবে। জমি তৈরি হলে বেড তৈরি করতে হবে। লবণাক্ত এলাকার জন্য উঁচু বেড তৈরি করে এবং মালচিং হিসেবে পলিথিন বা খড় ব্যবহার করা যেতে পারে।",
+      "source": "মাটি ও জমি তৈরি"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptom is stated."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Brinjal",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Brinjal",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 10,
+      "derived": 1,
+      "absent": 13
+    },
+    "absent_fields_list": [
+      "7_সেচ_ব্যবধান_দিন",
+      "8_সেচ_পদ্ধতি",
+      "9_সংকটকাল_পর্যায়সমূহ",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 1,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Brinjal.jpg",
+  "source_image_bytes": 260586,
+  "extraction_model_reported": "gemini-2.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.547519+00:00",
+    "source_file": "Brinjal.json",
+    "changes": [
+      "sha256: replaced UNVERIFIABLE value 6968046d00325cef… with computed c7ac8b19ef8dc224…",
+      "month_wheel: normalised bangla -> gregorian index, bilingual span added (12 entries)",
+      "audit block recomputed: {'explicit': 10, 'derived': 1, 'absent': 13}, 1 field(s) carry parsed numerics"
+    ]
+  }
+}

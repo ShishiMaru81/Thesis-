@@ -1,0 +1,968 @@
+{
+  "stage": "GATE 1",
+  "generated_at": "2026-08-27T06:32:40.212662+00:00",
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.1,
+    "test": 0.2
+  },
+  "splitter": "sklearn.model_selection.GroupShuffleSplit",
+  "sklearn_version": "1.9.0",
+  "grouping_key": "source_id",
+  "input": "D:\\Research Lab\\Thesis\\v3\\data\\seed\\seed_corpus.jsonl",
+  "input_sha256": "459f5b878b4378c9c880ae224bd6d3f73dcd3d1ed5c9d6b249d5959a2e594e9b",
+  "input_rows": 902,
+  "input_groups": 451,
+  "table": [
+    {
+      "split": "train_seed",
+      "rows": 632,
+      "pct_of_total": 70.1,
+      "pct_bn": 50.0,
+      "pct_en": 50.0,
+      "pct_numeric": 18.7,
+      "pct_factual": 62.7,
+      "pct_abstain": 18.7,
+      "distinct_crops": 28,
+      "distinct_source_ids": 316
+    },
+    {
+      "split": "val",
+      "rows": 88,
+      "pct_of_total": 9.8,
+      "pct_bn": 50.0,
+      "pct_en": 50.0,
+      "pct_numeric": 18.2,
+      "pct_factual": 63.6,
+      "pct_abstain": 18.2,
+      "distinct_crops": 26,
+      "distinct_source_ids": 44
+    },
+    {
+      "split": "test",
+      "rows": 182,
+      "pct_of_total": 20.2,
+      "pct_bn": 50.0,
+      "pct_en": 50.0,
+      "pct_numeric": 18.7,
+      "pct_factual": 62.6,
+      "pct_abstain": 18.7,
+      "distinct_crops": 28,
+      "distinct_source_ids": 91
+    }
+  ],
+  "overlap_counts": {
+    "source_id": {
+      "train|val": 0,
+      "train|test": 0,
+      "val|test": 0
+    },
+    "fact_id": {
+      "train|val": 0,
+      "train|test": 0,
+      "val|test": 0
+    },
+    "scenario_hash": {
+      "train|val": 0,
+      "train|test": 0,
+      "val|test": 0
+    }
+  },
+  "overlap_examples": {
+    "source_id": {},
+    "fact_id": {},
+    "scenario_hash": {}
+  },
+  "zero_overlap": {
+    "source_id": true,
+    "fact_id": true,
+    "scenario_hash": true
+  },
+  "normalized_question_collisions_across_splits": {
+    "train|val": 0,
+    "train|test": 0,
+    "val|test": 0
+  },
+  "scenario_hash_moves": [],
+  "scenario_hash_moves_count": 0,
+  "allocation_log": [
+    {
+      "qtype": "abstain",
+      "crop": "Mungbean",
+      "n_groups": 3,
+      "random_state": 42,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Mango",
+      "n_groups": 3,
+      "random_state": 43,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Jackfruit",
+      "n_groups": 3,
+      "random_state": 44,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Pea",
+      "n_groups": 3,
+      "random_state": 45,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Wheat",
+      "n_groups": 3,
+      "random_state": 46,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Cotton",
+      "n_groups": 3,
+      "random_state": 47,
+      "train": 3,
+      "val": 0,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Coconut",
+      "n_groups": 3,
+      "random_state": 48,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Jujube",
+      "n_groups": 3,
+      "random_state": 49,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Litchi",
+      "n_groups": 3,
+      "random_state": 50,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Guava",
+      "n_groups": 3,
+      "random_state": 51,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Sugarcane",
+      "n_groups": 3,
+      "random_state": 52,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Jute",
+      "n_groups": 3,
+      "random_state": 53,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Mustard",
+      "n_groups": 3,
+      "random_state": 54,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Maize",
+      "n_groups": 3,
+      "random_state": 55,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Sweet Potato",
+      "n_groups": 3,
+      "random_state": 56,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Aus Rice",
+      "n_groups": 3,
+      "random_state": 57,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Lemon",
+      "n_groups": 3,
+      "random_state": 58,
+      "train": 3,
+      "val": 0,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Boro Rice",
+      "n_groups": 3,
+      "random_state": 59,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Mukhi Kachu",
+      "n_groups": 3,
+      "random_state": 60,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Turmeric",
+      "n_groups": 3,
+      "random_state": 61,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Brinjal",
+      "n_groups": 3,
+      "random_state": 62,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Potato",
+      "n_groups": 3,
+      "random_state": 63,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Ginger",
+      "n_groups": 3,
+      "random_state": 64,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Groundnut",
+      "n_groups": 3,
+      "random_state": 65,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Sesame",
+      "n_groups": 3,
+      "random_state": 66,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Aman Rice",
+      "n_groups": 3,
+      "random_state": 67,
+      "train": 3,
+      "val": 0,
+      "test": 0
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Bottle Gourd",
+      "n_groups": 3,
+      "random_state": 68,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "abstain",
+      "crop": "Onion",
+      "n_groups": 3,
+      "random_state": 69,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "factual",
+      "crop": "Mungbean",
+      "n_groups": 12,
+      "random_state": 70,
+      "train": 8,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "qtype": "factual",
+      "crop": "Mango",
+      "n_groups": 15,
+      "random_state": 71,
+      "train": 11,
+      "val": 2,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Jackfruit",
+      "n_groups": 10,
+      "random_state": 72,
+      "train": 7,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Pea",
+      "n_groups": 12,
+      "random_state": 73,
+      "train": 8,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "qtype": "factual",
+      "crop": "Wheat",
+      "n_groups": 8,
+      "random_state": 74,
+      "train": 6,
+      "val": 1,
+      "test": 1
+    },
+    {
+      "qtype": "factual",
+      "crop": "Cotton",
+      "n_groups": 12,
+      "random_state": 75,
+      "train": 8,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "qtype": "factual",
+      "crop": "Coconut",
+      "n_groups": 11,
+      "random_state": 76,
+      "train": 8,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Jujube",
+      "n_groups": 2,
+      "random_state": 77,
+      "train": 1,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "factual",
+      "crop": "Litchi",
+      "n_groups": 12,
+      "random_state": 78,
+      "train": 9,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Guava",
+      "n_groups": 10,
+      "random_state": 79,
+      "train": 7,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Sugarcane",
+      "n_groups": 12,
+      "random_state": 80,
+      "train": 8,
+      "val": 2,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Jute",
+      "n_groups": 4,
+      "random_state": 81,
+      "train": 3,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "factual",
+      "crop": "Mustard",
+      "n_groups": 12,
+      "random_state": 82,
+      "train": 8,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "qtype": "factual",
+      "crop": "Maize",
+      "n_groups": 10,
+      "random_state": 83,
+      "train": 7,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Sweet Potato",
+      "n_groups": 12,
+      "random_state": 84,
+      "train": 9,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Aus Rice",
+      "n_groups": 12,
+      "random_state": 85,
+      "train": 8,
+      "val": 2,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Lemon",
+      "n_groups": 11,
+      "random_state": 86,
+      "train": 8,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Boro Rice",
+      "n_groups": 9,
+      "random_state": 87,
+      "train": 6,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Mukhi Kachu",
+      "n_groups": 10,
+      "random_state": 88,
+      "train": 7,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Turmeric",
+      "n_groups": 8,
+      "random_state": 89,
+      "train": 6,
+      "val": 0,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Brinjal",
+      "n_groups": 9,
+      "random_state": 90,
+      "train": 6,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Potato",
+      "n_groups": 10,
+      "random_state": 91,
+      "train": 7,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Ginger",
+      "n_groups": 9,
+      "random_state": 92,
+      "train": 6,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Groundnut",
+      "n_groups": 10,
+      "random_state": 93,
+      "train": 7,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Sesame",
+      "n_groups": 10,
+      "random_state": 94,
+      "train": 7,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Aman Rice",
+      "n_groups": 7,
+      "random_state": 95,
+      "train": 5,
+      "val": 1,
+      "test": 1
+    },
+    {
+      "qtype": "factual",
+      "crop": "Bottle Gourd",
+      "n_groups": 10,
+      "random_state": 96,
+      "train": 7,
+      "val": 1,
+      "test": 2
+    },
+    {
+      "qtype": "factual",
+      "crop": "Onion",
+      "n_groups": 14,
+      "random_state": 97,
+      "train": 10,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Mungbean",
+      "n_groups": 3,
+      "random_state": 98,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Mango",
+      "n_groups": 3,
+      "random_state": 99,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Jackfruit",
+      "n_groups": 3,
+      "random_state": 100,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Pea",
+      "n_groups": 3,
+      "random_state": 101,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Wheat",
+      "n_groups": 3,
+      "random_state": 102,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Cotton",
+      "n_groups": 3,
+      "random_state": 103,
+      "train": 3,
+      "val": 0,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Coconut",
+      "n_groups": 3,
+      "random_state": 104,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Jujube",
+      "n_groups": 3,
+      "random_state": 105,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Litchi",
+      "n_groups": 3,
+      "random_state": 106,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Guava",
+      "n_groups": 3,
+      "random_state": 107,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Sugarcane",
+      "n_groups": 3,
+      "random_state": 108,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Jute",
+      "n_groups": 3,
+      "random_state": 109,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Mustard",
+      "n_groups": 3,
+      "random_state": 110,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Maize",
+      "n_groups": 3,
+      "random_state": 111,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Sweet Potato",
+      "n_groups": 3,
+      "random_state": 112,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Aus Rice",
+      "n_groups": 3,
+      "random_state": 113,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Lemon",
+      "n_groups": 3,
+      "random_state": 114,
+      "train": 3,
+      "val": 0,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Boro Rice",
+      "n_groups": 3,
+      "random_state": 115,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Mukhi Kachu",
+      "n_groups": 3,
+      "random_state": 116,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Turmeric",
+      "n_groups": 3,
+      "random_state": 117,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Brinjal",
+      "n_groups": 3,
+      "random_state": 118,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Potato",
+      "n_groups": 3,
+      "random_state": 119,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Ginger",
+      "n_groups": 3,
+      "random_state": 120,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Groundnut",
+      "n_groups": 3,
+      "random_state": 121,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Sesame",
+      "n_groups": 3,
+      "random_state": 122,
+      "train": 2,
+      "val": 1,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Aman Rice",
+      "n_groups": 3,
+      "random_state": 123,
+      "train": 3,
+      "val": 0,
+      "test": 0
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Bottle Gourd",
+      "n_groups": 3,
+      "random_state": 124,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    },
+    {
+      "qtype": "numeric_runtime",
+      "crop": "Onion",
+      "n_groups": 3,
+      "random_state": 125,
+      "train": 2,
+      "val": 0,
+      "test": 1
+    }
+  ],
+  "crops_per_split": {
+    "train": [
+      "Aman Rice",
+      "Aus Rice",
+      "Boro Rice",
+      "Bottle Gourd",
+      "Brinjal",
+      "Coconut",
+      "Cotton",
+      "Ginger",
+      "Groundnut",
+      "Guava",
+      "Jackfruit",
+      "Jujube",
+      "Jute",
+      "Lemon",
+      "Litchi",
+      "Maize",
+      "Mango",
+      "Mukhi Kachu",
+      "Mungbean",
+      "Mustard",
+      "Onion",
+      "Pea",
+      "Potato",
+      "Sesame",
+      "Sugarcane",
+      "Sweet Potato",
+      "Turmeric",
+      "Wheat"
+    ],
+    "val": [
+      "Aman Rice",
+      "Aus Rice",
+      "Boro Rice",
+      "Bottle Gourd",
+      "Brinjal",
+      "Coconut",
+      "Cotton",
+      "Ginger",
+      "Groundnut",
+      "Guava",
+      "Jackfruit",
+      "Jute",
+      "Lemon",
+      "Litchi",
+      "Maize",
+      "Mango",
+      "Mukhi Kachu",
+      "Mungbean",
+      "Mustard",
+      "Onion",
+      "Pea",
+      "Potato",
+      "Sesame",
+      "Sugarcane",
+      "Sweet Potato",
+      "Wheat"
+    ],
+    "test": [
+      "Aman Rice",
+      "Aus Rice",
+      "Boro Rice",
+      "Bottle Gourd",
+      "Brinjal",
+      "Coconut",
+      "Cotton",
+      "Ginger",
+      "Groundnut",
+      "Guava",
+      "Jackfruit",
+      "Jujube",
+      "Jute",
+      "Lemon",
+      "Litchi",
+      "Maize",
+      "Mango",
+      "Mukhi Kachu",
+      "Mungbean",
+      "Mustard",
+      "Onion",
+      "Pea",
+      "Potato",
+      "Sesame",
+      "Sugarcane",
+      "Sweet Potato",
+      "Turmeric",
+      "Wheat"
+    ]
+  },
+  "crops_absent_from_test": [],
+  "test_sha256": "ad90633b6c26a3f3402b13c122fb232c79d1ded5098d93db10f59bba0e887a11",
+  "files": {
+    "train": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\train_seed.jsonl",
+    "val": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\val.jsonl",
+    "test": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\test.jsonl",
+    "test_sha256_file": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\test.sha256",
+    "split_assignment": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\split_assignment.csv"
+  },
+  "preflight_lexical_summary": {
+    "test": {
+      "n_held_out": 182,
+      "n_at_or_above_threshold": 140,
+      "pct_at_or_above_threshold": 76.92,
+      "max": 0.9512,
+      "mean": 0.6854,
+      "median": 0.6978,
+      "p90": 0.849,
+      "n_identical_after_normalization": 0
+    },
+    "val": {
+      "n_held_out": 88,
+      "n_at_or_above_threshold": 73,
+      "pct_at_or_above_threshold": 82.95,
+      "max": 0.9512,
+      "mean": 0.7158,
+      "median": 0.7389,
+      "p90": 0.8467,
+      "n_identical_after_normalization": 0
+    }
+  }
+}

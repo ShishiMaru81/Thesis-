@@ -1,0 +1,264 @@
+[
+  {
+    "model": "llama31_8b",
+    "arm": "llama31_8b_zeroshot",
+    "row_id": "8cf54451-3228-4758-9da1-bb8f38bc6834",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 394,
+    "generation_snippet": "To determine how much water your potato field needs, we need to calculate the water deficit. \n\nFirst, let's calculate the water deficit:\n\nET0 (evapotranspiration rate) is 5.0 mm, and it rained 6.6 mm. Since the rain is more than the ET0, the field is not water deficient. However, to be safe, we can calculate the water deficit.\n\nWater deficit = ET0 - Rainfall\nWater deficit = 5.0 mm - 6.6 mm\nWater d…"
+  },
+  {
+    "model": "llama31_8b",
+    "arm": "llama31_8b_zeroshot",
+    "row_id": "42976460-eb51-4d64-955d-73b3c6e25141",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 234,
+    "generation_snippet": "To determine how much water to give to your field, we need to calculate the water deficit. \n\nFirst, let's calculate the evapotranspiration (ET) for your field. ET0 is the reference evapotranspiration, which is 3.8 mm. \n\nSince it rained 7.6 mm, we need to calculate the water deficit. To do this, we need to know the crop coefficient (Kc) for your specific crop. However, since you didn't provide this…"
+  },
+  {
+    "model": "llama31_8b",
+    "arm": "llama31_8b_zeroshot",
+    "row_id": "8e937d50-d08e-43eb-a791-843e30b103e4",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 279,
+    "generation_snippet": "To determine how much water your juube field needs, we need to calculate the water deficit. \n\nFirst, let's calculate the evapotranspiration (ET) for your field. ET0 is the reference evapotranspiration, which is 7.2 mm. \n\nSince it rained 8.4 mm, we need to calculate the water deficit. To do this, we need to know the crop coefficient (Kc) for juube. However, I couldn't find the Kc value for juube. \n…"
+  },
+  {
+    "model": "llama31_8b",
+    "arm": "llama31_8b_zeroshot",
+    "row_id": "e1663cfa-3503-427b-b445-bb7cfe27ea38",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum",
+      "not provided"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 512,
+    "generation_snippet": "To determine how much water your pulse crop field needs, we need to calculate the water deficit. \n\nFirst, let's calculate the evapotranspiration (ET) for the field. ET0 is the reference evapotranspiration, which is 7.2 mm. \n\nSince it rained 9.1 mm, we need to calculate the water deficit. To do this, we need to know the crop coefficient (Kc) for pulse crops at the late-season stage. However, the cr…"
+  },
+  {
+    "model": "llama31_8b",
+    "arm": "llama31_8b_zeroshot",
+    "row_id": "c284ea77-cba0-4c41-983d-29ef50ca8210",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 271,
+    "generation_snippet": "To determine how much water your mustard bean field needs, we need to calculate the water deficit. \n\nFirst, let's calculate the evapotranspiration (ET) for your field. ET0 is the reference evapotranspiration, which is 5.2 mm. \n\nSince it rained 11.5 mm, we need to calculate the water deficit. To do this, we need to know the crop coefficient (Kc) for mustard beans at the mid-season stage. However, I…"
+  },
+  {
+    "model": "mistral_nemo",
+    "arm": "mistral_nemo_zeroshot",
+    "row_id": "8bf20780-3cf0-4c4e-9bf9-e6001fccdb0e",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum",
+      "not provided"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 512,
+    "generation_snippet": "To determine how much water you should give to your paddy field, we need to calculate the irrigation requirement based on the evapotranspiration (ET0) rate, the rainfall received, and the size of your field.\n\nFirst, let's convert the size of your field from acres to square meters, as the ET0 rate is given in millimeters per day and we want to calculate the water requirement in cubic meters.\n\n1 acr…"
+  },
+  {
+    "model": "mistral_nemo",
+    "arm": "mistral_nemo_zeroshot",
+    "row_id": "c284ea77-cba0-4c41-983d-29ef50ca8210",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 354,
+    "generation_snippet": "To determine how much water you should give to your mustard bean field, we need to calculate the net water requirement after accounting for the effective rainfall. Here's how to do it:\n\n1. **Calculate the effective rainfall**: Subtract the evapotranspiration (ET0) from the rainfall to find out how much water was effectively added to the soil.\n   Effective rainfall = Rainfall - ET0\n   Effective rai…"
+  },
+  {
+    "model": "mistral_nemo",
+    "arm": "mistral_nemo_zeroshot",
+    "row_id": "085dd6b2-2519-40f9-8db5-4d141c80353c",
+    "lang": "bn",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 196,
+    "generation_snippet": "To calculate the amount of water to apply to your paddy field, we need to determine the irrigation requirement. The irrigation requirement is the difference between the evapotranspiration (ET0) and the effective rainfall (rainfall minus runoff).\n\nGiven:\n- ET0 (evapotranspiration) = 5.2 mm\n- Rainfall = 1.8 mm\n- Runoff (assuming no runoff for this calculation) = 0 mm\n- Effective rainfall = Rainfall …"
+  },
+  {
+    "model": "mistral_nemo",
+    "arm": "mistral_nemo_zeroshot",
+    "row_id": "b55f947a-ce64-494d-afc7-147678288113",
+    "lang": "bn",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 431,
+    "generation_snippet": "To calculate the amount of water to be applied, we need to determine the crop water requirement (CWR) and then adjust it based on the effective rainfall (ER) and the available water (AW) in the soil profile.\n\nFirst, let's calculate the crop water requirement (CWR) using the ET0 value provided:\n\nCWR = ET0 * Kc * IAI\nwhere:\n- ET0 is the reference evapotranspiration (4.6 mm/day)\n- Kc is the crop coef…"
+  },
+  {
+    "model": "mistral_nemo",
+    "arm": "mistral_nemo_zeroshot",
+    "row_id": "c5792e55-ecec-4413-a67d-371cc4794cac",
+    "lang": "bn",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 338,
+    "generation_snippet": "To calculate the amount of water to be applied, we need to determine the water deficit in the crop field. The water deficit can be calculated by subtracting the effective rainfall (rainfall minus initial soil moisture) from the crop water requirement (ET0).\n\nGiven:\n- ET0 (Crop water requirement) = 6.1 mm/day\n- Rainfall = 7.3 mm/day\n- Crop water requirement (ET0) = 6.1 mm/day\n- Initial soil moistur…"
+  },
+  {
+    "model": "phi35_mini",
+    "arm": "phi35_mini_zeroshot",
+    "row_id": "8bf20780-3cf0-4c4e-9bf9-e6001fccdb0e",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 415,
+    "generation_snippet": "To calculate the amount of water needed for irrigation, you can use the following simplified method:\n\n1. Calculate the effective rainfall by subtracting the actual rainfall from the potential evapotranspiration (ET0). This gives you the deficit that needs to be compensated for.\n\nET0 (potential evapotranspiration) = 5.6 mm\nRainfall = 0.5 mm\nDeficit = ET0 - Rainfall = 5.6 mm - 0.5 mm = 5.1 mm\n\n2. Co…"
+  },
+  {
+    "model": "phi35_mini",
+    "arm": "phi35_mini_zeroshot",
+    "row_id": "f7772b7c-71c9-44ed-8cc0-5ce0c9ea2ca3",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 0,
+    "gen_tokens": 512,
+    "generation_snippet": "To calculate the amount of irrigation water needed, you can use the following steps:\n\n1. Calculate the effective rainfall by subtracting the ET0 (reference evapotranspiration) from the actual rainfall:\n   Effective rainfall = Rainfall - ET0\n   Effective rainfall = 10.3 mm - 5.1 mm\n   Effective rainfall = 5.2 mm\n\n2. Convert the effective rainfall from millimeters to acre-inches, as irrigation water…"
+  },
+  {
+    "model": "phi35_mini",
+    "arm": "phi35_mini_zeroshot",
+    "row_id": "f7820efc-ae78-454d-be74-82b3ab919d37",
+    "lang": "en",
+    "category": "missing_parameter",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 512,
+    "generation_snippet": "To calculate the amount of irrigation water needed for your Boro rice field, we need to consider several factors, including the crop'aine water requirement, the stage of growth, the soil type, the weather conditions, and the efficiency of the irrigation system.\n\nBoro rice typically requires about 500 to 700 mm of water during its growing season, which includes both rainfall and irrigation. Since y…"
+  },
+  {
+    "model": "phi35_mini",
+    "arm": "phi35_mini_zeroshot",
+    "row_id": "b24c5249-cd32-4e7e-8229-807ab114ebc3",
+    "lang": "en",
+    "category": "missing_parameter",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 512,
+    "generation_snippet": "To determine how much irrigation water is needed for your wheat field, we need to consider several factors, including the type of wheat, the stage of growth, the soil type, the current soil moisture content, and the expected evapotranspiration (ET) for the late-season stage. The amount of rain that fell (0.03 mm) is quite minimal and unlikely to significantly impact the soil moisture levels for a …"
+  },
+  {
+    "model": "phi35_mini",
+    "arm": "phi35_mini_zeroshot",
+    "row_id": "a40c7d5d-e7db-4351-9c32-83f6ef986f70",
+    "lang": "en",
+    "category": "missing_parameter",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 511,
+    "generation_snippet": "To calculate the amount of irrigation water needed, we need to know the crop's evapotranspiration (ETc) rate, which is the amount of water that the crop would transpire and evaporate under ideal conditions. ET0 (reference evapotranspiration) is a measure of the evaporation from a reference surface (usually grass or alfalfa) and does not directly account for crop type or stage.\n\nSince you've provid…"
+  },
+  {
+    "model": "phi4_mini",
+    "arm": "phi4_mini_zeroshot",
+    "row_id": "8bf20780-3cf0-4c4e-9bf9-e6001fccdb0e",
+    "lang": "en",
+    "category": "misspelled_crop",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 275,
+    "generation_snippet": "To determine the amount of water you need to apply to your paddy field, you can use the following formula:\n\nWater to apply (mm) = ET0 - Rainfall + Runoff\n\nIn this case, the ET0 (Evapotranspiration) is 5.6 mm, the rainfall is 0.5 mm, and we will assume that there is no significant runoff for simplicity.\n\nWater to apply (mm) = 5.6 mm - 0.5 mm = 5.1 mm\n\nNow, to convert this to the volume of water nee…"
+  },
+  {
+    "model": "phi4_mini",
+    "arm": "phi4_mini_zeroshot",
+    "row_id": "c6d1cb03-56c9-4bd5-8c6c-1ff374e10b87",
+    "lang": "en",
+    "category": "missing_parameter",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 512,
+    "generation_snippet": "To determine the amount of irrigation water needed for your jute field, we need to consider the water requirements of jute plants and the current moisture level of the field. Jute plants typically require a certain amount of water to grow, but the exact amount can vary based on the growth stage, weather conditions, and soil type.\n\nSince it rained 1.13 mm today, we need to assess whether this rainf…"
+  },
+  {
+    "model": "phi4_mini",
+    "arm": "phi4_mini_zeroshot",
+    "row_id": "f7820efc-ae78-454d-be74-82b3ab919d37",
+    "lang": "en",
+    "category": "missing_parameter",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 385,
+    "generation_snippet": "To determine the amount of irrigation water needed for your Boro rice field, we need to consider the water requirements of the crop and the contribution of today's rainfall.\n\n1. **Water Requirement of Boro Rice:**\n   Boro rice typically requires about 500-600 mm of water during its growth period, depending on the specific growth stage and local conditions.\n\n2. **Rainfall Contribution:**\n   Today's…"
+  },
+  {
+    "model": "phi4_mini",
+    "arm": "phi4_mini_zeroshot",
+    "row_id": "df5ecae4-87e3-4a74-8e8b-912646aa474e",
+    "lang": "en",
+    "category": "missing_parameter",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 398,
+    "generation_snippet": "To determine the irrigation water requirement for your brinjal field, we need to consider several factors, including the crop type, growth stage, and local evapotranspiration (ET) rates. Brinjal (eggplant) at the mid-season stage typically requires a certain amount of water to maintain optimal growth and yield.\n\nGiven the following information:\n- Current ET0 (reference evapotranspiration) is 7.7 m…"
+  },
+  {
+    "model": "phi4_mini",
+    "arm": "phi4_mini_zeroshot",
+    "row_id": "03116b9c-36cc-4384-9de3-76cef3a83857",
+    "lang": "en",
+    "category": "missing_parameter",
+    "markers_hit": [
+      "assum"
+    ],
+    "invented_value": 1,
+    "gen_tokens": 317,
+    "generation_snippet": "To determine the amount of irrigation water needed for your jackfruit field today, we need to consider the evapotranspiration (ET) and the rainfall received. The ET0 (reference evapotranspiration) is given as 4.5 mm, and the rainfall is 3.38 mm.\n\nFirst, we calculate the net ET (ETc) by subtracting the rainfall from the ET0:\n\nETc = ET0 - Rainfall\nETc = 4.5 mm - 3.38 mm\nETc = 1.12 mm\n\nNow, we need t…"
+  }
+]

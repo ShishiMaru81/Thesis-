@@ -1,0 +1,87 @@
+{
+  "n_items": 100,
+  "n_annotators": 5,
+  "annotators": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+  ],
+  "coefficients": {
+    "fleiss_kappa_nominal_1to5": {
+      "estimate": 0.3922842990673216,
+      "ci_low": 0.3211850144938034,
+      "ci_high": 0.4547953344964208,
+      "package_estimate": 0.3922842990673216,
+      "package_vs_own_agree_3dp": true,
+      "audit_value": 0.392,
+      "audit_abs_diff": 0.0002842990673215806,
+      "audit_within_0.005": true
+    },
+    "kripp_alpha_ordinal": {
+      "estimate": 0.7206841777262019,
+      "ci_low": 0.6348909012821732,
+      "ci_high": 0.7868487836303543,
+      "package_estimate": 0.7206841777262019,
+      "package_vs_own_agree_3dp": true,
+      "audit_value": 0.721,
+      "audit_abs_diff": 0.00031582227379811645,
+      "audit_within_0.005": true
+    },
+    "kripp_alpha_interval": {
+      "estimate": 0.7457499068809692,
+      "ci_low": 0.6703974438583693,
+      "ci_high": 0.8057814552299916,
+      "package_estimate": 0.7457499068809692,
+      "package_vs_own_agree_3dp": true
+    },
+    "fleiss_kappa_bad_mid_good": {
+      "estimate": 0.5607246615835478,
+      "ci_low": 0.48249277269840535,
+      "ci_high": 0.6325930722423854,
+      "package_estimate": 0.5607246615835478,
+      "package_vs_own_agree_3dp": true
+    },
+    "fleiss_kappa_farmer": {
+      "estimate": 0.6474155560256678,
+      "ci_low": 0.5418062275081714,
+      "ci_high": 0.7403178497421191,
+      "package_estimate": 0.6474155560256678,
+      "package_vs_own_agree_3dp": true,
+      "audit_value": 0.647,
+      "audit_abs_diff": 0.0004155560256677848,
+      "audit_within_0.005": true
+    },
+    "kripp_alpha_farmer_nominal": {
+      "estimate": 0.6481207249136168,
+      "ci_low": 0.5427226150531548,
+      "ci_high": 0.7408372140426346,
+      "package_estimate": 0.6481207249136168,
+      "package_vs_own_agree_3dp": true
+    }
+  },
+  "leave_one_annotator_out_alpha_ordinal": {
+    "A1": {
+      "alpha_ordinal_without": 0.781005948066998,
+      "package": 0.781005948066998
+    },
+    "A2": {
+      "alpha_ordinal_without": 0.6848642066673637,
+      "package": 0.6848642066673637
+    },
+    "A3": {
+      "alpha_ordinal_without": 0.7291341160149425,
+      "package": 0.7291341160149425
+    },
+    "A4": {
+      "alpha_ordinal_without": 0.7159807102808435,
+      "package": 0.7159807102808435
+    },
+    "A5": {
+      "alpha_ordinal_without": 0.6870663772501419,
+      "package": 0.6870663772501417
+    }
+  },
+  "decision": "Primary human measures: would_give_farmer (kappa 0.647) and ordinal Krippendorff alpha (0.721). Nominal kappa on the 1-5 scale (0.392) is reported for completeness; it treats a 4-vs-5 disagreement as a full disagreement and so understates agreement on an ordinal scale."
+}

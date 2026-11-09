@@ -1,0 +1,311 @@
+{
+  "crop_name_bn": "বোরো ধান",
+  "crop_name_en": "Boro Rice",
+  "source_document": "ফসল পঞ্জিকা - বোরো ধান (BARC / AFACI)",
+  "source_image": "Screenshot_20260521_004838.png",
+  "source_image_sha256": "ac2f317557e4d76a5a44d92558b3748ba8c5b452691f7a4ec838b183a0aa0f2e",
+  "extraction_timestamp": "2026-07-19T14:33:01.080909+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "বোরো ধান",
+      "value_en": "Boro Rice",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-বোরো ধান",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Field missing from model output; filled as absent by validator."
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "অগ্রহায়ণ মাসের শুরুতে (মধ্য নভেম্বর)",
+      "value_en": "Beginning of Agrahayan month (mid-November)",
+      "provenance": "explicit",
+      "source_quote_bn": "১৫০ দিন বা কম জীবনকাল জাতের অঙ্কুরিত বীজ অগ্রহায়ণ মাসের শুরুতে বপন করতে হবে (মধ্য নভেম্বর)।",
+      "source": "বীজতলা তৈরি ও বীজ বপন"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "অগ্রহায়ণ",
+          "bangla_span_en": "Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "পৌষ",
+          "bangla_span_en": "Poush",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মাঘ",
+          "bangla_span_en": "Magh",
+          "class": "mixed",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "ফাল্গুন",
+          "bangla_span_en": "Falgun",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "চৈত্র",
+          "bangla_span_en": "Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "বৈশাখ",
+          "bangla_span_en": "Boishakh",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "জ্যৈষ্ঠ",
+          "bangla_span_en": "Joishtho",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        }
+      ],
+      "provenance": "partial",
+      "calendar_system_in_source": "bangla",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": false,
+      "needs_reextraction": true,
+      "missing_months_gregorian": [
+        "জুন",
+        "জুলাই",
+        "আগস্ট",
+        "সেপ্টেম্বর",
+        "অক্টোবর"
+      ]
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No explicit first irrigation timing is stated in the irrigation section."
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No explicit first irrigation type is stated."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": "প্রয়োজন অনুযায়ী পুনরায় সেচ দিতে হবে",
+      "condition_en": "Re-irrigate as needed",
+      "provenance": "explicit",
+      "source_quote_bn": "প্রয়োজন অনুযায়ী পুনরায় সেচ দিতে হবে তবে দানা শক্ত হওয়ার পর আর সেচ প্রদানের প্রয়োজন নাই।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value_bn": "ছিপছিপে পানি রাখা",
+      "value_en": "Maintaining thin standing water",
+      "provenance": "explicit",
+      "source_quote_bn": "ধানের চারা রোপণের পর জমিতে ১০-১২ দিন পর্যন্ত ছিপছিপে পানি রাখতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value_bn": "চারা রোপণের পর থেকে দানা শক্ত হওয়া পর্যন্ত",
+      "value_en": "From seedling transplanting until grain hardening",
+      "provenance": "derived",
+      "source_quote_bn": "ধানের চারা রোপণের পর জমিতে ১০-১২ দিন পর্যন্ত ছিপছিপে পানি রাখতে হবে। প্রয়োজন অনুযায়ী পুনরায় সেচ দিতে হবে তবে দানা শক্ত হওয়ার পর আর সেচ প্রদানের প্রয়োজন নাই।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth is specified in centimeters, not millimeters."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value_cm_min": 2,
+      "value_cm_max": 3,
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে সব সময় প্রয়োজনীয় ২-৩ সেন্টিমিটার পানি রাখতে হবে।",
+      "source": "গুটি ইউরিয়া ব্যবহার"
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value": null,
+      "provenance": "absent",
+      "note": "The grain-hardening instruction is an irrigation stopping rule, not drainage."
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Weed-management timing does not state a water-demand modification."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "The source gives a stage-based schedule, not a seasonal condition."
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Ten to twelve days is ponding duration, not an irrigation interval."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value_bn": "১. চারা রোপণের পর ১০-১২ দিন ছিপছিপে পানি রাখা। ২. পরে প্রয়োজন অনুযায়ী পুনরায় সেচ। ৩. দানা শক্ত হওয়ার পর সেচ বন্ধ।",
+      "value_en": "1. Keep thin standing water for 10-12 days after transplanting. 2. Re-irrigate later as needed. 3. Stop irrigation after grain hardening.",
+      "provenance": "derived",
+      "source_quote_bn": "ধানের চারা রোপণের পর জমিতে ১০-১২ দিন পর্যন্ত ছিপছিপে পানি রাখতে হবে। প্রয়োজন অনুযায়ী পুনরায় সেচ দিতে হবে তবে দানা শক্ত হওয়ার পর আর সেচ প্রদানের প্রয়োজন নাই।",
+      "source": "সেচ প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 10,
+          "max": 12,
+          "recurring": false,
+          "evidence": "10-12 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No numeric rain threshold is stated."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "ধানের চারা রোপণের পর জমিতে ১০-১২ দিন পর্যন্ত ছিপছিপে পানি রাখতে হবে। প্রয়োজন অনুযায়ী পুনরায় সেচ দিতে হবে তবে দানা শক্ত হওয়ার পর আর সেচ প্রদানের প্রয়োজন নাই।",
+      "value_en": "After transplanting rice seedlings, thin standing water should be kept in the field for up to 10-12 days. Re-irrigate as needed, but no irrigation is required after the grain hardens.",
+      "provenance": "derived",
+      "source_quote_bn": "ধানের চারা রোপণের পর জমিতে ১০-১২ দিন পর্যন্ত ছিপছিপে পানি রাখতে হবে। প্রয়োজন অনুযায়ী পুনরায় সেচ দিতে হবে তবে দানা শক্ত হওয়ার পর আর সেচ প্রদানের প্রয়োজন নাই।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Boro is a dry-season crop; no monsoon strategy is stated."
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_bn": "চারা রোপণের বয়স: ৩৫-৪৫ দিন; আগাছা দমন: চারা রোপণের পর ৪০-৫০ দিন",
+      "value_en": "Seedling age for transplanting: 35-45 days; Weeding: 40-50 days after transplanting",
+      "provenance": "explicit",
+      "source_quote_bn": "৩৫-৪৫ দিন বয়সের চারা সারিতে রোপণ করতে হবে। জমি সবসময় আগাছামুক্ত রাখা। তবে চারা রোপণের পর ৪০-৫০ দিন জমিতে আগাছা দমন অবশ্যই করণীয়।",
+      "source": "চারা রোপণের নিয়ম / আগাছা দমন",
+      "parsed_day_values": [
+        {
+          "min": 35,
+          "max": 45,
+          "recurring": false,
+          "evidence": "35-45 দিন"
+        },
+        {
+          "min": 40,
+          "max": 50,
+          "recurring": false,
+          "evidence": "40-50 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "This is a cereal crop; no tree-age brackets exist."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "মাটির প্রকারভেদে পানি যুক্ত জমিতে ৩-৪ টি চাষ ও মই দিতে হবে যেন মাটি থকথকে কাদাময় ও সমান হয়।",
+      "value_en": "Depending on soil type, give 3-4 ploughings and ladderings in a field with water so the soil becomes muddy and level.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "মাটির প্রকারভেদে পানি যুক্ত জমিতে ৩-৪ টি চাষ ও মই দিতে হবে যেন মাটি থকথকে কাদাময় ও সমান হয়।",
+      "source": "মূল জমি তৈরি"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptoms are stated."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Boro Rice",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Boro Rice",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 7,
+      "absent": 13,
+      "partial": 1,
+      "derived": 3
+    },
+    "absent_fields_list": [
+      "2_ফসলের_ধরন",
+      "5_প্রথম_সেচ_সময়",
+      "6_প্রথম_সেচ_ধরন",
+      "10_পানি_গভীরতা_মিমি",
+      "12_বেসিন_জ্যামিতি",
+      "13_নিষ্কাশন_নিয়ম",
+      "14_জল_চাহিদা_সংশোধক",
+      "15_মৌসুমী_শর্তাবলী",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "20_বর্ষা_ঋতু_কৌশল",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 2,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_004838.png",
+  "source_image_bytes": 221726,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.539823+00:00",
+    "source_file": "Boro_Rice.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 004838.png' -> 'Screenshot_20260521_004838.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value e2c536e76e97c663… with computed ac2f317557e4d76a…",
+      "month_wheel: only 7/12 months present; missing জুন, জুলাই, আগস্ট, সেপ্টেম্বর, অক্টোবর — FLAGGED, not fabricated",
+      "month_wheel: normalised bangla -> gregorian index, bilingual span added (7 entries)",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী: extracted 1 day value(s) into parsed_day_values",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 2 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 7, 'absent': 13, 'partial': 1, 'derived': 3}, 2 field(s) carry parsed numerics"
+    ]
+  }
+}

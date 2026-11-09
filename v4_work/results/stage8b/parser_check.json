@@ -1,0 +1,52 @@
+{
+  "scenario": {
+    "kc": 0.6,
+    "et0": 2.9,
+    "eff_rain": 0.26,
+    "net_mm": 1.48,
+    "area_sqm": 736,
+    "liters": 1089
+  },
+  "note": "Same calculation rendered four ways: EN gold, BN gold (Bengali digits), EN P template, BN P template.",
+  "extractions": [
+    {
+      "name": "en_gold",
+      "net_mm": 1.48,
+      "liters": 1089.0,
+      "kc": 0.6,
+      "et0_mm": 2.9,
+      "eff_rain_mm": 0.26,
+      "area_sqm": 736.0
+    },
+    {
+      "name": "bn_gold",
+      "net_mm": 1.48,
+      "liters": 1089.0,
+      "kc": 0.6,
+      "et0_mm": 2.9,
+      "eff_rain_mm": 0.26,
+      "area_sqm": 736.0
+    },
+    {
+      "name": "en_P_template",
+      "net_mm": 1.48,
+      "liters": 1089.0,
+      "kc": 0.6,
+      "et0_mm": 2.9,
+      "eff_rain_mm": 0.26,
+      "area_sqm": 736.0
+    },
+    {
+      "name": "bn_P_template",
+      "net_mm": 1.48,
+      "liters": 1089.0,
+      "kc": 0.6,
+      "et0_mm": 2.9,
+      "eff_rain_mm": 0.26,
+      "area_sqm": 736.0
+    }
+  ],
+  "all_four_agree_on_net_mm_and_liters": true,
+  "expected_net_mm": 1.48,
+  "expected_liters": 1089.0
+}

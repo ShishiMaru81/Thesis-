@@ -1,0 +1,65 @@
+{
+  "test_id": "O2",
+  "rows": [
+    {
+      "model": "llama31_8b",
+      "easy_n": 34,
+      "easy_abstain_n": 34,
+      "easy_abstain_pct": 100.0,
+      "hard_n": 40,
+      "hard_abstain_n": 32,
+      "hard_abstain_pct": 80.0,
+      "table_abstain_vs_not": {
+        "easy_abstain": 34,
+        "easy_not": 0,
+        "hard_abstain": 32,
+        "hard_not": 8
+      }
+    },
+    {
+      "model": "mistral_nemo",
+      "easy_n": 34,
+      "easy_abstain_n": 34,
+      "easy_abstain_pct": 100.0,
+      "hard_n": 40,
+      "hard_abstain_n": 32,
+      "hard_abstain_pct": 80.0,
+      "table_abstain_vs_not": {
+        "easy_abstain": 34,
+        "easy_not": 0,
+        "hard_abstain": 32,
+        "hard_not": 8
+      }
+    },
+    {
+      "model": "phi35_mini",
+      "easy_n": 34,
+      "easy_abstain_n": 34,
+      "easy_abstain_pct": 100.0,
+      "hard_n": 40,
+      "hard_abstain_n": 18,
+      "hard_abstain_pct": 45.0,
+      "table_abstain_vs_not": {
+        "easy_abstain": 34,
+        "easy_not": 0,
+        "hard_abstain": 18,
+        "hard_not": 22
+      }
+    },
+    {
+      "model": "phi4_mini",
+      "easy_n": 34,
+      "easy_abstain_n": 34,
+      "easy_abstain_pct": 100.0,
+      "hard_n": 40,
+      "hard_abstain_n": 24,
+      "hard_abstain_pct": 60.0,
+      "table_abstain_vs_not": {
+        "easy_abstain": 34,
+        "easy_not": 0,
+        "hard_abstain": 24,
+        "hard_not": 16
+      }
+    }
+  ]
+}

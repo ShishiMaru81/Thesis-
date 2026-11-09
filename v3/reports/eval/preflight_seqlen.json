@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-08-30T10:13:03.233471",
+  "corpus": "data/rendered/train.jsonl",
+  "rows": 3552,
+  "measurement": "len(apply_chat_template(prompt+completion, tokenize=True))",
+  "results": {
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "chat_template": true,
+      "max": 528,
+      "p50": 143,
+      "p99": 365,
+      "over_768": 0,
+      "over_768_pct": 0.0,
+      "over_1024": 0,
+      "over_1024_pct": 0.0
+    },
+    "mistralai/Mistral-Nemo-Instruct-2407": {
+      "chat_template": true,
+      "max": 201,
+      "p50": 122,
+      "p99": 162,
+      "over_768": 0,
+      "over_768_pct": 0.0,
+      "over_1024": 0,
+      "over_1024_pct": 0.0
+    },
+    "microsoft/Phi-3.5-mini-instruct": {
+      "chat_template": true,
+      "max": 515,
+      "p50": 134,
+      "p99": 390,
+      "over_768": 0,
+      "over_768_pct": 0.0,
+      "over_1024": 0,
+      "over_1024_pct": 0.0
+    },
+    "microsoft/Phi-4-mini-instruct": {
+      "chat_template": true,
+      "max": 160,
+      "p50": 110,
+      "p99": 145,
+      "over_768": 0,
+      "over_768_pct": 0.0,
+      "over_1024": 0,
+      "over_1024_pct": 0.0
+    }
+  },
+  "decisions": {
+    "meta-llama/Llama-3.1-8B-Instruct": "768",
+    "mistralai/Mistral-Nemo-Instruct-2407": "768",
+    "microsoft/Phi-3.5-mini-instruct": "768",
+    "microsoft/Phi-4-mini-instruct": "768"
+  },
+  "mistral_decision": "768",
+  "global_max_tokens": 528,
+  "all_models_fit_768": true,
+  "verdict": "PASS"
+}

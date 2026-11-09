@@ -1,0 +1,23 @@
+{
+  "arm": "mistral_nemo_zeroshot_P",
+  "n_clarify_scored": 68,
+  "invented_value_n": 63,
+  "invented_value_rate": 92.6,
+  "clarify_exact_n": 4,
+  "clarify_exact_rate": 5.9,
+  "n_single_crop": 116,
+  "exact_0p1_n": 21,
+  "exact_0p1_rate": 18.1,
+  "n_numeric_all": 146,
+  "overask_n": 10,
+  "overask_rate": 6.8,
+  "clarify_score_keys": [
+    "clarify_exact",
+    "clarify_label",
+    "clarify_partial",
+    "clarify_score"
+  ],
+  "batch_size": 4,
+  "base_model": "mistralai/Mistral-Nemo-Instruct-2407",
+  "adapter_sha256": null
+}

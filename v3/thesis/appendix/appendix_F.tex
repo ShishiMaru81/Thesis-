@@ -1,0 +1,27 @@
+\chapter{Detector Rules}
+\label{app:F}
+\label{app:detector}
+
+The post-hoc detector is implemented in \texttt{scripts/s6c\_postfix\_clarify\_detector.py} and applied only to the clarify-trained Llama predictions. It is an oracle-gated diagnostic. It reads gold labels, runs only on known-incomplete queries, and its rules were written with the test categories in view. The Stage 8 result---safe handling \DetLearnedPct\% $\rightarrow$ \DetCombinedPct\%, risk difference \SigAFiveDetectorDiff{} [\SigAFiveDetectorDiffLo, \SigAFiveDetectorDiffHi] percentage points, $b = \SigAFiveDetectorB$, $c = \SigAFiveDetectorC$---is an upper bound on what these surface rules catch in this test set, not a performance estimate.
+
+Scorable clarify rows: \TestClarify{} (\AdvMissingParamClarify{} missing-parameter, \AdvMisspelledClarify{} misspelled-crop, \AdvUnitAmbigClarify{} unit-ambiguity). The \TestExcludedConflict{} conflicting-value clarify rows are \texttt{pending\_human} and unscored.
+
+\begin{table}[tbp]
+\centering
+\footnotesize
+\caption{Detector rules as implemented, what each rule reads, and the test categories that informed it.}
+\label{tab:detector-rules}
+\begin{tabular}{lp{0.38\textwidth}lp{0.28\textwidth}}
+\toprule
+\# & Rule & Reads & Informed by \\
+\midrule
+1 & Run only when gold \texttt{qtype} is \texttt{clarify}; every other row has \texttt{detector\_flag} false. & gold qtype & All clarify categories. Makes $c = 0$ by construction. \\
+2 & \texttt{invented\_answer} if the response is classed as \texttt{answer} and matches a numeric-with-unit pattern (mm / liter / litre / l, or \bn{মিমি} / \bn{লিটার}). & generation & The worked-answer template always emits a depth and a volume. \\
+3a & A slot is missing if none of its keywords appears in the question: \texttt{et0\_mm}, \texttt{rainfall\_mm}, \texttt{area}, \texttt{stage} (English and Bengali lists in the script). & question & Training slots \texttt{missing\_rainfall}, \texttt{missing\_area}, \texttt{missing\_stage}. \texttt{missing\_et0} was added after the test rows were inspected; training never deleted $\mathrm{ET}_0$. \\
+3b & Flag if \texttt{invented\_answer} and (any slot missing by 3a \emph{or} gold category is missing-parameter, misspelled-crop, or unit-ambiguity). & gold category & Exactly the three scorable clarify categories. The or-branch flags every invented answer on those rows. \\
+4 & Correction text: ``Please provide: $\langle$slot$\rangle$'', with the slot taken from the gold subtype. & gold subtype & \texttt{ambiguous} $\rightarrow$ which crop; \texttt{unknown\_local\_unit} $\rightarrow$ field size and unit; \texttt{missing\_*} $\rightarrow$ the missing parameter. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+With rules 1 and 3b, every clarify row on which clarify-trained Llama still produced a numeric answer is flagged. The only unflagged unsafe rows are those the classifier did not call an answer, or that matched no unit pattern.

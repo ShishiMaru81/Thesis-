@@ -1,0 +1,20 @@
+{
+  "arm": "mistral_nemo_seed42_clarify",
+  "n_lora_modules": 560,
+  "wall_seconds": 414.3,
+  "peak_vram_gb": 12.783,
+  "batch_size": 16,
+  "max_new_tokens": 512,
+  "rows": 422,
+  "entry_gate": {
+    "manifest_verify": "skipped",
+    "test_sha256": "9314d18153ef1f41e6bfd64c70011a412ddbaf8c5ebf732a6e3da9ace3e26955",
+    "read_guard": [
+      "train.jsonl",
+      "train_augmented.jsonl",
+      "val.jsonl"
+    ],
+    "normalizer_version": "v3.1"
+  },
+  "timestamp": "2026-09-01T19:56:57.727356"
+}

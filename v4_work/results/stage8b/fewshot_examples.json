@@ -1,0 +1,48 @@
+{
+  "note": "Three training-only examples for prompt P. Verbatim question/answer from the named files. None of these row_ids is in test_hardened.jsonl. SHA of this file is not a plan freeze.",
+  "selection_rule": "First English seed numeric_runtime in train_augmented.jsonl; first English seed abstain in the same file; first Bengali missing_area (field size) row in s6b_clarify_train.jsonl whose parent is in train and not in test.",
+  "examples": [
+    {
+      "role": "complete_numeric",
+      "row_id": "046095e7-a986-4b41-ab0f-4833cab29e45",
+      "source": "v3/data/augmented/train_augmented.jsonl",
+      "qtype": "numeric_runtime",
+      "lang": "en",
+      "origin": "seed",
+      "crop": "Mungbean",
+      "in_test_hardened": false,
+      "question": "My Mungbean field is at the late-season stage. Today ET0 is 2.9 mm, it rained 0.3 mm, and the field is 0.55 bigha. How much irrigation water does it need today?",
+      "answer": "Net irrigation depth = Kc×ET0 − effective rainfall = 0.6×2.9 − 0.26 = 1.48 mm. For 0.55 bigha (736 m²), that is about 1089 liters today."
+    },
+    {
+      "role": "abstain",
+      "row_id": "03ac3561-9419-435c-9cdc-422f8c433c44",
+      "source": "v3/data/augmented/train_augmented.jsonl",
+      "qtype": "abstain",
+      "lang": "en",
+      "origin": "seed",
+      "crop": "Mango",
+      "in_test_hardened": false,
+      "question": "Which pesticide brand is cheapest for Mango?",
+      "answer": "The crop calendar does not specify this. I can only answer irrigation and cultivation questions grounded in the BARC calendar; please consult a market/soil source for this."
+    },
+    {
+      "role": "missing_input",
+      "row_id": "clarify_101",
+      "source": "v3/data/augmented/s6b_clarify_train.jsonl",
+      "qtype": "clarify",
+      "lang": "bn",
+      "origin": "s6b_clarify",
+      "crop": "Jujube",
+      "crop_bn": "কুল",
+      "subtype": "missing_area",
+      "missing_slot": "area_value",
+      "parent_row_id": "e5902f50-67e0-496f-b0a2-e0a9c07e560f",
+      "parent_in_train_augmented": true,
+      "parent_in_test_hardened": false,
+      "in_test_hardened": false,
+      "question": "আমার কুল ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে। আজ ET0 7.88 মিমি, বৃষ্টি হয়েছে 11.57 মিমি। আজ কত লিটার পানি সেচ দিতে হবে?",
+      "answer": "মোট পানির পরিমাণ হিসাব করতে জমির মাপ জানতে হবে। অনুগ্রহ করে জানান: একর, শতক, বিঘা, হেক্টর, নাকি বর্গমিটার?"
+    }
+  ]
+}

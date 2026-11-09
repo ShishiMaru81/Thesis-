@@ -1,0 +1,375 @@
+{
+  "stage": "8B",
+  "plan_version": 0,
+  "frozen": true,
+  "sha256": "34ae9b65ef3c1c07dce107adcdf038b8746c14be5de0176bbd9faabf528396a8",
+  "freeze_note": "Frozen 2026-09-26. prompt_sha256 and fewshot_sha256 are of those files. sha256 is of this plan with the sha256 field set to null (canonical JSON, ensure_ascii=False, indent=2, trailing newline). Do not edit; if a change is needed write plan_v1.json and log the reason.",
+  "written_before_any_p_value": true,
+  "date": "2026-09-26",
+  "seed": 42,
+  "n_bootstrap": 10000,
+  "context": "v4_work/docs/THESIS_MASTER_CONTEXT.md section 11",
+  "scoring": "Reuse v3/scripts/s6_eval.py classifiers and numeric metrics. No new gold text for the 60 pending_human rows. Class-level scoring only on those rows.",
+  "verdict_wording": "Non-significant results: 'no significant difference detected' plus the CI. Never 'equivalent' or bare 'no difference'. For expected-null numeric tests (P4c): 'no loss detected' plus the CI.",
+  "prompt": {
+    "file": "v4_work/results/stage8b/prompt_P.txt",
+    "includes_kc_table": true,
+    "includes_unit_table": true,
+    "includes_ask_instruction": true,
+    "includes_bn_output_template": true,
+    "misspell_rule": "If a crop name is misspelled but clearly matches exactly one crop in the table, use that crop and state which crop you took it to be. If it could match more than one crop, or none, ask.",
+    "parser_check": "v4_work/results/stage8b/parser_check.json — PASS: en gold, bn gold, en P template, bn P template all extract net_mm=1.48 and liters=1089.0",
+    "review_point": "P includes the 29-row Kc table from kc_values_hybrid.csv, not only a lookup instruction. That makes P2 a real test of instruction vs weights. If the table should be dropped, say so before freeze.",
+    "sha256": "cfb493045a9f52e51857ca9f8b4f1cea7a1c0c23831e55cb1d3dbd28d541da0a"
+  },
+  "fewshot": {
+    "file": "v4_work/results/stage8b/fewshot_examples.json",
+    "n": 3,
+    "row_ids": [
+      "046095e7-a986-4b41-ab0f-4833cab29e45",
+      "03ac3561-9419-435c-9cdc-422f8c433c44",
+      "clarify_101"
+    ],
+    "roles": [
+      "complete_numeric_en",
+      "abstain_en",
+      "missing_area_bn"
+    ],
+    "sources": [
+      "train_augmented.jsonl",
+      "train_augmented.jsonl",
+      "s6b_clarify_train.jsonl"
+    ],
+    "application": "Chat: system=P (or P prepended to first user turn if the tokenizer rejects/drops system), then the three (user, assistant) pairs in the order numeric / abstain / missing-input, then the test question as user. Training and the existing 21 arms used no system turn (s2b_render_train.py). The system turn plus few-shots are a new prompt shape; that is the point of the prompted baseline.",
+    "sha256": "329b484a4c9517bd37c2d36a4febe04d35635f781444756fcd6634add679c993"
+  },
+  "chat_template": {
+    "file": "v4_work/results/stage8b/chat_template_check.json",
+    "script": "v4_work/scripts/stage8b_chat_template_check.py",
+    "construction": "system=P then (user,assistant)×3 then user=test; if system rejected or dropped, P prepended to first user turn",
+    "all_four_models_accept_system_role": true,
+    "token_counts": {
+      "llama31_8b": {
+        "en": 1950,
+        "bn": 2058,
+        "layout": "system+3_examples+user"
+      },
+      "mistral_nemo": {
+        "en": 1864,
+        "bn": 1883,
+        "layout": "system+3_examples+user"
+      },
+      "phi35_mini": {
+        "en": 2133,
+        "bn": 2248,
+        "layout": "system+3_examples+user"
+      },
+      "phi4_mini": {
+        "en": 1676,
+        "bn": 1683,
+        "layout": "system+3_examples+user"
+      }
+    },
+    "inference_note": "Prompt alone is 1676–2248 tokens. Stage 6 inference default INFER_MAX_SEQ_LEN=2048 is too small for phi35_mini bn (2248) before any new tokens. Stage 8B must raise max_seq_length to at least 3072 (prompt + 512 new). Do not truncate P or the few-shots."
+  },
+  "entry_checks": {
+    "test_hardened_rows": 422,
+    "pending_human": 60,
+    "pending_all_adversarial": true,
+    "counts_0b": {
+      "out_of_domain / abstain": {
+        "n": 40,
+        "en": 20,
+        "bn": 20,
+        "note": "hard OOD; class-level only"
+      },
+      "conflicting_values / clarify": {
+        "n": 20,
+        "en": 10,
+        "bn": 10,
+        "note": "class-level only; no authored gold"
+      },
+      "seed abstain already scored": {
+        "n": 34,
+        "note": "easy OOD probe used in Stage 6/8; not in the 60"
+      }
+    },
+    "qtype_matches_category": "40 out_of_domain rows are qtype=abstain; 20 conflicting_values rows are qtype=clarify. Matches THESIS_MASTER_CONTEXT §4."
+  },
+  "arms": {
+    "existing_no_new_inference": [
+      "{model}_zeroshot",
+      "{model}_seed42",
+      "{model}_seed42_clarify"
+    ],
+    "new_gpu": [
+      "{model}_zeroshot_P",
+      "{model}_seed42_P"
+    ],
+    "models": [
+      "llama31_8b",
+      "mistral_nemo",
+      "phi35_mini",
+      "phi4_mini"
+    ],
+    "new_arm_count": 8,
+    "new_arms_eval_rows": 422,
+    "new_arms_eval_note": "Run each new prompted arm on all 422 hardened test rows. PRIMARY/DESCRIPTIVE tests use only the subsets listed below. Factual and abstain results for the prompted arms are DESCRIPTIVE (report rates/CIs; no Holm).",
+    "decoding": "greedy, max_new_tokens 512, 4-bit base weights, same as Stage 6 (except max_seq_length raised for the long prompt; see chat_template.inference_note)",
+    "hardware_check": {
+      "required_before_new_arms": true,
+      "arm": "llama31_8b_seed42",
+      "n": 50,
+      "sampling": "seed 42, stratified by qtype and lang, from rows already predicted by llama31_8b_seed42",
+      "decoding": "same as Stage 6 (greedy, max_new_tokens 512, same batch size)",
+      "pass_rule": "identical classification and exact_0.1 on all 50 rows, and ≥90% of outputs byte-identical to the saved generations; else stop and report",
+      "output": "v4_work/results/stage8b/hw_check.md"
+    }
+  },
+  "multiple_comparisons": "Holm-Bonferroni across PRIMARY tests within each holm_family. DESCRIPTIVE: CI only, no p.",
+  "holm_families": {
+    "O1": 4,
+    "O2": 4,
+    "P1": 4,
+    "P2": 4,
+    "P3": 4,
+    "P4a": 4,
+    "P4b": 4,
+    "P4c": 4,
+    "P5": 4,
+    "P7": 8
+  },
+  "tests": [
+    {
+      "test_id": "O1",
+      "holm_family": "O1",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "On the 40 adversarial out-of-domain rows, fine-tuning at seed 42 does not reduce abstention relative to zero-shot.",
+      "expected_direction": "FT abstain rate >= zero-shot (two-sided test; report direction)",
+      "test": "McNemar exact on abstain vs not, paired by row_id, per model, seed 42",
+      "data_subset": "40 pending_human rows with category=out_of_domain (qtype=abstain)",
+      "expected_n": 40,
+      "primary_metric": "classify_response == abstain",
+      "effect_size": "rate difference (FT − ZS) in percentage points, paired-bootstrap 95% CI",
+      "part": 1,
+      "gpu": false
+    },
+    {
+      "test_id": "O2",
+      "holm_family": "O2",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "Abstention is higher on the 34 seed out-of-domain rows than on the 40 adversarial out-of-domain rows (easy vs hard).",
+      "expected_direction": "easy > hard",
+      "test": "Fisher exact, 2×2 (abstain vs not) × (easy vs hard), per model, FT seed 42",
+      "data_subset": "easy = 34 scored seed abstain rows; hard = 40 pending_human out_of_domain rows",
+      "expected_n": "34 + 40",
+      "primary_metric": "classify_response == abstain",
+      "effect_size": "odds ratio with 95% CI",
+      "part": 1,
+      "gpu": false
+    },
+    {
+      "test_id": "O3",
+      "holm_family": null,
+      "role": "DESCRIPTIVE",
+      "n_cells": 1,
+      "hypothesis": "Class distribution on conflicting-value rows (no gold policy).",
+      "expected_direction": null,
+      "test": "none",
+      "data_subset": "20 pending_human rows with category=conflicting_values (qtype=clarify)",
+      "expected_n": 20,
+      "primary_metric": "classify_response counts (answer / clarify / abstain / empty) per arm at seed 42; ZS, FT, CL",
+      "effect_size": "counts and percentages only",
+      "part": 1,
+      "gpu": false
+    },
+    {
+      "test_id": "P1",
+      "holm_family": "P1",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "Adding prompt P to the base model reduces invented values on clarify rows.",
+      "expected_direction": "zeroshot_P invented_value_rate < zeroshot",
+      "test": "McNemar exact on invented vs not, paired by row_id, per model",
+      "data_subset": "68 scorable clarify rows; arms {model}_zeroshot vs {model}_zeroshot_P",
+      "expected_n": 68,
+      "primary_metric": "invented_value (classify_response == answer on a clarify row)",
+      "effect_size": "rate difference (P − ZS) in percentage points, paired-bootstrap 95% CI",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P2",
+      "holm_family": "P2",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "Standard fine-tuning beats the prompted base on headline numeric accuracy.",
+      "expected_direction": "FT seed42 > zeroshot_P",
+      "test": "McNemar exact on exact within ±0.1 mm, paired by row_id, per model",
+      "data_subset": "116 single-crop numeric rows; arms {model}_seed42 vs {model}_zeroshot_P",
+      "expected_n": 116,
+      "primary_metric": "exact_0.1 on the 116 single-crop rows (Stage 6 headline denominator)",
+      "effect_size": "rate difference (FT − P) in percentage points, paired-bootstrap 95% CI",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P3",
+      "holm_family": "P3",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "The prompted base invents less on clarify rows than standard fine-tuning (no prompt).",
+      "expected_direction": "zeroshot_P invented_value_rate < FT seed42",
+      "test": "McNemar exact on invented vs not, paired by row_id, per model",
+      "data_subset": "68 scorable clarify rows; arms {model}_zeroshot_P vs {model}_seed42",
+      "expected_n": 68,
+      "primary_metric": "invented_value",
+      "effect_size": "rate difference (P − FT) in percentage points, paired-bootstrap 95% CI",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P4a",
+      "holm_family": "P4a",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "Adding prompt P to the fine-tuned model raises named clarification.",
+      "expected_direction": "seed42_P clarify_exact > seed42",
+      "test": "McNemar exact on clarify_exact vs not, paired by row_id, per model",
+      "data_subset": "68 scorable clarify rows; arms {model}_seed42_P vs {model}_seed42",
+      "expected_n": 68,
+      "primary_metric": "clarify_exact (asks and names the missing parameter)",
+      "effect_size": "rate difference (FT+P − FT) in percentage points, paired-bootstrap 95% CI",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P4b",
+      "holm_family": "P4b",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "Adding prompt P to the fine-tuned model reduces invented values.",
+      "expected_direction": "seed42_P invented_value_rate < seed42",
+      "test": "McNemar exact on invented vs not, paired by row_id, per model",
+      "data_subset": "68 scorable clarify rows; arms {model}_seed42_P vs {model}_seed42",
+      "expected_n": 68,
+      "primary_metric": "invented_value",
+      "effect_size": "rate difference (FT+P − FT) in percentage points, paired-bootstrap 95% CI",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P4c",
+      "holm_family": "P4c",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "Adding prompt P to the fine-tuned model does not harm headline numeric accuracy.",
+      "expected_direction": "no loss (seed42_P exact_0.1 not below seed42)",
+      "test": "McNemar exact on exact within ±0.1 mm, paired by row_id, per model",
+      "data_subset": "116 single-crop numeric rows; arms {model}_seed42_P vs {model}_seed42",
+      "expected_n": 116,
+      "primary_metric": "exact_0.1 on the 116 single-crop rows",
+      "effect_size": "rate difference (FT+P − FT) in percentage points, paired-bootstrap 95% CI",
+      "report_wording_if_ns": "no loss detected + CI",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P5",
+      "holm_family": "P5",
+      "role": "PRIMARY",
+      "n_cells": 4,
+      "hypothesis": "Clarify training beats the prompted base on named clarification.",
+      "expected_direction": "seed42_clarify clarify_exact > zeroshot_P",
+      "test": "McNemar exact on clarify_exact vs not, paired by row_id, per model",
+      "data_subset": "68 scorable clarify rows; arms {model}_seed42_clarify vs {model}_zeroshot_P",
+      "expected_n": 68,
+      "primary_metric": "clarify_exact",
+      "effect_size": "rate difference (CL − P) in percentage points, paired-bootstrap 95% CI",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P6",
+      "holm_family": null,
+      "role": "DESCRIPTIVE",
+      "n_cells": 1,
+      "hypothesis": "A7 form-of-error rates under the prompted arms (truncation, explicit-assumption markers, confident-error definitions a and b).",
+      "expected_direction": null,
+      "test": "none",
+      "data_subset": "68 scorable clarify rows; zeroshot, zeroshot_P, seed42, seed42_P, seed42_clarify",
+      "expected_n": 68,
+      "primary_metric": "Stage 8 A7 definitions (a) and (b), truncation rate, marker rate",
+      "effect_size": "rates and CIs only",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P7",
+      "holm_family": "P7",
+      "role": "PRIMARY",
+      "n_cells": 8,
+      "hypothesis": "Prompt P does not cause over-asking on complete numeric inputs.",
+      "expected_direction": "clarify rate on complete numeric rows stays near zero; prompted arm not worse than its unprompted counterpart",
+      "test": "McNemar exact on (classify_response == clarify) vs not, paired by row_id",
+      "contrasts": [
+        "{model}_zeroshot_P vs {model}_zeroshot (×4 models)",
+        "{model}_seed42_P vs {model}_seed42 (×4 models)"
+      ],
+      "test_note": "Eight PRIMARY cells (2 contrasts × 4 models). Holm within family P7 across all eight. Gains in P1/P3/P4a/P4b/P5 must be read against any significant over-asking here.",
+      "data_subset": "146 numeric rows (116 single-crop + 30 multi-crop)",
+      "expected_n": 146,
+      "primary_metric": "classify_response == clarify on complete numeric rows (over-asking)",
+      "effect_size": "rate difference (prompted − unprompted) in percentage points, paired-bootstrap 95% CI",
+      "part": 2,
+      "gpu": true
+    },
+    {
+      "test_id": "P_DESC_factual_abstain",
+      "holm_family": null,
+      "role": "DESCRIPTIVE",
+      "n_cells": 1,
+      "hypothesis": "Factual and abstain behaviour of prompted arms (no claim).",
+      "expected_direction": null,
+      "test": "none",
+      "data_subset": "114 factual + 34 scored seed abstain; zeroshot_P and seed42_P",
+      "expected_n": "114 + 34",
+      "primary_metric": "chrF++ (factual); abstain accuracy (seed abstain)",
+      "effect_size": "rates and CIs only",
+      "part": 2,
+      "gpu": true
+    }
+  ],
+  "outcome_meanings": {
+    "O1_FT_still_abstains": "Abstention transfers from the easy seed probe to hard adversarial OOD, or at least does not collapse.",
+    "O1_FT_abstains_less": "Fine-tuning may have narrowed refusal. Report it. Does not by itself undo the clarify finding.",
+    "O2_easy_higher": "The published 100% abstain figure is an easy-probe result (viva Q10). Hard OOD is the number to quote beside it.",
+    "O2_no_gap": "The easy probe was not easier. Strengthens the abstention claim.",
+    "O3": "No policy gold. Descriptive only. Do not score accuracy.",
+    "P1_P_helps_base": "An instruction is enough to cut invention on the base model.",
+    "P1_P_fails_on_base": "The base model does not follow the ask instruction. Weak prompted baseline.",
+    "P2_FT_beats_P": "Numeric gains from fine-tuning are not just 'the model was never told the rules'.",
+    "P2_P_matches_FT": "A prompt with the table is enough for the arithmetic. Fine-tuning's numeric headline is instruction-equivalent on this testbed.",
+    "P3_P_invents_less_than_FT": "An instructed base is safer on missing inputs than a fine-tuned model with no instruction. Supports the title.",
+    "P3_FT_invents_less_or_equal": "Standard FT is not worse than an instructed base on invention. Weakens the 'FT creates the failure' reading; keep the form-of-error (A7/P6) argument.",
+    "P4_P_helps_FT": "The instruction still works after fine-tuning. A deployed FT system needs the instruction (and should be tested with it).",
+    "P4_P_fails_on_FT": "Fine-tuning overrides an explicit instruction to ask. Strongest support for the title.",
+    "P4c_no_loss": "The ask instruction does not cost numeric accuracy on complete inputs. Report as 'no loss detected' + CI if ns.",
+    "P4c_loss": "The instruction harms numeric accuracy. Qualify any P4a/P4b gains.",
+    "P5_CL_beats_P": "Three hundred targeted examples teach more than the prompt. Clarify training is not redundant.",
+    "P5_P_matches_CL": "The prompt is enough; the 300 examples are not required for this testbed.",
+    "P6": "Descriptive. Use to say whether prompted arms still produce complete unhedged invented volumes.",
+    "P7_no_overask": "Prompted arms do not ask on complete numeric questions. P1/P3/P4/P5 gains are not an artefact of blanket asking.",
+    "P7_overask": "A prompted arm asks on complete inputs. Read its gains in P1/P3/P4/P5 against this over-asking rate; do not treat clarify gains as unqualified."
+  },
+  "not_in_this_plan": [
+    "Authoring text golds for the 60 rows",
+    "New human ratings of prompted arms",
+    "Extra clarify seeds",
+    "Changing Stage 8 Part A/B tests"
+  ],
+  "prompt_sha256": "cfb493045a9f52e51857ca9f8b4f1cea7a1c0c23831e55cb1d3dbd28d541da0a",
+  "fewshot_sha256": "329b484a4c9517bd37c2d36a4febe04d35635f781444756fcd6634add679c993"
+}

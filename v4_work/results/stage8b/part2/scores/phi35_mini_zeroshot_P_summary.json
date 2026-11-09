@@ -1,0 +1,23 @@
+{
+  "arm": "phi35_mini_zeroshot_P",
+  "n_clarify_scored": 68,
+  "invented_value_n": 64,
+  "invented_value_rate": 94.1,
+  "clarify_exact_n": 4,
+  "clarify_exact_rate": 5.9,
+  "n_single_crop": 116,
+  "exact_0p1_n": 5,
+  "exact_0p1_rate": 4.3,
+  "n_numeric_all": 146,
+  "overask_n": 1,
+  "overask_rate": 0.7,
+  "clarify_score_keys": [
+    "clarify_exact",
+    "clarify_label",
+    "clarify_partial",
+    "clarify_score"
+  ],
+  "batch_size": 4,
+  "base_model": "microsoft/Phi-3.5-mini-instruct",
+  "adapter_sha256": null
+}

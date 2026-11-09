@@ -1,0 +1,1242 @@
+{
+  "llama31_8b_zeroshot": {
+    "overall": {
+      "answer": {
+        "answer": 256,
+        "clarify": 4,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 28,
+        "clarify": 1,
+        "abstain": 5,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 15,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 126,
+        "clarify": 4,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 13,
+        "clarify": 1,
+        "abstain": 3,
+        "empty": 0
+      }
+    }
+  },
+  "llama31_8b_seed42": {
+    "overall": {
+      "answer": {
+        "answer": 258,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "llama31_8b_seed42_clarify": {
+    "overall": {
+      "answer": {
+        "answer": 258,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 43,
+        "clarify": 25,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 22,
+        "clarify": 12,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 21,
+        "clarify": 13,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "mistral_nemo_zeroshot": {
+    "overall": {
+      "answer": {
+        "answer": 250,
+        "clarify": 9,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 66,
+        "clarify": 2,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 29,
+        "clarify": 0,
+        "abstain": 5,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 124,
+        "clarify": 5,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 32,
+        "clarify": 2,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 17,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 126,
+        "clarify": 4,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 12,
+        "clarify": 0,
+        "abstain": 5,
+        "empty": 0
+      }
+    }
+  },
+  "phi35_mini_zeroshot": {
+    "overall": {
+      "answer": {
+        "answer": 251,
+        "clarify": 9,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 67,
+        "clarify": 1,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 27,
+        "clarify": 0,
+        "abstain": 7,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 17,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 121,
+        "clarify": 9,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 33,
+        "clarify": 1,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 10,
+        "clarify": 0,
+        "abstain": 7,
+        "empty": 0
+      }
+    }
+  },
+  "phi4_mini_zeroshot": {
+    "overall": {
+      "answer": {
+        "answer": 249,
+        "clarify": 10,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 67,
+        "clarify": 1,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 30,
+        "clarify": 1,
+        "abstain": 3,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 126,
+        "clarify": 3,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 33,
+        "clarify": 1,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 17,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 123,
+        "clarify": 7,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 13,
+        "clarify": 1,
+        "abstain": 3,
+        "empty": 0
+      }
+    }
+  },
+  "llama31_8b_seed1337": {
+    "overall": {
+      "answer": {
+        "answer": 257,
+        "clarify": 0,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 129,
+        "clarify": 0,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "llama31_8b_seed2024": {
+    "overall": {
+      "answer": {
+        "answer": 258,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "mistral_nemo_seed42": {
+    "overall": {
+      "answer": {
+        "answer": 258,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "mistral_nemo_seed1337": {
+    "overall": {
+      "answer": {
+        "answer": 258,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "mistral_nemo_seed2024": {
+    "overall": {
+      "answer": {
+        "answer": 257,
+        "clarify": 0,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 127,
+        "clarify": 0,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "phi35_mini_seed42": {
+    "overall": {
+      "answer": {
+        "answer": 258,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "phi35_mini_seed1337": {
+    "overall": {
+      "answer": {
+        "answer": 259,
+        "clarify": 0,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 129,
+        "clarify": 0,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "phi35_mini_seed2024": {
+    "overall": {
+      "answer": {
+        "answer": 257,
+        "clarify": 0,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 129,
+        "clarify": 0,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "phi4_mini_seed42": {
+    "overall": {
+      "answer": {
+        "answer": 255,
+        "clarify": 0,
+        "abstain": 5,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 127,
+        "clarify": 0,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "phi4_mini_seed1337": {
+    "overall": {
+      "answer": {
+        "answer": 257,
+        "clarify": 0,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 129,
+        "clarify": 0,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "phi4_mini_seed2024": {
+    "overall": {
+      "answer": {
+        "answer": 257,
+        "clarify": 0,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 68,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 129,
+        "clarify": 0,
+        "abstain": 1,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "mistral_nemo_seed42_clarify": {
+    "overall": {
+      "answer": {
+        "answer": 258,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 34,
+        "clarify": 34,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 130,
+        "clarify": 0,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 16,
+        "clarify": 18,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 0,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 18,
+        "clarify": 16,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "phi35_mini_seed42_clarify": {
+    "overall": {
+      "answer": {
+        "answer": 240,
+        "clarify": 17,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 45,
+        "clarify": 23,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 112,
+        "clarify": 15,
+        "abstain": 3,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 28,
+        "clarify": 6,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 128,
+        "clarify": 2,
+        "abstain": 0,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 17,
+        "clarify": 17,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  },
+  "phi4_mini_seed42_clarify": {
+    "overall": {
+      "answer": {
+        "answer": 240,
+        "clarify": 16,
+        "abstain": 4,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 40,
+        "clarify": 28,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 34,
+        "empty": 0
+      }
+    },
+    "lang_bn": {
+      "answer": {
+        "answer": 118,
+        "clarify": 10,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 23,
+        "clarify": 11,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    },
+    "lang_en": {
+      "answer": {
+        "answer": 122,
+        "clarify": 6,
+        "abstain": 2,
+        "empty": 0
+      },
+      "clarify": {
+        "answer": 17,
+        "clarify": 17,
+        "abstain": 0,
+        "empty": 0
+      },
+      "abstain": {
+        "answer": 0,
+        "clarify": 0,
+        "abstain": 17,
+        "empty": 0
+      }
+    }
+  }
+}

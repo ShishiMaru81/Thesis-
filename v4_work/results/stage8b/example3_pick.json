@@ -1,0 +1,17 @@
+{
+  "role": "missing_input",
+  "row_id": "clarify_101",
+  "source": "v3/data/augmented/s6b_clarify_train.jsonl",
+  "qtype": "clarify",
+  "lang": "bn",
+  "origin": "s6b_clarify",
+  "crop": "Jujube",
+  "subtype": "missing_area",
+  "missing_slot": "area_value",
+  "parent_row_id": "e5902f50-67e0-496f-b0a2-e0a9c07e560f",
+  "parent_in_train_augmented": true,
+  "parent_in_test_hardened": false,
+  "in_test_hardened": false,
+  "question": "আমার কুল ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে। আজ ET0 7.88 মিমি, বৃষ্টি হয়েছে 11.57 মিমি। আজ কত লিটার পানি সেচ দিতে হবে?",
+  "answer": "মোট পানির পরিমাণ হিসাব করতে জমির মাপ জানতে হবে। অনুগ্রহ করে জানান: একর, শতক, বিঘা, হেক্টর, নাকি বর্গমিটার?"
+}

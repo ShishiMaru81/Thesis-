@@ -1,0 +1,5 @@
+model,n_single_crop,n_both_extracted,n_dropped,median_abs_err_zs,median_abs_err_ft,median_paired_diff_ft_minus_zs,ci_low,ci_high
+llama31_8b,116,99,17,4.33,0.06,-4.2700000000000005,-5.31,-3.2500000000000004
+mistral_nemo,116,113,3,3.95,0.0500000000000002,-3.9,-4.4,-2.9050000000000002
+phi35_mini,116,76,40,4.35,0.175,-4.175,-7.005,-3.435
+phi4_mini,116,94,22,2.94,0.12000000000000005,-2.82,-3.7699999999999996,-2.2899999999999996

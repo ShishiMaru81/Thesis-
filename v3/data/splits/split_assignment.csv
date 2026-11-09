@@ -1,0 +1,452 @@
+source_id,split,qtype,crop,n_rows,fact_id
+Brinjal.jpg#f02,test,factual,Brinjal,2,brinjal_na_crop_type
+Brinjal.jpg#f03,val,factual,Brinjal,2,brinjal_na_sowing_season
+Brinjal.jpg#f05,train,factual,Brinjal,2,brinjal_na_first_irrigation_timing
+Brinjal.jpg#f06,train,factual,Brinjal,2,brinjal_na_first_irrigation_type
+Brinjal.jpg#f13,train,factual,Brinjal,2,brinjal_na_drainage_rule
+Brinjal.jpg#f15,train,factual,Brinjal,2,brinjal_na_seasonal_conditions
+Brinjal.jpg#f19,test,factual,Brinjal,2,brinjal_na_dry_season_strategy
+Brinjal.jpg#f20,train,factual,Brinjal,2,brinjal_na_monsoon_strategy
+Brinjal.jpg#f23,train,factual,Brinjal,2,brinjal_na_soil_type_effect
+Brinjal.jpg#n01,train,numeric_runtime,Brinjal,2,brinjal_initial_net_irrigation
+Brinjal.jpg#n02,train,numeric_runtime,Brinjal,2,brinjal_mid-season_net_irrigation
+Brinjal.jpg#n03,test,numeric_runtime,Brinjal,2,brinjal_late-season_net_irrigation
+Brinjal.jpg#x01,train,abstain,Brinjal,2,brinjal_na_abstain_market_price
+Brinjal.jpg#x02,test,abstain,Brinjal,2,brinjal_na_abstain_pesticide_brand
+Brinjal.jpg#x03,train,abstain,Brinjal,2,brinjal_na_abstain_soil_ph
+Coconut.jpg#f02,train,factual,Coconut,2,coconut_na_crop_type
+Coconut.jpg#f03,train,factual,Coconut,2,coconut_na_sowing_season
+Coconut.jpg#f07,train,factual,Coconut,2,coconut_na_irrigation_interval_days
+Coconut.jpg#f08,train,factual,Coconut,2,coconut_na_irrigation_method
+Coconut.jpg#f12,test,factual,Coconut,2,coconut_na_basin_geometry
+Coconut.jpg#f13,train,factual,Coconut,2,coconut_na_drainage_rule
+Coconut.jpg#f14,val,factual,Coconut,2,coconut_na_water_demand_modifier
+Coconut.jpg#f15,train,factual,Coconut,2,coconut_na_seasonal_conditions
+Coconut.jpg#f19,test,factual,Coconut,2,coconut_na_dry_season_strategy
+Coconut.jpg#f20,train,factual,Coconut,2,coconut_na_monsoon_strategy
+Coconut.jpg#f23,train,factual,Coconut,2,coconut_na_soil_type_effect
+Coconut.jpg#n01,test,numeric_runtime,Coconut,2,coconut_initial_net_irrigation
+Coconut.jpg#n02,train,numeric_runtime,Coconut,2,coconut_mid-season_net_irrigation
+Coconut.jpg#n03,train,numeric_runtime,Coconut,2,coconut_late-season_net_irrigation
+Coconut.jpg#x01,train,abstain,Coconut,2,coconut_na_abstain_market_price
+Coconut.jpg#x02,train,abstain,Coconut,2,coconut_na_abstain_pesticide_brand
+Coconut.jpg#x03,test,abstain,Coconut,2,coconut_na_abstain_soil_ph
+Cotton.jpg#f02,train,factual,Cotton,2,cotton_na_crop_type
+Cotton.jpg#f03,train,factual,Cotton,2,cotton_na_sowing_season
+Cotton.jpg#f05,train,factual,Cotton,2,cotton_na_first_irrigation_timing
+Cotton.jpg#f06,train,factual,Cotton,2,cotton_na_first_irrigation_type
+Cotton.jpg#f09,test,factual,Cotton,2,cotton_na_critical_stages
+Cotton.jpg#f13,train,factual,Cotton,2,cotton_na_drainage_rule
+Cotton.jpg#f15,test,factual,Cotton,2,cotton_na_seasonal_conditions
+Cotton.jpg#f17,val,factual,Cotton,2,cotton_na_stage_irrigation_schedule
+Cotton.jpg#f19,train,factual,Cotton,2,cotton_na_dry_season_strategy
+Cotton.jpg#f22,test,factual,Cotton,2,cotton_na_age_dependent_irrigation
+Cotton.jpg#f23,train,factual,Cotton,2,cotton_na_soil_type_effect
+Cotton.jpg#f24,train,factual,Cotton,2,cotton_na_water_stress_indicator
+Cotton.jpg#n01,train,numeric_runtime,Cotton,2,cotton_initial_net_irrigation
+Cotton.jpg#n02,train,numeric_runtime,Cotton,2,cotton_mid-season_net_irrigation
+Cotton.jpg#n03,train,numeric_runtime,Cotton,2,cotton_late-season_net_irrigation
+Cotton.jpg#x01,train,abstain,Cotton,2,cotton_na_abstain_market_price
+Cotton.jpg#x02,train,abstain,Cotton,2,cotton_na_abstain_pesticide_brand
+Cotton.jpg#x03,train,abstain,Cotton,2,cotton_na_abstain_soil_ph
+Groundnut.jpg#f02,train,factual,Groundnut,2,groundnut_na_crop_type
+Groundnut.jpg#f03,train,factual,Groundnut,2,groundnut_na_sowing_season
+Groundnut.jpg#f05,test,factual,Groundnut,2,groundnut_na_first_irrigation_timing
+Groundnut.jpg#f06,train,factual,Groundnut,2,groundnut_na_first_irrigation_type
+Groundnut.jpg#f09,train,factual,Groundnut,2,groundnut_na_critical_stages
+Groundnut.jpg#f13,train,factual,Groundnut,2,groundnut_na_drainage_rule
+Groundnut.jpg#f15,train,factual,Groundnut,2,groundnut_na_seasonal_conditions
+Groundnut.jpg#f19,train,factual,Groundnut,2,groundnut_na_dry_season_strategy
+Groundnut.jpg#f20,test,factual,Groundnut,2,groundnut_na_monsoon_strategy
+Groundnut.jpg#f23,val,factual,Groundnut,2,groundnut_na_soil_type_effect
+Groundnut.jpg#n01,test,numeric_runtime,Groundnut,2,groundnut_initial_net_irrigation
+Groundnut.jpg#n02,train,numeric_runtime,Groundnut,2,groundnut_mid-season_net_irrigation
+Groundnut.jpg#n03,train,numeric_runtime,Groundnut,2,groundnut_late-season_net_irrigation
+Groundnut.jpg#x01,test,abstain,Groundnut,2,groundnut_na_abstain_market_price
+Groundnut.jpg#x02,train,abstain,Groundnut,2,groundnut_na_abstain_pesticide_brand
+Groundnut.jpg#x03,train,abstain,Groundnut,2,groundnut_na_abstain_soil_ph
+Guava.jpg#f02,train,factual,Guava,2,guava_na_crop_type
+Guava.jpg#f03,val,factual,Guava,2,guava_na_sowing_season
+Guava.jpg#f05,train,factual,Guava,2,guava_na_first_irrigation_timing
+Guava.jpg#f06,train,factual,Guava,2,guava_na_first_irrigation_type
+Guava.jpg#f07,train,factual,Guava,2,guava_na_irrigation_interval_days
+Guava.jpg#f13,test,factual,Guava,2,guava_na_drainage_rule
+Guava.jpg#f15,train,factual,Guava,2,guava_na_seasonal_conditions
+Guava.jpg#f16,train,factual,Guava,2,guava_establishment_establishment_interval
+Guava.jpg#f19,train,factual,Guava,2,guava_na_dry_season_strategy
+Guava.jpg#f23,test,factual,Guava,2,guava_na_soil_type_effect
+Guava.jpg#n01,train,numeric_runtime,Guava,2,guava_initial_net_irrigation
+Guava.jpg#n02,test,numeric_runtime,Guava,2,guava_mid-season_net_irrigation
+Guava.jpg#n03,train,numeric_runtime,Guava,2,guava_late-season_net_irrigation
+Guava.jpg#x01,test,abstain,Guava,2,guava_na_abstain_market_price
+Guava.jpg#x02,train,abstain,Guava,2,guava_na_abstain_pesticide_brand
+Guava.jpg#x03,train,abstain,Guava,2,guava_na_abstain_soil_ph
+Jujube.jpg#f02,test,factual,Jujube,2,jujube_na_crop_type
+Jujube.jpg#f03,train,factual,Jujube,2,jujube_na_sowing_season
+Jujube.jpg#n01,train,numeric_runtime,Jujube,2,jujube_initial_net_irrigation
+Jujube.jpg#n02,train,numeric_runtime,Jujube,2,jujube_mid-season_net_irrigation
+Jujube.jpg#n03,test,numeric_runtime,Jujube,2,jujube_late-season_net_irrigation
+Jujube.jpg#x01,test,abstain,Jujube,2,jujube_na_abstain_market_price
+Jujube.jpg#x02,train,abstain,Jujube,2,jujube_na_abstain_pesticide_brand
+Jujube.jpg#x03,train,abstain,Jujube,2,jujube_na_abstain_soil_ph
+Lichi11.jpg#f02,val,factual,Litchi,2,litchi_na_crop_type
+Lichi11.jpg#f03,train,factual,Litchi,2,litchi_na_sowing_season
+Lichi11.jpg#f07,train,factual,Litchi,2,litchi_na_irrigation_interval_days
+Lichi11.jpg#f09,test,factual,Litchi,2,litchi_na_critical_stages
+Lichi11.jpg#f13,train,factual,Litchi,2,litchi_na_drainage_rule
+Lichi11.jpg#f14,train,factual,Litchi,2,litchi_na_water_demand_modifier
+Lichi11.jpg#f15,train,factual,Litchi,2,litchi_na_seasonal_conditions
+Lichi11.jpg#f16,train,factual,Litchi,2,litchi_establishment_establishment_interval
+Lichi11.jpg#f17,train,factual,Litchi,2,litchi_na_stage_irrigation_schedule
+Lichi11.jpg#f19,test,factual,Litchi,2,litchi_na_dry_season_strategy
+Lichi11.jpg#f23,train,factual,Litchi,2,litchi_na_soil_type_effect
+Lichi11.jpg#f24,train,factual,Litchi,2,litchi_na_water_stress_indicator
+Lichi11.jpg#n01,val,numeric_runtime,Litchi,2,litchi_initial_net_irrigation
+Lichi11.jpg#n02,train,numeric_runtime,Litchi,2,litchi_mid-season_net_irrigation
+Lichi11.jpg#n03,train,numeric_runtime,Litchi,2,litchi_late-season_net_irrigation
+Lichi11.jpg#x01,train,abstain,Litchi,2,litchi_na_abstain_market_price
+Lichi11.jpg#x02,train,abstain,Litchi,2,litchi_na_abstain_pesticide_brand
+Lichi11.jpg#x03,val,abstain,Litchi,2,litchi_na_abstain_soil_ph
+Onion1.jpg#f02,train,factual,Onion,2,onion_na_crop_type
+Onion1.jpg#f03,test,factual,Onion,2,onion_na_sowing_season
+Onion1.jpg#f05,test,factual,Onion,2,onion_na_first_irrigation_timing
+Onion1.jpg#f06,train,factual,Onion,2,onion_na_first_irrigation_type
+Onion1.jpg#f08,train,factual,Onion,2,onion_na_irrigation_method
+Onion1.jpg#f09,train,factual,Onion,2,onion_na_critical_stages
+Onion1.jpg#f13,test,factual,Onion,2,onion_na_drainage_rule
+Onion1.jpg#f14,train,factual,Onion,2,onion_na_water_demand_modifier
+Onion1.jpg#f15,train,factual,Onion,2,onion_na_seasonal_conditions
+Onion1.jpg#f16,train,factual,Onion,2,onion_establishment_establishment_interval
+Onion1.jpg#f17,val,factual,Onion,2,onion_na_stage_irrigation_schedule
+Onion1.jpg#f20,train,factual,Onion,2,onion_na_monsoon_strategy
+Onion1.jpg#f21,train,factual,Onion,2,onion_na_growth_stage_day_ranges
+Onion1.jpg#f23,train,factual,Onion,2,onion_na_soil_type_effect
+Onion1.jpg#n01,test,numeric_runtime,Onion,2,onion_initial_net_irrigation
+Onion1.jpg#n02,train,numeric_runtime,Onion,2,onion_mid-season_net_irrigation
+Onion1.jpg#n03,train,numeric_runtime,Onion,2,onion_late-season_net_irrigation
+Onion1.jpg#x01,test,abstain,Onion,2,onion_na_abstain_market_price
+Onion1.jpg#x02,train,abstain,Onion,2,onion_na_abstain_pesticide_brand
+Onion1.jpg#x03,train,abstain,Onion,2,onion_na_abstain_soil_ph
+Screenshot_20260521_004739.png#f02,test,factual,Aman Rice,2,aman_rice_na_crop_type
+Screenshot_20260521_004739.png#f03,train,factual,Aman Rice,2,aman_rice_na_sowing_season
+Screenshot_20260521_004739.png#f08,val,factual,Aman Rice,2,aman_rice_na_irrigation_method
+Screenshot_20260521_004739.png#f15,train,factual,Aman Rice,2,aman_rice_na_seasonal_conditions
+Screenshot_20260521_004739.png#f17,train,factual,Aman Rice,2,aman_rice_na_stage_irrigation_schedule
+Screenshot_20260521_004739.png#f19,train,factual,Aman Rice,2,aman_rice_na_dry_season_strategy
+Screenshot_20260521_004739.png#f20,train,factual,Aman Rice,2,aman_rice_na_monsoon_strategy
+Screenshot_20260521_004739.png#n01,train,numeric_runtime,Aman Rice,2,aman_rice_initial_net_irrigation
+Screenshot_20260521_004739.png#n02,train,numeric_runtime,Aman Rice,2,aman_rice_mid-season_net_irrigation
+Screenshot_20260521_004739.png#n03,train,numeric_runtime,Aman Rice,2,aman_rice_late-season_net_irrigation
+Screenshot_20260521_004739.png#x01,train,abstain,Aman Rice,2,aman_rice_na_abstain_market_price
+Screenshot_20260521_004739.png#x02,train,abstain,Aman Rice,2,aman_rice_na_abstain_pesticide_brand
+Screenshot_20260521_004739.png#x03,train,abstain,Aman Rice,2,aman_rice_na_abstain_soil_ph
+Screenshot_20260521_004808.png#f02,val,factual,Aus Rice,2,aus_rice_na_crop_type
+Screenshot_20260521_004808.png#f03,train,factual,Aus Rice,2,aus_rice_na_sowing_season
+Screenshot_20260521_004808.png#f05,train,factual,Aus Rice,2,aus_rice_na_first_irrigation_timing
+Screenshot_20260521_004808.png#f06,train,factual,Aus Rice,2,aus_rice_na_first_irrigation_type
+Screenshot_20260521_004808.png#f08,val,factual,Aus Rice,2,aus_rice_na_irrigation_method
+Screenshot_20260521_004808.png#f09,train,factual,Aus Rice,2,aus_rice_na_critical_stages
+Screenshot_20260521_004808.png#f11,test,factual,Aus Rice,2,aus_rice_na_water_depth_cm
+Screenshot_20260521_004808.png#f15,test,factual,Aus Rice,2,aus_rice_na_seasonal_conditions
+Screenshot_20260521_004808.png#f19,train,factual,Aus Rice,2,aus_rice_na_dry_season_strategy
+Screenshot_20260521_004808.png#f20,train,factual,Aus Rice,2,aus_rice_na_monsoon_strategy
+Screenshot_20260521_004808.png#f21,train,factual,Aus Rice,2,aus_rice_na_growth_stage_day_ranges
+Screenshot_20260521_004808.png#f23,train,factual,Aus Rice,2,aus_rice_na_soil_type_effect
+Screenshot_20260521_004808.png#n01,val,numeric_runtime,Aus Rice,2,aus_rice_initial_net_irrigation
+Screenshot_20260521_004808.png#n02,train,numeric_runtime,Aus Rice,2,aus_rice_mid-season_net_irrigation
+Screenshot_20260521_004808.png#n03,train,numeric_runtime,Aus Rice,2,aus_rice_late-season_net_irrigation
+Screenshot_20260521_004808.png#x01,val,abstain,Aus Rice,2,aus_rice_na_abstain_market_price
+Screenshot_20260521_004808.png#x02,train,abstain,Aus Rice,2,aus_rice_na_abstain_pesticide_brand
+Screenshot_20260521_004808.png#x03,train,abstain,Aus Rice,2,aus_rice_na_abstain_soil_ph
+Screenshot_20260521_004838.png#f03,train,factual,Boro Rice,2,boro_rice_na_sowing_season
+Screenshot_20260521_004838.png#f07,train,factual,Boro Rice,2,boro_rice_na_irrigation_interval_days
+Screenshot_20260521_004838.png#f08,test,factual,Boro Rice,2,boro_rice_na_irrigation_method
+Screenshot_20260521_004838.png#f09,train,factual,Boro Rice,2,boro_rice_na_critical_stages
+Screenshot_20260521_004838.png#f11,test,factual,Boro Rice,2,boro_rice_na_water_depth_cm
+Screenshot_20260521_004838.png#f17,train,factual,Boro Rice,2,boro_rice_na_stage_irrigation_schedule
+Screenshot_20260521_004838.png#f19,train,factual,Boro Rice,2,boro_rice_na_dry_season_strategy
+Screenshot_20260521_004838.png#f21,val,factual,Boro Rice,2,boro_rice_na_growth_stage_day_ranges
+Screenshot_20260521_004838.png#f23,train,factual,Boro Rice,2,boro_rice_na_soil_type_effect
+Screenshot_20260521_004838.png#n01,train,numeric_runtime,Boro Rice,2,boro_rice_initial_net_irrigation
+Screenshot_20260521_004838.png#n02,test,numeric_runtime,Boro Rice,2,boro_rice_mid-season_net_irrigation
+Screenshot_20260521_004838.png#n03,train,numeric_runtime,Boro Rice,2,boro_rice_late-season_net_irrigation
+Screenshot_20260521_004838.png#x01,train,abstain,Boro Rice,2,boro_rice_na_abstain_market_price
+Screenshot_20260521_004838.png#x02,train,abstain,Boro Rice,2,boro_rice_na_abstain_pesticide_brand
+Screenshot_20260521_004838.png#x03,test,abstain,Boro Rice,2,boro_rice_na_abstain_soil_ph
+Screenshot_20260521_004852.png#f02,train,factual,Mustard,2,mustard_na_crop_type
+Screenshot_20260521_004852.png#f03,val,factual,Mustard,2,mustard_na_sowing_season
+Screenshot_20260521_004852.png#f05,train,factual,Mustard,2,mustard_na_first_irrigation_timing
+Screenshot_20260521_004852.png#f08,train,factual,Mustard,2,mustard_na_irrigation_method
+Screenshot_20260521_004852.png#f09,test,factual,Mustard,2,mustard_na_critical_stages
+Screenshot_20260521_004852.png#f13,test,factual,Mustard,2,mustard_na_drainage_rule
+Screenshot_20260521_004852.png#f14,train,factual,Mustard,2,mustard_na_water_demand_modifier
+Screenshot_20260521_004852.png#f15,train,factual,Mustard,2,mustard_na_seasonal_conditions
+Screenshot_20260521_004852.png#f17,train,factual,Mustard,2,mustard_na_stage_irrigation_schedule
+Screenshot_20260521_004852.png#f19,test,factual,Mustard,2,mustard_na_dry_season_strategy
+Screenshot_20260521_004852.png#f21,train,factual,Mustard,2,mustard_na_growth_stage_day_ranges
+Screenshot_20260521_004852.png#f23,train,factual,Mustard,2,mustard_na_soil_type_effect
+Screenshot_20260521_004852.png#n01,train,numeric_runtime,Mustard,2,mustard_initial_net_irrigation
+Screenshot_20260521_004852.png#n02,train,numeric_runtime,Mustard,2,mustard_mid-season_net_irrigation
+Screenshot_20260521_004852.png#n03,test,numeric_runtime,Mustard,2,mustard_late-season_net_irrigation
+Screenshot_20260521_004852.png#x01,train,abstain,Mustard,2,mustard_na_abstain_market_price
+Screenshot_20260521_004852.png#x02,train,abstain,Mustard,2,mustard_na_abstain_pesticide_brand
+Screenshot_20260521_004852.png#x03,test,abstain,Mustard,2,mustard_na_abstain_soil_ph
+Screenshot_20260521_004909.png#f02,train,factual,Wheat,2,wheat_na_crop_type
+Screenshot_20260521_004909.png#f03,val,factual,Wheat,2,wheat_na_sowing_season
+Screenshot_20260521_004909.png#f05,train,factual,Wheat,2,wheat_na_first_irrigation_timing
+Screenshot_20260521_004909.png#f09,train,factual,Wheat,2,wheat_na_critical_stages
+Screenshot_20260521_004909.png#f13,train,factual,Wheat,2,wheat_na_drainage_rule
+Screenshot_20260521_004909.png#f15,train,factual,Wheat,2,wheat_na_seasonal_conditions
+Screenshot_20260521_004909.png#f17,train,factual,Wheat,2,wheat_na_stage_irrigation_schedule
+Screenshot_20260521_004909.png#f21,test,factual,Wheat,2,wheat_na_growth_stage_day_ranges
+Screenshot_20260521_004909.png#n01,train,numeric_runtime,Wheat,2,wheat_initial_net_irrigation
+Screenshot_20260521_004909.png#n02,train,numeric_runtime,Wheat,2,wheat_mid-season_net_irrigation
+Screenshot_20260521_004909.png#n03,val,numeric_runtime,Wheat,2,wheat_late-season_net_irrigation
+Screenshot_20260521_004909.png#x01,train,abstain,Wheat,2,wheat_na_abstain_market_price
+Screenshot_20260521_004909.png#x02,val,abstain,Wheat,2,wheat_na_abstain_pesticide_brand
+Screenshot_20260521_004909.png#x03,train,abstain,Wheat,2,wheat_na_abstain_soil_ph
+Screenshot_20260521_004923.png#f02,train,factual,Jute,2,jute_na_crop_type
+Screenshot_20260521_004923.png#f03,train,factual,Jute,2,jute_na_sowing_season
+Screenshot_20260521_004923.png#f13,test,factual,Jute,2,jute_na_drainage_rule
+Screenshot_20260521_004923.png#f21,train,factual,Jute,2,jute_na_growth_stage_day_ranges
+Screenshot_20260521_004923.png#n01,val,numeric_runtime,Jute,2,jute_initial_net_irrigation
+Screenshot_20260521_004923.png#n02,train,numeric_runtime,Jute,2,jute_mid-season_net_irrigation
+Screenshot_20260521_004923.png#n03,train,numeric_runtime,Jute,2,jute_late-season_net_irrigation
+Screenshot_20260521_004923.png#x01,train,abstain,Jute,2,jute_na_abstain_market_price
+Screenshot_20260521_004923.png#x02,train,abstain,Jute,2,jute_na_abstain_pesticide_brand
+Screenshot_20260521_004923.png#x03,val,abstain,Jute,2,jute_na_abstain_soil_ph
+Screenshot_20260521_004943.png#f02,train,factual,Maize,2,maize_na_crop_type
+Screenshot_20260521_004943.png#f03,test,factual,Maize,2,maize_na_sowing_season
+Screenshot_20260521_004943.png#f09,train,factual,Maize,2,maize_na_critical_stages
+Screenshot_20260521_004943.png#f13,val,factual,Maize,2,maize_na_drainage_rule
+Screenshot_20260521_004943.png#f15,train,factual,Maize,2,maize_na_seasonal_conditions
+Screenshot_20260521_004943.png#f17,train,factual,Maize,2,maize_na_stage_irrigation_schedule
+Screenshot_20260521_004943.png#f19,train,factual,Maize,2,maize_na_dry_season_strategy
+Screenshot_20260521_004943.png#f20,train,factual,Maize,2,maize_na_monsoon_strategy
+Screenshot_20260521_004943.png#f21,train,factual,Maize,2,maize_na_growth_stage_day_ranges
+Screenshot_20260521_004943.png#f23,test,factual,Maize,2,maize_na_soil_type_effect
+Screenshot_20260521_004943.png#n01,train,numeric_runtime,Maize,2,maize_initial_net_irrigation
+Screenshot_20260521_004943.png#n02,test,numeric_runtime,Maize,2,maize_mid-season_net_irrigation
+Screenshot_20260521_004943.png#n03,train,numeric_runtime,Maize,2,maize_late-season_net_irrigation
+Screenshot_20260521_004943.png#x01,train,abstain,Maize,2,maize_na_abstain_market_price
+Screenshot_20260521_004943.png#x02,train,abstain,Maize,2,maize_na_abstain_pesticide_brand
+Screenshot_20260521_004943.png#x03,test,abstain,Maize,2,maize_na_abstain_soil_ph
+Screenshot_20260521_004957.png#f02,train,factual,Mungbean,2,mungbean_na_crop_type
+Screenshot_20260521_004957.png#f03,test,factual,Mungbean,2,mungbean_na_sowing_season
+Screenshot_20260521_004957.png#f05,train,factual,Mungbean,2,mungbean_na_first_irrigation_timing
+Screenshot_20260521_004957.png#f06,train,factual,Mungbean,2,mungbean_na_first_irrigation_type
+Screenshot_20260521_004957.png#f08,train,factual,Mungbean,2,mungbean_na_irrigation_method
+Screenshot_20260521_004957.png#f13,train,factual,Mungbean,2,mungbean_na_drainage_rule
+Screenshot_20260521_004957.png#f15,train,factual,Mungbean,2,mungbean_na_seasonal_conditions
+Screenshot_20260521_004957.png#f19,val,factual,Mungbean,2,mungbean_na_dry_season_strategy
+Screenshot_20260521_004957.png#f20,train,factual,Mungbean,2,mungbean_na_monsoon_strategy
+Screenshot_20260521_004957.png#f21,test,factual,Mungbean,2,mungbean_na_growth_stage_day_ranges
+Screenshot_20260521_004957.png#f23,test,factual,Mungbean,2,mungbean_na_soil_type_effect
+Screenshot_20260521_004957.png#f24,train,factual,Mungbean,2,mungbean_na_water_stress_indicator
+Screenshot_20260521_004957.png#n01,train,numeric_runtime,Mungbean,2,mungbean_initial_net_irrigation
+Screenshot_20260521_004957.png#n02,test,numeric_runtime,Mungbean,2,mungbean_mid-season_net_irrigation
+Screenshot_20260521_004957.png#n03,train,numeric_runtime,Mungbean,2,mungbean_late-season_net_irrigation
+Screenshot_20260521_004957.png#x01,test,abstain,Mungbean,2,mungbean_na_abstain_market_price
+Screenshot_20260521_004957.png#x02,train,abstain,Mungbean,2,mungbean_na_abstain_pesticide_brand
+Screenshot_20260521_004957.png#x03,train,abstain,Mungbean,2,mungbean_na_abstain_soil_ph
+Screenshot_20260521_005006.png#f02,test,factual,Potato,2,potato_na_crop_type
+Screenshot_20260521_005006.png#f03,val,factual,Potato,2,potato_na_sowing_season
+Screenshot_20260521_005006.png#f05,train,factual,Potato,2,potato_na_first_irrigation_timing
+Screenshot_20260521_005006.png#f09,test,factual,Potato,2,potato_na_critical_stages
+Screenshot_20260521_005006.png#f15,train,factual,Potato,2,potato_na_seasonal_conditions
+Screenshot_20260521_005006.png#f16,train,factual,Potato,2,potato_establishment_establishment_interval
+Screenshot_20260521_005006.png#f17,train,factual,Potato,2,potato_na_stage_irrigation_schedule
+Screenshot_20260521_005006.png#f19,train,factual,Potato,2,potato_na_dry_season_strategy
+Screenshot_20260521_005006.png#f21,train,factual,Potato,2,potato_na_growth_stage_day_ranges
+Screenshot_20260521_005006.png#f22,train,factual,Potato,2,potato_na_age_dependent_irrigation
+Screenshot_20260521_005006.png#n01,train,numeric_runtime,Potato,2,potato_initial_net_irrigation
+Screenshot_20260521_005006.png#n02,val,numeric_runtime,Potato,2,potato_mid-season_net_irrigation
+Screenshot_20260521_005006.png#n03,train,numeric_runtime,Potato,2,potato_late-season_net_irrigation
+Screenshot_20260521_005006.png#x01,train,abstain,Potato,2,potato_na_abstain_market_price
+Screenshot_20260521_005006.png#x02,train,abstain,Potato,2,potato_na_abstain_pesticide_brand
+Screenshot_20260521_005006.png#x03,val,abstain,Potato,2,potato_na_abstain_soil_ph
+Screenshot_20260521_005015.png#f02,train,factual,Mango,2,mango_na_crop_type
+Screenshot_20260521_005015.png#f03,train,factual,Mango,2,mango_na_sowing_season
+Screenshot_20260521_005015.png#f07,val,factual,Mango,2,mango_na_irrigation_interval_days
+Screenshot_20260521_005015.png#f08,test,factual,Mango,2,mango_na_irrigation_method
+Screenshot_20260521_005015.png#f09,train,factual,Mango,2,mango_na_critical_stages
+Screenshot_20260521_005015.png#f13,test,factual,Mango,2,mango_na_drainage_rule
+Screenshot_20260521_005015.png#f14,train,factual,Mango,2,mango_na_water_demand_modifier
+Screenshot_20260521_005015.png#f15,train,factual,Mango,2,mango_na_seasonal_conditions
+Screenshot_20260521_005015.png#f16,train,factual,Mango,2,mango_establishment_establishment_interval
+Screenshot_20260521_005015.png#f17,train,factual,Mango,2,mango_na_stage_irrigation_schedule
+Screenshot_20260521_005015.png#f19,train,factual,Mango,2,mango_na_dry_season_strategy
+Screenshot_20260521_005015.png#f20,train,factual,Mango,2,mango_na_monsoon_strategy
+Screenshot_20260521_005015.png#f21,val,factual,Mango,2,mango_na_growth_stage_day_ranges
+Screenshot_20260521_005015.png#f22,train,factual,Mango,2,mango_na_age_dependent_irrigation
+Screenshot_20260521_005015.png#f23,train,factual,Mango,2,mango_na_soil_type_effect
+Screenshot_20260521_005015.png#n01,train,numeric_runtime,Mango,2,mango_initial_net_irrigation
+Screenshot_20260521_005015.png#n02,train,numeric_runtime,Mango,2,mango_mid-season_net_irrigation
+Screenshot_20260521_005015.png#n03,val,numeric_runtime,Mango,2,mango_late-season_net_irrigation
+Screenshot_20260521_005015.png#x01,val,abstain,Mango,2,mango_na_abstain_market_price
+Screenshot_20260521_005015.png#x02,train,abstain,Mango,2,mango_na_abstain_pesticide_brand
+Screenshot_20260521_005015.png#x03,train,abstain,Mango,2,mango_na_abstain_soil_ph
+Screenshot_20260521_005346.png#f02,test,factual,Jackfruit,2,jackfruit_na_crop_type
+Screenshot_20260521_005346.png#f03,train,factual,Jackfruit,2,jackfruit_na_sowing_season
+Screenshot_20260521_005346.png#f07,train,factual,Jackfruit,2,jackfruit_na_irrigation_interval_days
+Screenshot_20260521_005346.png#f08,val,factual,Jackfruit,2,jackfruit_na_irrigation_method
+Screenshot_20260521_005346.png#f09,test,factual,Jackfruit,2,jackfruit_na_critical_stages
+Screenshot_20260521_005346.png#f13,train,factual,Jackfruit,2,jackfruit_na_drainage_rule
+Screenshot_20260521_005346.png#f15,train,factual,Jackfruit,2,jackfruit_na_seasonal_conditions
+Screenshot_20260521_005346.png#f17,train,factual,Jackfruit,2,jackfruit_na_stage_irrigation_schedule
+Screenshot_20260521_005346.png#f19,train,factual,Jackfruit,2,jackfruit_na_dry_season_strategy
+Screenshot_20260521_005346.png#f23,train,factual,Jackfruit,2,jackfruit_na_soil_type_effect
+Screenshot_20260521_005346.png#n01,train,numeric_runtime,Jackfruit,2,jackfruit_initial_net_irrigation
+Screenshot_20260521_005346.png#n02,test,numeric_runtime,Jackfruit,2,jackfruit_mid-season_net_irrigation
+Screenshot_20260521_005346.png#n03,train,numeric_runtime,Jackfruit,2,jackfruit_late-season_net_irrigation
+Screenshot_20260521_005346.png#x01,train,abstain,Jackfruit,2,jackfruit_na_abstain_market_price
+Screenshot_20260521_005346.png#x02,train,abstain,Jackfruit,2,jackfruit_na_abstain_pesticide_brand
+Screenshot_20260521_005346.png#x03,test,abstain,Jackfruit,2,jackfruit_na_abstain_soil_ph
+Screenshot_20260521_005355.png#f02,train,factual,Lemon,2,lemon_na_crop_type
+Screenshot_20260521_005355.png#f03,train,factual,Lemon,2,lemon_na_sowing_season
+Screenshot_20260521_005355.png#f05,train,factual,Lemon,2,lemon_na_first_irrigation_timing
+Screenshot_20260521_005355.png#f06,train,factual,Lemon,2,lemon_na_first_irrigation_type
+Screenshot_20260521_005355.png#f08,train,factual,Lemon,2,lemon_na_irrigation_method
+Screenshot_20260521_005355.png#f09,test,factual,Lemon,2,lemon_na_critical_stages
+Screenshot_20260521_005355.png#f13,train,factual,Lemon,2,lemon_na_drainage_rule
+Screenshot_20260521_005355.png#f15,train,factual,Lemon,2,lemon_na_seasonal_conditions
+Screenshot_20260521_005355.png#f16,val,factual,Lemon,2,lemon_establishment_establishment_interval
+Screenshot_20260521_005355.png#f19,train,factual,Lemon,2,lemon_na_dry_season_strategy
+Screenshot_20260521_005355.png#f23,test,factual,Lemon,2,lemon_na_soil_type_effect
+Screenshot_20260521_005355.png#n01,train,numeric_runtime,Lemon,2,lemon_initial_net_irrigation
+Screenshot_20260521_005355.png#n02,train,numeric_runtime,Lemon,2,lemon_mid-season_net_irrigation
+Screenshot_20260521_005355.png#n03,train,numeric_runtime,Lemon,2,lemon_late-season_net_irrigation
+Screenshot_20260521_005355.png#x01,train,abstain,Lemon,2,lemon_na_abstain_market_price
+Screenshot_20260521_005355.png#x02,train,abstain,Lemon,2,lemon_na_abstain_pesticide_brand
+Screenshot_20260521_005355.png#x03,train,abstain,Lemon,2,lemon_na_abstain_soil_ph
+Screenshot_20260521_005441.png#f02,test,factual,Ginger,2,ginger_na_crop_type
+Screenshot_20260521_005441.png#f03,train,factual,Ginger,2,ginger_na_sowing_season
+Screenshot_20260521_005441.png#f05,train,factual,Ginger,2,ginger_na_first_irrigation_timing
+Screenshot_20260521_005441.png#f06,train,factual,Ginger,2,ginger_na_first_irrigation_type
+Screenshot_20260521_005441.png#f07,train,factual,Ginger,2,ginger_na_irrigation_interval_days
+Screenshot_20260521_005441.png#f13,train,factual,Ginger,2,ginger_na_drainage_rule
+Screenshot_20260521_005441.png#f14,test,factual,Ginger,2,ginger_na_water_demand_modifier
+Screenshot_20260521_005441.png#f15,val,factual,Ginger,2,ginger_na_seasonal_conditions
+Screenshot_20260521_005441.png#f23,train,factual,Ginger,2,ginger_na_soil_type_effect
+Screenshot_20260521_005441.png#n01,train,numeric_runtime,Ginger,2,ginger_initial_net_irrigation
+Screenshot_20260521_005441.png#n02,test,numeric_runtime,Ginger,2,ginger_mid-season_net_irrigation
+Screenshot_20260521_005441.png#n03,train,numeric_runtime,Ginger,2,ginger_late-season_net_irrigation
+Screenshot_20260521_005441.png#x01,train,abstain,Ginger,2,ginger_na_abstain_market_price
+Screenshot_20260521_005441.png#x02,test,abstain,Ginger,2,ginger_na_abstain_pesticide_brand
+Screenshot_20260521_005441.png#x03,train,abstain,Ginger,2,ginger_na_abstain_soil_ph
+Screenshot_20260521_005448.png#f02,train,factual,Mukhi Kachu,2,mukhi_kachu_na_crop_type
+Screenshot_20260521_005448.png#f03,train,factual,Mukhi Kachu,2,mukhi_kachu_na_sowing_season
+Screenshot_20260521_005448.png#f07,train,factual,Mukhi Kachu,2,mukhi_kachu_na_irrigation_interval_days
+Screenshot_20260521_005448.png#f09,test,factual,Mukhi Kachu,2,mukhi_kachu_na_critical_stages
+Screenshot_20260521_005448.png#f13,train,factual,Mukhi Kachu,2,mukhi_kachu_na_drainage_rule
+Screenshot_20260521_005448.png#f15,train,factual,Mukhi Kachu,2,mukhi_kachu_na_seasonal_conditions
+Screenshot_20260521_005448.png#f16,train,factual,Mukhi Kachu,2,mukhi_kachu_establishment_establishment_interval
+Screenshot_20260521_005448.png#f19,val,factual,Mukhi Kachu,2,mukhi_kachu_na_dry_season_strategy
+Screenshot_20260521_005448.png#f20,train,factual,Mukhi Kachu,2,mukhi_kachu_na_monsoon_strategy
+Screenshot_20260521_005448.png#f23,test,factual,Mukhi Kachu,2,mukhi_kachu_na_soil_type_effect
+Screenshot_20260521_005448.png#n01,train,numeric_runtime,Mukhi Kachu,2,mukhi_kachu_initial_net_irrigation
+Screenshot_20260521_005448.png#n02,val,numeric_runtime,Mukhi Kachu,2,mukhi_kachu_mid-season_net_irrigation
+Screenshot_20260521_005448.png#n03,train,numeric_runtime,Mukhi Kachu,2,mukhi_kachu_late-season_net_irrigation
+Screenshot_20260521_005448.png#x01,train,abstain,Mukhi Kachu,2,mukhi_kachu_na_abstain_market_price
+Screenshot_20260521_005448.png#x02,train,abstain,Mukhi Kachu,2,mukhi_kachu_na_abstain_pesticide_brand
+Screenshot_20260521_005448.png#x03,val,abstain,Mukhi Kachu,2,mukhi_kachu_na_abstain_soil_ph
+Screenshot_20260521_005454.png#f02,test,factual,Bottle Gourd,2,bottle_gourd_na_crop_type
+Screenshot_20260521_005454.png#f03,train,factual,Bottle Gourd,2,bottle_gourd_na_sowing_season
+Screenshot_20260521_005454.png#f07,train,factual,Bottle Gourd,2,bottle_gourd_na_irrigation_interval_days
+Screenshot_20260521_005454.png#f08,train,factual,Bottle Gourd,2,bottle_gourd_na_irrigation_method
+Screenshot_20260521_005454.png#f09,train,factual,Bottle Gourd,2,bottle_gourd_na_critical_stages
+Screenshot_20260521_005454.png#f13,train,factual,Bottle Gourd,2,bottle_gourd_na_drainage_rule
+Screenshot_20260521_005454.png#f15,train,factual,Bottle Gourd,2,bottle_gourd_na_seasonal_conditions
+Screenshot_20260521_005454.png#f19,val,factual,Bottle Gourd,2,bottle_gourd_na_dry_season_strategy
+Screenshot_20260521_005454.png#f23,test,factual,Bottle Gourd,2,bottle_gourd_na_soil_type_effect
+Screenshot_20260521_005454.png#f24,train,factual,Bottle Gourd,2,bottle_gourd_na_water_stress_indicator
+Screenshot_20260521_005454.png#n01,train,numeric_runtime,Bottle Gourd,2,bottle_gourd_initial_net_irrigation
+Screenshot_20260521_005454.png#n02,test,numeric_runtime,Bottle Gourd,2,bottle_gourd_mid-season_net_irrigation
+Screenshot_20260521_005454.png#n03,train,numeric_runtime,Bottle Gourd,2,bottle_gourd_late-season_net_irrigation
+Screenshot_20260521_005454.png#x01,test,abstain,Bottle Gourd,2,bottle_gourd_na_abstain_market_price
+Screenshot_20260521_005454.png#x02,train,abstain,Bottle Gourd,2,bottle_gourd_na_abstain_pesticide_brand
+Screenshot_20260521_005454.png#x03,train,abstain,Bottle Gourd,2,bottle_gourd_na_abstain_soil_ph
+Screenshot_20260521_005502.png#f02,val,factual,Pea,2,pea_na_crop_type
+Screenshot_20260521_005502.png#f03,train,factual,Pea,2,pea_na_sowing_season
+Screenshot_20260521_005502.png#f05,train,factual,Pea,2,pea_na_first_irrigation_timing
+Screenshot_20260521_005502.png#f06,train,factual,Pea,2,pea_na_first_irrigation_type
+Screenshot_20260521_005502.png#f08,test,factual,Pea,2,pea_na_irrigation_method
+Screenshot_20260521_005502.png#f09,test,factual,Pea,2,pea_na_critical_stages
+Screenshot_20260521_005502.png#f13,train,factual,Pea,2,pea_na_drainage_rule
+Screenshot_20260521_005502.png#f15,test,factual,Pea,2,pea_na_seasonal_conditions
+Screenshot_20260521_005502.png#f19,train,factual,Pea,2,pea_na_dry_season_strategy
+Screenshot_20260521_005502.png#f20,train,factual,Pea,2,pea_na_monsoon_strategy
+Screenshot_20260521_005502.png#f21,train,factual,Pea,2,pea_na_growth_stage_day_ranges
+Screenshot_20260521_005502.png#f23,train,factual,Pea,2,pea_na_soil_type_effect
+Screenshot_20260521_005502.png#n01,train,numeric_runtime,Pea,2,pea_initial_net_irrigation
+Screenshot_20260521_005502.png#n02,train,numeric_runtime,Pea,2,pea_mid-season_net_irrigation
+Screenshot_20260521_005502.png#n03,test,numeric_runtime,Pea,2,pea_late-season_net_irrigation
+Screenshot_20260521_005502.png#x01,test,abstain,Pea,2,pea_na_abstain_market_price
+Screenshot_20260521_005502.png#x02,train,abstain,Pea,2,pea_na_abstain_pesticide_brand
+Screenshot_20260521_005502.png#x03,train,abstain,Pea,2,pea_na_abstain_soil_ph
+Screenshot_20260521_005508.png#f02,train,factual,Sesame,2,sesame_na_crop_type
+Screenshot_20260521_005508.png#f03,train,factual,Sesame,2,sesame_na_sowing_season
+Screenshot_20260521_005508.png#f05,train,factual,Sesame,2,sesame_na_first_irrigation_timing
+Screenshot_20260521_005508.png#f06,train,factual,Sesame,2,sesame_na_first_irrigation_type
+Screenshot_20260521_005508.png#f09,test,factual,Sesame,2,sesame_na_critical_stages
+Screenshot_20260521_005508.png#f13,val,factual,Sesame,2,sesame_na_drainage_rule
+Screenshot_20260521_005508.png#f15,test,factual,Sesame,2,sesame_na_seasonal_conditions
+Screenshot_20260521_005508.png#f17,train,factual,Sesame,2,sesame_na_stage_irrigation_schedule
+Screenshot_20260521_005508.png#f21,train,factual,Sesame,2,sesame_na_growth_stage_day_ranges
+Screenshot_20260521_005508.png#f23,train,factual,Sesame,2,sesame_na_soil_type_effect
+Screenshot_20260521_005508.png#n01,train,numeric_runtime,Sesame,2,sesame_initial_net_irrigation
+Screenshot_20260521_005508.png#n02,train,numeric_runtime,Sesame,2,sesame_mid-season_net_irrigation
+Screenshot_20260521_005508.png#n03,val,numeric_runtime,Sesame,2,sesame_late-season_net_irrigation
+Screenshot_20260521_005508.png#x01,train,abstain,Sesame,2,sesame_na_abstain_market_price
+Screenshot_20260521_005508.png#x02,val,abstain,Sesame,2,sesame_na_abstain_pesticide_brand
+Screenshot_20260521_005508.png#x03,train,abstain,Sesame,2,sesame_na_abstain_soil_ph
+Sugarcan1.jpg#f02,train,factual,Sugarcane,2,sugarcane_na_crop_type
+Sugarcan1.jpg#f03,train,factual,Sugarcane,2,sugarcane_na_sowing_season
+Sugarcan1.jpg#f05,val,factual,Sugarcane,2,sugarcane_na_first_irrigation_timing
+Sugarcan1.jpg#f06,train,factual,Sugarcane,2,sugarcane_na_first_irrigation_type
+Sugarcan1.jpg#f09,test,factual,Sugarcane,2,sugarcane_na_critical_stages
+Sugarcan1.jpg#f13,test,factual,Sugarcane,2,sugarcane_na_drainage_rule
+Sugarcan1.jpg#f15,train,factual,Sugarcane,2,sugarcane_na_seasonal_conditions
+Sugarcan1.jpg#f17,train,factual,Sugarcane,2,sugarcane_na_stage_irrigation_schedule
+Sugarcan1.jpg#f19,val,factual,Sugarcane,2,sugarcane_na_dry_season_strategy
+Sugarcan1.jpg#f20,train,factual,Sugarcane,2,sugarcane_na_monsoon_strategy
+Sugarcan1.jpg#f21,train,factual,Sugarcane,2,sugarcane_na_growth_stage_day_ranges
+Sugarcan1.jpg#f23,train,factual,Sugarcane,2,sugarcane_na_soil_type_effect
+Sugarcan1.jpg#n01,test,numeric_runtime,Sugarcane,2,sugarcane_initial_net_irrigation
+Sugarcan1.jpg#n02,train,numeric_runtime,Sugarcane,2,sugarcane_mid-season_net_irrigation
+Sugarcan1.jpg#n03,train,numeric_runtime,Sugarcane,2,sugarcane_late-season_net_irrigation
+Sugarcan1.jpg#x01,train,abstain,Sugarcane,2,sugarcane_na_abstain_market_price
+Sugarcan1.jpg#x02,train,abstain,Sugarcane,2,sugarcane_na_abstain_pesticide_brand
+Sugarcan1.jpg#x03,test,abstain,Sugarcane,2,sugarcane_na_abstain_soil_ph
+Sweet_Potato.jpg#f02,train,factual,Sweet Potato,2,sweet_potato_na_crop_type
+Sweet_Potato.jpg#f03,train,factual,Sweet Potato,2,sweet_potato_na_sowing_season
+Sweet_Potato.jpg#f05,val,factual,Sweet Potato,2,sweet_potato_na_first_irrigation_timing
+Sweet_Potato.jpg#f07,test,factual,Sweet Potato,2,sweet_potato_na_irrigation_interval_days
+Sweet_Potato.jpg#f09,train,factual,Sweet Potato,2,sweet_potato_na_critical_stages
+Sweet_Potato.jpg#f13,train,factual,Sweet Potato,2,sweet_potato_na_drainage_rule
+Sweet_Potato.jpg#f15,test,factual,Sweet Potato,2,sweet_potato_na_seasonal_conditions
+Sweet_Potato.jpg#f16,train,factual,Sweet Potato,2,sweet_potato_establishment_establishment_interval
+Sweet_Potato.jpg#f17,train,factual,Sweet Potato,2,sweet_potato_na_stage_irrigation_schedule
+Sweet_Potato.jpg#f21,train,factual,Sweet Potato,2,sweet_potato_na_growth_stage_day_ranges
+Sweet_Potato.jpg#f22,train,factual,Sweet Potato,2,sweet_potato_na_age_dependent_irrigation
+Sweet_Potato.jpg#f23,train,factual,Sweet Potato,2,sweet_potato_na_soil_type_effect
+Sweet_Potato.jpg#n01,train,numeric_runtime,Sweet Potato,2,sweet_potato_initial_net_irrigation
+Sweet_Potato.jpg#n02,train,numeric_runtime,Sweet Potato,2,sweet_potato_mid-season_net_irrigation
+Sweet_Potato.jpg#n03,test,numeric_runtime,Sweet Potato,2,sweet_potato_late-season_net_irrigation
+Sweet_Potato.jpg#x01,train,abstain,Sweet Potato,2,sweet_potato_na_abstain_market_price
+Sweet_Potato.jpg#x02,train,abstain,Sweet Potato,2,sweet_potato_na_abstain_pesticide_brand
+Sweet_Potato.jpg#x03,test,abstain,Sweet Potato,2,sweet_potato_na_abstain_soil_ph
+Turmeric.jpg#f02,test,factual,Turmeric,2,turmeric_na_crop_type
+Turmeric.jpg#f03,train,factual,Turmeric,2,turmeric_na_sowing_season
+Turmeric.jpg#f07,train,factual,Turmeric,2,turmeric_na_irrigation_interval_days
+Turmeric.jpg#f13,train,factual,Turmeric,2,turmeric_na_drainage_rule
+Turmeric.jpg#f14,train,factual,Turmeric,2,turmeric_na_water_demand_modifier
+Turmeric.jpg#f15,test,factual,Turmeric,2,turmeric_na_seasonal_conditions
+Turmeric.jpg#f19,train,factual,Turmeric,2,turmeric_na_dry_season_strategy
+Turmeric.jpg#f23,train,factual,Turmeric,2,turmeric_na_soil_type_effect
+Turmeric.jpg#n01,train,numeric_runtime,Turmeric,2,turmeric_initial_net_irrigation
+Turmeric.jpg#n02,test,numeric_runtime,Turmeric,2,turmeric_mid-season_net_irrigation
+Turmeric.jpg#n03,train,numeric_runtime,Turmeric,2,turmeric_late-season_net_irrigation
+Turmeric.jpg#x01,train,abstain,Turmeric,2,turmeric_na_abstain_market_price
+Turmeric.jpg#x02,test,abstain,Turmeric,2,turmeric_na_abstain_pesticide_brand
+Turmeric.jpg#x03,train,abstain,Turmeric,2,turmeric_na_abstain_soil_ph

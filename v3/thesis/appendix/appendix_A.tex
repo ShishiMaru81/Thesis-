@@ -1,0 +1,9 @@
+\chapter{Worked Examples}
+\label{app:A}
+\label{app:examples}
+
+\Cref{fig:examples} in \cref{ch:results} reprints one incomplete question in both languages, with the three Phi-3.5-mini arms side by side. The model text is verbatim from \texttt{reports/s6/predictions/phi35\_mini\_*.jsonl}. This appendix records why those two rows were chosen and where the rest of the generations live.
+
+Both rows are locked test items whose gold type is clarify because the field unit is not in the conversion table (English ``dron''; Bengali \bn{গণ্ডা}). The correct response is to ask for the field size. They are not a random sample: they were picked so that a reader can see, on the same question, the three forms discussed in the body---a truncated zero-shot answer, a complete invented volume, and a clarify-trained request.
+
+Every scored generation used in this thesis is stored under \texttt{reports/s6/predictions/}, one JSONL file per arm, keyed by \texttt{row\_id}. The human-study answers to the 18 authored Bengali translations are under \texttt{reports/s7/predictions\_translated\_bn/}. Regenerating a figure or a metric does not require calling a model.

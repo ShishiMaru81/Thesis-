@@ -1,0 +1,9 @@
+{
+  "arm": "llama31_8b_zeroshot",
+  "n_lora_modules": 0,
+  "wall_seconds": 114.4,
+  "peak_vram_gb": 9.562,
+  "batch_size": 8,
+  "max_new_tokens": 512,
+  "rows": 18
+}

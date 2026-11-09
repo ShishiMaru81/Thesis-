@@ -1,0 +1,18 @@
+\section*{Ethics Statement}
+
+\subsection*{Human participants}
+The only people who took part in this study were the raters of model outputs. Five annotators rated \HumUniqueOutputs model outputs, giving \HumJudgments ratings in total. We believe the five annotators are the five authors of this thesis; each author's confirmation and background are \AUTHORINPUT{confirm annotators and their backgrounds}. The study design also includes two external raters who are not members of the team and who rate a shared subset of \HumOverlapOutputs outputs; their ratings belong to a supplementary round that had not run when this thesis was compiled (\STAGEEIGHTB{external raters}). No farmer, no other member of the public and no minor took part. Raters saw questions and model answers about crop irrigation only. No personal data were collected: ratings are stored under the codes A1 to A5.
+
+\subsection*{Consent}
+Written consent was not collected before the authors did their ratings. A consent form now exists. For the authors it records, truthfully and with the real signing date, that the rating was completed before the form was signed; external raters sign it before they rate. The signed forms are \PENDINGCONSENT{}. Whether the department required formal ethics approval for rating by the authors themselves is \AUTHORINPUT{supervisor's answer on ethics approval}.
+
+\subsection*{Data and licences}
+The domain facts come from the crop calendars published by the Bangladesh Agricultural Research Council (BARC) through its online crop-calendar application~\cite{barc2026cropcalendar}; \AUTHORINPUT{BARC terms of use: research use, data release}. The irrigation calculation follows the method of FAO Irrigation and Drainage Paper~56~\cite{allen1998fao56}. The four models were used under their published licences (\cref{sec:standards}). All questions and answers were written or generated for this study; none came from real users.
+
+\subsection*{Deployment and risk}
+The system described here is a research testbed. It was never deployed and no farmer received its advice. Its fine-tuned models invent missing inputs and present the result with confidence (\cref{ch:results}); advice of that kind could lead a farmer to over- or under-irrigate. We therefore do not recommend deploying any of the models studied here, and we report every limitation we know of in \cref{sec:threats}.
+
+\subsection*{Use of AI tools}
+AI assistants were used in this project for writing and checking code, for statistical scripting and for drafting and revising text; every number in the thesis is generated from the project's files by scripts, and every reference was checked against its source. The declaration required by the department is \AUTHORINPUT{department's AI-declaration wording}; the full declaration is in \cref{app:ai}.
+
+\pagebreak

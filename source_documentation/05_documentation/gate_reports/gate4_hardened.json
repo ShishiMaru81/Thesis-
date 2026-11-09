@@ -1,0 +1,311 @@
+{
+  "stage": "GATE 4",
+  "generated_at": "2026-08-28T04:13:39.799759+00:00",
+  "seed": 42,
+  "generator_version": "v3-s4.1",
+  "normalizer_version": "v3.1",
+  "verdict": "PASS",
+  "inputs": {
+    "test_seed": {
+      "path": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\test.jsonl",
+      "rows": 182,
+      "sha256": "ad90633b6c26a3f3402b13c122fb232c79d1ded5098d93db10f59bba0e887a11",
+      "sha256_verified": true
+    },
+    "train_seed": {
+      "path": "D:\\Research Lab\\Thesis\\v3\\data\\splits\\train_seed.jsonl",
+      "rows": 632
+    },
+    "train_augmented": {
+      "path": "D:\\Research Lab\\Thesis\\v3\\data\\augmented\\train_augmented.jsonl",
+      "rows": 3552,
+      "distinct_scenario_hashes": 1364
+    },
+    "kc_table": {
+      "path": "D:\\Research Lab\\Thesis\\kc_values_hybrid.csv",
+      "crops": 29,
+      "sha256": "201266e3d15c0b466dbd7c90a49e20a2255a6b3fbbc57e765f2c40d42a7bfef5"
+    },
+    "irrigation_rules_csv": {
+      "path": "NOT ON DISK",
+      "status": "ABSENT",
+      "impact": "The Stage 4 brief lists irrigation_rules.csv (per-crop min/max water bounds) as an input. It has never existed; irrigation_calc.py documents the gap as a standing v1 decision. No gold answer in this file is clamped to a BARC bound. Every computed gold carries clamped=false and clamp_source='none - irrigation_rules.csv absent', identical to Stages 0-3. If the CSV is ever authored, every numeric gold here must be regenerated."
+    }
+  },
+  "outputs": {
+    "test_hardened": {
+      "path": "D:\\Research Lab\\Thesis\\v3\\data\\hardened\\test_hardened.jsonl",
+      "rows": 422,
+      "sha256": "9314d18153ef1f41e6bfd64c70011a412ddbaf8c5ebf732a6e3da9ace3e26955"
+    },
+    "authoring_sheet": {
+      "path": "D:\\Research Lab\\Thesis\\v3\\reports\\human_eval\\test_authoring_sheet.csv",
+      "rows": 240,
+      "encoding": "utf-8-sig",
+      "sha256": "4fe727856f86272200b933fedfe0bf4fced3f088289f588b2c3dcaff521fc93a"
+    }
+  },
+  "composition": {
+    "total_rows": 422,
+    "seed_rows": 182,
+    "adversarial_rows": 240,
+    "by_lang": {
+      "bn": 211,
+      "en": 211
+    },
+    "by_origin": {
+      "seed": 182,
+      "adversarial": 240
+    },
+    "by_qtype": {
+      "factual": 114,
+      "numeric_runtime": 146,
+      "abstain": 74,
+      "clarify": 88
+    },
+    "by_gold_status": {
+      "seed_locked": 182,
+      "computed": 112,
+      "authored_policy": 68,
+      "pending_human": 60
+    },
+    "lang_balance_exact": true
+  },
+  "adversarial_by_category": [
+    {
+      "category": "misspelled_crop",
+      "target": 40,
+      "produced": 40,
+      "bn": 20,
+      "en": 20,
+      "subtypes": {
+        "recoverable": 24,
+        "ambiguous": 16
+      },
+      "qtypes": {
+        "numeric_runtime": 24,
+        "clarify": 16
+      },
+      "gold_status": {
+        "computed": 24,
+        "authored_policy": 16
+      }
+    },
+    {
+      "category": "missing_parameter",
+      "target": 40,
+      "produced": 40,
+      "bn": 20,
+      "en": 20,
+      "subtypes": {
+        "missing_et0": 10,
+        "missing_rainfall": 10,
+        "missing_area": 10,
+        "missing_stage": 10
+      },
+      "qtypes": {
+        "clarify": 40
+      },
+      "gold_status": {
+        "authored_policy": 40
+      }
+    },
+    {
+      "category": "unit_ambiguity",
+      "target": 30,
+      "produced": 30,
+      "bn": 15,
+      "en": 15,
+      "subtypes": {
+        "unknown_local_unit": 12,
+        "bigha_regional": 10,
+        "explicit_local_conversion": 8
+      },
+      "qtypes": {
+        "clarify": 12,
+        "numeric_runtime": 18
+      },
+      "gold_status": {
+        "authored_policy": 12,
+        "computed": 18
+      }
+    },
+    {
+      "category": "multi_crop",
+      "target": 30,
+      "produced": 30,
+      "bn": 15,
+      "en": 15,
+      "subtypes": {
+        "dual_answer": 12,
+        "comparative": 10,
+        "split_area": 8
+      },
+      "qtypes": {
+        "numeric_runtime": 30
+      },
+      "gold_status": {
+        "computed": 30
+      }
+    },
+    {
+      "category": "conflicting_values",
+      "target": 20,
+      "produced": 20,
+      "bn": 10,
+      "en": 10,
+      "subtypes": {
+        "rainfall_restated": 4,
+        "et0_restated": 4,
+        "area_unit_switched": 4,
+        "stage_contradicted": 4,
+        "crop_contradicted": 4
+      },
+      "qtypes": {
+        "clarify": 20
+      },
+      "gold_status": {
+        "pending_human": 20
+      }
+    },
+    {
+      "category": "out_of_domain",
+      "target": 40,
+      "produced": 40,
+      "bn": 20,
+      "en": 20,
+      "subtypes": {
+        "fertilizer_brand": 4,
+        "seed_dealer": 4,
+        "farm_loan": 4,
+        "weather_forecast": 4,
+        "machinery_rental": 4,
+        "land_registration": 4,
+        "crop_insurance": 4,
+        "disease_diagnosis": 4,
+        "export_policy": 4,
+        "labour_wage": 4
+      },
+      "qtypes": {
+        "abstain": 40
+      },
+      "gold_status": {
+        "pending_human": 40
+      }
+    },
+    {
+      "category": "code_switched",
+      "target": 40,
+      "produced": 40,
+      "bn": 20,
+      "en": 20,
+      "subtypes": {
+        "matrix_en_v0": 5,
+        "matrix_en_v1": 5,
+        "matrix_en_v2": 5,
+        "matrix_en_v3": 5,
+        "matrix_bn_v0": 5,
+        "matrix_bn_v1": 5,
+        "matrix_bn_v2": 5,
+        "matrix_bn_v3": 5
+      },
+      "qtypes": {
+        "numeric_runtime": 40
+      },
+      "gold_status": {
+        "computed": 40
+      }
+    }
+  ],
+  "human_authoring_required": {
+    "count": 60,
+    "categories": [
+      "conflicting_values",
+      "out_of_domain"
+    ],
+    "item_ids": [
+      "ADV-C5-001",
+      "ADV-C5-002",
+      "ADV-C5-003",
+      "ADV-C5-004",
+      "ADV-C5-005",
+      "ADV-C5-006",
+      "ADV-C5-007",
+      "ADV-C5-008",
+      "ADV-C5-009",
+      "ADV-C5-010",
+      "ADV-C5-011",
+      "ADV-C5-012",
+      "ADV-C5-013",
+      "ADV-C5-014",
+      "ADV-C5-015",
+      "ADV-C5-016",
+      "ADV-C5-017",
+      "ADV-C5-018",
+      "ADV-C5-019",
+      "ADV-C5-020",
+      "ADV-C6-001",
+      "ADV-C6-002",
+      "ADV-C6-003",
+      "ADV-C6-004",
+      "ADV-C6-005",
+      "ADV-C6-006",
+      "ADV-C6-007",
+      "ADV-C6-008",
+      "ADV-C6-009",
+      "ADV-C6-010",
+      "ADV-C6-011",
+      "ADV-C6-012",
+      "ADV-C6-013",
+      "ADV-C6-014",
+      "ADV-C6-015",
+      "ADV-C6-016",
+      "ADV-C6-017",
+      "ADV-C6-018",
+      "ADV-C6-019",
+      "ADV-C6-020",
+      "ADV-C6-021",
+      "ADV-C6-022",
+      "ADV-C6-023",
+      "ADV-C6-024",
+      "ADV-C6-025",
+      "ADV-C6-026",
+      "ADV-C6-027",
+      "ADV-C6-028",
+      "ADV-C6-029",
+      "ADV-C6-030",
+      "ADV-C6-031",
+      "ADV-C6-032",
+      "ADV-C6-033",
+      "ADV-C6-034",
+      "ADV-C6-035",
+      "ADV-C6-036",
+      "ADV-C6-037",
+      "ADV-C6-038",
+      "ADV-C6-039",
+      "ADV-C6-040"
+    ],
+    "rule": "Stage 4 hard rule: categories conflicting_values and out_of_domain carry no machine-generated gold. These rows have answer=\"\" and gold_status=\"pending_human\".",
+    "BLOCKING_FOR_STAGE_5": "Stage 5 MUST exclude or refuse to score any row with gold_status == 'pending_human'. Scoring an empty gold as a miss would understate every model equally and corrupt the comparison. Fill reports/human_eval/test_authoring_sheet.csv, then re-run this script with --merge-authored."
+  },
+  "leakage_guard": {
+    "heldout_blocklist_hashes": 25,
+    "train_augmented_hashes": 1364,
+    "adversarial_scenario_hashes": 142,
+    "collisions_with_train_or_heldout": 0,
+    "scenario_draw_stats": {
+      "redrawn_zero_net": 243
+    }
+  },
+  "duplicate_normalized_questions": {
+    "count": 0,
+    "examples": []
+  },
+  "design_notes": [
+    "Zero-net scenarios are excluded from adversarial numeric items: a 0-liter answer is indistinguishable from an abstention, which confounds attribution. The seed set already covers zero-net.",
+    "qtype 'clarify' is new in Stage 4. It is NOT abstain: abstain means out of scope, clarify means in scope but underspecified. Stage 5 must score them under different rubrics.",
+    "Category 6 uses ten topics none of which appear in training. The seed corpus's three abstain topics were excluded so the category measures the scope boundary rather than topic recall.",
+    "Category 3c golds deliberately contradict irrigation_calc.AREA: the farmer's stated bigha size wins. gold_trace records the rejected table value under table_area_sqm_rejected.",
+    "Multi-crop rows carry scenario_hash=null and a two-element scenario_hashes list, so a future leakage audit can still compare component hashes against train."
+  ]
+}

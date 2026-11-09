@@ -1,0 +1,80 @@
+{
+  "llama31_8b": {
+    "tokenizer": "meta-llama/Llama-3.1-8B-Instruct",
+    "has_chat_template": true,
+    "by_lang": {
+      "en": {
+        "layout": "system_native",
+        "prompt_tokens": 1903,
+        "error": null,
+        "p_present_in_render": true
+      },
+      "bn": {
+        "layout": "system_native",
+        "prompt_tokens": 1920,
+        "error": null,
+        "p_present_in_render": true
+      }
+    }
+  },
+  "mistral_nemo": {
+    "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+    "has_chat_template": true,
+    "by_lang": {
+      "en": {
+        "layout": "system_native",
+        "prompt_tokens": 1817,
+        "error": null,
+        "p_present_in_render": true
+      },
+      "bn": {
+        "layout": "system_native",
+        "prompt_tokens": 1817,
+        "error": null,
+        "p_present_in_render": true
+      }
+    }
+  },
+  "phi35_mini": {
+    "tokenizer": "microsoft/Phi-3.5-mini-instruct",
+    "has_chat_template": true,
+    "by_lang": {
+      "en": {
+        "layout": "system_native",
+        "prompt_tokens": 2082,
+        "error": null,
+        "p_present_in_render": true
+      },
+      "bn": {
+        "layout": "system_native",
+        "prompt_tokens": 2097,
+        "error": null,
+        "p_present_in_render": true
+      }
+    }
+  },
+  "phi4_mini": {
+    "tokenizer": "microsoft/Phi-4-mini-instruct",
+    "has_chat_template": true,
+    "by_lang": {
+      "en": {
+        "layout": "system_native",
+        "prompt_tokens": 1630,
+        "error": null,
+        "p_present_in_render": true
+      },
+      "bn": {
+        "layout": "system_native",
+        "prompt_tokens": 1629,
+        "error": null,
+        "p_present_in_render": true
+      }
+    }
+  },
+  "test_questions": {
+    "en_row_id": "7d9d68f0-f347-48b0-9e37-7171f33cda5c",
+    "bn_row_id": "19fbaf5e-8be6-4aa5-9b0f-654630f71ff2",
+    "en_qtype": "factual",
+    "bn_qtype": "factual"
+  }
+}

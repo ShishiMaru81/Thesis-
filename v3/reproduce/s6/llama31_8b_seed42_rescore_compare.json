@@ -1,0 +1,510 @@
+{
+  "arm": "llama31_8b_seed42",
+  "n_recorded": 3078,
+  "n_rescored": 3078,
+  "n_only_in_recorded": 0,
+  "n_only_in_rescored": 0,
+  "n_value_diffs": 83,
+  "only_in_recorded_sample": [],
+  "only_in_rescored_sample": [],
+  "value_diffs": [
+    {
+      "row_id": "0446c934-3ed4-44d6-a394-7115ce889b52",
+      "metric": "bertscore_f1",
+      "recorded": "0.8446407914161682",
+      "rescored": "0.8446409106254578"
+    },
+    {
+      "row_id": "059f273d-2079-4b1d-90f2-3777b341c45e",
+      "metric": "bertscore_f1",
+      "recorded": "0.7750154733657837",
+      "rescored": "0.7750157713890076"
+    },
+    {
+      "row_id": "0710791c-597a-46d8-ab48-c4599a932082",
+      "metric": "bertscore_f1",
+      "recorded": "0.8285842537879944",
+      "rescored": "0.8285843133926392"
+    },
+    {
+      "row_id": "0995b5fe-92d0-4057-b9b6-38af88a3c879",
+      "metric": "bertscore_f1",
+      "recorded": "0.6797285676002502",
+      "rescored": "0.6797285079956055"
+    },
+    {
+      "row_id": "0b53cb0e-4b5b-4f6e-a53e-876990aeca2e",
+      "metric": "bertscore_f1",
+      "recorded": "0.7375479936599731",
+      "rescored": "0.7375478744506836"
+    },
+    {
+      "row_id": "0bc5e08e-44e5-46da-b0df-839aab1ab40c",
+      "metric": "bertscore_f1",
+      "recorded": "0.7199006080627441",
+      "rescored": "0.7199006676673889"
+    },
+    {
+      "row_id": "0cf88805-2ff8-4a48-8420-b770ba023b17",
+      "metric": "bertscore_f1",
+      "recorded": "0.7058370113372803",
+      "rescored": "0.7058371305465698"
+    },
+    {
+      "row_id": "0e2a42ec-2e84-4567-99f8-90a304e0b8ba",
+      "metric": "bertscore_f1",
+      "recorded": "0.8001389503479004",
+      "rescored": "0.8001388311386108"
+    },
+    {
+      "row_id": "13afec47-e68b-40a8-882d-edd95004f635",
+      "metric": "bertscore_f1",
+      "recorded": "0.6529383063316345",
+      "rescored": "0.6529382467269897"
+    },
+    {
+      "row_id": "18e587eb-0a3a-46e6-9eb1-e39179450bec",
+      "metric": "bertscore_f1",
+      "recorded": "0.7046554088592529",
+      "rescored": "0.7046555280685425"
+    },
+    {
+      "row_id": "1ab6d884-d91f-4815-8329-4573e78325d4",
+      "metric": "bertscore_f1",
+      "recorded": "0.7303271889686584",
+      "rescored": "0.7303272485733032"
+    },
+    {
+      "row_id": "202dba00-f2b3-4292-a4d9-fec5f791082e",
+      "metric": "bertscore_f1",
+      "recorded": "0.7356802225112915",
+      "rescored": "0.7356801629066467"
+    },
+    {
+      "row_id": "256e200a-4e5d-46ee-8bf8-dc0ae65b35ae",
+      "metric": "bertscore_f1",
+      "recorded": "0.6675862073898315",
+      "rescored": "0.6675860285758972"
+    },
+    {
+      "row_id": "28d053ef-93b8-4030-8328-7ffe83777fe1",
+      "metric": "bertscore_f1",
+      "recorded": "0.6983862519264221",
+      "rescored": "0.6983861327171326"
+    },
+    {
+      "row_id": "2a9b9bf6-bfb7-4dc7-9129-f64f1b9406ed",
+      "metric": "bertscore_f1",
+      "recorded": "0.7066143751144409",
+      "rescored": "0.7066144347190857"
+    },
+    {
+      "row_id": "2ae727bd-b371-467c-b805-dc73953e334b",
+      "metric": "bertscore_f1",
+      "recorded": "1.0000001192092896",
+      "rescored": "1.0"
+    },
+    {
+      "row_id": "2b2c149c-de61-4eae-bd7f-e995243b76a3",
+      "metric": "bertscore_f1",
+      "recorded": "0.6123775839805603",
+      "rescored": "0.6123777031898499"
+    },
+    {
+      "row_id": "2e224a1c-a374-4e73-85b3-9f7d30520426",
+      "metric": "bertscore_f1",
+      "recorded": "0.7467420697212219",
+      "rescored": "0.7467419505119324"
+    },
+    {
+      "row_id": "2ec31899-c02a-4b52-9f50-d3d8afcc4d45",
+      "metric": "bertscore_f1",
+      "recorded": "0.7641674280166626",
+      "rescored": "0.7641675472259521"
+    },
+    {
+      "row_id": "2ff62cbc-831e-400a-ad47-8e43212995d8",
+      "metric": "bertscore_f1",
+      "recorded": "0.6195469498634338",
+      "rescored": "0.6195471286773682"
+    },
+    {
+      "row_id": "3faa1a5a-c78f-42df-a8f9-9ebf27ecee3c",
+      "metric": "bertscore_f1",
+      "recorded": "0.7698944807052612",
+      "rescored": "0.769894540309906"
+    },
+    {
+      "row_id": "41a43b74-fdfa-4b43-b60c-19d02cdf0ada",
+      "metric": "bertscore_f1",
+      "recorded": "0.7426989078521729",
+      "rescored": "0.7426987886428833"
+    },
+    {
+      "row_id": "4384506f-e42a-40bc-be7d-c3f3268edaec",
+      "metric": "bertscore_f1",
+      "recorded": "0.6649738550186157",
+      "rescored": "0.6649739742279053"
+    },
+    {
+      "row_id": "4405b278-9605-4c51-a092-63529219ce7d",
+      "metric": "bertscore_f1",
+      "recorded": "0.7831889390945435",
+      "rescored": "0.7831889986991882"
+    },
+    {
+      "row_id": "46398949-2bc7-4590-bec5-c47e8c821c92",
+      "metric": "bertscore_f1",
+      "recorded": "0.7076154351234436",
+      "rescored": "0.707615315914154"
+    },
+    {
+      "row_id": "49a9f166-d0c2-4c09-b416-5040521df8c5",
+      "metric": "bertscore_f1",
+      "recorded": "0.7541623711585999",
+      "rescored": "0.7541621923446655"
+    },
+    {
+      "row_id": "4ab5449a-a565-45e3-b1c7-dcf05cbf9685",
+      "metric": "bertscore_f1",
+      "recorded": "0.7580106854438782",
+      "rescored": "0.7580108642578125"
+    },
+    {
+      "row_id": "4e29b475-db92-4f95-86f9-7476c523dfb4",
+      "metric": "bertscore_f1",
+      "recorded": "0.7582745552062988",
+      "rescored": "0.7582744359970093"
+    },
+    {
+      "row_id": "4e7643da-1e17-48ce-af4d-d3b4b29a0a37",
+      "metric": "bertscore_f1",
+      "recorded": "0.9999998807907104",
+      "rescored": "1.0000003576278687"
+    },
+    {
+      "row_id": "4e7f0517-f164-4175-b73d-37955a0c0c48",
+      "metric": "bertscore_f1",
+      "recorded": "0.6941977739334106",
+      "rescored": "0.6941978335380554"
+    },
+    {
+      "row_id": "50649cf0-be92-4889-86a4-e0b4c909851b",
+      "metric": "bertscore_f1",
+      "recorded": "0.7421553134918213",
+      "rescored": "0.7421553730964661"
+    },
+    {
+      "row_id": "5ff427af-ec79-4117-9415-176e18bebd5f",
+      "metric": "bertscore_f1",
+      "recorded": "0.6773285865783691",
+      "rescored": "0.6773284673690796"
+    },
+    {
+      "row_id": "66960b7d-dcef-4557-af2e-6a06dc875161",
+      "metric": "bertscore_f1",
+      "recorded": "0.75217604637146",
+      "rescored": "0.7521762251853943"
+    },
+    {
+      "row_id": "6ba2e9f4-5b0c-4a4a-87a3-ef138331c4a0",
+      "metric": "bertscore_f1",
+      "recorded": "0.7769780158996582",
+      "rescored": "0.7769777774810791"
+    },
+    {
+      "row_id": "6da95e11-81a5-4703-996b-d27d1b6ef55c",
+      "metric": "bertscore_f1",
+      "recorded": "0.6348005533218384",
+      "rescored": "0.6348004937171936"
+    },
+    {
+      "row_id": "6f337fa2-d8f9-4913-97d9-893649430c4c",
+      "metric": "bertscore_f1",
+      "recorded": "0.7124417424201965",
+      "rescored": "0.7124418020248413"
+    },
+    {
+      "row_id": "74989711-3a60-4221-9b04-3385dce881af",
+      "metric": "bertscore_f1",
+      "recorded": "0.771870493888855",
+      "rescored": "0.7718704342842102"
+    },
+    {
+      "row_id": "75150278-22df-42f9-b165-af36b662b56c",
+      "metric": "bertscore_f1",
+      "recorded": "0.8528289794921875",
+      "rescored": "0.8528290390968323"
+    },
+    {
+      "row_id": "756b2bc2-5738-424b-9a28-cacba3f39ce7",
+      "metric": "bertscore_f1",
+      "recorded": "1.000000238418579",
+      "rescored": "1.0"
+    },
+    {
+      "row_id": "78c189cd-aad3-47c3-bfae-c198dfc91486",
+      "metric": "bertscore_f1",
+      "recorded": "0.6546493172645569",
+      "rescored": "0.6546493768692017"
+    },
+    {
+      "row_id": "7db053dd-75e3-4f6d-a7c6-0a9bbcd361b8",
+      "metric": "bertscore_f1",
+      "recorded": "0.7271405458450317",
+      "rescored": "0.7271406054496765"
+    },
+    {
+      "row_id": "7df81778-5968-4552-ab1a-db295469b17e",
+      "metric": "bertscore_f1",
+      "recorded": "0.7569505572319031",
+      "rescored": "0.7569504976272583"
+    },
+    {
+      "row_id": "7fbea704-1a67-4909-8e8c-00d317ca9af6",
+      "metric": "bertscore_f1",
+      "recorded": "0.7845068573951721",
+      "rescored": "0.7845067381858826"
+    },
+    {
+      "row_id": "8117386e-4ac9-4425-a156-157992be0c8c",
+      "metric": "bertscore_f1",
+      "recorded": "0.6906274557113647",
+      "rescored": "0.6906275749206543"
+    },
+    {
+      "row_id": "8739a33b-0d19-4954-b778-19aec52301f6",
+      "metric": "bertscore_f1",
+      "recorded": "0.9459469318389893",
+      "rescored": "0.9459472298622131"
+    },
+    {
+      "row_id": "88daf557-14d7-45c2-844a-a5332d8d0af7",
+      "metric": "bertscore_f1",
+      "recorded": "0.7361801862716675",
+      "rescored": "0.7361801266670227"
+    },
+    {
+      "row_id": "8945ee8f-b245-431b-9dbd-963d3e0cabe7",
+      "metric": "bertscore_f1",
+      "recorded": "1.0000001192092896",
+      "rescored": "1.0"
+    },
+    {
+      "row_id": "8bce019b-e17e-4c37-96a8-797468711499",
+      "metric": "bertscore_f1",
+      "recorded": "0.7981472611427307",
+      "rescored": "0.7981473803520203"
+    },
+    {
+      "row_id": "9189effd-5b55-4e4d-a60e-a1fff5a5175d",
+      "metric": "bertscore_f1",
+      "recorded": "0.7912600636482239",
+      "rescored": "0.7912601828575134"
+    },
+    {
+      "row_id": "91d4d564-0d55-421a-a1d8-b66efa6ad97e",
+      "metric": "bertscore_f1",
+      "recorded": "0.9039589762687683",
+      "rescored": "0.9039587378501892"
+    },
+    {
+      "row_id": "92ba40c6-7204-457f-a6a7-a300ee09aa63",
+      "metric": "bertscore_f1",
+      "recorded": "0.6640064716339111",
+      "rescored": "0.6640065312385559"
+    },
+    {
+      "row_id": "93c24fa3-e435-4233-b149-468851c570ab",
+      "metric": "bertscore_f1",
+      "recorded": "0.6936615705490112",
+      "rescored": "0.6936613321304321"
+    },
+    {
+      "row_id": "9a51ebcf-f79c-48a3-901a-ef7f2454be13",
+      "metric": "bertscore_f1",
+      "recorded": "0.7555241584777832",
+      "rescored": "0.7555240392684937"
+    },
+    {
+      "row_id": "9b48c7f0-b006-49d8-a8e0-4d34849b8230",
+      "metric": "bertscore_f1",
+      "recorded": "0.6781445741653442",
+      "rescored": "0.6781444549560547"
+    },
+    {
+      "row_id": "9c485268-a452-4c18-85a8-110bd5f0212d",
+      "metric": "bertscore_f1",
+      "recorded": "0.5856054425239563",
+      "rescored": "0.5856056809425354"
+    },
+    {
+      "row_id": "9d3838f5-227a-4774-bffd-9b5f6ab38ce9",
+      "metric": "bertscore_f1",
+      "recorded": "0.7630376815795898",
+      "rescored": "0.7630376219749451"
+    },
+    {
+      "row_id": "9d42e95d-642e-43ea-aa54-c9dce153747c",
+      "metric": "bertscore_f1",
+      "recorded": "0.7973947525024414",
+      "rescored": "0.797394871711731"
+    },
+    {
+      "row_id": "9db0d4f3-86d8-48b6-8db3-c1cd1d6a75ea",
+      "metric": "bertscore_f1",
+      "recorded": "0.7093715071678162",
+      "rescored": "0.7093713879585266"
+    },
+    {
+      "row_id": "9de23273-976d-4301-b436-3447c0b4cfcb",
+      "metric": "bertscore_f1",
+      "recorded": "0.7675719857215881",
+      "rescored": "0.7675718665122986"
+    },
+    {
+      "row_id": "a02e1ee6-21f5-4300-9fc3-4003757fda7f",
+      "metric": "bertscore_f1",
+      "recorded": "0.7325764894485474",
+      "rescored": "0.7325764298439026"
+    },
+    {
+      "row_id": "a15bf945-3355-4008-b191-0f47221cda77",
+      "metric": "bertscore_f1",
+      "recorded": "1.000000238418579",
+      "rescored": "1.0"
+    },
+    {
+      "row_id": "a2e4d475-b527-4f2d-bb85-f7a6459dceeb",
+      "metric": "bertscore_f1",
+      "recorded": "0.8433336615562439",
+      "rescored": "0.8433335423469543"
+    },
+    {
+      "row_id": "a75c4015-5faa-47a6-aa0d-65a04eb9b3c1",
+      "metric": "bertscore_f1",
+      "recorded": "0.8263887166976929",
+      "rescored": "0.8263885378837585"
+    },
+    {
+      "row_id": "ade3eaf7-cbdd-4aa5-9ff5-f3028ddf8e24",
+      "metric": "bertscore_f1",
+      "recorded": "0.6830667853355408",
+      "rescored": "0.6830666661262512"
+    },
+    {
+      "row_id": "adfe2134-b909-4563-b6dd-851d014fee0b",
+      "metric": "bertscore_f1",
+      "recorded": "0.7299277186393738",
+      "rescored": "0.729927659034729"
+    },
+    {
+      "row_id": "af7d6ab5-d771-4d2a-9590-07cbc2384a08",
+      "metric": "bertscore_f1",
+      "recorded": "0.7215693593025208",
+      "rescored": "0.721569299697876"
+    },
+    {
+      "row_id": "afd998df-1655-47e3-8b1a-85c4a8be4f05",
+      "metric": "bertscore_f1",
+      "recorded": "0.66485595703125",
+      "rescored": "0.6648558974266052"
+    },
+    {
+      "row_id": "bf644ba5-0dc8-45cb-b43d-7e621c3d7fa3",
+      "metric": "bertscore_f1",
+      "recorded": "0.8195832371711731",
+      "rescored": "0.8195831775665283"
+    },
+    {
+      "row_id": "c5c55241-29c7-4246-860f-616355fe0f42",
+      "metric": "bertscore_f1",
+      "recorded": "0.7694185376167297",
+      "rescored": "0.7694184184074402"
+    },
+    {
+      "row_id": "c78da396-2ec4-4721-ae80-e9de0ed41f84",
+      "metric": "bertscore_f1",
+      "recorded": "0.70753413438797",
+      "rescored": "0.7075341939926147"
+    },
+    {
+      "row_id": "cdabddbc-cf3f-4428-89b3-1b61df09db78",
+      "metric": "bertscore_f1",
+      "recorded": "0.7353728413581848",
+      "rescored": "0.7353729009628296"
+    },
+    {
+      "row_id": "d2931220-f851-4412-b377-ae845820e0d4",
+      "metric": "bertscore_f1",
+      "recorded": "0.6551527380943298",
+      "rescored": "0.6551527976989746"
+    },
+    {
+      "row_id": "d5db5325-17b6-4ff7-9b65-830cad4c42d1",
+      "metric": "bertscore_f1",
+      "recorded": "1.0000001192092896",
+      "rescored": "1.0"
+    },
+    {
+      "row_id": "d986e191-072c-41e0-9533-d60e3f08740c",
+      "metric": "bertscore_f1",
+      "recorded": "0.8239168524742126",
+      "rescored": "0.8239166140556335"
+    },
+    {
+      "row_id": "df08331b-7c31-4908-92a4-d663a87d869f",
+      "metric": "bertscore_f1",
+      "recorded": "0.6414097547531128",
+      "rescored": "0.6414096355438232"
+    },
+    {
+      "row_id": "e81cd592-ab7e-46f3-97c7-8213b9b919e7",
+      "metric": "bertscore_f1",
+      "recorded": "0.7924938201904297",
+      "rescored": "0.792493999004364"
+    },
+    {
+      "row_id": "ea345e50-690b-40dd-b8bd-2504428def95",
+      "metric": "bertscore_f1",
+      "recorded": "0.6513515114784241",
+      "rescored": "0.6513516306877136"
+    },
+    {
+      "row_id": "eb5cb432-465e-4276-8165-a2ec1fae073d",
+      "metric": "bertscore_f1",
+      "recorded": "0.7338787317276001",
+      "rescored": "0.7338786721229553"
+    },
+    {
+      "row_id": "ec7bbbdf-864f-4653-a4c4-df19d2fbf084",
+      "metric": "bertscore_f1",
+      "recorded": "0.6620780825614929",
+      "rescored": "0.6620781421661377"
+    },
+    {
+      "row_id": "f0154f8f-60a4-4a54-9020-abb3d4f2bdff",
+      "metric": "bertscore_f1",
+      "recorded": "0.6491595506668091",
+      "rescored": "0.64915931224823"
+    },
+    {
+      "row_id": "f4d0432d-7011-4dfa-ad33-9c642da57d1b",
+      "metric": "bertscore_f1",
+      "recorded": "0.7775565981864929",
+      "rescored": "0.7775565385818481"
+    },
+    {
+      "row_id": "f56d33fe-b0e8-41e1-a64d-28dfeee04617",
+      "metric": "bertscore_f1",
+      "recorded": "0.9081569314002991",
+      "rescored": "0.9081571698188782"
+    },
+    {
+      "row_id": "ff9266cd-399f-4ef5-97b7-d89418975645",
+      "metric": "bertscore_f1",
+      "recorded": "0.814758837223053",
+      "rescored": "0.8147588968276978"
+    }
+  ]
+}

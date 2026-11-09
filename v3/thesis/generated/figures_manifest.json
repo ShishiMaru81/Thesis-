@@ -1,0 +1,242 @@
+[
+ {
+  "id": "f01_pipeline",
+  "function": "f1_pipeline_tikz",
+  "files": [
+   "thesis/generated/f01_pipeline.tex"
+  ],
+  "sources": [
+   "thesis/generated/numbers.tex (macros: SourceFiles, SeedRows, SeedFacts, SplitRatio*, AugRowsSeed, AugRows, ValRows, TestSeedRows, TestRowsAdv, TestRows, TestScorable, ClarifyTrainRows, HumAnnotators, HumJudgments, SigPrimaryTotal)"
+  ],
+  "rows_used": "gate reports (counts only, via macros)",
+  "takeaway": "The corpus was split by source before any augmentation; only the training side was augmented, and a four-detector leakage gate stood between the two sides before the test set was hardened and locked."
+ },
+ {
+  "id": "f02_data_composition",
+  "function": "f2_data_composition",
+  "files": [
+   "thesis/images/f02_data_composition.pdf",
+   "thesis/images/f02_data_composition.png"
+  ],
+  "sources": [
+   "reports/gate1_split.json",
+   "reports/gate2_augment.json",
+   "reports/gate4_hardened.json",
+   "reports/stats/entry_gate.json"
+  ],
+  "rows_used": "902 seed rows; 3552 training rows; 422 test rows (362 scored)",
+  "takeaway": "Clarification is 0.0% of the training corpus but 18.8% of the scored test set; abstention is 3.6% of training."
+ },
+ {
+  "id": "f03_tokenizer_cost",
+  "function": "f3_tokenizer_cost",
+  "files": [
+   "thesis/images/f03_tokenizer_cost.pdf",
+   "thesis/images/f03_tokenizer_cost.png"
+  ],
+  "sources": [
+   "thesis/generated/tokenizer_cost.json",
+   "thesis/generated/tokenizer_cost_pairs.csv"
+  ],
+  "rows_used": "91 bn/en question pairs x 4 tokenizers",
+  "takeaway": "A Bengali question costs 1.50–4.33 times as many tokens as its English twin (median), highest for Llama-3.1-8B and Phi-3.5-mini."
+ },
+ {
+  "id": "f04_training_dynamics",
+  "function": "f4_training_dynamics",
+  "files": [
+   "thesis/images/f04_training_dynamics.pdf",
+   "thesis/images/f04_training_dynamics.png"
+  ],
+  "sources": [
+   "reports/s5/llama31_8b_seed1337.json",
+   "reports/s5/llama31_8b_seed2024.json",
+   "reports/s5/llama31_8b_seed42.json",
+   "reports/s5/mistral_nemo_seed1337.json",
+   "reports/s5/mistral_nemo_seed2024.json",
+   "reports/s5/mistral_nemo_seed42.json",
+   "reports/s5/phi35_mini_seed1337.json",
+   "reports/s5/phi35_mini_seed2024.json",
+   "reports/s5/phi35_mini_seed42.json",
+   "reports/s5/phi4_mini_seed1337.json",
+   "reports/s5/phi4_mini_seed2024.json",
+   "reports/s5/phi4_mini_seed42.json"
+  ],
+  "rows_used": "12 training manifests (train loss every 10 steps, validation loss every 25 steps)",
+  "takeaway": "Training loss falls smoothly in all twelve runs; validation loss reaches its minimum before the last step in every run and ends at most 0.070 above it. Validation loss is not comparable across models because tokenisation differs."
+ },
+ {
+  "id": "f05_knowledge",
+  "function": "f5_knowledge",
+  "files": [
+   "thesis/images/f05_knowledge.pdf",
+   "thesis/images/f05_knowledge.png"
+  ],
+  "sources": [
+   "reports/s6/summary_by_arm.csv"
+  ],
+  "rows_used": "numeric_runtime rows; per-slot scorable rows as in summary_by_arm.csv",
+  "takeaway": "No base model states a correct Kc (F1 0.000); after fine-tuning Kc F1 is 0.542–0.761 and ET0 / effective rainfall are near ceiling."
+ },
+ {
+  "id": "f06_numeric_accuracy",
+  "function": "f6_numeric_accuracy",
+  "files": [
+   "thesis/images/f06_numeric_accuracy.pdf",
+   "thesis/images/f06_numeric_accuracy.png"
+  ],
+  "sources": [
+   "reports/s6/summary_by_arm.csv",
+   "reports/stats/exact_match_denominators.csv"
+  ],
+  "rows_used": "116 single-crop numeric rows per arm; three tolerance tiers",
+  "takeaway": "At ±0.1 mm accuracy rises from 0.0–3.4% to 38.8–69.3%; exact agreement (< 0.005 mm) is much lower (17.8–23.9%) and ±1.0 mm much higher."
+ },
+ {
+  "id": "f07_abstain_vs_clarify",
+  "function": "f7_abstain_vs_clarify",
+  "files": [
+   "thesis/images/f07_abstain_vs_clarify.pdf",
+   "thesis/images/f07_abstain_vs_clarify.png"
+  ],
+  "sources": [
+   "reports/s6/summary_by_arm.csv"
+  ],
+  "rows_used": "34 abstain rows and 68 clarify rows per arm",
+  "takeaway": "Fine-tuning teaches abstention (100% in all 12 runs) but not clarification (0% in all 12 runs); adding clarify examples lifts clarification to 29.4–38.2%."
+ },
+ {
+  "id": "f08_confusion",
+  "function": "f8_confusion",
+  "files": [
+   "thesis/images/f08_confusion.pdf",
+   "thesis/images/f08_confusion.png"
+  ],
+  "sources": [
+   "reports/s6/confusion_matrices.json"
+  ],
+  "rows_used": "362 scorable rows per arm (Llama-3.1-8B)",
+  "takeaway": "The clarify→answer cell holds 68, 68 and 43 of 68 clarify rows for zero-shot, fine-tuned and clarify-trained Llama."
+ },
+ {
+  "id": "f09_mitigation",
+  "function": "f9_mitigation",
+  "files": [
+   "thesis/images/f09_mitigation.pdf",
+   "thesis/images/f09_mitigation.png"
+  ],
+  "sources": [
+   "reports/s6/summary_by_arm.csv",
+   "reports/s6/predictions/llama31_8b_seed42_clarify_with_detector.jsonl"
+  ],
+  "rows_used": "68 clarify rows per arm",
+  "takeaway": "Clarify training cuts invented values from 100% to 50.0–66.2%; the detector's 16.2% is an oracle-gated, in-sample upper bound for Llama only."
+ },
+ {
+  "id": "f10_output_form",
+  "function": "f10_output_form",
+  "files": [
+   "thesis/images/f10_output_form.pdf",
+   "thesis/images/f10_output_form.png"
+  ],
+  "sources": [
+   "thesis/generated/gen_tokens.csv"
+  ],
+  "rows_used": "68 clarify rows x (zero-shot + 3 fine-tuned seeds) x 4 models",
+  "takeaway": "On incomplete queries 13.2–66.2% of zero-shot responses run to the token cap; no fine-tuned response does, in any of the 12 runs."
+ },
+ {
+  "id": "f11_language",
+  "function": "f11_language",
+  "files": [
+   "thesis/images/f11_language.pdf",
+   "thesis/images/f11_language.png"
+  ],
+  "sources": [
+   "reports/stats/results_automatic.csv"
+  ],
+  "rows_used": "A6 tests, fine-tuned arms, 4 models x 3 seeds; numeric: 146 rows (73 per language, unpaired Fisher); factual: 57 fact_id pairs (Wilcoxon)",
+  "takeaway": "0 of 12 numeric gaps are significant and 12 of 12 numeric CIs span zero; the factual gap favours English and is significant at seed 42 in 3 of 4 models."
+ },
+ {
+  "id": "f12_human_by_qtype",
+  "function": "f12_human_by_qtype",
+  "files": [
+   "thesis/images/f12_human_by_qtype.pdf",
+   "thesis/images/f12_human_by_qtype.png"
+  ],
+  "sources": [
+   "reports/stats/human_arm_summary.csv"
+  ],
+  "rows_used": "primary human sample: 182 test-set questions x 4 arms; farmer decision by majority vote on shared outputs",
+  "takeaway": "Annotators would give none of the standard fine-tuned models' answers to incomplete queries to a farmer (0 of 25 per arm); the clarify-trained arm reaches 56% on those questions."
+ },
+ {
+  "id": "f14_annotators",
+  "function": "f14_annotators",
+  "files": [
+   "thesis/images/f14_annotators.pdf",
+   "thesis/images/f14_annotators.png"
+  ],
+  "sources": [
+   "reports/human_eval/stage7_ratings_merged.csv"
+  ],
+  "rows_used": "100 shared outputs x 5 annotators",
+  "takeaway": "Ordinal alpha is 0.721 with all five annotators; leaving out A1, A3 raises it (to 0.781, 0.729), leaving out any other lowers it."
+ },
+ {
+  "id": "f15_examples",
+  "function": "f15_examples_tex",
+  "files": [
+   "thesis/generated/f15_examples.tex"
+  ],
+  "sources": [
+   "data/hardened/test_hardened.jsonl",
+   "reports/s6/predictions/phi35_mini_zeroshot.jsonl",
+   "reports/s6/predictions/phi35_mini_seed42.jsonl",
+   "reports/s6/predictions/phi35_mini_seed42_clarify.jsonl",
+   "thesis/generated/gen_tokens.csv"
+  ],
+  "rows_used": "2 test rows (4dc57fae-04ec-4a65-9ecf-f48c9a6e6bed, 4dd0a4db-6ec6-49a3-9a57-be097f0db9e2) x 3 Phi-3.5-mini variants; text verbatim, [...] marks omitted spans; Bengali set by XeLaTeX",
+  "takeaway": "The same unknown-unit question three ways: the base model rambles to the token cap, the fine-tuned model silently converts the unit and returns a volume, the clarify-trained model asks for the field size."
+ },
+ {
+  "id": "f16_forest",
+  "function": "f16_forest",
+  "files": [
+   "thesis/images/f16_forest.pdf",
+   "thesis/images/f16_forest.png"
+  ],
+  "sources": [
+   "reports/stats/results_automatic.csv"
+  ],
+  "rows_used": "30 PRIMARY automatic tests with an effect difference at seed 42 (the Friedman omnibus has no difference and is omitted)",
+  "takeaway": "20 of 30 plotted PRIMARY effects are significant after Holm; not significant: A4_llama31_8b, A4_mistral_nemo, A4_phi35_mini, A4_phi4_mini, A2_llama_vs_mistral, A6_num_unpaired_llama31_8b, A6_fac_llama31_8b, A6_num_unpaired_mistral_nemo, A6_num_unpaired_phi35_mini, A6_num_unpaired_phi4_mini."
+ },
+ {
+  "id": "f17_acceptance_by_distance",
+  "function": "f17_acceptance_by_distance",
+  "files": [
+   "thesis/images/f17_acceptance_by_distance.pdf",
+   "thesis/images/f17_acceptance_by_distance.png"
+  ],
+  "sources": [
+   "reports/stats/b8_error_bins.csv"
+  ],
+  "rows_used": "180 fine-tuned numeric outputs (three fine-tuned arms x test-set numeric questions; multi-crop outputs excluded); 95% bootstrap CIs",
+  "takeaway": "Annotators accepted 97% of exact answers but only 38% of answers 0.005–0.1 mm away and 12% of answers 0.1–1.0 mm away: with the reference visible, they judged agreement with it."
+ },
+ {
+  "id": "f18_response_language",
+  "function": "f18_response_language",
+  "files": [
+   "thesis/images/f18_response_language.pdf",
+   "thesis/images/f18_response_language.png"
+  ],
+  "sources": [
+   "reports/stats/response_language.csv"
+  ],
+  "rows_used": "181 Bengali test questions per arm (exploratory, added after Part A)",
+  "takeaway": "Zero-shot Mistral-NeMo answered only 30.4% of Bengali questions in Bengali; every fine-tuned and clarify-trained arm answered at least 98.9% in Bengali."
+ }
+]

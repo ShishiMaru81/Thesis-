@@ -1,0 +1,181 @@
+id,crop,stage,lang,area_value,area_unit,et0_mm,rainfall_mm,parsed,parse_error,slot_match,net_mm_gold,net_mm_pred,liters_gold,liters_pred,floored,tier,error_type
+Bottle Gourd_numeric_runtime_bn_0658e6790c25,Bottle Gourd,initial,bn,1.0,acre,3.4,14.2,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Turmeric_numeric_runtime_en_050636234198,Turmeric,initial,en,10.0,decimal,4.1,3.1,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Sweet Potato_numeric_runtime_en_62fef04c5739,Sweet Potato,mid-season,en,1.0,acre,3.2,0.2,True,,True,3.51,3.51,14204.5,14204.5,False,1,none
+Jute_numeric_runtime_bn_ab042f383218,Jute,late-season,bn,0.5,acre,4.8,59.2,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Litchi_numeric_runtime_bn_2b72b6939929,Litchi,late-season,bn,1.0,acre,4.6,1.9,True,,True,1.84,1.84,7446.2,7446.2,False,1,none
+Cotton_numeric_runtime_bn_92196451360f,Cotton,mid-season,bn,1.0,ha,2.9,14.4,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Wheat_numeric_runtime_en_3ccdcfd90a8a,Wheat,mid-season,en,5.0,decimal,5.5,56.1,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Turmeric_numeric_runtime_bn_34b9785c9cc8,Turmeric,initial,bn,1.0,ha,5.6,12.9,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Mungbean_numeric_runtime_en_a818ad4c82d4,Mungbean,mid-season,en,10.0,decimal,6.2,18.9,True,,True,1.79,1.79,724.4,724.4,False,3,none
+Pea_numeric_runtime_en_78cd4ea3e36a,Pea,mid-season,en,1.0,acre,5.4,1.5,True,,True,4.94,4.94,19991.5,19991.5,False,1,none
+Jute_numeric_runtime_bn_e061b7e04a5e,Jute,late-season,bn,10.0,decimal,2.6,0.3,True,,True,1.56,1.56,631.3,631.3,False,1,none
+Mustard_numeric_runtime_bn_1490e5ab39f9,Mustard,late-season,bn,10.0,decimal,4.5,4.8,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Ginger_numeric_runtime_en_f6a635fe619a,Ginger,mid-season,en,1.0,ha,4.3,7.2,True,,True,1.49,1.49,14900.0,14900.0,False,2,none
+Turmeric_numeric_runtime_en_d8d970cb69f4,Turmeric,mid-season,en,1.0,katha,5.1,49.7,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Litchi_numeric_runtime_bn_1b90973adf66,Litchi,initial,bn,1.0,ha,6.0,6.5,True,,True,0.67,0.67,6700.0,6700.0,False,2,none
+Brinjal_numeric_runtime_en_caff21be010d,Brinjal,mid-season,en,10.0,decimal,2.6,4.1,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Maize_numeric_runtime_bn_b179e768b880,Maize,initial,bn,1.0,ha,5.1,0.1,True,,True,1.44,1.44,14400.0,14400.0,False,1,none
+Mustard_numeric_runtime_en_eae0d949ab49,Mustard,late-season,en,0.5,ha,3.9,24.0,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Jackfruit_numeric_runtime_en_b394546ebb07,Jackfruit,late-season,en,5.0,decimal,5.9,0.9,True,,True,3.66,3.66,740.6,740.6,False,1,none
+Potato_numeric_runtime_bn_e20c94fe76b0,Potato,late-season,bn,0.5,ha,5.4,30.8,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Wheat_numeric_runtime_en_045fac6a9ebf,Wheat,late-season,en,5.0,decimal,6.0,4.2,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Mukhi Kachu_numeric_runtime_en_4e9429422c3c,Mukhi Kachu,late-season,en,5.0,decimal,2.9,4.9,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Wheat_numeric_runtime_en_06500d2c754b,Wheat,initial,en,5.0,decimal,3.0,7.5,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sugarcane_numeric_runtime_en_768cadba04ed,Sugarcane,initial,en,10.0,decimal,3.7,50.5,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Bottle Gourd_numeric_runtime_bn_9489f9387e3a,Bottle Gourd,initial,bn,0.5,ha,4.7,33.2,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Coconut_numeric_runtime_en_63bea069741d,Coconut,initial,en,10.0,decimal,4.2,54.7,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Litchi_numeric_runtime_bn_956d62e15dde,Litchi,late-season,bn,0.5,ha,4.6,9.1,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Onion_numeric_runtime_bn_824ba3306b87,Onion,initial,bn,1.0,acre,5.2,9.9,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Guava_numeric_runtime_bn_01cf13091760,Guava,late-season,bn,1.0,acre,3.2,44.6,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Mungbean_numeric_runtime_en_9c30e893fc0c,Mungbean,initial,en,0.5,acre,2.9,14.7,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Mango_numeric_runtime_bn_34254205559d,Mango,late-season,bn,0.5,ha,4.3,0.9,True,,True,2.45,2.45,12250.0,12250.0,False,1,none
+Coconut_numeric_runtime_bn_80631ed8a27c,Coconut,initial,bn,10.0,decimal,4.2,54.7,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Coconut_numeric_runtime_en_a8500d300f07,Coconut,initial,en,10.0,decimal,5.3,38.6,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Onion_numeric_runtime_bn_31f98fd774df,Onion,late-season,bn,10.0,decimal,4.2,27.4,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Turmeric_numeric_runtime_bn_2d0b58afddb1,Turmeric,initial,bn,5.0,decimal,3.9,0.4,True,,True,1.61,1.61,325.8,325.8,False,1,none
+Potato_numeric_runtime_en_6f9e80a00473,Potato,initial,en,0.5,acre,5.1,1.7,True,,True,1.11,1.11,2246.0,2246.0,False,1,none
+Turmeric_numeric_runtime_en_398e2b23ea62,Turmeric,initial,en,5.0,decimal,3.9,0.4,True,,True,1.61,1.61,325.8,325.8,False,1,none
+Wheat_numeric_runtime_bn_e8b992e4b4cd,Wheat,initial,bn,1.0,ha,5.9,42.9,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Ginger_numeric_runtime_en_08d48c68b3ab,Ginger,mid-season,en,0.5,acre,5.2,21.0,True,,True,0.47,0.47,951.0,951.0,False,3,none
+Turmeric_numeric_runtime_bn_aa208a9434aa,Turmeric,initial,bn,10.0,decimal,4.1,3.1,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Onion_numeric_runtime_en_769e5e69573f,Onion,late-season,en,1.0,ha,4.0,4.3,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Bottle Gourd_numeric_runtime_en_6a3e1d706a84,Bottle Gourd,late-season,en,1.0,acre,3.7,12.0,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Coconut_numeric_runtime_bn_6a7114d7e718,Coconut,initial,bn,0.5,ha,4.6,2.8,True,,True,1.99,1.99,9950.0,9950.0,False,1,none
+Turmeric_numeric_runtime_en_035c1e98c1f1,Turmeric,late-season,en,0.5,acre,5.6,1.0,True,,True,4.47,4.47,9044.7,9044.7,False,1,none
+Wheat_numeric_runtime_bn_a299a2090d19,Wheat,initial,bn,0.5,ha,4.9,3.1,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Aus Rice_numeric_runtime_en_ffe31fa9e4d1,Aus Rice,late-season,en,0.5,acre,5.3,8.0,True,,True,1.59,1.59,3217.3,3217.3,False,2,none
+Sesame_numeric_runtime_en_f9819fbf6e9e,Sesame,initial,en,0.5,acre,2.7,14.3,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Potato_numeric_runtime_en_e8ae0879a028,Potato,late-season,en,0.5,ha,5.4,30.8,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Groundnut_numeric_runtime_bn_8e561bf8690e,Groundnut,mid-season,bn,1.0,ha,5.4,1.0,True,,True,5.36,5.36,53600.0,53600.0,False,1,none
+Mango_numeric_runtime_en_a9215a8b5c29,Mango,late-season,en,1.0,katha,3.1,11.3,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sweet Potato_numeric_runtime_bn_7537967d9af5,Sweet Potato,late-season,bn,0.5,acre,6.1,13.1,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Coconut_numeric_runtime_en_39d17585ed72,Coconut,initial,en,0.5,ha,4.6,2.8,True,,True,1.99,1.99,9950.0,9950.0,False,1,none
+Mango_numeric_runtime_bn_3191323bdc7b,Mango,late-season,bn,1.0,katha,3.1,11.3,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Bottle Gourd_numeric_runtime_en_648781842c69,Bottle Gourd,initial,en,1.0,acre,3.4,14.2,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Onion_numeric_runtime_bn_956c0bb6e5b0,Onion,mid-season,bn,1.0,ha,4.9,3.6,True,,True,2.09,2.09,20900.0,20900.0,False,1,none
+Mango_numeric_runtime_bn_1a68a1675c0a,Mango,initial,bn,0.5,ha,3.3,1.2,True,,True,0.96,0.96,4800.0,4800.0,False,1,none
+Ginger_numeric_runtime_bn_a0272b64fca5,Ginger,late-season,bn,1.0,acre,3.1,59.9,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Potato_numeric_runtime_bn_baa184269155,Potato,initial,bn,0.5,acre,5.1,1.7,True,,True,1.11,1.11,2246.0,2246.0,False,1,none
+Turmeric_numeric_runtime_en_3823b2e6e16c,Turmeric,mid-season,en,1.0,ha,5.1,4.0,True,,True,2.21,2.21,22100.0,22100.0,False,1,none
+Onion_numeric_runtime_bn_be99e05850cf,Onion,mid-season,bn,0.5,ha,5.5,40.1,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Sesame_numeric_runtime_en_d50ae5123297,Sesame,initial,en,1.0,ha,6.5,14.6,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Cotton_numeric_runtime_en_382c02c86948,Cotton,mid-season,en,1.0,ha,2.9,14.4,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Coconut_numeric_runtime_en_7ba19459b350,Coconut,initial,en,0.5,ha,5.8,14.7,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Mukhi Kachu_numeric_runtime_bn_dd46c6746d30,Mukhi Kachu,mid-season,bn,0.5,acre,2.7,13.1,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Wheat_numeric_runtime_bn_d213b984897c,Wheat,late-season,bn,1.0,acre,5.7,11.9,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sesame_numeric_runtime_bn_006a446dbc15,Sesame,initial,bn,0.5,acre,2.7,14.3,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Turmeric_numeric_runtime_en_043b5270d302,Turmeric,initial,en,1.0,ha,5.6,12.9,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Mango_numeric_runtime_bn_d7683da4232a,Mango,mid-season,bn,5.0,decimal,5.2,4.5,True,,True,0.6,0.6,121.4,121.4,False,1,none
+Mango_numeric_runtime_en_a7801ff1210c,Mango,initial,en,0.5,ha,3.3,1.2,True,,True,0.96,0.96,4800.0,4800.0,False,1,none
+Aus Rice_numeric_runtime_en_8733659acff6,Aus Rice,initial,en,1.0,ha,5.2,1.2,True,,True,4.44,4.44,44400.0,44400.0,False,1,none
+Aus Rice_numeric_runtime_bn_3ee1c55f598d,Aus Rice,late-season,bn,0.5,acre,5.3,8.0,True,,True,1.59,1.59,3217.3,3217.3,False,2,none
+Onion_numeric_runtime_en_963e0c27c538,Onion,late-season,en,10.0,decimal,4.2,27.4,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Litchi_numeric_runtime_en_2bf84609ebf7,Litchi,mid-season,en,1.0,katha,3.6,57.4,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Jackfruit_numeric_runtime_bn_90a72a5cac67,Jackfruit,late-season,bn,5.0,decimal,5.9,0.9,True,,True,3.66,3.66,740.6,740.6,False,1,none
+Maize_numeric_runtime_en_54808743c574,Maize,initial,en,1.0,ha,5.1,0.1,True,,True,1.44,1.44,14400.0,14400.0,False,1,none
+Lemon_numeric_runtime_en_e0a28e9b8ee2,Lemon,mid-season,en,1.0,acre,5.9,0.2,True,,True,3.67,3.67,14852.0,14852.0,False,1,none
+Cotton_numeric_runtime_bn_fa6ebaeda18c,Cotton,late-season,bn,10.0,decimal,5.0,24.5,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Wheat_numeric_runtime_en_babf61cc9050,Wheat,initial,en,0.5,ha,4.9,3.1,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Boro Rice_numeric_runtime_en_4de590d5eea1,Boro Rice,mid-season,en,10.0,decimal,4.6,13.2,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sweet Potato_numeric_runtime_bn_a78517b76d58,Sweet Potato,mid-season,bn,5.0,decimal,3.7,50.3,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Brinjal_numeric_runtime_en_d344734a2bb5,Brinjal,late-season,en,1.0,katha,5.6,4.1,True,,True,1.0,1.0,66.9,66.9,False,1,none
+Wheat_numeric_runtime_bn_f38db8bb2800,Wheat,late-season,bn,1.0,ha,3.7,8.9,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Aus Rice_numeric_runtime_bn_c5ca81306b4b,Aus Rice,late-season,bn,0.5,ha,4.0,35.2,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Brinjal_numeric_runtime_bn_db3685eab406,Brinjal,mid-season,bn,10.0,decimal,2.6,4.1,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Mukhi Kachu_numeric_runtime_bn_a84aa09dbc33,Mukhi Kachu,late-season,bn,5.0,decimal,2.9,4.9,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Jackfruit_numeric_runtime_bn_0631320a4027,Jackfruit,late-season,bn,10.0,decimal,2.5,30.5,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Jackfruit_numeric_runtime_bn_80196e0eefc5,Jackfruit,mid-season,bn,5.0,decimal,6.2,42.7,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Wheat_numeric_runtime_bn_c710251cd1a9,Wheat,mid-season,bn,5.0,decimal,5.5,56.1,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Mukhi Kachu_numeric_runtime_en_57b555aa0a41,Mukhi Kachu,mid-season,en,0.5,acre,2.7,13.1,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Cotton_numeric_runtime_en_fdfb2899095f,Cotton,late-season,en,0.5,ha,5.9,9.1,True,,True,0.04,0.04,200.0,200.0,False,2,none
+Lemon_numeric_runtime_bn_419d08f96583,Lemon,late-season,bn,1.0,ha,4.1,50.1,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Maize_numeric_runtime_en_13dcbc3d85b0,Maize,initial,en,1.0,acre,4.1,8.6,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sugarcane_numeric_runtime_bn_46e1862d935a,Sugarcane,initial,bn,10.0,decimal,3.7,50.5,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Sugarcane_numeric_runtime_bn_96ce6ca80390,Sugarcane,late-season,bn,1.0,katha,4.3,1.7,True,,False,1.78,0.0,119.1,0.0,False,1,slot_mismatch
+Pea_numeric_runtime_bn_dfab62fdfcd0,Pea,mid-season,bn,1.0,acre,5.4,1.5,True,,True,4.94,4.94,19991.5,19991.5,False,1,none
+Turmeric_numeric_runtime_bn_a40de88994cc,Turmeric,mid-season,bn,1.0,ha,5.1,4.0,True,,True,2.21,2.21,22100.0,22100.0,False,1,none
+Wheat_numeric_runtime_en_218394d66323,Wheat,late-season,en,1.0,acre,5.7,11.9,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sesame_numeric_runtime_bn_ab5d8ffe70cc,Sesame,initial,bn,1.0,ha,6.5,14.6,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Wheat_numeric_runtime_bn_9a78770a8d6b,Wheat,initial,bn,5.0,decimal,3.0,7.5,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sesame_numeric_runtime_bn_6c66342192eb,Sesame,late-season,bn,1.0,katha,6.5,22.8,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Groundnut_numeric_runtime_bn_8ef22772c9c6,Groundnut,late-season,bn,5.0,decimal,4.9,7.8,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Mango_numeric_runtime_en_f7f6cffdf3bb,Mango,late-season,en,0.5,ha,4.3,0.9,True,,True,2.45,2.45,12250.0,12250.0,False,1,none
+Wheat_numeric_runtime_bn_a09ca6f8e1f1,Wheat,late-season,bn,5.0,decimal,6.0,4.2,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Coconut_numeric_runtime_en_8773424fed7c,Coconut,mid-season,en,0.5,ha,3.7,3.3,True,,True,0.9,0.9,4500.0,4500.0,False,1,none
+Mukhi Kachu_numeric_runtime_en_e7217e10e9f1,Mukhi Kachu,late-season,en,0.5,acre,4.2,38.6,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Ginger_numeric_runtime_bn_fb9692decb88,Ginger,mid-season,bn,1.0,ha,4.3,7.2,True,,True,1.49,1.49,14900.0,14900.0,False,2,none
+Turmeric_numeric_runtime_en_2217b8deca37,Turmeric,late-season,en,1.0,ha,3.8,27.5,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Mukhi Kachu_numeric_runtime_bn_69a833d80215,Mukhi Kachu,initial,bn,5.0,decimal,3.3,0.3,True,,True,1.39,1.39,281.3,281.3,False,1,none
+Aus Rice_numeric_runtime_bn_68f6462818ba,Aus Rice,initial,bn,1.0,ha,5.2,1.2,True,,True,4.44,4.44,44400.0,44400.0,False,1,none
+Mungbean_numeric_runtime_bn_891c66d16baa,Mungbean,mid-season,bn,10.0,decimal,6.2,18.9,True,,True,1.79,1.79,724.4,724.4,False,3,none
+Maize_numeric_runtime_bn_f2d1435d6515,Maize,initial,bn,1.0,acre,4.1,8.6,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Coconut_numeric_runtime_bn_8b549de60662,Coconut,mid-season,bn,0.5,ha,3.7,3.3,True,,True,0.9,0.9,4500.0,4500.0,False,1,none
+Groundnut_numeric_runtime_en_62a0ab181318,Groundnut,late-season,en,1.0,ha,3.8,11.3,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Litchi_numeric_runtime_en_a70ebec93450,Litchi,late-season,en,0.5,ha,4.6,9.1,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Jute_numeric_runtime_en_431a1a8e4196,Jute,late-season,en,10.0,decimal,2.6,0.3,True,,True,1.56,1.56,631.3,631.3,False,1,none
+Jackfruit_numeric_runtime_en_5fa9a9c39916,Jackfruit,late-season,en,10.0,decimal,2.5,30.5,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Coconut_numeric_runtime_bn_b40cc54bc65b,Coconut,initial,bn,10.0,decimal,5.3,38.6,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Ginger_numeric_runtime_bn_b79aa402a697,Ginger,mid-season,bn,0.5,acre,5.2,21.0,True,,True,0.47,0.47,951.0,951.0,False,3,none
+Mango_numeric_runtime_bn_df643e1dff74,Mango,initial,bn,0.5,acre,4.0,1.9,True,,True,0.79,0.79,1598.5,1598.5,False,1,none
+Sweet Potato_numeric_runtime_en_f8508be43120,Sweet Potato,late-season,en,0.5,acre,6.1,13.1,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Cotton_numeric_runtime_en_b2a9866ee93f,Cotton,late-season,en,10.0,decimal,5.0,24.5,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Groundnut_numeric_runtime_bn_41647b5f2980,Groundnut,mid-season,bn,1.0,ha,5.4,6.2,True,,True,3.42,3.42,34200.0,34200.0,False,2,none
+Lemon_numeric_runtime_bn_e2e684905e25,Lemon,mid-season,bn,1.0,acre,5.9,0.2,True,,True,3.67,3.67,14852.0,14852.0,False,1,none
+Bottle Gourd_numeric_runtime_bn_8e902aee28d6,Bottle Gourd,late-season,bn,1.0,acre,3.7,12.0,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Wheat_numeric_runtime_en_c89c458f4fec,Wheat,initial,en,1.0,ha,5.9,42.9,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Mango_numeric_runtime_en_bb5273efee3b,Mango,mid-season,en,5.0,decimal,5.2,4.5,True,,True,0.6,0.6,121.4,121.4,False,1,none
+Guava_numeric_runtime_en_be66c3805465,Guava,late-season,en,1.0,acre,3.2,44.6,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Mustard_numeric_runtime_en_931f321eb9f5,Mustard,late-season,en,10.0,decimal,4.5,4.8,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Onion_numeric_runtime_bn_dfc8755ed76d,Onion,initial,bn,1.0,ha,4.6,1.4,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Potato_numeric_runtime_bn_634021b5b16c,Potato,initial,bn,1.0,katha,5.5,10.3,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Lemon_numeric_runtime_bn_571ffbea75e0,Lemon,late-season,bn,0.5,acre,4.4,53.4,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Ginger_numeric_runtime_en_3123be0d563e,Ginger,late-season,en,1.0,acre,3.1,59.9,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Brinjal_numeric_runtime_bn_9381bd96e8dd,Brinjal,late-season,bn,1.0,katha,5.6,4.1,True,,True,1.0,1.0,66.9,66.9,False,1,none
+Litchi_numeric_runtime_en_cc096d96822a,Litchi,late-season,en,1.0,acre,4.6,1.9,True,,True,1.84,1.84,7446.2,7446.2,False,1,none
+Boro Rice_numeric_runtime_en_a42a8a2f7667,Boro Rice,mid-season,en,0.5,acre,4.3,10.9,True,,True,0.34,0.34,688.0,688.0,False,2,none
+Cotton_numeric_runtime_bn_99ad6d7d1b2a,Cotton,late-season,bn,0.5,ha,5.9,9.1,True,,True,0.04,0.04,200.0,200.0,False,2,none
+Potato_numeric_runtime_en_f194e56cf46b,Potato,initial,en,1.0,katha,5.5,10.3,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Onion_numeric_runtime_en_764627dbd075,Onion,mid-season,en,0.5,ha,5.5,40.1,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Turmeric_numeric_runtime_bn_d0f1d9191d44,Turmeric,late-season,bn,0.5,acre,5.6,1.0,True,,True,4.47,4.47,9044.7,9044.7,False,1,none
+Litchi_numeric_runtime_bn_4f7af929f0f5,Litchi,mid-season,bn,1.0,katha,3.6,57.4,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Jackfruit_numeric_runtime_en_8111a58221c1,Jackfruit,mid-season,en,0.5,acre,5.6,8.7,True,,True,0.85,0.85,1719.9,1719.9,False,2,none
+Turmeric_numeric_runtime_bn_d86d6744a364,Turmeric,late-season,bn,1.0,ha,3.8,27.5,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Onion_numeric_runtime_en_e2411fe2893f,Onion,initial,en,1.0,acre,5.2,9.9,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Onion_numeric_runtime_en_03237b35a788,Onion,initial,en,1.0,ha,4.6,1.4,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Groundnut_numeric_runtime_en_16d08abf0b4a,Groundnut,mid-season,en,1.0,ha,5.4,1.0,True,,True,5.36,5.36,53600.0,53600.0,False,1,none
+Mungbean_numeric_runtime_bn_b7dbdeb1f310,Mungbean,initial,bn,0.5,acre,2.9,14.7,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sweet Potato_numeric_runtime_bn_3f7bf78865b9,Sweet Potato,mid-season,bn,1.0,acre,3.2,0.2,True,,True,3.51,3.51,14204.5,14204.5,False,1,none
+Groundnut_numeric_runtime_en_7ff348b83358,Groundnut,mid-season,en,1.0,ha,5.4,6.2,True,,True,3.42,3.42,34200.0,34200.0,False,2,none
+Coconut_numeric_runtime_bn_b7470b2cf9d8,Coconut,initial,bn,0.5,ha,5.8,14.7,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sugarcane_numeric_runtime_en_73a038af3440,Sugarcane,late-season,en,1.0,katha,4.3,1.7,True,,True,1.78,1.78,119.1,119.1,False,1,none
+Jackfruit_numeric_runtime_en_ee7780e8528f,Jackfruit,mid-season,en,5.0,decimal,6.2,42.7,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Litchi_numeric_runtime_en_97693d2059d7,Litchi,late-season,en,10.0,decimal,5.5,0.1,True,,True,4.04,4.04,1634.9,1634.9,False,1,none
+Sweet Potato_numeric_runtime_en_1df773c5f900,Sweet Potato,late-season,en,5.0,decimal,6.5,49.9,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Turmeric_numeric_runtime_bn_eefcb4edbf2d,Turmeric,mid-season,bn,1.0,katha,5.1,49.7,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Mukhi Kachu_numeric_runtime_bn_ef578d4c542b,Mukhi Kachu,late-season,bn,0.5,acre,4.2,38.6,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Boro Rice_numeric_runtime_bn_087232bfce29,Boro Rice,mid-season,bn,10.0,decimal,4.6,13.2,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Sweet Potato_numeric_runtime_en_030f0bca8d86,Sweet Potato,mid-season,en,5.0,decimal,3.7,50.3,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Jute_numeric_runtime_en_821cc3b28788,Jute,late-season,en,0.5,acre,4.8,59.2,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Groundnut_numeric_runtime_en_aa6f682bfce5,Groundnut,late-season,en,5.0,decimal,4.9,7.8,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Onion_numeric_runtime_en_58e20d4c1e99,Onion,mid-season,en,1.0,ha,4.9,3.6,True,,True,2.09,2.09,20900.0,20900.0,False,1,none
+Potato_numeric_runtime_bn_64e841770a25,Potato,initial,bn,1.0,katha,4.3,3.8,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Litchi_numeric_runtime_en_1effd068292a,Litchi,initial,en,1.0,ha,6.0,6.5,True,,True,0.67,0.67,6700.0,6700.0,False,2,none
+Aus Rice_numeric_runtime_en_1e5c15055d1d,Aus Rice,late-season,en,0.5,ha,4.0,35.2,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Jackfruit_numeric_runtime_bn_cc045e05446a,Jackfruit,mid-season,bn,0.5,acre,5.6,8.7,True,,True,0.85,0.85,1719.9,1719.9,False,2,none
+Wheat_numeric_runtime_en_969983293232,Wheat,late-season,en,1.0,ha,3.7,8.9,True,,True,0.0,0.0,0.0,0.0,True,2,none
+Onion_numeric_runtime_bn_1b0415df0904,Onion,late-season,bn,1.0,ha,4.0,4.3,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Potato_numeric_runtime_bn_dab0337fff97,Potato,late-season,bn,1.0,ha,6.4,7.6,True,,True,1.38,1.38,13800.0,13800.0,False,2,none
+Bottle Gourd_numeric_runtime_en_feef38559dca,Bottle Gourd,initial,en,0.5,ha,4.7,33.2,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Sesame_numeric_runtime_en_e75f69da8726,Sesame,late-season,en,1.0,katha,6.5,22.8,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Boro Rice_numeric_runtime_bn_129bfe5f8625,Boro Rice,mid-season,bn,0.5,acre,4.3,10.9,True,,True,0.34,0.34,688.0,688.0,False,2,none
+Potato_numeric_runtime_en_6e9392ececcd,Potato,initial,en,1.0,katha,4.3,3.8,True,,True,0.0,0.0,0.0,0.0,True,1,none
+Mustard_numeric_runtime_bn_fa7f4d2295f0,Mustard,late-season,bn,0.5,ha,3.9,24.0,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Sweet Potato_numeric_runtime_bn_713e0c40d442,Sweet Potato,late-season,bn,5.0,decimal,6.5,49.9,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Lemon_numeric_runtime_en_feada78aa06b,Lemon,late-season,en,0.5,acre,4.4,53.4,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Litchi_numeric_runtime_bn_5cdcef7dc976,Litchi,late-season,bn,10.0,decimal,5.5,0.1,True,,True,4.04,4.04,1634.9,1634.9,False,1,none
+Potato_numeric_runtime_en_a8531a7954a2,Potato,late-season,en,1.0,ha,6.4,7.6,True,,True,1.38,1.38,13800.0,13800.0,False,2,none
+Lemon_numeric_runtime_en_69ec3ff07c09,Lemon,late-season,en,1.0,ha,4.1,50.1,True,,True,0.0,0.0,0.0,0.0,True,3,none
+Mango_numeric_runtime_en_2b4c5b5df296,Mango,initial,en,0.5,acre,4.0,1.9,True,,True,0.79,0.79,1598.5,1598.5,False,1,none
+Mukhi Kachu_numeric_runtime_en_3a1ee53be782,Mukhi Kachu,initial,en,5.0,decimal,3.3,0.3,True,,True,1.39,1.39,281.3,281.3,False,1,none
+Groundnut_numeric_runtime_bn_13f77d9fc18c,Groundnut,late-season,bn,1.0,ha,3.8,11.3,True,,True,0.0,0.0,0.0,0.0,True,2,none

@@ -1,0 +1,289 @@
+{
+  "crop_name_bn": "আমন ধান",
+  "crop_name_en": "Aman Rice",
+  "source_document": "ফসল পঞ্জিকা - আমন ধান (BARC / AFACI)",
+  "source_image": "Screenshot_20260521_004739.png",
+  "source_image_sha256": "35c09802d16cfa6594b03d1445e1e51ce1df4543e6cec03d1328632b6f5c20e6",
+  "extraction_timestamp": "2026-07-19T14:11:46.477869+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "আমন ধান",
+      "value_en": "Aman Rice",
+      "provenance": "explicit"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "খাদ্যশস্য",
+      "value_en": "Cereal",
+      "provenance": "derived"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "আষাঢ়-শ্রাবণ",
+      "value_en": "Ashar-Srabon (June-July)",
+      "provenance": "explicit",
+      "source_quote_bn": "আষাঢ়, শ্রাবণ",
+      "source": "বপনের সময়"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "আষাঢ়",
+          "bangla_span_en": "Asharh",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "শ্রাবণ",
+          "bangla_span_en": "Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "ভাদ্র",
+          "bangla_span_en": "Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 8,
+          "month_gregorian_bn": "সেপ্টেম্বর",
+          "month_gregorian_en": "September",
+          "bangla_span_bn": "আশ্বিন",
+          "bangla_span_en": "Ashwin",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 9,
+          "month_gregorian_bn": "অক্টোবর",
+          "month_gregorian_en": "October",
+          "bangla_span_bn": "কার্তিক",
+          "bangla_span_en": "Kartik",
+          "class": "mixed",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "অগ্রহায়ণ",
+          "bangla_span_en": "Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "পৌষ",
+          "bangla_span_en": "Poush",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        }
+      ],
+      "provenance": "partial",
+      "calendar_system_in_source": "bangla",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": false,
+      "needs_reextraction": true,
+      "missing_months_gregorian": [
+        "জানুয়ারি",
+        "ফেব্রুয়ারি",
+        "মার্চ",
+        "এপ্রিল",
+        "মে"
+      ]
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not explicitly state the timing of the first irrigation."
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not explicitly state the type of the first irrigation."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": null,
+      "condition_en": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null,
+      "note": "Calendar does not state a regular irrigation interval in days."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value_bn": "১৫-২০ সেমি উঁচু আইলে বৃষ্টির পানি ধরে রাখা; পানি স্বল্পতা হলে অগভীর নলকূপ থেকে সেচ",
+      "value_en": "Retain rainfall behind 15-20 cm high bunds; irrigate from a shallow tubewell if water becomes scarce",
+      "provenance": "explicit",
+      "source_quote_bn": "বৃষ্টি নির্ভর বোনা আমন এলাকায় জমির আইল ১৫-২০ সেন্টিমিটার উঁচু হলে অনেক বৃষ্টির পানি ধরে রাখা যায় যা খরা থেকে ফসলকে কিছুটা হলেও রক্ষা করে। এরপরও পানি স্বল্পতা হলে অগভীর নলকূপ থেকে সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No critical irrigation stage is stated; only a stage-specific stopping rule is provided."
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth is stated in centimeters, not millimeters."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "The stated 15-20 cm measurement is bund height, not irrigation-water depth."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null,
+      "note": "This crop is not a tree crop; basin geometry is not applicable."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No drainage rule is stated. The grain-hardening sentence is an irrigation stopping rule."
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "Calendar does not explicitly state water demand modifiers related to mulching or weeding's effect on water retention."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "বৃষ্টি নির্ভর বোনা আমন এলাকায় ১৫-২০ সেমি উঁচু আইলে বৃষ্টির পানি ধরে খরা থেকে ফসল রক্ষা করতে হবে। এরপরও পানি স্বল্পতা হলে অগভীর নলকূপ থেকে সেচ দিতে হবে। দানা শক্ত হওয়ার পর সেচের প্রয়োজন নেই।",
+      "value_en": "In rainfed broadcast Aman fields, retain rainfall behind 15-20 cm high bunds to protect the crop from drought. If water is still scarce, irrigate from a shallow tubewell. No irrigation is required after grain hardening.",
+      "provenance": "explicit",
+      "source_quote_bn": "বৃষ্টি নির্ভর বোনা আমন এলাকায় জমির আইল ১৫-২০ সেন্টিমিটার উঁচু হলে অনেক বৃষ্টির পানি ধরে রাখা যায় যা খরা থেকে ফসলকে কিছুটা হলেও রক্ষা করে। এরপরও পানি স্বল্পতা হলে অগভীর নলকূপ থেকে সেচ দিতে হবে। দানা শক্ত হওয়ার পর আর সেচ প্রদানের প্রয়োজন নাই।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "provenance": "absent",
+      "note": "Calendar states a continuous water level requirement from establishment, not a specific irrigation interval for this stage."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value_bn": "দানা শক্ত হওয়ার পর আর সেচ প্রদানের প্রয়োজন নাই।",
+      "value_en": "No irrigation is required after grain hardening.",
+      "provenance": "explicit",
+      "source_quote_bn": "দানা শক্ত হওয়ার পর আর সেচ প্রদানের প্রয়োজন নাই।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not state a numeric rain threshold for irrigation."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "পানি স্বল্পতা হলে অগভীর নলকূপ থেকে সেচ দিতে হবে।",
+      "value_en": "If water becomes scarce, irrigate from a shallow tubewell.",
+      "provenance": "derived",
+      "source_quote_bn": "এরপরও পানি স্বল্পতা হলে অগভীর নলকূপ থেকে সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ",
+      "note": "Mapped to dry-condition strategy from the explicit water-shortage trigger."
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": "বৃষ্টি নির্ভর বোনা আমন এলাকায় ১৫-২০ সেমি উঁচু আইলে বৃষ্টির পানি ধরে রাখতে হবে।",
+      "value_en": "In rainfed broadcast Aman fields, retain rainfall behind 15-20 cm high bunds.",
+      "provenance": "explicit",
+      "source_quote_bn": "বৃষ্টি নির্ভর বোনা আমন এলাকায় জমির আইল ১৫-২০ সেন্টিমিটার উঁচু হলে অনেক বৃষ্টির পানি ধরে রাখা যায় যা খরা থেকে ফসলকে কিছুটা হলেও রক্ষা করে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "provenance": "absent",
+      "note": "Calendar does not provide specific day ranges for different growth stages."
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "No age-dependent irrigation rule is stated. A grain-hardening stage stopping rule exists, but it is not age-dependent."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value": null,
+      "irrigation_adjustment_stated": false,
+      "provenance": "absent",
+      "note": "No soil preference or soil-dependent irrigation adjustment is stated. The source only recommends soil testing to determine fertilizer quantity."
+    },
+    "24_জল_চাপ_সূচক": {
+      "value_bn": null,
+      "value_en": null,
+      "provenance": "absent",
+      "note": "Calendar does not state any visual water-stress symptoms."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Aman Rice",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Aman Rice",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 6,
+      "derived": 2,
+      "partial": 1,
+      "absent": 15
+    },
+    "absent_fields_list": [
+      "5_প্রথম_সেচ_সময়",
+      "6_প্রথম_সেচ_ধরন",
+      "7_সেচ_ব্যবধান_দিন",
+      "9_সংকটকাল_পর্যায়সমূহ",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "13_নিষ্কাশন_নিয়ম",
+      "14_জল_চাহিদা_সংশোধক",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা",
+      "22_বয়স_নির্ভর_সেচ",
+      "23_মাটির_ধরন_প্রভাব",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 0,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_004739.png",
+  "source_image_bytes": 224153,
+  "extraction_model_reported": "gemini-2.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.469746+00:00",
+    "source_file": "Aman_Rice.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 004739.png' -> 'Screenshot_20260521_004739.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value ca9b745adc8e7efa… with computed 35c09802d16cfa65…",
+      "month_wheel: only 7/12 months present; missing জানুয়ারি, ফেব্রুয়ারি, মার্চ, এপ্রিল, মে — FLAGGED, not fabricated",
+      "month_wheel: normalised bangla -> gregorian index, bilingual span added (7 entries)",
+      "audit block recomputed: {'explicit': 6, 'derived': 2, 'partial': 1, 'absent': 15}, 0 field(s) carry parsed numerics"
+    ]
+  }
+}

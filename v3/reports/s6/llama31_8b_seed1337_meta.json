@@ -1,0 +1,20 @@
+{
+  "arm": "llama31_8b_seed1337",
+  "n_lora_modules": 448,
+  "wall_seconds": 663.4,
+  "peak_vram_gb": 12.299,
+  "batch_size": 16,
+  "max_new_tokens": 512,
+  "rows": 422,
+  "entry_gate": {
+    "manifest_verify": "skipped",
+    "test_sha256": "9314d18153ef1f41e6bfd64c70011a412ddbaf8c5ebf732a6e3da9ace3e26955",
+    "read_guard": [
+      "train.jsonl",
+      "train_augmented.jsonl",
+      "val.jsonl"
+    ],
+    "normalizer_version": "v3.1"
+  },
+  "timestamp": "2026-09-01T16:32:14.533067"
+}

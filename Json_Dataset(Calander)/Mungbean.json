@@ -1,0 +1,299 @@
+{
+  "crop_name_bn": "মুগডাল",
+  "crop_name_en": "Mungbean",
+  "source_document": "ফসল পঞ্জিকা - মুগডাল (BARC / AFACI)",
+  "source_image": "Screenshot_20260521_004957.png",
+  "source_image_sha256": "694eb4d922c6869cdf95d3d8391902de4855817e1de77c4cb4d54cec569cb5da",
+  "extraction_timestamp": "2026-07-19T14:36:17.970704+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "মুগডাল",
+      "value_en": "Mungbean",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-মুগডাল",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "ডাল",
+      "value_en": "Pulse",
+      "provenance": "derived",
+      "source_quote_bn": "ফসল পঞ্জিকা-মুগডাল",
+      "source": "Title"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "খরিফ-১ মৌসুম: ফাল্গুনের ১ম সপ্তাহ - চৈত্রের ১ম সপ্তাহ (ফেব্রুয়ারি শেষ সপ্তাহ থেকে মধ্য মার্চ) পর্যন্ত; বারি মুগ-৬ বৈশাখের ২য় সপ্তাহ (এপ্রিলের শেষ সপ্তাহ) পর্যন্ত বপন করা যায়। খরিফ-২ মৌসুম: শ্রাবণের শেষার্ধ - মধ্য ভাদ্র (আগস্ট ১ম সপ্তাহ থেকে সেপ্টেম্বর ১ম সপ্তাহ) পর্যন্ত। দক্ষিণাঞ্চলের জন্য: মাঘের ১ম সপ্তাহ - ফাল্গুনের ১ম সপ্তাহ (মধ্য জানুয়ারি থেকে মধ্য ফেব্রুয়ারি) পর্যন্ত।",
+      "value_en": "Kharif-1 season: 1st week of Falgun - 1st week of Chaitra (last week of February to mid-March); Bari Mung-6 can be sown up to 2nd week of Baishakh (last week of April). Kharif-2 season: second half of Sraban - mid-Bhadra (1st week of August to 1st week of September). For southern region: 1st week of Magh - 1st week of Falgun (mid-January to mid-February).",
+      "provenance": "explicit",
+      "source_quote_bn": "খরিফ-১ মৌসুম: ফাল্গুনের ১ম সপ্তাহ - চৈত্রের ১ম সপ্তাহ (ফেব্রুয়ারি শেষ সপ্তাহ থেকে মধ্য মার্চ) পর্যন্ত; বারি মুগ-৬ বৈশাখের ২য় সপ্তাহ (এপ্রিলের শেষ সপ্তাহ) পর্যন্ত বপন করা যায়। খরিফ-২ মৌসুম: শ্রাবণের শেষার্ধ - মধ্য ভাদ্র (আগস্ট ১ম সপ্তাহ থেকে সেপ্টেম্বর ১ম সপ্তাহ) পর্যন্ত। দক্ষিণাঞ্চলের জন্য: মাঘের ১ম সপ্তাহ - ফাল্গুনের ১ম সপ্তাহ (মধ্য জানুয়ারি থেকে মধ্য ফেব্রুয়ারি) পর্যন্ত।",
+      "source": "বীজ বপনের সময়"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মধ্য পৌষ - মধ্য মাঘ",
+          "bangla_span_en": "mid-Poush to mid-Magh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "মধ্য মাঘ - মধ্য ফাল্গুন",
+          "bangla_span_en": "mid-Magh to mid-Falgun",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "মধ্য ফাল্গুন - মধ্য চৈত্র",
+          "bangla_span_en": "mid-Falgun to mid-Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "মধ্য চৈত্র - মধ্য বৈশাখ",
+          "bangla_span_en": "mid-Chaitra to mid-Boishakh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "মধ্য বৈশাখ - মধ্য জ্যৈষ্ঠ",
+          "bangla_span_en": "mid-Boishakh to mid-Joishtho",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "মধ্য জ্যৈষ্ঠ - মধ্য আষাঢ়",
+          "bangla_span_en": "mid-Joishtho to mid-Asharh",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "মধ্য আষাঢ় - মধ্য শ্রাবণ",
+          "bangla_span_en": "mid-Asharh to mid-Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        }
+      ],
+      "provenance": "partial",
+      "note": "Weather classes are interpreted from explicit pictograms.",
+      "calendar_system_in_source": "gregorian",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": false,
+      "needs_reextraction": true,
+      "missing_months_gregorian": [
+        "আগস্ট",
+        "সেপ্টেম্বর",
+        "অক্টোবর",
+        "নভেম্বর",
+        "ডিসেম্বর"
+      ]
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value_bn": "বীজ গজানোর জন্য জমি তৈরির সময়",
+      "value_en": "During land preparation for seed germination",
+      "provenance": "explicit",
+      "source_quote_bn": "খরিফ-১ মৌসুমে মুগ আবাদের ক্ষেত্রে বীজ গজানোর জন্য সেচ প্রদান করে জমি তৈরি করতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value_bn": "জমি তৈরির সেচ / বীজ গজানোর সেচ",
+      "value_en": "Land preparation irrigation / germination irrigation",
+      "provenance": "derived",
+      "source_quote_bn": "বীজ গজানোর জন্য সেচ প্রদান করে জমি তৈরি করতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": null,
+      "condition_en": null,
+      "provenance": "absent",
+      "note": "No specific day interval is mentioned for irrigation; only 1-2 light irrigations are recommended when there is a lack of soil moisture."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value_bn": "হালকা সেচ",
+      "value_en": "Light irrigation",
+      "provenance": "explicit",
+      "source_quote_bn": "১-২টি হালকা সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No critical stage is named; only a general moisture-triggered condition is stated."
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water depth in mm is specified."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water depth in cm is specified."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "note": "Mungbean is a field crop, not a tree crop; no basin geometry is specified."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "প্রয়োজনের অতিরিক্ত পানি জমি থেকে বের করে দিতে হবে",
+      "value_en": "Water in excess of need must be removed from the field.",
+      "provenance": "explicit",
+      "source_quote_bn": "প্রয়োজনের অতিরিক্ত পানি জমি থেকে বের করে দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Inter-row hoeing is weed and soil management, not a stated water-demand modifier."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "খরিফ-১ মৌসুমে মুগ আবাদের ক্ষেত্রে বীজ গজানোর জন্য সেচ প্রদান করে জমি তৈরি করতে হবে। এ ছাড়া ফসল বৃদ্ধির বিভিন্ন পর্যায়ে মাটিতে রসের অভাব হলে ১-২টি হালকা সেচ দিতে হবে। প্রয়োজনের অতিরিক্ত পানি জমি থেকে বের করে দিতে হবে।",
+      "value_en": "In Kharif-1 season, land should be prepared by irrigating for seed germination. Additionally, 1-2 light irrigations should be applied if there is a lack of soil moisture at different growth stages. Excess water must be drained from the field.",
+      "provenance": "explicit",
+      "source_quote_bn": "খরিফ-১ মৌসুমে মুগ আবাদের ক্ষেত্রে বীজ গজানোর জন্য সেচ প্রদান করে জমি তৈরি করতে হবে। এ ছাড়া ফসল বৃদ্ধির বিভিন্ন পর্যায়ে মাটিতে রসের অভাব হলে ১-২টি হালকা সেচ দিতে হবে। প্রয়োজনের অতিরিক্ত পানি জমি থেকে বের করে দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific establishment stage irrigation interval is mentioned."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No stage-specific irrigation schedule is mentioned other than applying 1-2 light irrigations when soil moisture is lacking."
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No rain-sensitive threshold is specified."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "খরিফ-১ মৌসুমে মুগ আবাদের ক্ষেত্রে বীজ গজানোর জন্য সেচ প্রদান করে জমি তৈরি করতে হবে। এ ছাড়া ফসল বৃদ্ধির বিভিন্ন পর্যায়ে মাটিতে রসের অভাব হলে ১-২টি হালকা সেচ দিতে হবে।",
+      "value_en": "In Kharif-1 season, land should be prepared by irrigating for seed germination. Additionally, 1-2 light irrigations should be applied if there is a lack of soil moisture at different growth stages.",
+      "provenance": "derived",
+      "source_quote_bn": "খরিফ-১ মৌসুমে মুগ আবাদের ক্ষেত্রে বীজ গজানোর জন্য সেচ প্রদান করে জমি তৈরি করতে হবে। এ ছাড়া ফসল বৃদ্ধির বিভিন্ন পর্যায়ে মাটিতে রসের অভাব হলে ১-২টি হালকা সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": "প্রয়োজনের অতিরিক্ত পানি জমি থেকে বের করে দিতে হবে।",
+      "value_en": "Excess water must be drained out of the land.",
+      "provenance": "derived",
+      "source_quote_bn": "প্রয়োজনের অতিরিক্ত পানি জমি থেকে বের করে দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_bn": "ফসল গজানোর ১৫-২০ দিন (আগাছা দমনের জন্য)",
+      "value_en": "15-20 days after germination (for weeding)",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল গজানোর ১৫-২০ দিনের মধ্যে নিড়ানি দিয়ে আগাছা তুলে ফেলতে হবে।",
+      "source": "আগাছা দমন ও পাতলাকরণ",
+      "parsed_day_values": [
+        {
+          "min": 15,
+          "max": 20,
+          "recurring": false,
+          "evidence": "15-20 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Mungbean is an annual crop; no age-dependent irrigation is specified."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "উঁচু থেকে মাঝারি উঁচু, সুনিষ্কাশিত দোআঁশ ও বেলে দোআঁশ মাটি নির্বাচিত করা উত্তম",
+      "value_en": "High to medium-high, well-drained loam and sandy loam soils are preferable.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "উঁচু থেকে মাঝারি উঁচু, সুনিষ্কাশিত দোআঁশ ও বেলে দোআঁশ মাটি নির্বাচিত করা উত্তম।",
+      "source": "জমি ও মাটি"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value_bn": "মাটিতে রসের অভাব",
+      "value_en": "Lack of soil moisture",
+      "provenance": "explicit",
+      "source_quote_bn": "মাটিতে রসের অভাব হলে",
+      "source": "সেচ প্রয়োগ"
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Mungbean",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Mungbean",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 9,
+      "derived": 4,
+      "partial": 1,
+      "absent": 10
+    },
+    "absent_fields_list": [
+      "7_সেচ_ব্যবধান_দিন",
+      "9_সংকটকাল_পর্যায়সমূহ",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "22_বয়স_নির্ভর_সেচ"
+    ],
+    "fields_with_parsed_numerics": 1,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_004957.png",
+  "source_image_bytes": 199694,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.586482+00:00",
+    "source_file": "Mungbean.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 004957.png' -> 'Screenshot_20260521_004957.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value d3db51946d6d3c00… with computed 694eb4d922c6869c…",
+      "month_wheel: only 7/12 months present; missing আগস্ট, সেপ্টেম্বর, অক্টোবর, নভেম্বর, ডিসেম্বর — FLAGGED, not fabricated",
+      "month_wheel: normalised gregorian -> gregorian index, bilingual span added (7 entries)",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 1 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 9, 'derived': 4, 'partial': 1, 'absent': 10}, 1 field(s) carry parsed numerics"
+    ]
+  }
+}

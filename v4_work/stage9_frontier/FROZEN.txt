@@ -1,0 +1,16 @@
+Stage 9 Step 0 FREEZE
+date: 2026-10-06T21:06:39+06:00
+plan.json  sha256=5d987f5c27c72778a9347c34f96f83dc4a4ec15ea9a5ccad8842f8d4052d611a  (canonical: sha256 field empty, then hash)
+test_hardened.jsonl  sha256=9314d18153ef1f41e6bfd64c70011a412ddbaf8c5ebf732a6e3da9ace3e26955
+prompt_P.txt  sha256(LF)=cfb493045a9f52e51857ca9f8b4f1cea7a1c0c23831e55cb1d3dbd28d541da0a
+fewshot_examples.json  sha256(LF)=329b484a4c9517bd37c2d36a4febe04d35635f781444756fcd6634add679c993
+No API call was made before this freeze. Changes go in plan_amendment_N.md (hashed here).
+
+AMENDMENTS
+plan_amendment_1.md  sha256(LF)=c4987b213b2f0ad32ebea7f136fcf3145e8729728bb2af85b4f528c2de2e21b2  date: 2026-10-06T21:27+06:00
+  written after 2 dry-run ZS responses had been seen (rows 08854472, a10ca4f0; gemini-3.8-flash)
+  adds: (a) length sensitivity, confident error (a)/(b) at a 512 output-token cap, secondary; (b) manual assumption audit of 136 clarify responses
+plan_amendment_2.md  sha256(LF)=c48724e813567415ac95d46aecba11cf1983bc23b7554ee067eef48f79fc27ac  date: 2026-10-07T09:44+06:00
+  replaces gemini-3.8-flash with groq openai/gpt-oss-120b (key from GROQ_API_KEY); reasoning_effort low
+  3 gemini-3.8-flash ZS dry-run responses (08854472, a10ca4f0, 2c216188) exist, are excluded from all results, mentioned only in REPORT.md
+  no gpt-oss-120b response had been seen when written

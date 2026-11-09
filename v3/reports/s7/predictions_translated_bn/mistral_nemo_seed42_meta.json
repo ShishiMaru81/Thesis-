@@ -1,0 +1,9 @@
+{
+  "arm": "mistral_nemo_seed42",
+  "n_lora_modules": 560,
+  "wall_seconds": 28.9,
+  "peak_vram_gb": 9.4,
+  "batch_size": 8,
+  "max_new_tokens": 512,
+  "rows": 18
+}

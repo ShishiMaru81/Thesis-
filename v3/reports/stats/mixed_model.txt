@@ -1,0 +1,95 @@
+STAGE 8 — FAMILY B4: ANNOTATOR-ADJUSTED MODELS (supporting, not primary)
+Method: Python statsmodels fallback. Rscript is not on PATH; R was not installed (policy).
+Limitation: MixedLM treats the 1-5 rating as interval. The registered specification uses groups=annotator with a variance component for row_id, i.e. row effects nested within annotator rather than fully crossed.
+BinomialBayesMixedGLM is variational Bayes: posterior means and 95% credible intervals (mean ± 1.96 sd); no p-values.
+Reference arm: llama31_8b_seed42
+
+==============================================================================
+SAMPLE: test  (n ratings = 1096, questions = 182, annotators = 5)
+==============================================================================
+
+--- MixedLM: rating ~ C(arm), groups=annotator, vc={row: 0 + C(row_id)} (REML) ---
+                     Mixed Linear Model Regression Results
+================================================================================
+Model:                    MixedLM         Dependent Variable:         rating    
+No. Observations:         1096            Method:                     REML      
+No. Groups:               5               Scale:                      0.8796    
+Min. group size:          216             Log-Likelihood:             -1886.6241
+Max. group size:          221             Converged:                  Yes       
+Mean group size:          219.2                                                 
+--------------------------------------------------------------------------------
+                                      Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+--------------------------------------------------------------------------------
+Intercept                              3.066    0.079 38.783 0.000  2.911  3.221
+C(arm_c)[T.llama31_8b_zeroshot]       -1.022    0.104 -9.845 0.000 -1.225 -0.818
+C(arm_c)[T.llama31_8b_seed42_clarify]  0.369    0.102  3.622 0.000  0.169  0.568
+C(arm_c)[T.mistral_nemo_seed42]       -0.069    0.102 -0.677 0.499 -0.269  0.131
+row Var                                1.146    0.189                           
+================================================================================
+
+  llama31_8b_zeroshot          adjusted coef -1.022 [95% CI -1.225, -0.818]  p=0.0000   raw mean diff -1.039
+  llama31_8b_seed42_clarify    adjusted coef +0.369 [95% CI +0.169, +0.568]  p=0.0003   raw mean diff +0.388
+  mistral_nemo_seed42          adjusted coef -0.069 [95% CI -0.269, +0.131]  p=0.4986   raw mean diff -0.088
+
+--- BinomialBayesMixedGLM (VB): farmer ~ C(arm) + (1|annotator) + (1|row_id) ---
+                             Binomial Mixed GLM Results
+====================================================================================
+                                      Type Post. Mean Post. SD   SD  SD (LB) SD (UB)
+------------------------------------------------------------------------------------
+Intercept                                M    -0.5727   0.0944                      
+C(arm_c)[T.llama31_8b_zeroshot]          M    -3.2409   0.2400                      
+C(arm_c)[T.llama31_8b_seed42_clarify]    M     0.8316   0.1727                      
+C(arm_c)[T.mistral_nemo_seed42]          M    -0.3110   0.1827                      
+annotator                                V    -0.3346   0.3111 0.716   0.384   1.333
+row                                      V     0.9481   0.0522 2.581   2.325   2.865
+====================================================================================
+Parameter types are mean structure (M) and variance structure (V)
+Variance parameters are modeled as log standard deviations
+  llama31_8b_zeroshot          posterior log-odds -3.241 [95% CrI -3.711, -2.771]  raw farmer_yes diff -0.288
+  llama31_8b_seed42_clarify    posterior log-odds +0.832 [95% CrI +0.493, +1.170]  raw farmer_yes diff +0.130
+  mistral_nemo_seed42          posterior log-odds -0.311 [95% CrI -0.669, +0.047]  raw farmer_yes diff -0.024
+
+==============================================================================
+SAMPLE: all  (n ratings = 1200, questions = 200, annotators = 5)
+==============================================================================
+
+--- MixedLM: rating ~ C(arm), groups=annotator, vc={row: 0 + C(row_id)} (REML) ---
+                     Mixed Linear Model Regression Results
+================================================================================
+Model:                    MixedLM         Dependent Variable:         rating    
+No. Observations:         1200            Method:                     REML      
+No. Groups:               5               Scale:                      0.9136    
+Min. group size:          240             Log-Likelihood:             -2084.7826
+Max. group size:          240             Converged:                  Yes       
+Mean group size:          240.0                                                 
+--------------------------------------------------------------------------------
+                                      Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+--------------------------------------------------------------------------------
+Intercept                              2.934    0.077 37.963 0.000  2.782  3.085
+C(arm_c)[T.llama31_8b_zeroshot]       -0.955    0.101 -9.470 0.000 -1.153 -0.758
+C(arm_c)[T.llama31_8b_seed42_clarify]  0.340    0.099  3.424 0.001  0.145  0.534
+C(arm_c)[T.mistral_nemo_seed42]       -0.071    0.100 -0.708 0.479 -0.267  0.125
+row Var                                1.172    0.184                           
+================================================================================
+
+  llama31_8b_zeroshot          adjusted coef -0.955 [95% CI -1.153, -0.758]  p=0.0000   raw mean diff -0.980
+  llama31_8b_seed42_clarify    adjusted coef +0.340 [95% CI +0.145, +0.534]  p=0.0006   raw mean diff +0.351
+  mistral_nemo_seed42          adjusted coef -0.071 [95% CI -0.267, +0.125]  p=0.4791   raw mean diff -0.079
+
+--- BinomialBayesMixedGLM (VB): farmer ~ C(arm) + (1|annotator) + (1|row_id) ---
+                             Binomial Mixed GLM Results
+====================================================================================
+                                      Type Post. Mean Post. SD   SD  SD (LB) SD (UB)
+------------------------------------------------------------------------------------
+Intercept                                M    -0.8786   0.0928                      
+C(arm_c)[T.llama31_8b_zeroshot]          M    -3.2404   0.2401                      
+C(arm_c)[T.llama31_8b_seed42_clarify]    M     0.8594   0.1676                      
+C(arm_c)[T.mistral_nemo_seed42]          M    -0.3148   0.1809                      
+annotator                                V    -0.3365   0.3112 0.714   0.383   1.331
+row                                      V     0.9894   0.0498 2.690   2.435   2.971
+====================================================================================
+Parameter types are mean structure (M) and variance structure (V)
+Variance parameters are modeled as log standard deviations
+  llama31_8b_zeroshot          posterior log-odds -3.240 [95% CrI -3.711, -2.770]  raw farmer_yes diff -0.274
+  llama31_8b_seed42_clarify    posterior log-odds +0.859 [95% CrI +0.531, +1.188]  raw farmer_yes diff +0.115
+  mistral_nemo_seed42          posterior log-odds -0.315 [95% CrI -0.669, +0.040]  raw farmer_yes diff -0.026

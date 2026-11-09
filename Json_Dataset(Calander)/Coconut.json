@@ -1,0 +1,254 @@
+{
+  "crop_name_bn": "নারিকেল",
+  "crop_name_en": "Coconut",
+  "source_document": "ফসল পঞ্জিকা - নারিকেল (BARC / AFACI)",
+  "source_image": "Coconut.jpg",
+  "source_image_sha256": "6fc47ec7a90f8cbd72f0a00c0a72bfd5417adf5ed2772ed40f2470662bfe4e51",
+  "extraction_model": "gemini-2.5-flash",
+  "extraction_timestamp": "2026-07-19T07:59:05.131585+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "নারিকেল",
+      "value_en": "Coconut",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-নারিকেল",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "ফল গাছ",
+      "value_en": "Fruit tree",
+      "provenance": "derived",
+      "note": "Common knowledge classification."
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "বর্ষার শুরু থেকে শেষ পর্যন্ত",
+      "value_en": "From the beginning to the end of the rainy season",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা রোপণের উপযুক্ত সময় হলো বর্ষার শুরু থেকে শেষ পর্যন্ত।",
+      "source": "বপন ও রোপণ"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "month_bn": "মাঘ",
+          "month_en": "Jan-Feb",
+          "class": "sun/dry"
+        },
+        {
+          "month_bn": "ফাল্গুন",
+          "month_en": "Feb-Mar",
+          "class": "sun/dry"
+        },
+        {
+          "month_bn": "চৈত্র",
+          "month_en": "Mar-Apr",
+          "class": "sun/dry"
+        },
+        {
+          "month_bn": "বৈশাখ",
+          "month_en": "Apr-May",
+          "class": "sun/dry"
+        },
+        {
+          "month_bn": "জ্যৈষ্ঠ",
+          "month_en": "May-Jun",
+          "class": "rain/cloud"
+        },
+        {
+          "month_bn": "আষাঢ়",
+          "month_en": "Jun-Jul",
+          "class": "rain/cloud"
+        },
+        {
+          "month_bn": "শ্রাবণ",
+          "month_en": "Jul-Aug",
+          "class": "rain/cloud"
+        },
+        {
+          "month_bn": "ভাদ্র",
+          "month_en": "Aug-Sep",
+          "class": "rain/cloud"
+        },
+        {
+          "month_bn": "আশ্বিন",
+          "month_en": "Sep-Oct",
+          "class": "rain/cloud"
+        },
+        {
+          "month_bn": "কার্তিক",
+          "month_en": "Oct-Nov",
+          "class": "sun/dry"
+        },
+        {
+          "month_bn": "অগ্রহায়ণ",
+          "month_en": "Nov-Dec",
+          "class": "sun/dry"
+        },
+        {
+          "month_bn": "পৌষ",
+          "month_en": "Dec-Jan",
+          "class": "sun/dry"
+        }
+      ],
+      "provenance": "explicit",
+      "source": "আবহাওয়া মাসিক মানচিত্র"
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value": null,
+      "provenance": "absent",
+      "note": "The calendar does not state when the first irrigation should be applied. The planting section discusses when to plant seedlings, not first-irrigation timing."
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not specify the type of first irrigation."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": 10,
+      "value_days_max": 15,
+      "condition_bn": "শুষ্ক ও খরা মৌসুমে",
+      "condition_en": "During dry and drought season",
+      "provenance": "explicit",
+      "source_quote_bn": "শুষ্ক ও খরা মৌসুমে গাছে ১০-১৫ দিন পর পর সেচ দিতে হবে।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value_bn": "বেসিন, ড্রিপ",
+      "value_en": "Basin, Drip",
+      "provenance": "explicit",
+      "source_quote_bn": "বেসিন তৈরি করে সেচ দেয়া উত্তম। ড্রিপ পদ্ধতিতে (মাটির নিচের সংস্থাপন পাইপ থেকে) সেচ প্রয়োগ",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not specify critical growth stages for water."
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not specify water depth in mm."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not specify water depth in cm."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": 1.8,
+      "depth_cm_min": 10,
+      "depth_cm_max": 12,
+      "provenance": "explicit",
+      "source_quote_bn": "গাছের গোড়া হতে ১.৮ মিটার ব্যাসার্ধ পর্যন্ত ১০-১২ সেমি গভীর বেসিন তৈরি করে সেচ দেয়া উত্তম।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "বর্ষা মৌসুমে চারা ও নতুন রোপণকৃত গাছে অবশ্যই পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "value_en": "During the monsoon season, drainage must be arranged for seedlings and newly planted trees.",
+      "provenance": "explicit",
+      "source_quote_bn": "তবে বর্ষা মৌসুমে চারা ও নতুন রোপণকৃত গাছে অবশ্যই পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value_bn": "নারিকেলের খোসা, পাতা বা খোসার তুষ দিয়ে গাছের গোড়ার মাটি ঢেকে দিলে মাটি পানি ধরে রাখতে পারে; এর ফলে আগাছা জন্মাতে পারে না।",
+      "value_en": "Covering the soil around the tree base with coconut husk, leaves, or coir dust helps the soil retain water and prevents weeds from growing.",
+      "provenance": "explicit",
+      "source_quote_bn": "নারিকেলের খোসা, পাতা বা খোসার তুষ দিয়ে গাছের গোড়ার মাটি ঢেকে দিলে মাটি পানি ধরে রাখতে পারে এর ফলে আগাছা জন্মাতে পারে না।",
+      "source": "আগাছা দমন, গাছের গোড়ার জাবড়া (মালচিং) প্রয়োগ ও মাটি দেয়া",
+      "modifier_type": "mulching and weed suppression"
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "শুষ্ক ও খরা মৌসুমে গাছে ১০-১৫ দিন পর পর সেচ দিতে হবে। বর্ষা মৌসুমে চারা ও নতুন রোপণকৃত গাছে অবশ্যই পানি নিষ্কাশনের ব্যবস্থা করতে হবে। ভালো ফলনের জন্য নিয়মিতভাবে সেচ দিতে হবে; ড্রিপ পদ্ধতিতে সেচ প্রয়োগ সবচেয়ে কার্যকর।",
+      "value_en": "Irrigate every 10-15 days during the dry and drought season. During the monsoon, drainage must be provided for seedlings and newly planted trees. Regular irrigation is required for good yield, and drip irrigation is the most effective method.",
+      "provenance": "explicit",
+      "source_quote_bn": "শুষ্ক ও খরা মৌসুমে গাছে ১০-১৫ দিন পর পর সেচ দিতে হবে। তবে বর্ষা মৌসুমে চারা ও নতুন রোপণকৃত গাছে অবশ্যই পানি নিষ্কাশনের ব্যবস্থা করতে হবে। ভাল ফলন পেতে হলে নিয়মিত ভাবে সেচ দিতে হবে। ড্রিপ পদ্ধতিতে (মাটির নিচের সঞ্চালন পাইপ থেকে) সেচ প্রয়োগ সবচেয়ে কার্যকর।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No establishment-stage irrigation interval is stated in the irrigation section. The previous 30-35 day value does not appear in the calendar."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not provide a stage-specific irrigation schedule beyond seasonal conditions."
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not specify a numeric rainfall threshold for irrigation."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "শুষ্ক ও খরা মৌসুমে গাছে ১০-১৫ দিন পর পর সেচ দিতে হবে। ভালো ফলনের জন্য নিয়মিত সেচ দিতে হবে এবং ড্রিপ পদ্ধতিতে সেচ প্রয়োগ সবচেয়ে কার্যকর।",
+      "value_en": "During the dry and drought season, irrigate every 10-15 days. Regular irrigation is required for good yield, and drip irrigation is the most effective method.",
+      "provenance": "explicit",
+      "source_quote_bn": "শুষ্ক ও খরা মৌসুমে গাছে ১০-১৫ দিন পর পর সেচ দিতে হবে। ভাল ফলন পেতে হলে নিয়মিত ভাবে সেচ দিতে হবে। ড্রিপ পদ্ধতিতে (মাটির নিচের সঞ্চালন পাইপ থেকে) সেচ প্রয়োগ সবচেয়ে কার্যকর।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": "বর্ষা মৌসুমে চারা ও নতুন রোপণকৃত গাছে অবশ্যই পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "value_en": "During the monsoon season, drainage must be arranged for seedlings and newly planted trees.",
+      "provenance": "explicit",
+      "source_quote_bn": "তবে বর্ষা মৌসুমে চারা ও নতুন রোপণকৃত গাছে অবশ্যই পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not specify growth stage day ranges (DAT/DAP)."
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Age brackets (১-৪, ৫-৭, ৮-১০ বছর) are present only in the fertilizer table, not in the irrigation section. The irrigation section does not specify different irrigation rules based on tree age."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "সব ধরনের মাটিতেই নারিকেল চাষ করা যায়, তবে দোআঁশ মাটি উত্তম। ভূমির অবস্থা, মাটির প্রকৃতি ও পারিপার্শ্বিক অবস্থা বিবেচনা করে জমি তৈরি করতে হয়। জমিতে সেচ ও পানি নিষ্কাশনের উপযুক্ত ব্যবস্থা রাখতে হবে।",
+      "value_en": "Coconut can be grown in all soil types, although loam is best. Land preparation should consider the land condition, soil characteristics, and surrounding conditions. Suitable irrigation and drainage facilities must be maintained.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "সব ধরনের মাটিতেই নারিকেল চাষ করা যায়, তবে দোআঁশ মাটি উত্তম। ভূমির অবস্থা, মাটির প্রকৃতি পারিপার্শ্বিক অবস্থা বিবেচনা করে জমি তৈরি করা হয়। জমির আগাছা অপসারণ করে চারা রোপণের জন্য গর্ত করতে হবে। জমিতে সেচ ও পানি নিষ্কাশনের উপযুক্ত ব্যবস্থা রাখতে হবে।",
+      "source": "মাটি ও জমি তৈরি",
+      "note": "The calendar requires suitable irrigation and drainage facilities but does not state any change in irrigation frequency or depth by soil type."
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Calendar does not specify visual water-stress symptoms."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Coconut",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Coconut",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "fields_explicit": 12,
+    "fields_derived": 1,
+    "fields_absent_not_imputed": 11,
+    "fields_linked": 0,
+    "absent_fields_list": [
+      "5_প্রথম_সেচ_সময়",
+      "6_প্রথম_সেচ_ধরন",
+      "9_সংকটকাল_পর্যায়সমূহ",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "human_verified": false,
+    "verification_note": "Requires sign-off by 2 team members against the source image.",
+    "agent_image_cross_checked": true
+  }
+}

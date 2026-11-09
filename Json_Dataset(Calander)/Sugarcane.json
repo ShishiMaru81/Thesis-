@@ -1,0 +1,346 @@
+{
+  "crop_name_bn": "আখ",
+  "crop_name_en": "Sugarcane",
+  "source_document": "ফসল পঞ্জিকা - আখ (BARC / AFACI)",
+  "source_image": "Sugarcan1.jpg",
+  "source_image_sha256": "869969f41aca3d5b01a8f9fdc7df1a35527c1d8972c9f122f7b1258191750c2e",
+  "extraction_timestamp": "2026-07-19T17:53:00.273566+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "আখ",
+      "value_en": "Sugarcane",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-আখ",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "নগদ ফসল",
+      "value_en": "Cash crop",
+      "provenance": "derived",
+      "source_quote_bn": null,
+      "source": null
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "আগাম রোপণ: আগস্ট-সেপ্টেম্বর; মধ্যম রোপণ: অক্টোবর-ডিসেম্বর; নাবি রোপণ: ফেব্রুয়ারি-এপ্রিল",
+      "value_en": "Early planting: August-September; Mid planting: October-December; Late planting: February-April",
+      "provenance": "explicit",
+      "source_quote_bn": "* আগাম রোপণ : আগস্ট-সেপ্টেম্বর (মধ্য শ্রাবণ - মধ্য আশ্বিন) ... * মধ্যম রোপণ : অক্টোবর-ডিসেম্বর (মধ্য আশ্বিন - মধ্য পৌষ) ... * নাবি রোপণ : ফেব্রুয়ারি-এপ্রিল (মধ্য মাঘ - মধ্য বৈশাখ)",
+      "source": "রোপণের সময়"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "মধ্য শ্রাবণ - মধ্য ভাদ্র",
+          "bangla_span_en": "mid-Srabon to mid-Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 8,
+          "month_gregorian_bn": "সেপ্টেম্বর",
+          "month_gregorian_en": "September",
+          "bangla_span_bn": "মধ্য ভাদ্র - মধ্য আশ্বিন",
+          "bangla_span_en": "mid-Bhadra to mid-Ashwin",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 9,
+          "month_gregorian_bn": "অক্টোবর",
+          "month_gregorian_en": "October",
+          "bangla_span_bn": "মধ্য আশ্বিন - মধ্য কার্তিক",
+          "bangla_span_en": "mid-Ashwin to mid-Kartik",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "মধ্য কার্তিক - মধ্য অগ্রহায়ণ",
+          "bangla_span_en": "mid-Kartik to mid-Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "মধ্য অগ্রহায়ণ - মধ্য পৌষ",
+          "bangla_span_en": "mid-Agrahayon to mid-Poush",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মধ্য পৌষ - মধ্য মাঘ",
+          "bangla_span_en": "mid-Poush to mid-Magh",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "মধ্য মাঘ - মধ্য ফাল্গুন",
+          "bangla_span_en": "mid-Magh to mid-Falgun",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "মধ্য ফাল্গুন - মধ্য চৈত্র",
+          "bangla_span_en": "mid-Falgun to mid-Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "মধ্য চৈত্র - মধ্য বৈশাখ",
+          "bangla_span_en": "mid-Chaitra to mid-Boishakh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "মধ্য বৈশাখ - মধ্য জ্যৈষ্ঠ",
+          "bangla_span_en": "mid-Boishakh to mid-Joishtho",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "মধ্য জ্যৈষ্ঠ - মধ্য আষাঢ়",
+          "bangla_span_en": "mid-Joishtho to mid-Asharh",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "মধ্য আষাঢ় - মধ্য শ্রাবণ",
+          "bangla_span_en": "mid-Asharh to mid-Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        }
+      ],
+      "provenance": "derived",
+      "note": "Weather classes are interpreted from explicit pictograms.",
+      "calendar_system_in_source": "gregorian",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": true,
+      "needs_reextraction": false
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value_bn": "অঙ্কুরোদগমের সময় (জমি শুকনা থাকলে)",
+      "value_en": "At germination (if the field is dry)",
+      "provenance": "explicit",
+      "source_quote_bn": "অঙ্কুরোদগমের সময় জমি শুকনা থাকলে একটি হালকা সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value_bn": "হালকা সেচ",
+      "value_en": "Light irrigation",
+      "provenance": "explicit",
+      "source_quote_bn": "অঙ্কুরোদগমের সময় জমি শুকনা থাকলে একটি হালকা সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": null,
+      "condition_en": null,
+      "provenance": "absent",
+      "note": "No specific day interval is mentioned."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Irrigation method is not explicitly mentioned in the irrigation section."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value_bn": "অঙ্কুরোদগম পর্যায়, কুশি উৎপাদন ও কুশির বৃদ্ধি পর্যায়",
+      "value_en": "Germination stage, tillering and tiller growth stage",
+      "provenance": "derived",
+      "source_quote_bn": "অঙ্কুরোদগমের সময় ... (কুশি উৎপাদন ও কুশির বৃদ্ধি পর্যায়)",
+      "source": "সেচ প্রয়োগ"
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in mm is not mentioned."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in cm is not mentioned."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "note": "Not a tree crop, no basin geometry mentioned."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "আখের জমিতে পানি নিষ্কাশনের সুব্যবস্থা করতে হবে",
+      "value_en": "Good drainage system must be arranged in the sugarcane field",
+      "provenance": "explicit",
+      "source_quote_bn": "* আখের জমিতে পানি নিষ্কাশনের সুব্যবস্থা করতে হবে।",
+      "source": "আখের লাল পচা রোগের প্রতিকার"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water-retention modifier from mulching/weeding is mentioned."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "স্বাভাবিক বৃষ্টিপাত না হলে খরা মৌসুমে ২/৩ টি সেচ দিতে হবে",
+      "value_en": "If there is no normal rainfall, 2/3 irrigations should be given during the drought season",
+      "provenance": "explicit",
+      "source_quote_bn": "স্বাভাবিক বৃষ্টিপাত না হলে খরা মৌসুমে ২/৩ টি সেচ দিলে (কুশি উৎপাদন ও কুশির বৃদ্ধি পর্যায়) ৩০% ফলন বেশি হয়।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific establishment stage irrigation interval is mentioned."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value_bn": "১. অঙ্কুরোদগম: জমি শুকনা থাকলে ১টি হালকা সেচ। ২. কুশি উৎপাদন ও বৃদ্ধি: খরা মৌসুমে স্বাভাবিক বৃষ্টি না হলে ২/৩টি সেচ।",
+      "value_en": "1. Germination: 1 light irrigation if dry. 2. Tillering/growth: 2/3 irrigations in drought if no normal rain.",
+      "provenance": "explicit",
+      "source_quote_bn": "অঙ্কুরোদগমের সময় জমি শুকনা থাকলে একটি হালকা সেচ দিতে হবে। স্বাভাবিক বৃষ্টিপাত না হলে খরা মৌসুমে ২/৩ টি সেচ দিলে (কুশি উৎপাদন ও কুশির বৃদ্ধি পর্যায়) ৩০% ফলন বেশি হয়।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No numeric rain trigger is mentioned."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "স্বাভাবিক বৃষ্টিপাত না হলে খরা মৌসুমে ২/৩ টি সেচ প্রদান করা",
+      "value_en": "Applying 2/3 irrigations during the drought season if there is no normal rainfall",
+      "provenance": "explicit",
+      "source_quote_bn": "স্বাভাবিক বৃষ্টিপাত না হলে খরা মৌসুমে ২/৩ টি সেচ দিলে (কুশি উৎপাদন ও কুশির বৃদ্ধি পর্যায়) ৩০% ফলন বেশি হয়।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": "স্বাভাবিক বৃষ্টিপাত হলে সেচের প্রয়োজন নেই এবং জমিতে পানি নিষ্কাশনের সুব্যবস্থা রাখা",
+      "value_en": "No irrigation is needed if there is normal rainfall, and maintaining a good drainage system in the field",
+      "provenance": "derived",
+      "source_quote_bn": "স্বাভাবিক বৃষ্টিপাত না হলে খরা মৌসুমে ২/৩ টি সেচ দিলে ... আখের জমিতে পানি নিষ্কাশনের সুব্যবস্থা করতে হবে।",
+      "source": "সেচ প্রয়োগ / আখের লাল পচা রোগের প্রতিকার"
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_bn": "গ্যাপ পূরণ: ২০-২৫ দিন; আগাছামুক্ত রাখা: ৪৫-১৩৫ দিন; কুশি উৎপাদন সময়: ১২০-১৫০ দিন",
+      "value_en": "Gap filling: 20-25 days; Weed-free period: 45-135 days; Tillering stage: 120-150 days",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা রোপণের ২০/২৫ দিন পর ... রোপণের পর ৪৫ থেকে ১৩৫ দিন পর্যন্ত ... কুশি উৎপাদন সময়ে (১২০-১৫০ দিনের মধ্যে)",
+      "source": "রোপণের দূরত্ব/মাতৃ গাছের ঘনত্ব / আন্তঃপরিচর্যা / সার প্রয়োগ পদ্ধতি",
+      "parsed_day_values": [
+        {
+          "min": 20,
+          "max": 25,
+          "recurring": false,
+          "evidence": "20/25 দিন"
+        },
+        {
+          "min": 120,
+          "max": 150,
+          "recurring": false,
+          "evidence": "120-150 দিন"
+        },
+        {
+          "min": 45,
+          "max": 135,
+          "recurring": false,
+          "evidence": "45-135 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No age-dependent irrigation rules are mentioned."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "উঁচু, মাঝারি উঁচু ও মাঝারি নিচু জমি। এঁটেল দোআঁশ থেকে পলি দোআঁশ মাটিতে ফলন ভাল হয়।",
+      "value_en": "High, medium high, and medium low land. Yield is good in clay loam to sandy loam soils.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "উঁচু, মাঝারি উঁচু ও মাঝারি নিচু জমি। এঁটেল দোআঁশ থেকে পলি দোআঁশ মাটিতে ফলন ভাল হয়।",
+      "source": "জমি ও মাটি"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptoms are mentioned."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Sugarcane",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Sugarcane",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 10,
+      "derived": 4,
+      "absent": 10
+    },
+    "absent_fields_list": [
+      "7_সেচ_ব্যবধান_দিন",
+      "8_সেচ_পদ্ধতি",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 1,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Sugarcan1.jpg",
+  "source_image_bytes": 307157,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.603089+00:00",
+    "source_file": "Sugarcane.json",
+    "changes": [
+      "sha256: replaced UNVERIFIABLE value a189b4eefecc883b… with computed 869969f41aca3d5b…",
+      "month_wheel: normalised gregorian -> gregorian index, bilingual span added (12 entries)",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 3 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 10, 'derived': 4, 'absent': 10}, 1 field(s) carry parsed numerics"
+    ]
+  }
+}

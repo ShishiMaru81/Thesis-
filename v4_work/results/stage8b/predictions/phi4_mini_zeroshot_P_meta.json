@@ -1,0 +1,16 @@
+{
+  "arm": "phi4_mini_zeroshot_P",
+  "base_arm": "phi4_mini_zeroshot",
+  "base_model": "microsoft/Phi-4-mini-instruct",
+  "n_lora_modules": 0,
+  "wall_seconds": 855.5,
+  "peak_vram_gb": 7.775,
+  "batch_size": 4,
+  "batch_size_requested": 4,
+  "max_new_tokens": 512,
+  "max_seq_len": 3072,
+  "rows": 422,
+  "prompt_tokens_min": 1633,
+  "prompt_tokens_max": 1713,
+  "adapter_sha256": null
+}

@@ -1,0 +1,162 @@
+{
+  "stage": "GATE 0",
+  "generated_at": "2026-08-27T06:28:58.174007+00:00",
+  "seed": 42,
+  "source_dir": "D:\\Research Lab\\Thesis\\Json_Dataset(Calander)",
+  "source_files": 28,
+  "output": "D:\\Research Lab\\Thesis\\v3\\data\\seed\\seed_corpus.jsonl",
+  "output_sha256": "459f5b878b4378c9c880ae224bd6d3f73dcd3d1ed5c9d6b249d5959a2e594e9b",
+  "total_rows": 902,
+  "rows_per_qtype": {
+    "abstain": 168,
+    "factual": 566,
+    "numeric_runtime": 168
+  },
+  "rows_per_lang": {
+    "bn": 451,
+    "en": 451
+  },
+  "rows_per_qtype_lang": {
+    "abstain/bn": 84,
+    "abstain/en": 84,
+    "factual/bn": 283,
+    "factual/en": 283,
+    "numeric_runtime/bn": 84,
+    "numeric_runtime/en": 84
+  },
+  "rows_per_answer_kind": {
+    "abstain": 168,
+    "computed": 168,
+    "retrieved": 566
+  },
+  "distinct_source_id": 451,
+  "distinct_fact_id": 451,
+  "distinct_crop": 28,
+  "distinct_scenario_hash": 84,
+  "rows_missing_provenance_field": [],
+  "rows_missing_provenance_field_count": 0,
+  "duplicate_question_strings": 0,
+  "rows_per_field": {
+    "-": 168,
+    "11_পানি_গভীরতা_সেমি": 4,
+    "12_বেসিন_জ্যামিতি": 2,
+    "13_নিষ্কাশন_নিয়ম": 46,
+    "14_জল_চাহিদা_সংশোধক": 14,
+    "15_মৌসুমী_শর্তাবলী": 50,
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": 16,
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": 28,
+    "19_শুষ্ক_ঋতু_কৌশল": 42,
+    "20_বর্ষা_ঋতু_কৌশল": 24,
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": 28,
+    "22_বয়স_নির্ভর_সেচ": 8,
+    "23_মাটির_ধরন_প্রভাব": 46,
+    "24_জল_চাপ_সূচক": 8,
+    "2_ফসলের_ধরন": 54,
+    "3_বপন_ঋতু": 56,
+    "5_প্রথম_সেচ_সময়": 32,
+    "6_প্রথম_সেচ_ধরন": 24,
+    "7_সেচ_ব্যবধান_দিন": 22,
+    "8_সেচ_পদ্ধতি": 24,
+    "9_সংকটকাল_পর্যায়সমূহ": 38,
+    "computable_link": 168
+  },
+  "rows_per_renderer": {
+    "abstain_policy": 168,
+    "basin": 2,
+    "depth_cm": 4,
+    "interval_days": 34,
+    "irrigation_calc.compute": 168,
+    "irrigation_count": 2,
+    "soil_preference": 2,
+    "stage_list": 12,
+    "text": 502,
+    "timing": 8
+  },
+  "skipped_fields_by_design": {
+    "1_ফসলের_নাম": "degenerate - the question restates the answer",
+    "4_আবহাওয়া_মাসিক_মানচিত্র": "12-entry month wheel, not a text fact; prose rendering would be composition not extraction",
+    "10_পানি_গভীরতা_মিমি": "provenance 'absent' in all 28 files",
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": "provenance 'absent' in all 28 files"
+  },
+  "skipped_field_instances": [
+    {
+      "file": "Ginger.json",
+      "field": "19_শুষ্ক_ঋতু_কৌশল",
+      "reason": "exclude_from_qa_generation",
+      "quote": "এরপর পর্যাপ্ত বৃষ্টি না হলে সেচ দেওয়া প্রয়োজন। আদার জমিতে এমনভাবে সেচ দিতে হবে যাতে জমিতে পরিমিত রস থাকে কিন্তু জমি অতিরিক্ত ভেজা/দাঁড়ানো পানি না থাকে।"
+    },
+    {
+      "file": "Jackfruit.json",
+      "field": "20_বর্ষা_ঋতু_কৌশল",
+      "reason": "exclude_from_qa_generation",
+      "quote": "গাছ জলাবদ্ধতার প্রতি অত্যন্ত সংবেদনশীল। এজন্য বর্ষা মৌসুমে বৃষ্টির পানি দ্রুত নিষ্কাশনের সুব্যবস্থা করতে হবে।"
+    },
+    {
+      "file": "Lemon.json",
+      "field": "20_বর্ষা_ঋতু_কৌশল",
+      "reason": "exclude_from_qa_generation",
+      "quote": "জলাবদ্ধতা সহ্য করতে পারে না বিধায় বর্ষা মৌসুমে বৃষ্টিপাতের সময় গাছের গোড়ায় যাতে পানি না জমে সেজন্য নালা করে পানি নিষ্কাশনের ব্যবস্থা করতে হবে।"
+    },
+    {
+      "file": "Litchi.json",
+      "field": "5_প্রথম_সেচ_সময়",
+      "reason": "needs_human_review",
+      "quote": "ফলন্ত গাছের বেলায় সম্পূর্ণ ফুল ফোটা পর্যায়ে একবার, ফল মটর দানার মত হলে একবার এবং এর ১৫ দিন পর আর একবার মোট ৩ বার সেচের ব্যবস্থা করতে হবে।"
+    },
+    {
+      "file": "Litchi.json",
+      "field": "20_বর্ষা_ঋতু_কৌশল",
+      "reason": "exclude_from_qa_generation",
+      "quote": "অপরদিকে বর্ষার সময় যাতে গাছের গোড়ায় পানি জমে না থাকে তার জন্য পানি নিষ্কাশনের ব্যবস্থা নিতে হবে।"
+    },
+    {
+      "file": "Maize.json",
+      "field": "5_প্রথম_সেচ_সময়",
+      "reason": "needs_human_review",
+      "quote": "রবি মৌসুমে বীজ বপনের ১৫-২০, ৩৫-৪০, ৬৫-৭০, ৯৫-১০০ দিন পর অর্থাৎ ৩-৫ পাতা, ৮-১০ পাতা, পুরুষ ফুল বের হওয়ার আগে এবং মোচায় দানার সময় সেচ দিতে হবে। খরিপ মৌসুমে সাধারণত সেচের প্রয়োজন হয় না। তবে বীজ গজানোর জন্য বপনের পর সেচ দিতে হয়।"
+    },
+    {
+      "file": "Sesame.json",
+      "field": "19_শুষ্ক_ঋতু_কৌশল",
+      "reason": "exclude_from_qa_generation",
+      "quote": "খরিফ-১ মৌসুমে সেচের প্রয়োজন হয়। জমিতে রসের অভাব হলে বীজ বোনার ২৫-৩০ দিন পর অর্থাৎ ফুল আসার পূর্বে একবার সেচ দিতে হয় এবং ৫৫-৬০ দিন পর গুটি ধরার সময় দ্বিতীয় বার সেচ দিতে হবে।"
+    },
+    {
+      "file": "Sesame.json",
+      "field": "20_বর্ষা_ঋতু_কৌশল",
+      "reason": "exclude_from_qa_generation",
+      "quote": "তিল জলাবদ্ধতা সহ্য করতে পারে না। এ প্রেক্ষিতে অতিরিক্ত পানি বের করার জন্য নালা তৈরি করতে হবে।"
+    },
+    {
+      "file": "Turmeric.json",
+      "field": "5_প্রথম_সেচ_সময়",
+      "reason": "needs_human_review",
+      "quote": "মাটি শুষ্ক হলে বীজ রোপণের ৭-১০ দিন পরপর সেচ দিতে হবে।"
+    },
+    {
+      "file": "Turmeric.json",
+      "field": "20_বর্ষা_ঋতু_কৌশল",
+      "reason": "exclude_from_qa_generation",
+      "quote": "কন্দের সার্বিক বৃদ্ধি, মাটির ক্ষয় রোধ, সূর্যের আলো থেকে ভূগর্ভসহ কন্দকে আবৃত করে রাখা ও পানি নিষ্কাশনের জন্য দুই সারির মাঝের মাটি গাছের গোড়ায় তুলে দিতে হবে।"
+    },
+    {
+      "file": "Wheat.json",
+      "field": "19_শুষ্ক_ঋতু_কৌশল",
+      "reason": "exclude_from_qa_generation",
+      "quote": "মাটির প্রকার ও এলাকা ভেদে ১-৩ টি সেচের প্রয়োজন হয়।"
+    },
+    {
+      "file": "Wheat.json",
+      "field": "23_মাটির_ধরন_প্রভাব",
+      "reason": "exclude_from_qa_generation",
+      "quote": "মাটির প্রকার ও এলাকা ভেদে ১-৩ টি সেচের প্রয়োজন হয়।"
+    }
+  ],
+  "skipped_field_instances_count": 12,
+  "skip_reason_counts": {
+    "exclude_from_qa_generation": 9,
+    "needs_human_review": 3
+  },
+  "language_asymmetry": [],
+  "crops_without_kc_row": []
+}

@@ -1,0 +1,380 @@
+{
+  "crop_name_bn": "গম",
+  "crop_name_en": "Wheat",
+  "source_document": "ফসল পঞ্জিকা - গম (BARC / AFACI)",
+  "source_image": "Screenshot_20260521_004909.png",
+  "source_image_sha256": "ecd55c0b50aed7b4193cc87337db33f3fa9f72d5208f0603334225834fa2436f",
+  "extraction_timestamp": "2026-07-19T14:34:17.231404+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "গম",
+      "value_en": "Wheat",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-গম",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "দানা জাতীয় ফসল",
+      "value_en": "Cereal",
+      "provenance": "derived"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "নভেম্বর ২য় সপ্তাহ হতে ডিসেম্বর ১ম সপ্তাহ (প্রথম থেকে অগ্রহায়ণের ৩য় সপ্তাহ)",
+      "value_en": "2nd week of November to 1st week of December (1st to 3rd week of Agrahayan)",
+      "provenance": "explicit",
+      "source_quote_bn": "নভেম্বর ২য় সপ্তাহ হতে ডিসেম্বর ১ম সপ্তাহ (প্রথম থেকে অগ্রহায়ণের ৩য় সপ্তাহ) বপনের উপযুক্ত সময়।",
+      "source": "বীজ বপন ও পদ্ধতি"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "মধ্য কার্তিক - মধ্য অগ্রহায়ণ",
+          "bangla_span_en": "mid-Kartik to mid-Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "মধ্য অগ্রহায়ণ - মধ্য পৌষ",
+          "bangla_span_en": "mid-Agrahayon to mid-Poush",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মধ্য পৌষ - মধ্য মাঘ",
+          "bangla_span_en": "mid-Poush to mid-Magh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "মধ্য মাঘ - মধ্য ফাল্গুন",
+          "bangla_span_en": "mid-Magh to mid-Falgun",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "মধ্য ফাল্গুন - মধ্য চৈত্র",
+          "bangla_span_en": "mid-Falgun to mid-Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        }
+      ],
+      "provenance": "partial",
+      "note": "Weather classes are interpreted from explicit pictograms.",
+      "calendar_system_in_source": "gregorian",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": false,
+      "needs_reextraction": true,
+      "missing_months_gregorian": [
+        "এপ্রিল",
+        "মে",
+        "জুন",
+        "জুলাই",
+        "আগস্ট",
+        "সেপ্টেম্বর",
+        "অক্টোবর"
+      ]
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value_bn": "বপনের ১৭-২১ দিনের মধ্যে",
+      "value_en": "Within 17-21 days of sowing",
+      "value_days_min": 17,
+      "value_days_max": 21,
+      "provenance": "explicit",
+      "source_quote_bn": "বপনের ১৭-২১ দিনের মধ্যে একটি সেচ অবশ্যই দিতে হবে।",
+      "source": "সেচ প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 17,
+          "max": 21,
+          "recurring": false,
+          "evidence": "17-21 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "First irrigation type is not explicitly specified."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": null,
+      "condition_en": null,
+      "provenance": "absent",
+      "note": "Specific day interval between irrigations is not stated; instead, it is scheduled by growth stages."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Specific irrigation method is not explicitly mentioned."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "stages": [
+        {
+          "stage_bn": "৩ পাতা পর্যায় (বপনের ১৭-২১ দিন)",
+          "stage_en": "3-leaf stage (17-21 days after sowing)"
+        },
+        {
+          "stage_bn": "শীষ বের হওয়ার সময় (বপনের ৫০-৫৫ দিন)",
+          "stage_en": "Heading stage (50-55 days after sowing)"
+        },
+        {
+          "stage_bn": "দানা বাঁধার সময় (বপনের ৭০-৭৫ দিন পর)",
+          "stage_en": "Grain filling stage (70-75 days after sowing)"
+        }
+      ],
+      "provenance": "derived",
+      "source_quote_bn": "বপনের ১৭-২১ দিনের মধ্যে একটি সেচ অবশ্যই দিতে হবে। দ্বিতীয় সেচ শীষ বের হওয়ার সময় অর্থাৎ বপনের ৫০-৫৫ দিনের মধ্যে এবং তৃতীয় সেচ দানা বাঁধার সময় (বপনের ৭০-৭৫ দিন পর) দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in mm is not specified."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in cm is not specified."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "note": "Not a tree crop; no basin geometry specified."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "বপনের পর জমির ঢাল বুঝে সরু নালা করে বৃষ্টি বা সেচের অতিরিক্ত পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "value_en": "After sowing, depending on the slope of the land, narrow drains should be made to drain excess rain or irrigation water.",
+      "provenance": "explicit",
+      "source_quote_bn": "বপনের পর জমির ঢাল বুঝে সরু নালা করে বৃষ্টি বা সেচের অতিরিক্ত পানি নিষ্কাশনের ব্যবস্থা করতে হবে।",
+      "source": "জমি তৈরি"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Weeding timing after irrigation is not a stated water-demand modifier."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "মাটির প্রকার ও এলাকা ভেদে ১-৩ টি সেচের প্রয়োজন হয়।",
+      "value_en": "Depending on soil type and area, 1-3 irrigations are needed.",
+      "provenance": "derived",
+      "source_quote_bn": "মাটির প্রকার ও এলাকা ভেদে ১-৩ টি সেচের প্রয়োজন হয়।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific establishment stage interval is mentioned other than the first irrigation timing."
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "stages": [
+        {
+          "stage_bn": "প্রথম সেচ: বপনের ১৭-২১ দিনের মধ্যে (৩ পাতা পর্যায়)",
+          "stage_en": "First irrigation: Within 17-21 days of sowing (3-leaf stage)",
+          "days_after_sowing_min": 17,
+          "days_after_sowing_max": 21
+        },
+        {
+          "stage_bn": "দ্বিতীয় সেচ: শীষ বের হওয়ার সময় (বপনের ৫০-৫৫ দিনের মধ্যে)",
+          "stage_en": "Second irrigation: Heading stage (within 50-55 days of sowing)",
+          "days_after_sowing_min": 50,
+          "days_after_sowing_max": 55
+        },
+        {
+          "stage_bn": "তৃতীয় সেচ: দানা বাঁধার সময় (বপনের ৭০-৭৫ দিন পর)",
+          "stage_en": "Third irrigation: Grain filling stage (70-75 days after sowing)",
+          "days_after_sowing_min": 70,
+          "days_after_sowing_max": 75
+        }
+      ],
+      "provenance": "explicit",
+      "source_quote_bn": "বপনের ১৭-২১ দিনের মধ্যে একটি সেচ অবশ্যই দিতে হবে। দ্বিতীয় সেচ শীষ বের হওয়ার সময় অর্থাৎ বপনের ৫০-৫৫ দিনের মধ্যে এবং তৃতীয় সেচ দানা বাঁধার সময় (বপনের ৭০-৭৫ দিন পর) দিতে হবে।",
+      "source": "সেচ প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 17,
+          "max": 21,
+          "recurring": false,
+          "evidence": "17-21 দিন"
+        },
+        {
+          "min": 50,
+          "max": 55,
+          "recurring": false,
+          "evidence": "50-55 দিন"
+        },
+        {
+          "min": 70,
+          "max": 75,
+          "recurring": false,
+          "evidence": "70-75 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No numeric rain threshold is specified."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "মাটির প্রকার ও এলাকা ভেদে ১-৩ টি সেচের প্রয়োজন হয়।",
+      "value_en": "Depending on soil type and area, 1-3 irrigations are needed.",
+      "provenance": "derived_from_shared_passage",
+      "source_quote_bn": "মাটির প্রকার ও এলাকা ভেদে ১-৩ টি সেচের প্রয়োজন হয়।",
+      "source": "সেচ প্রয়োগ",
+      "duplicate_of": "15_মৌসুমী_শর্তাবলী",
+      "dedup_note": "Same source sentence populates multiple fields. Emit QA pairs from the canonical field only.",
+      "exclude_from_qa_generation": true
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Wheat is a dry-season (Rabi) crop; no monsoon strategy is specified."
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "stages": [
+        {
+          "stage_bn": "বপনের ১৭-২১ দিন পর (৩ পাতা পর্যায়)",
+          "stage_en": "17-21 days after sowing (3-leaf stage)",
+          "days_min": 17,
+          "days_max": 21
+        },
+        {
+          "stage_bn": "শীষ বের হওয়ার সময় (বপনের ৫০-৫৫ দিন পর)",
+          "stage_en": "Heading stage (50-55 days after sowing)",
+          "days_min": 50,
+          "days_max": 55
+        },
+        {
+          "stage_bn": "দানা বাঁধার সময় (বপনের ৭০-৭৫ দিন পর)",
+          "stage_en": "Grain filling stage (70-75 days after sowing)",
+          "days_min": 70,
+          "days_max": 75
+        }
+      ],
+      "provenance": "explicit",
+      "source_quote_bn": "বপনের ১৭-২১ দিনের মধ্যে একটি সেচ অবশ্যই দিতে হবে। দ্বিতীয় সেচ শীষ বের হওয়ার সময় অর্থাৎ বপনের ৫০-৫৫ দিনের মধ্যে এবং তৃতীয় সেচ দানা বাঁধার সময় (বপনের ৭০-৭৫ দিন পর) দিতে হবে।",
+      "source": "সেচ প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 17,
+          "max": 21,
+          "recurring": false,
+          "evidence": "17-21 দিন"
+        },
+        {
+          "min": 50,
+          "max": 55,
+          "recurring": false,
+          "evidence": "50-55 দিন"
+        },
+        {
+          "min": 70,
+          "max": 75,
+          "recurring": false,
+          "evidence": "70-75 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Wheat is an annual crop; no age-dependent irrigation brackets exist."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "মাটির প্রকার ও এলাকা ভেদে ১-৩ টি সেচের প্রয়োজন হয়।",
+      "value_en": "Depending on soil type and area, 1-3 irrigations are needed.",
+      "irrigation_adjustment_stated": true,
+      "provenance": "derived_from_shared_passage",
+      "source_quote_bn": "মাটির প্রকার ও এলাকা ভেদে ১-৩ টি সেচের প্রয়োজন হয়।",
+      "source": "সেচ প্রয়োগ",
+      "duplicate_of": "15_মৌসুমী_শর্তাবলী",
+      "dedup_note": "Same source sentence populates multiple fields. Emit QA pairs from the canonical field only.",
+      "exclude_from_qa_generation": true
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptoms are specified."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Wheat",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Wheat",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 6,
+      "derived": 3,
+      "partial": 1,
+      "absent": 12,
+      "derived_from_shared_passage": 2
+    },
+    "absent_fields_list": [
+      "6_প্রথম_সেচ_ধরন",
+      "7_সেচ_ব্যবধান_দিন",
+      "8_সেচ_পদ্ধতি",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "20_বর্ষা_ঋতু_কৌশল",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 3,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_004909.png",
+  "source_image_bytes": 179531,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.611578+00:00",
+    "source_file": "Wheat.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 004909.png' -> 'Screenshot_20260521_004909.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value 25b0e07c2ac4fd5c… with computed ecd55c0b50aed7b4…",
+      "month_wheel: only 5/12 months present; missing এপ্রিল, মে, জুন, জুলাই, আগস্ট, সেপ্টেম্বর, অক্টোবর — FLAGGED, not fabricated",
+      "month_wheel: normalised gregorian -> gregorian index, bilingual span added (5 entries)",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী: extracted 3 day value(s) into parsed_day_values",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 3 day value(s) into parsed_day_values",
+      "duplicate collapse: 15_মৌসুমী_শর্তাবলী = 19_শুষ্ক_ঋতু_কৌশল = 23_মাটির_ধরন_প্রভাব -> canonical '15_মৌসুমী_শর্তাবলী', 2 field(s) marked exclude_from_qa_generation",
+      "audit block recomputed: {'explicit': 6, 'derived': 3, 'partial': 1, 'absent': 12, 'derived_from_shared_passage': 2}, 3 field(s) carry parsed numerics"
+    ]
+  }
+}

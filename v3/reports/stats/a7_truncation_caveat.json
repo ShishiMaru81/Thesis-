@@ -1,0 +1,13 @@
+{
+  "threshold": "generated tokens >= 511 (pre-registered)",
+  "observation": "decode->re-encode is not perfectly idempotent; truncated generations re-tokenise to 509-513 tokens",
+  "zero_shot_rows_in_505_510_treated_as_not_truncated": {
+    "llama31_8b": 0,
+    "mistral_nemo": 0,
+    "phi35_mini": 6,
+    "phi4_mini": 5
+  },
+  "direction_of_bias": "any truncated row counted as not-truncated can only raise zero-shot confident_error, i.e. shrink the FT-minus-ZS difference tested in A7 (conservative for the pre-registered direction)",
+  "mistral_tokenizer_warning": "transformers warns the Mistral-Nemo tokenizer regex differs from the reference; the same default tokenizer was used at generation time in Stage 6, so counts are consistent with the cap. fix_mistral_regex=True is not supported by this transformers build.",
+  "decision": "threshold kept as pre-registered; caveat carried into significance.md"
+}

@@ -1,0 +1,23 @@
+{
+  "arm": "phi4_mini_seed42_P",
+  "n_clarify_scored": 68,
+  "invented_value_n": 68,
+  "invented_value_rate": 100.0,
+  "clarify_exact_n": 0,
+  "clarify_exact_rate": 0.0,
+  "n_single_crop": 116,
+  "exact_0p1_n": 30,
+  "exact_0p1_rate": 25.9,
+  "n_numeric_all": 146,
+  "overask_n": 0,
+  "overask_rate": 0.0,
+  "clarify_score_keys": [
+    "clarify_exact",
+    "clarify_label",
+    "clarify_partial",
+    "clarify_score"
+  ],
+  "batch_size": 4,
+  "base_model": "microsoft/Phi-4-mini-instruct",
+  "adapter_sha256": "925494e552872a4788fce18ccca115588f0dcdcb7cb73589d59a8ac383ad4e1e"
+}

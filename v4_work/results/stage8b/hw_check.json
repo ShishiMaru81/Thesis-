@@ -1,0 +1,37 @@
+{
+  "arm": "llama31_8b_seed42",
+  "n": 50,
+  "seed": 42,
+  "batch_size": 16,
+  "max_new_tokens": 512,
+  "max_seq_len": 2048,
+  "byte_identical": 36,
+  "byte_identical_pct": 72.0,
+  "classification_matches": 50,
+  "classification_match_all": true,
+  "exact_0p1_compared": 12,
+  "exact_0p1_matches": 11,
+  "exact_0p1_match_all": false,
+  "pass": false,
+  "meta": {
+    "arm": "llama31_8b_seed42",
+    "n_lora_modules": 448,
+    "wall_seconds": 60.5,
+    "peak_vram_gb": 10.771,
+    "batch_size": 16,
+    "max_new_tokens": 512,
+    "rows": 50,
+    "max_seq_len": 2048,
+    "hardware_check": true
+  },
+  "strata": {
+    "abstain/bn": 7,
+    "abstain/en": 7,
+    "clarify/bn": 6,
+    "clarify/en": 6,
+    "factual/bn": 6,
+    "factual/en": 6,
+    "numeric_runtime/bn": 6,
+    "numeric_runtime/en": 6
+  }
+}

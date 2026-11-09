@@ -1,0 +1,153 @@
+{
+ "test_sha256": "9314d18153ef1f41e6bfd64c70011a412ddbaf8c5ebf732a6e3da9ace3e26955",
+ "n_test_rows": 422,
+ "n_pairs": 91,
+ "pairs_by_qtype": {
+  "abstain": 17,
+  "clarify": 0,
+  "factual": 57,
+  "numeric_runtime": 17
+ },
+ "pairing_rule": "fact_id groups with exactly one bn and one en row (same qtype)",
+ "text": "question field only; no chat template; add_special_tokens=False",
+ "chars": "len(unicodedata.normalize('NFC', text)) (Unicode code points)",
+ "ci": "percentile bootstrap over pairs, 10000 resamples, numpy default_rng(42) per model",
+ "models": {
+  "llama31_8b": {
+   "label": "Llama-3.1-8B",
+   "tokenizer": {
+    "class": "TokenizersBackend",
+    "name_or_path": "meta-llama/Llama-3.1-8B-Instruct",
+    "vocab_size_with_added": 128256,
+    "tokenizer_json_sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4"
+   },
+   "load_warnings": [],
+   "median_ratio_bn_over_en": 4.333333333333333,
+   "ci95_low": 4.0,
+   "ci95_high": 4.8,
+   "mean_ratio_bn_over_en": 4.644989047695208,
+   "min_ratio": 2.4444444444444446,
+   "max_ratio": 8.375,
+   "tokens_per_char_bn": 1.2447500464597658,
+   "tokens_per_char_en": 0.25615992561599255,
+   "median_tokens_bn": 56.0,
+   "median_tokens_en": 11.0,
+   "by_qtype": {
+    "abstain": {
+     "n": 17,
+     "median_ratio": 3.6923076923076925
+    },
+    "factual": {
+     "n": 57,
+     "median_ratio": 5.3
+    },
+    "numeric_runtime": {
+     "n": 17,
+     "median_ratio": 3.1666666666666665
+    }
+   }
+  },
+  "mistral_nemo": {
+   "label": "Mistral-NeMo-12B",
+   "tokenizer": {
+    "class": "TokenizersBackend",
+    "name_or_path": "mistralai/Mistral-Nemo-Instruct-2407",
+    "vocab_size_with_added": 131072,
+    "tokenizer_json_sha256": "e11c71726323d33da7b8d6f6f269f1988931c0a52b7122bcdd8c05042974e0db"
+   },
+   "load_warnings": [],
+   "median_ratio_bn_over_en": 1.7142857142857142,
+   "ci95_low": 1.6363636363636365,
+   "ci95_high": 1.9090909090909092,
+   "mean_ratio_bn_over_en": 1.7672824990657132,
+   "min_ratio": 0.8,
+   "max_ratio": 2.6666666666666665,
+   "tokens_per_char_bn": 0.5095707117636127,
+   "tokens_per_char_en": 0.2639082597241593,
+   "median_tokens_bn": 24.0,
+   "median_tokens_en": 12.0,
+   "by_qtype": {
+    "abstain": {
+     "n": 17,
+     "median_ratio": 1.7
+    },
+    "factual": {
+     "n": 57,
+     "median_ratio": 2.0
+    },
+    "numeric_runtime": {
+     "n": 17,
+     "median_ratio": 1.375
+    }
+   }
+  },
+  "phi35_mini": {
+   "label": "Phi-3.5-mini",
+   "tokenizer": {
+    "class": "TokenizersBackend",
+    "name_or_path": "microsoft/Phi-3.5-mini-instruct",
+    "vocab_size_with_added": 32011,
+    "tokenizer_json_sha256": "9e2ae3d66819f163cdcfedba5078f3a3af8118c2712491ed60912f77886bda6f"
+   },
+   "load_warnings": [],
+   "median_ratio_bn_over_en": 3.5555555555555554,
+   "ci95_low": 3.4545454545454546,
+   "ci95_high": 3.7857142857142856,
+   "mean_ratio_bn_over_en": 3.943300666680045,
+   "min_ratio": 2.0833333333333335,
+   "max_ratio": 6.0,
+   "tokens_per_char_bn": 1.2941832373164839,
+   "tokens_per_char_en": 0.2952115295211529,
+   "median_tokens_bn": 57.0,
+   "median_tokens_en": 14.0,
+   "by_qtype": {
+    "abstain": {
+     "n": 17,
+     "median_ratio": 3.727272727272727
+    },
+    "factual": {
+     "n": 57,
+     "median_ratio": 3.9375
+    },
+    "numeric_runtime": {
+     "n": 17,
+     "median_ratio": 3.173076923076923
+    }
+   }
+  },
+  "phi4_mini": {
+   "label": "Phi-4-mini",
+   "tokenizer": {
+    "class": "TokenizersBackend",
+    "name_or_path": "microsoft/Phi-4-mini-instruct",
+    "vocab_size_with_added": 200029,
+    "tokenizer_json_sha256": "382cc235b56c725945e149cc25f191da667c836655efd0857b004320e90e91ea"
+   },
+   "load_warnings": [],
+   "median_ratio_bn_over_en": 1.5,
+   "ci95_low": 1.4,
+   "ci95_high": 1.6363636363636365,
+   "mean_ratio_bn_over_en": 1.5393153047636674,
+   "min_ratio": 0.7777777777777778,
+   "max_ratio": 2.75,
+   "tokens_per_char_bn": 0.42612897230997954,
+   "tokens_per_char_en": 0.2555400588873392,
+   "median_tokens_bn": 20.0,
+   "median_tokens_en": 11.0,
+   "by_qtype": {
+    "abstain": {
+     "n": 17,
+     "median_ratio": 1.4444444444444444
+    },
+    "factual": {
+     "n": 57,
+     "median_ratio": 1.6666666666666667
+    },
+    "numeric_runtime": {
+     "n": 17,
+     "median_ratio": 1.16
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "stage": "s2b_render",
+  "timestamp": "2026-08-30T10:11:23.854181",
+  "mapping": {
+    "prompt": "[{role: user, content: question}]",
+    "completion": "[{role: assistant, content: answer}]",
+    "system_preamble": null,
+    "scenario": "not injected - already rendered into question text by s0",
+    "gold_trace": "not injected - grading metadata for Stage 6"
+  },
+  "splits": {
+    "train": {
+      "source": "data/augmented/train_augmented.jsonl",
+      "output": "data/rendered/train.jsonl",
+      "rows": 3552,
+      "by_qtype": {
+        "numeric_runtime": 2994,
+        "factual": 430,
+        "abstain": 128
+      },
+      "by_lang": {
+        "bn": 1776,
+        "en": 1776
+      },
+      "sha256": "032333824934cee12cf1c24b3e95c7d3be0e8bbdc707b12526640268d6707366"
+    },
+    "val": {
+      "source": "data/splits/val.jsonl",
+      "output": "data/rendered/val.jsonl",
+      "rows": 88,
+      "by_qtype": {
+        "factual": 56,
+        "numeric_runtime": 16,
+        "abstain": 16
+      },
+      "by_lang": {
+        "bn": 44,
+        "en": 44
+      },
+      "sha256": "7a4345e9b80e1453d7ac0b02dc796855bea43ff0545fbcfdce10fb89167ee4ad"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "en_row_id": "f3c51c52-ed51-4fd8-b406-3c402c21c5b8",
+    "qtype": "numeric_runtime",
+    "category": "code_switched",
+    "question_en": "Amar Mungbean khet is at late-season stage. ET0 4.8 mm, rain ৩.০৮ মিমি, area 1.25 একর. Koto water lagbe today?",
+    "question_bn": "আমার মুগডাল (Mungbean) ক্ষেত late-season stage-এ আছে। ET0 ৪.৮ মিমি, rain 3.08 mm, area ১.২৫ একর। আজ কত water লাগবে?",
+    "gold_en": "Net irrigation depth = Kc×ET0 − effective rainfall = 0.6×4.8 − 2.62 = 0.26 mm. For 1.25 acre (5059 m²), that is about 1315 liters today.",
+    "gold_bn": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬×৪.৮ − ২.৬২ = ০.২৬ মিমি। ১.২৫ একর (৫০৫৯ বর্গমিটার)-এর জন্য আজ প্রায় ১৩১৫ লিটার।"
+  },
+  {
+    "en_row_id": "3e29fef9-47ce-4a7f-b3cd-c274f66b0532",
+    "qtype": "numeric_runtime",
+    "category": "misspelled_crop",
+    "question_en": "My sesamee field is at the late-season stage. Today ET0 is 3.4 mm, it rained 0.83 mm, and the field is 3.0 acre. How much irrigation water does it need today?",
+    "question_bn": "আমার তিলা ক্ষেত শেষ-মৌসুম পর্যায়ে আছে। আজ ET0 ৩.৪ মিমি, বৃষ্টি হয়েছে ০.৮৩ মিমি, জমির পরিমাণ ৩.০ একর। আজ কত পানি সেচ দিতে হবে?",
+    "gold_en": "Taking \"sesamee\" as Sesame. Net irrigation depth = Kc×ET0 − effective rainfall = 0.25×3.4 − 0.71 = 0.14 mm. For 3.0 acre (12141 m²), that is about 1700 liters today.",
+    "gold_bn": "\"তিলা\" বলতে তিল ধরে নিচ্ছি। নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.২৫×৩.৪ − ০.৭১ = ০.১৪ মিমি। ৩.০ একর (১২১৪১ বর্গমিটার)-এর জন্য আজ প্রায় ১৭০০ লিটার।"
+  },
+  {
+    "en_row_id": "2088338f-72f6-4dd9-8e3c-f25aa536b549",
+    "qtype": "numeric_runtime",
+    "category": "multi_crop",
+    "question_en": "I have 3.0 acre in total: 1.0 acre of Jackfruit at the mid-season stage and 2.0 acre of Bottle Gourd at the late-season stage. ET0 today is 5.3 mm and rainfall was 3.64 mm. How much water do I need in total today?",
+    "question_bn": "আমার মোট ৩.০ একর জমি: ১.০ একরে মধ্য-মৌসুম পর্যায়ের কাঁঠাল আর ২.০ একরে শেষ-মৌসুম পর্যায়ের লাউ। আজ ET0 ৫.৩ মিমি, বৃষ্টি ৩.৬৪ মিমি। আজ মোট কত পানি লাগবে?",
+    "gold_en": "Jackfruit (1.0 acre, mid-season): net = 0.85×5.3 − 3.09 = 1.42 mm → about 5746 liters. Bottle Gourd (2.0 acre, late-season): net = 0.8×5.3 − 3.09 = 1.15 mm → about 9308 liters. Total for the whole holding: about 15054 liters today.",
+    "gold_bn": "কাঁঠাল (১.০ একর, মধ্য-মৌসুম): নিট = ০.৮৫×৫.৩ − ৩.০৯ = ১.৪২ মিমি → প্রায় ৫৭৪৬ লিটার। লাউ (২.০ একর, শেষ-মৌসুম): নিট = ০.৮×৫.৩ − ৩.০৯ = ১.১৫ মিমি → প্রায় ৯৩০৮ লিটার। পুরো জমির জন্য আজ মোট প্রায় ১৫০৫৪ লিটার।"
+  },
+  {
+    "en_row_id": "f7820efc-ae78-454d-be74-82b3ab919d37",
+    "qtype": "clarify",
+    "category": "missing_parameter",
+    "question_en": "My Boro Rice field is at the mid-season stage. It rained 0.3 mm today and the field is 2.0 acre. How much irrigation water does it need today?",
+    "question_bn": "আমার বোরো ধান ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে। আজ বৃষ্টি হয়েছে ০.৩ মিমি, জমির পরিমাণ ২.০ একর। আজ কত পানি সেচ দিতে হবে?",
+    "gold_en": "I cannot compute this without today's reference evapotranspiration (ET0). Boro Rice at the mid-season stage uses Kc = 1.22, and net irrigation depth = Kc×ET0 − effective rainfall, so ET0 in mm is required. Please tell me today's ET0.",
+    "gold_bn": "আজকের রেফারেন্স বাষ্পীভবন (ET0) না জানলে হিসাব করা সম্ভব নয়। বোরো ধান ফসলের মধ্য-মৌসুম পর্যায়ে Kc = ১.২২, এবং নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি — তাই ET0 (মিমি) প্রয়োজন। অনুগ্রহ করে আজকের ET0 জানান।"
+  },
+  {
+    "en_row_id": "8bf20780-3cf0-4c4e-9bf9-e6001fccdb0e",
+    "qtype": "clarify",
+    "category": "misspelled_crop",
+    "question_en": "My paddy field is at the mid-season stage and needs irrigation today. ET0 is 5.6 mm, it rained 0.5 mm, and the field is 6.0 acre. How much water should I give?",
+    "question_bn": "আমার ধান ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে, আজ সেচ দিতে হবে। ET0 ৫.৬ মিমি, বৃষ্টি হয়েছে ০.৫ মিমি, জমির পরিমাণ ৬.০ একর। কত পানি দেব?",
+    "gold_en": "I am not sure which crop \"paddy\" refers to — it could be Aman Rice, Aus Rice or Boro Rice. These need different Kc values, so the irrigation amount would differ. Please confirm the crop and I will compute it.",
+    "gold_bn": "\"ধান\" বলতে আপনি কোন ফসল বোঝাচ্ছেন তা আমি নিশ্চিত নই — এটি আমন ধান, আউশ ধান অথবা বোরো ধান হতে পারে। এদের Kc আলাদা, তাই সেচের পরিমাণও আলাদা হবে। ফসলটি নিশ্চিত করলে আমি হিসাব করে দিতে পারব।"
+  },
+  {
+    "en_row_id": "90230e97-2e97-4914-876c-6c0d4f159395",
+    "qtype": "clarify",
+    "category": "unit_ambiguity",
+    "question_en": "My Maize field is at the mid-season stage and it is 3 pakhi. Today ET0 is 7.2 mm and it rained 19.41 mm. How many liters of water does it need today?",
+    "question_bn": "আমার ভুট্টা ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে, জমি ৩ পাখি। আজ ET0 ৭.২ মিমি, বৃষ্টি হয়েছে ১৯.৪১ মিমি। আজ কত লিটার পানি লাগবে?",
+    "gold_en": "\"pakhi\" is a local land measure whose size differs from district to district, and it is not in my conversion table. I can convert acre, bigha (33 decimal = 1337.8 m²), katha, decimal and hectare. Net irrigation depth = Kc×ET0 − effective rainfall = 1.2×7.2 − 4.85 = 3.79 mm. Tell me the area in one of those units, or how many decimals one pakhi is in your area, and I will give the volume in liters.",
+    "gold_bn": "\"পাখি\" একটি স্থানীয় জমির একক, যার মাপ এলাকাভেদে বদলায় এবং এটি আমার রূপান্তর তালিকায় নেই। আমি একর, বিঘা (৩৩ শতক = ১৩৩৭.৮ বর্গমিটার), কাঠা, শতক ও হেক্টর রূপান্তর করতে পারি। নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ১.২×৭.২ − ৪.৮৫ = ৩.৭৯ মিমি। আপনার এলাকায় এক পাখি কত শতক তা জানালে, অথবা এই এককগুলোর একটিতে জমির পরিমাণ দিলে, আমি লিটারে হিসাব দিতে পারব।"
+  },
+  {
+    "en_row_id": "0bb8f51d-5f4f-4998-b4b0-efc3f4cac5d6",
+    "qtype": "clarify",
+    "category": "missing_parameter",
+    "question_en": "My Wheat field needs water. Today ET0 is 7.4 mm, it rained 2.56 mm, and the field is 4.0 acre. How much irrigation water does it need today?",
+    "question_bn": "আমার গম ক্ষেতে পানি দিতে হবে। আজ ET0 ৭.৪ মিমি, বৃষ্টি হয়েছে ২.৫৬ মিমি, জমির পরিমাণ ৪.০ একর। আজ কত পানি সেচ দিতে হবে?",
+    "gold_en": "I cannot choose the Kc value without the growth stage. Wheat uses Kc = 0.3 at the initial stage, 1.15 at mid-season and 0.25 at late-season, and each gives a different amount. Please tell me which stage the field is at.",
+    "gold_bn": "ফসলের বৃদ্ধির পর্যায় না জানলে Kc বাছাই করা সম্ভব নয়। গম ফসলে প্রাথমিক পর্যায়ে Kc = ০.৩, মধ্য-মৌসুমে ১.১৫ এবং শেষ-মৌসুমে ০.২৫ — প্রতিটিতে উত্তর আলাদা হবে। অনুগ্রহ করে ক্ষেত কোন পর্যায়ে আছে জানান।"
+  },
+  {
+    "en_row_id": "8cf54451-3228-4758-9da1-bb8f38bc6834",
+    "qtype": "clarify",
+    "category": "misspelled_crop",
+    "question_en": "My poteto field is at the initial stage and needs irrigation today. ET0 is 5.0 mm, it rained 6.6 mm, and the field is 5.0 acre. How much water should I give?",
+    "question_bn": "আমার পটেটো ক্ষেত প্রাথমিক পর্যায়ে আছে, আজ সেচ দিতে হবে। ET0 ৫.০ মিমি, বৃষ্টি হয়েছে ৬.৬ মিমি, জমির পরিমাণ ৫.০ একর। কত পানি দেব?",
+    "gold_en": "I am not sure which crop \"poteto\" refers to — it could be Potato or Sweet Potato. These need different Kc values, so the irrigation amount would differ. Please confirm the crop and I will compute it.",
+    "gold_bn": "\"পটেটো\" বলতে আপনি কোন ফসল বোঝাচ্ছেন তা আমি নিশ্চিত নই — এটি আলু অথবা মিষ্টি আলু হতে পারে। এদের Kc আলাদা, তাই সেচের পরিমাণও আলাদা হবে। ফসলটি নিশ্চিত করলে আমি হিসাব করে দিতে পারব।"
+  },
+  {
+    "en_row_id": "a10ca4f0-b07e-4e14-a57f-ac547999f7cc",
+    "qtype": "clarify",
+    "category": "unit_ambiguity",
+    "question_en": "My Guava field is at the initial stage and it is 1 kani. Today ET0 is 8.8 mm and it rained 6.32 mm. How many liters of water does it need today?",
+    "question_bn": "আমার পেয়ারা ক্ষেত প্রাথমিক পর্যায়ে আছে, জমি ১ কানি। আজ ET0 ৮.৮ মিমি, বৃষ্টি হয়েছে ৬.৩২ মিমি। আজ কত লিটার পানি লাগবে?",
+    "gold_en": "\"kani\" is a local land measure whose size differs from district to district, and it is not in my conversion table. I can convert acre, bigha (33 decimal = 1337.8 m²), katha, decimal and hectare. Net irrigation depth = Kc×ET0 − effective rainfall = 0.6×8.8 − 2.84 = 2.44 mm. Tell me the area in one of those units, or how many decimals one kani is in your area, and I will give the volume in liters.",
+    "gold_bn": "\"কানি\" একটি স্থানীয় জমির একক, যার মাপ এলাকাভেদে বদলায় এবং এটি আমার রূপান্তর তালিকায় নেই। আমি একর, বিঘা (৩৩ শতক = ১৩৩৭.৮ বর্গমিটার), কাঠা, শতক ও হেক্টর রূপান্তর করতে পারি। নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬×৮.৮ − ২.৮৪ = ২.৪৪ মিমি। আপনার এলাকায় এক কানি কত শতক তা জানালে, অথবা এই এককগুলোর একটিতে জমির পরিমাণ দিলে, আমি লিটারে হিসাব দিতে পারব।"
+  },
+  {
+    "en_row_id": "df5ecae4-87e3-4a74-8e8b-912646aa474e",
+    "qtype": "clarify",
+    "category": "missing_parameter",
+    "question_en": "My Brinjal field is at the mid-season stage. Today ET0 is 7.7 mm and the field is 0.25 acre. How much irrigation water does it need today?",
+    "question_bn": "আমার বেগুন ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে। আজ ET0 ৭.৭ মিমি, জমির পরিমাণ ০.২৫ একর। আজ কত পানি সেচ দিতে হবে?",
+    "gold_en": "I cannot compute this without today's rainfall. Net irrigation depth = Kc×ET0 − effective rainfall, and effective rainfall depends on how much rain fell (up to 5 mm counts 85%, up to 15 mm counts 45%, above that 25%). Brinjal at the mid-season stage uses Kc = 1.15. Please tell me today's rainfall in mm.",
+    "gold_bn": "আজকের বৃষ্টিপাত না জানলে হিসাব করা সম্ভব নয়। নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি, আর কার্যকর বৃষ্টি নির্ভর করে কত মিমি বৃষ্টি হয়েছে তার উপর (৫ মিমি পর্যন্ত ৮৫%, ১৫ মিমি পর্যন্ত ৪৫%, তার বেশি হলে ২৫%)। বেগুন ফসলের মধ্য-মৌসুম পর্যায়ে Kc = ১.১৫। অনুগ্রহ করে আজকের বৃষ্টিপাত মিমিতে জানান।"
+  },
+  {
+    "en_row_id": "e1663cfa-3503-427b-b445-bb7cfe27ea38",
+    "qtype": "clarify",
+    "category": "misspelled_crop",
+    "question_en": "My pulse crop field is at the late-season stage and needs irrigation today. ET0 is 7.2 mm, it rained 9.1 mm, and the field is 0.25 acre. How much water should I give?",
+    "question_bn": "আমার ডাল ফসল ক্ষেত শেষ-মৌসুম পর্যায়ে আছে, আজ সেচ দিতে হবে। ET0 ৭.২ মিমি, বৃষ্টি হয়েছে ৯.১ মিমি, জমির পরিমাণ ০.২৫ একর। কত পানি দেব?",
+    "gold_en": "I am not sure which crop \"pulse crop\" refers to — it could be Mungbean or Pea. These need different Kc values, so the irrigation amount would differ. Please confirm the crop and I will compute it.",
+    "gold_bn": "\"ডাল ফসল\" বলতে আপনি কোন ফসল বোঝাচ্ছেন তা আমি নিশ্চিত নই — এটি মুগডাল অথবা মটর হতে পারে। এদের Kc আলাদা, তাই সেচের পরিমাণও আলাদা হবে। ফসলটি নিশ্চিত করলে আমি হিসাব করে দিতে পারব।"
+  },
+  {
+    "en_row_id": "c68d19af-eddc-4ed0-8b2c-fbaebebab1d8",
+    "qtype": "clarify",
+    "category": "unit_ambiguity",
+    "question_en": "My Lemon field is at the mid-season stage and it is 1 dron. Today ET0 is 5.9 mm and it rained 7.62 mm. How many liters of water does it need today?",
+    "question_bn": "আমার লেবু ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে, জমি ১ দ্রোণ। আজ ET0 ৫.৯ মিমি, বৃষ্টি হয়েছে ৭.৬২ মিমি। আজ কত লিটার পানি লাগবে?",
+    "gold_en": "\"dron\" is a local land measure whose size differs from district to district, and it is not in my conversion table. I can convert acre, bigha (33 decimal = 1337.8 m²), katha, decimal and hectare. Net irrigation depth = Kc×ET0 − effective rainfall = 0.65×5.9 − 3.43 = 0.41 mm. Tell me the area in one of those units, or how many decimals one dron is in your area, and I will give the volume in liters.",
+    "gold_bn": "\"দ্রোণ\" একটি স্থানীয় জমির একক, যার মাপ এলাকাভেদে বদলায় এবং এটি আমার রূপান্তর তালিকায় নেই। আমি একর, বিঘা (৩৩ শতক = ১৩৩৭.৮ বর্গমিটার), কাঠা, শতক ও হেক্টর রূপান্তর করতে পারি। নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৬৫×৫.৯ − ৩.৪৩ = ০.৪১ মিমি। আপনার এলাকায় এক দ্রোণ কত শতক তা জানালে, অথবা এই এককগুলোর একটিতে জমির পরিমাণ দিলে, আমি লিটারে হিসাব দিতে পারব।"
+  },
+  {
+    "en_row_id": "c7c22f3e-6da5-4c60-9912-62913468f04a",
+    "qtype": "clarify",
+    "category": "missing_parameter",
+    "question_en": "My Sesame field is at the initial stage. It rained 1.22 mm today and the field is 2.5 acre. How much irrigation water does it need today?",
+    "question_bn": "আমার তিল ক্ষেত প্রাথমিক পর্যায়ে আছে। আজ বৃষ্টি হয়েছে ১.২২ মিমি, জমির পরিমাণ ২.৫ একর। আজ কত পানি সেচ দিতে হবে?",
+    "gold_en": "I cannot compute this without today's reference evapotranspiration (ET0). Sesame at the initial stage uses Kc = 0.35, and net irrigation depth = Kc×ET0 − effective rainfall, so ET0 in mm is required. Please tell me today's ET0.",
+    "gold_bn": "আজকের রেফারেন্স বাষ্পীভবন (ET0) না জানলে হিসাব করা সম্ভব নয়। তিল ফসলের প্রাথমিক পর্যায়ে Kc = ০.৩৫, এবং নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি — তাই ET0 (মিমি) প্রয়োজন। অনুগ্রহ করে আজকের ET0 জানান।"
+  },
+  {
+    "en_row_id": "8e937d50-d08e-43eb-a791-843e30b103e4",
+    "qtype": "clarify",
+    "category": "misspelled_crop",
+    "question_en": "My juube field is at the late-season stage and needs irrigation today. ET0 is 7.2 mm, it rained 8.4 mm, and the field is 3.0 acre. How much water should I give?",
+    "question_bn": "আমার জুউব ক্ষেত শেষ-মৌসুম পর্যায়ে আছে, আজ সেচ দিতে হবে। ET0 ৭.২ মিমি, বৃষ্টি হয়েছে ৮.৪ মিমি, জমির পরিমাণ ৩.০ একর। কত পানি দেব?",
+    "gold_en": "I am not sure which crop \"juube\" refers to — it could be Jute or Jujube. These need different Kc values, so the irrigation amount would differ. Please confirm the crop and I will compute it.",
+    "gold_bn": "\"জুউব\" বলতে আপনি কোন ফসল বোঝাচ্ছেন তা আমি নিশ্চিত নই — এটি পাট অথবা কুল হতে পারে। এদের Kc আলাদা, তাই সেচের পরিমাণও আলাদা হবে। ফসলটি নিশ্চিত করলে আমি হিসাব করে দিতে পারব।"
+  },
+  {
+    "en_row_id": "0a60d1d3-d90c-4366-b3af-e0310b48d213",
+    "qtype": "clarify",
+    "category": "unit_ambiguity",
+    "question_en": "My Coconut field is at the initial stage and it is 1 kani. Today ET0 is 5.1 mm and it rained 1.74 mm. How many liters of water does it need today?",
+    "question_bn": "আমার নারিকেল ক্ষেত প্রাথমিক পর্যায়ে আছে, জমি ১ কানি। আজ ET0 ৫.১ মিমি, বৃষ্টি হয়েছে ১.৭৪ মিমি। আজ কত লিটার পানি লাগবে?",
+    "gold_en": "\"kani\" is a local land measure whose size differs from district to district, and it is not in my conversion table. I can convert acre, bigha (33 decimal = 1337.8 m²), katha, decimal and hectare. Net irrigation depth = Kc×ET0 − effective rainfall = 0.95×5.1 − 1.48 = 3.36 mm. Tell me the area in one of those units, or how many decimals one kani is in your area, and I will give the volume in liters.",
+    "gold_bn": "\"কানি\" একটি স্থানীয় জমির একক, যার মাপ এলাকাভেদে বদলায় এবং এটি আমার রূপান্তর তালিকায় নেই। আমি একর, বিঘা (৩৩ শতক = ১৩৩৭.৮ বর্গমিটার), কাঠা, শতক ও হেক্টর রূপান্তর করতে পারি। নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৯৫×৫.১ − ১.৪৮ = ৩.৩৬ মিমি। আপনার এলাকায় এক কানি কত শতক তা জানালে, অথবা এই এককগুলোর একটিতে জমির পরিমাণ দিলে, আমি লিটারে হিসাব দিতে পারব।"
+  },
+  {
+    "en_row_id": "08854472-64aa-4d59-9613-ac2429858914",
+    "qtype": "clarify",
+    "category": "missing_parameter",
+    "question_en": "My Mango field is at the mid-season stage. Today ET0 is 5.3 mm and it rained 1.07 mm. How many liters of irrigation water does it need today?",
+    "question_bn": "আমার আম ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে। আজ ET0 ৫.৩ মিমি, বৃষ্টি হয়েছে ১.০৭ মিমি। আজ কত লিটার পানি সেচ দিতে হবে?",
+    "gold_en": "Net irrigation depth = Kc×ET0 − effective rainfall = 0.85×5.3 − 0.91 = 3.59 mm. I cannot convert that to liters without the field size. Please tell me the area and its unit (acre, bigha, katha, decimal or hectare).",
+    "gold_bn": "নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৮৫×৫.৩ − ০.৯১ = ৩.৫৯ মিমি। তবে জমির পরিমাণ না জানলে এটি লিটারে রূপান্তর করা সম্ভব নয়। অনুগ্রহ করে জমির পরিমাণ ও একক (একর, বিঘা, কাঠা, শতক বা হেক্টর) জানান।"
+  },
+  {
+    "en_row_id": "f7772b7c-71c9-44ed-8cc0-5ce0c9ea2ca3",
+    "qtype": "clarify",
+    "category": "misspelled_crop",
+    "question_en": "My munstard field is at the initial stage and needs irrigation today. ET0 is 5.1 mm, it rained 10.3 mm, and the field is 8.0 acre. How much water should I give?",
+    "question_bn": "আমার মুনস্টার্ড ক্ষেত প্রাথমিক পর্যায়ে আছে, আজ সেচ দিতে হবে। ET0 ৫.১ মিমি, বৃষ্টি হয়েছে ১০.৩ মিমি, জমির পরিমাণ ৮.০ একর। কত পানি দেব?",
+    "gold_en": "I am not sure which crop \"munstard\" refers to — it could be Mungbean or Mustard. These need different Kc values, so the irrigation amount would differ. Please confirm the crop and I will compute it.",
+    "gold_bn": "\"মুনস্টার্ড\" বলতে আপনি কোন ফসল বোঝাচ্ছেন তা আমি নিশ্চিত নই — এটি মুগডাল অথবা সরিষা হতে পারে। এদের Kc আলাদা, তাই সেচের পরিমাণও আলাদা হবে। ফসলটি নিশ্চিত করলে আমি হিসাব করে দিতে পারব।"
+  },
+  {
+    "en_row_id": "250581dc-31b8-45eb-a814-e935ac5e903d",
+    "qtype": "clarify",
+    "category": "unit_ambiguity",
+    "question_en": "My Ginger field is at the late-season stage and it is 2 pakhi. Today ET0 is 4.6 mm and it rained 3.22 mm. How many liters of water does it need today?",
+    "question_bn": "আমার আদা ক্ষেত শেষ-মৌসুম পর্যায়ে আছে, জমি ২ পাখি। আজ ET0 ৪.৬ মিমি, বৃষ্টি হয়েছে ৩.২২ মিমি। আজ কত লিটার পানি লাগবে?",
+    "gold_en": "\"pakhi\" is a local land measure whose size differs from district to district, and it is not in my conversion table. I can convert acre, bigha (33 decimal = 1337.8 m²), katha, decimal and hectare. Net irrigation depth = Kc×ET0 − effective rainfall = 0.95×4.6 − 2.74 = 1.63 mm. Tell me the area in one of those units, or how many decimals one pakhi is in your area, and I will give the volume in liters.",
+    "gold_bn": "\"পাখি\" একটি স্থানীয় জমির একক, যার মাপ এলাকাভেদে বদলায় এবং এটি আমার রূপান্তর তালিকায় নেই। আমি একর, বিঘা (৩৩ শতক = ১৩৩৭.৮ বর্গমিটার), কাঠা, শতক ও হেক্টর রূপান্তর করতে পারি। নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৯৫×৪.৬ − ২.৭৪ = ১.৬৩ মিমি। আপনার এলাকায় এক পাখি কত শতক তা জানালে, অথবা এই এককগুলোর একটিতে জমির পরিমাণ দিলে, আমি লিটারে হিসাব দিতে পারব।"
+  }
+]

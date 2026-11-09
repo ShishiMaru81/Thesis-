@@ -1,0 +1,3 @@
+# Preserve original bytes, including locked datasets and frozen plans.
+# Disabling newline conversion keeps recorded SHA-256 values valid on Windows.
+* -text

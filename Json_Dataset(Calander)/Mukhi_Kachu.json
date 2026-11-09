@@ -1,0 +1,347 @@
+{
+  "crop_name_bn": "মুখীকচু",
+  "crop_name_en": "Mukhi Kachu",
+  "source_document": "ফসল পঞ্জিকা - মুখীকচু (BARC / AFACI)",
+  "source_image": "Screenshot_20260521_005448.png",
+  "source_image_sha256": "7009b95d60076ac9eeeeb1a3fa91a0c6ab0cbbbdf6a0585814e319fd18f2228f",
+  "extraction_timestamp": "2026-07-19T17:50:26.011161+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "মুখীকচু",
+      "value_en": "Mukhi Kachu",
+      "provenance": "explicit",
+      "source_quote_bn": "মুখীকচু",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "কন্দাল ফসল",
+      "value_en": "Tuber crop",
+      "provenance": "derived",
+      "source_quote_bn": "মুখীকচু একটি দীর্ঘ মেয়াদি ফসল (৭-৯ মাস)",
+      "source": "মুখীকচুর আন্ত:ফসল"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "ফেব্রুয়ারি (আগাম: ডিসেম্বর-জানুয়ারি, নাবি: মার্চ)",
+      "value_en": "February (Early: December-January, Late: March)",
+      "provenance": "explicit",
+      "source_quote_bn": "ফেব্রুয়ারি (মধ্য মাঘ থেকে মধ্য ফাল্গুন) মাস বীজ বপনের উত্তম সময়। তবে মার্চ মাস (মধ্য ফাল্গুন - মধ্য চৈত্র) পর্যন্ত লাগানো যায়। আগাম ফসল হিসেবে ডিসেম্বর হতে জানুয়ারি মাসে (মধ্য পৌষ থেকে মধ্য মাঘ) লাগানো যায়।",
+      "source": "বীজ বপনের সময়"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "মধ্য মাঘ - মধ্য ফাল্গুন",
+          "bangla_span_en": "mid-Magh to mid-Falgun",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "মধ্য ফাল্গুন - মধ্য চৈত্র",
+          "bangla_span_en": "mid-Falgun to mid-Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "মধ্য চৈত্র - মধ্য বৈশাখ",
+          "bangla_span_en": "mid-Chaitra to mid-Boishakh",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "মধ্য বৈশাখ - মধ্য জ্যৈষ্ঠ",
+          "bangla_span_en": "mid-Boishakh to mid-Joishtho",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "মধ্য জ্যৈষ্ঠ - মধ্য আষাঢ়",
+          "bangla_span_en": "mid-Joishtho to mid-Asharh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "মধ্য আষাঢ় - মধ্য শ্রাবণ",
+          "bangla_span_en": "mid-Asharh to mid-Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "মধ্য শ্রাবণ - মধ্য ভাদ্র",
+          "bangla_span_en": "mid-Srabon to mid-Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 8,
+          "month_gregorian_bn": "সেপ্টেম্বর",
+          "month_gregorian_en": "September",
+          "bangla_span_bn": "মধ্য ভাদ্র - মধ্য আশ্বিন",
+          "bangla_span_en": "mid-Bhadra to mid-Ashwin",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 9,
+          "month_gregorian_bn": "অক্টোবর",
+          "month_gregorian_en": "October",
+          "bangla_span_bn": "মধ্য আশ্বিন - মধ্য কার্তিক",
+          "bangla_span_en": "mid-Ashwin to mid-Kartik",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "মধ্য কার্তিক - মধ্য অগ্রহায়ণ",
+          "bangla_span_en": "mid-Kartik to mid-Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "মধ্য অগ্রহায়ণ - মধ্য পৌষ",
+          "bangla_span_en": "mid-Agrahayon to mid-Poush",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মধ্য পৌষ - মধ্য মাঘ",
+          "bangla_span_en": "mid-Poush to mid-Magh",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        }
+      ],
+      "provenance": "derived",
+      "note": "Weather classes are interpreted from explicit pictograms.",
+      "calendar_system_in_source": "gregorian",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": true,
+      "needs_reextraction": false
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Field missing from model output; filled as absent by validator."
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "First irrigation type is not specified."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": 10,
+      "value_days_max": 20,
+      "condition_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে",
+      "condition_en": "Required for seed germination and during early growth stage depending on soil type",
+      "provenance": "explicit",
+      "source_quote_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে ১০-২০ দিন পর পর সেচ দেওয়া প্রয়োজন হয়।",
+      "source": "সেচ ও পানি নিষ্কাশন",
+      "parsed_day_values": [
+        {
+          "min": 10,
+          "max": 20,
+          "recurring": true,
+          "evidence": "10-20 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific irrigation method is mentioned."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value_bn": "বীজ অঙ্কুরোদগম এবং প্রাথমিক বৃদ্ধি পর্যায়",
+      "value_en": "Seed germination and early growth stage",
+      "provenance": "derived",
+      "source_quote_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে ১০-২০ দিন পর পর সেচ দেওয়া প্রয়োজন হয়।",
+      "source": "সেচ ও নিষ্কাশন পদ্ধতি"
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in mm is not mentioned."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in cm is not mentioned."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "অতিরিক্ত বৃষ্টির পানি নিষ্কাশনের সুব্যবস্থা করতে হবে",
+      "value_en": "Arrange drainage for excess rainwater.",
+      "provenance": "explicit",
+      "source_quote_bn": "বর্ষাকালে সেচ দেওয়ার দরকার হয় না তবে অতিরিক্ত বৃষ্টির পানি নিষ্কাশনের সুব্যবস্থা করতে হবে।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No mulching or weeding-related water retention modifier is mentioned in the irrigation section."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে ১০-২০ দিন পর পর সেচ দেওয়া প্রয়োজন হয়। বর্ষাকালে সেচ দেওয়ার দরকার হয় না তবে অতিরিক্ত বৃষ্টির পানি নিষ্কাশনের সুব্যবস্থা করতে হবে।",
+      "value_en": "Irrigation is required every 10-20 days depending on soil type for seed germination and early growth stage. No irrigation is needed during the monsoon, but quick drainage of excess rainwater must be ensured.",
+      "provenance": "explicit",
+      "source_quote_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে ১০-২০ দিন পর পর সেচ দেওয়া প্রয়োজন হয়। বর্ষাকালে সেচ দেওয়ার দরকার হয় না তবে অতিরিক্ত বৃষ্টির পানি নিষ্কাশনের সুব্যবস্থা করতে হবে।",
+      "source": "সেচ ও নিষ্কাশন পদ্ধতি"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value_days_min": 10,
+      "value_days_max": 20,
+      "condition_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে",
+      "condition_en": "Required for seed germination and early growth stage depending on soil type",
+      "provenance": "explicit",
+      "source_quote_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে ১০-২০ দিন পর পর সেচ দেওয়া প্রয়োজন হয়।",
+      "source": "সেচ ও নিষ্কাশন পদ্ধতি",
+      "parsed_day_values": [
+        {
+          "min": 10,
+          "max": 20,
+          "recurring": true,
+          "evidence": "10-20 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No detailed stage-by-stage schedule is provided."
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No numeric rain threshold is mentioned."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে ১০-২০ দিন পর পর সেচ দেওয়া প্রয়োজন হয়।",
+      "value_en": "Irrigation every 10-20 days depending on soil for germination/early growth.",
+      "provenance": "derived",
+      "source_quote_bn": "বীজ অঙ্কুরোদগমের জন্য আবশ্যক এবং প্রাথমিক বৃদ্ধি পর্যায়ে মাটির ভেদে ১০-২০ দিন পর পর সেচ দেওয়া প্রয়োজন হয়।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value_bn": "বর্ষাকালে সেচ দেওয়ার দরকার হয় না তবে অতিরিক্ত বৃষ্টির পানি নিষ্কাশনের সুব্যবস্থা করতে হবে।",
+      "value_en": "No irrigation needed in monsoon, but arrange drainage for excess rain.",
+      "provenance": "explicit",
+      "source_quote_bn": "বর্ষাকালে সেচ দেওয়ার দরকার হয় না তবে অতিরিক্ত বৃষ্টির পানি নিষ্কাশনের সুব্যবস্থা করতে হবে।",
+      "source": "সেচ ও পানি নিষ্কাশন"
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific growth stage day ranges (DAT/DAP) are stated."
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No age-dependent irrigation rules are stated."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "সুনিষ্কাশিত উঁচু জমি নির্বাচন করা প্রয়োজন। ছায়াযুক্ত স্থানে মুখীকচুর ফলন হ্রাস পায়। সুষ্ঠু ব্যবস্থাপনার মাধ্যমে যে কোন ধরণের মাটিতে মুখীকচু চাষ করা যায়। তবে দো-আঁশ ও বেলে দো-আঁশ মাটি উত্তম।",
+      "value_en": "Well-drained high land needs to be selected. Yield of Mukhi Kachu decreases in shaded areas. With proper management, Mukhi Kachu can be cultivated in any type of soil. However, sandy loam and loamy soils are best.",
+      "irrigation_adjustment_stated": true,
+      "irrigation_adjustment_details_bn": "মাটির ভেদে ১০-২০ দিন পর পর সেচ দেওয়া প্রয়োজন হয়।",
+      "irrigation_adjustment_details_en": "Irrigation is required every 10-20 days depending on soil type.",
+      "provenance": "explicit",
+      "source_quote_bn": "সুনিষ্কাশিত উঁচু জমি নির্বাচন করা প্রয়োজন। ছায়াযুক্ত স্থানে মুখীকচুর ফলন হ্রাস পায়। সুষ্ঠু ব্যবস্থাপনার মাধ্যমে যে কোন ধরণের মাটিতে মুখীকচু চাষ করা যায়। তবে দো-আঁশ ও বেলে দো-আঁশ মাটি উত্তম।",
+      "source": "জমি তৈরি, বীজ বপন ও চারা রোপণ"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptoms are mentioned."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Mukhi Kachu",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Mukhi Kachu",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 8,
+      "derived": 4,
+      "absent": 12
+    },
+    "absent_fields_list": [
+      "5_প্রথম_সেচ_সময়",
+      "6_প্রথম_সেচ_ধরন",
+      "8_সেচ_পদ্ধতি",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 2,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_005448.png",
+  "source_image_bytes": 203233,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.583576+00:00",
+    "source_file": "Mukhi_Kachu.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 005448.png' -> 'Screenshot_20260521_005448.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value d460d3958f04c129… with computed 7009b95d60076ac9…",
+      "month_wheel: normalised gregorian -> gregorian index, bilingual span added (12 entries)",
+      "7_সেচ_ব্যবধান_দিন: extracted 1 day value(s) into parsed_day_values",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান: extracted 1 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 8, 'derived': 4, 'absent': 12}, 2 field(s) carry parsed numerics"
+    ]
+  }
+}

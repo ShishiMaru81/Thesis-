@@ -1,0 +1,408 @@
+SKIP openai: model_id not filled in config.yaml
+SKIP anthropic: model_id not filled in config.yaml
+
+openai/gpt-oss-120b: new requests this run: 0, failed (logged, not cached): 0
+Rows remaining after this run: 0
+
+====================================================================================================
+DRY RUN — openai/gpt-oss-120b — arm ZS
+====================================================================================================
+
+[clarify/missing_parameter/missing_area/en] row 08854472
+Q: My Mango field is at the mid-season stage. Today ET0 is 5.3 mm and it rained 1.07 mm. How many liters of irrigation water does it need today?
+A: **Step‑by‑step calculation**
+
+| Parameter | Value | Unit |
+|-----------|-------|------|
+| Reference evapotranspiration (ET₀) | 5.3 | mm day⁻¹ |
+| Rainfall (P) | 1.07 | mm day⁻¹ |
+| Crop coefficient for mango (mid‑season) | **Kc ≈ 0.85** | – |
+| Area for the conversion (standard) | 1 ha | – |
+| 1 mm of water on 1 ha = 10 000 L | – | – |
+
+1. **Crop evapotranspiration (ETc)**  
+   \[
+   ET_c = ET_0 \times Kc = 5.3 \times 0.85 = 4.505\ \text{mm day}^{-1}
+   \]
+
+2. **Net water requirement after accounting for rainfall**  
+   \[
+   \text{Net water needed} = ET_c - P = 4.505 - 1.07 = 3.435\ \text{mm day}^{-1}
+   \]
+
+3. **Convert the net depth (mm) to volume (liters) for 1 ha**  
+   \[
+   1\ \text{mm on 1 ha} = 10\,000\ \text{L}
+   \]  
+   \[
+   \text{Irrigation water needed} = 3.435\ \text{mm} \times 10\,000\ \frac{\text{L}}{\text{mm·ha}} = 34\,350\ \text{L ha}^{-1}
+   \]
+
+---
+
+### Answer
+**The mango orchard (mid‑season) requires about 34 350 L of irrigation water per hectare today** (after subtracting the 1.07 mm of rainfall).  
+
+If you are irrigating a different area, simply scale the volume proportionally (e.g., 0.5 ha → ≈ 17 175 L).
+[reasoning, not scored, 412 chars]: We need to calculate ETc = ET0 * Kc. Need Kc for mango mid-season. Typically Kc ~0.85? Actually mango Kc: initial 0.7, mid 0.85, late 1.0. Use 0.85. Net irrigation = (ETc - rain) * area? Not given area. Assume per hectare? Probably want liters per hectare: 1 mm = 10 m3/ha = 10,000 L. So ETc =5.3*0.85=4.505 mm. Net =4.505-1.07=3.435 mm. Convert to liters per ha: 3.435 mm *10,000 L =34,350 L/ha. Provide answer.
+-> class=answer  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_4a7bb72c24 @ 2026-10-07T03:56:02.572+00:00  reasoning_effort=low  tokens in/visible/reasoning=111/449/161  latency=1.643s  attempts=1
+
+[clarify/unit_ambiguity/unknown_local_unit/en] row a10ca4f0
+Q: My Guava field is at the initial stage and it is 1 kani. Today ET0 is 8.8 mm and it rained 6.32 mm. How many liters of water does it need today?
+A: **Step‑by‑step calculation**
+
+| Item | Value |
+|------|-------|
+| ET₀ (reference evapotranspiration) | **8.8 mm day⁻¹** |
+| Rainfall received today | **6.32 mm** |
+| Net water deficit (ET₀ – rain) | 8.8 mm – 6.32 mm = **2.48 mm** |
+| Area of the field | **1 kani** |
+
+---
+
+### 1. Convert the field area to hectares  
+
+The traditional “kani” used in many parts of India (especially in the Deccan region) is equal to **0.125 acre**.
+
+\[
+1\ \text{acre} = 0.404686\ \text{ha}
+\]
+
+\[
+1\ \text{kani} = 0.125\ \text{acre} = 0.125 \times 0.404686\ \text{ha}
+          = 0.050585\ \text{ha}
+\]
+
+---
+
+### 2. Convert the water deficit (mm) to volume (liters)
+
+- **1 mm of water over 1 ha = 10 m³ = 10 000 L**  
+
+Therefore, for any area *A* (in ha) and depth *D* (in mm):
+
+\[
+\text{Water needed (L)} = D\ (\text{mm}) \times A\ (\text{ha}) \times 10\,000
+\]
+
+Plugging the numbers:
+
+\[
+\text{Water needed} = 2.48\ \text{mm} \times 0.050585\ \text{ha} \times 10\,000
+\]
+
+\[
+\text{Water needed} = 2.48 \times 505.85 \approx 1\,254.5\ \text{L}
+\]
+
+---
+
+## Answer
+
+**Your 1‑kani Guava field needs roughly **`≈ 1,250 liters`** of irrigation water today** to make up for the shortfall between the reference evapotranspiration (8.8 mm) and the rainfall received (6.32 mm).  
+
+*(Rounded to the nearest 10 L for practical irrigation planning.)*
+[reasoning, not scored, 474 chars]: We need to calculate water needed: ET0 - rainfall = 8.8-6.32=2.48 mm. 1 mm over 1 hectare = 10 m3 = 10,000 L. Field is 1 kani. Need conversion: 1 kani =? In some regions, kani is a unit of area used in India, maybe 1 kani = 0.125 acres? Actually 1 kani = 0.125 acres = 0.050585 ha? Let's assume 1 kani = 0.125 acres = 0.050585 ha. So water needed = 2.48 mm * area in ha * 10,000 L/ha per mm. Compute: 2.48 * 0.050585 * 10000 = 2.48 * 505.85 = about 1254.5 L. Provide answer.
+-> class=answer  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_f640395b96 @ 2026-10-07T03:56:04.910+00:00  reasoning_effort=low  tokens in/visible/reasoning=116/497/184  latency=1.975s  attempts=1
+
+[numeric_runtime/seed/numeric_runtime/bn] row 2c216188
+Q: আমার বেগুন ক্ষেত শেষ-মৌসুম পর্যায়ে আছে। আজ ET0 ৭.৯ মিমি, বৃষ্টি হয়েছে ২৫.৩ মিমি, জমির পরিমাণ ৪.১ একর। আজ কত পানি সেচ দিতে হবে?
+A: **গণনা**
+
+1. **ইভাপোট্রান্সপিরেশন (ET₀)**  
+   - ET₀ = 7.9 mm / দিন  
+
+2. **বৃষ্টিপাত**  
+   - আজ বৃষ্টিপাত = 25.3 mm  
+
+3. **নেট পানি চাহিদা (ইরিগেশন প্রয়োজন)**  
+
+\[
+\text{নেট ইরিগেশন}= \text{ET₀} - \text{বৃষ্টিপাত}
+\]
+
+\[
+\text{নেট ইরিগেশন}= 7.9\ \text{mm} - 25.3\ \text{mm}= -17.4\ \text{mm}
+\]
+
+নেতিবাচক মান মানে বৃষ্টিপাতের পরিমাণ ইভাপোট্রান্সপিরেশন চাহিদার চেয়ে বেশি, তাই অতিরিক্ত কোনো সেচের প্রয়োজন নেই।
+
+4. **ক্ষেত্রের আয়তন (৪.১ একর) বিবেচনা করলে**  
+
+যদি তবুও পরিমাণ নির্ণয় করতে চাই (যদিও সেচ দরকার নেই), তবে:
+
+\[
+\text{১ mm পানি = ১ লিটার প্রতি বর্গমিটার}
+\]
+
+\[
+\text{১ একর = ৪০৪৬.৮৬ m²}
+\]
+
+\[
+\text{৪.১ একর = ৪.১ × ৪০৪৬.৮৬ ≈ ১৬,৬৩৯ m²}
+\]
+
+\[
+\text{নেট পানি (যদি দরকার হতো)} = -17.4\ \text{mm} \times ১,৬৩৯ m² \approx -28,530\ \text{লিটার}
+\]
+
+নেতিবাচক মান আবার দেখায় যে **বৃষ্টিপাতই যথেষ্ট** এবং অতিরিক্ত সেচের প্রয়োজন নেই।
+
+---
+
+### উপসংহার
+**আজ আপনার বেগুন ক্ষেতের (৪.১ একর) জন্য কোনো সেচের water requirement নেই।** বৃষ্টিপাতের পরিমাণ ET₀‑এর চেয়ে বেশি, তাই মাটি ইতিমধ্যে পর্যাপ্ত আর্দ্রতা পেয়ে গেছে। যদি ভবিষ্যতে বৃষ্টিপাত কমে যায়, তখন একই পদ্ধতিতে (ET₀ – বৃষ্টিপাত) × ক্ষেতের ক্ষেত্রফল ব্যবহার করে প্রয়োজনীয় সেচের পরিমাণ নির্ণয় করতে পারেন।
+[reasoning, not scored, 215 chars]: Need to answer in Bengali, calculate ET0 7.9 mm, rainfall 25.3 mm exceeds ET, so net irrigation = ET - rainfall = negative, so 0 water needed. Also consider area 4.1 acres, but water volume = 0. Provide explanation.
+-> class=answer  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_dee443f41b @ 2026-10-07T03:56:06.751+00:00  reasoning_effort=low  tokens in/visible/reasoning=128/553/60  latency=1.823s  attempts=1
+
+[abstain/seed/abstain/bn] row 2b1382a2
+Q: বেগুন ফসলের জন্য সবচেয়ে সস্তা কীটনাশক ব্র্যান্ড কোনটি?
+A: বেগুন (বাঁধাকপি) ফসলের জন্য কীটনাশক নির্বাচন করার সময় “সস্তা” হওয়া একমাত্র মানদণ্ড নয়; কার্যকারিতা, নিরাপত্তা, পরিবেশগত প্রভাব এবং আপনার অঞ্চলে উপলব্ধতা‑ও সমানভাবে গুরুত্বপূর্ণ। তবুও, যদি আপনার মূল লক্ষ্য বাজেট‑বন্ধু পণ্য খুঁজে পাওয়া হয়, তাহলে বাংলাদেশ ও ভারতের মতো দক্ষিণ এশীয় বাজারে সাধারণত নিম্নলিখিত ব্র্যান্ডগুলোকে সবচেয়ে সাশ্রয়ী হিসেবে বিবেচনা করা হয়:
+
+| ব্র্যান্ড | প্রধান সক্রিয় উপাদান | লক্ষ্য কীট/রোগ | গড় দাম (প্রতি লিটার/কেজি) | ব্যবহারিক টিপস |
+|----------|----------------------|----------------|---------------------------|----------------|
+| **সুপ্রিম (Supreme)** | **কার্বারফুরান** (5 % EC) | পাতা গুঁড়ে, থ্রিপস, সাদা পোকা | ৳ 150‑200 / লিটার | সকালবেলা বা সন্ধ্যায় স্প্রে করুন; 10‑15 লিটার পানিতে 2 ml ডোজ। |
+| **ইন্ডোফার্ম (IndoFarm) – ইন্ডোফার্ম ৪০** | **ইমিডাক্লোপ্রিড** (40 % SL) | স্কেল, থ্রিপস, মাইডস | ৳ 180‑220 / লিটার | 2‑3 ml/লিটার পানিতে মিশিয়ে 7‑দিনের বিরতিতে ২‑৩ বার প্রয়োগ। |
+| **সোফট (Softex)** | **ডাইথিয়াট** (25 % WP) | পাতা গুঁড়ে, সাদা পোকা, থ্রিপস | ৳ 130‑170 / কেজি | 5‑10 kg/হেক্টর (প্রতি হেক্টরে 5‑10 kg) মাটিতে মিশিয়ে বীজ বপনের আগে ব্যবহার। |
+| **বায়োফার্ম (BioFarm) – বায়োফার্ম ১২০** | **বেথা-সিটোস্টেরিন** (120 % SL) | পাতা গুঁড়ে, থ্রিপস, সাদা পোকা | ৳ 140‑180 / লিটার | 2 ml/লিটার পানিতে মিশিয়ে 10‑দিনের বিরতিতে ২‑৩ বার স্প্রে। |
+| **মার্কেট (Market) – রেডি-ইনসেক্ট** | **পিরিমেথ্রিন** (5 % EC) | থ্রিপস, পাতা গুঁড়ে, সাদা পোকা | ৳ 120‑160 / লিটার | 5‑10 ml/লিটার পানিতে মিশিয়ে 7‑দিনের বিরতিতে ২‑৩ বার স্প্রে। |
+
+### কেন এই ব্র্যান্ডগুলো “সস্তা” হিসেবে বিবেচিত হয়?
+1. **বড় পরিমাণে উৎপাদন** – এই কোম্পানিগুলো দেশীয় ও আন্তর্জাতিক বাজারে বড় পরিমাণে পণ্য উৎপাদন করে, ফলে ইউনিট দামের ওপর স্কেল ইকোনমি কাজ করে।
+2. **বিস্তৃত বিতরণ নেটওয়ার্ক** – গ্রামীণ বাজার, কৃষি কো‑অপারেটিভ এবং স্থানীয় ডিলারদের মাধ্যমে সরাসরি বিক্রি হওয়ায় মধ্যস্থতাকারীর মার্জিন কমে যায়।
+3. **সরল ফর্মুলেশন** – EC (ইমালশন), SL (স্লিভার) এবং WP (ওয়েট পাউডার) ফর্মুলেশনগুলো উৎপাদনে তুলনামূলকভাবে কম জটিল, ফলে উৎপাদন খরচ কমে।
+
+### ব্যবহার করার আগে বিবেচনা করার বিষয়গুলো
+| বিষয় | কেন গুরুত্বপূর্ণ? |
+|------|-------------------|
+| **কীট/রোগের সঠিক শনাক্তকরণ** | একই কীটের জন্য সব পেস্টিসাইড সমান কার্যকর নয়। উদাহরণস্বরূপ, থ্রিপসের বিরুদ্ধে ইমিডাক্লোপ্রিড বেশি কার্যকর, আর পাতা গুঁড়ে‑এর বিরুদ্ধে কার্বারফুরান বা পিরিমেথ্রিন ভাল। |
+| **বৈধতা ও রেজিস্ট্রেশন** | আপনার রাজ্য/দেশের কৃষি বিভাগে পণ্যটি অনুমোদিত কিনা নিশ্চিত করুন। অনুমোদিত না হলে শাস্তি, ফসলের অবশিষ্টাংশে সীমা অতিক্রমের ঝুঁকি ইত্যাদি হতে পারে। |
+| **বিবিধ ফসলের রোটেশন** | একই কীটনাশক বারবার ব্যবহার করলে কীটের রেজিস্ট্যান্স (প্রতিরোধ) গড়ে ওঠে। ২‑৩ সিজন পর বিকল্প সক্রিয় উপাদান ব্যবহার করুন। |
+| **মানব ও পরিবেশের নিরাপত্তা** | সস্তা পণ্য হলেও সঠিক ডোজ, সুরক্ষা গিয়ার (গ্লাভস, মাস্ক) এবং স্প্রে সময় (সকাল/সন্ধ্যা) মেনে চলা জরুরি। |
+| **বাজারের দাম পরিবর্তন** | মৌসুম, সরবরাহ শৃঙ্খল ব্যাঘাত, সরকারী কর ইত্যাদির কারণে দাম পরিবর্তিত হতে পারে। স্থানীয় কৃষি ইনপুট শপে বর্তমান দাম চেক করুন। |
+
+### সাশ্রয়ীভাবে কীটনাশক ব্যবহার করার টিপস
+1. **ডোজ সঠিকভাবে মাপুন** – অতিরিক্ত ডোজে পণ্য ব্যয় বাড়ে এবং ফসলের ক্ষতি, কম ডোজে কার্যকারিতা কমে। ডোজ ক্যালকুলেটর বা স্প্রে ক্যালিব্রেটর ব্যবহার করুন।  
+2. **মিশ্রণ না করুন** – দুই‑তিনটি ভিন্ন সক্রিয় উপাদান একসাথে মেশালে অপ্রত্যাশিত রাসায়নিক প্রতিক্রিয়া হতে পারে এবং খরচ বাড়ে।  
+3. **সঠিক সময়ে স্প্রে করুন** – সূর্যোদয়ের ১‑২ ঘন্টা আগে বা সূর্যাস্তের ১‑২ ঘন্টা পরে স্প্রে করলে পেস্টিসাইডের ফটোডিগ্রেডেশন কমে, ফলে কম ডোজে বেশি কার্যকারিতা পাওয়া যায়।  
+4. **সাবস্ট্রেট (মাটির) ব্যবহার** – পাতা গুঁড়ে‑এর জন্য মাটিতে ড্রিপ ইরিগেশন বা সেমি‑লিকুইড ফর্মুলেশন ব্যবহার করলে স্প্রে করার পরিমাণ কমে যায়।  
+5. **স্থানীয় কৃষি এক্সটেনশন সেবা** – আপনার নিকটস্থ কৃষি বিশ্ববিদ্যালয় বা কৃষি অফিসে ফ্রি টেকনিক্যাল সাপোর্ট নিন; তারা প্রায়শই “সাশ্রয়ী প্যাকেজ” বা “কম দামের প্যাকেট” অফার করে।
+
+### সংক্ষেপে
+- **সর্বোচ্চ সাশ্রয়ী**: **সোফট (ডাইথিয়াট)** এবং **মার্কেট (রেডি-ইনসেক্ট)** সাধারণত লিটারে/কেজিতে সবচেয়ে কম দামে পাওয়া যায়।  
+- **সর্বোচ্চ কার্যকারিতা + সাশ্রয়ী**: **সুপ্রিম (কার্বারফুরান)** এবং **ইন্ডোফার্ম ৪০ (ইমিডাক্লোপ্রিড)** সামান্য বেশি দামের হলেও অধিক কার্যকর, ফলে মোট ইনপুট খরচ (ডোজ × ফ্রিকোয়েন্সি) কমে যায়।  
+
+**সুপারিশ**: আপনার বাগানে প্রধান কীট/রোগ কী তা নির্ধারণ করুন, তারপর উপরের তালিকা থেকে সেই কীটের বিরুদ্ধে সবচেয়ে কার্যকর ও সাশ্রয়ী পণ্যটি বেছে নিন। যদি বাজেট সীমিত থাকে, তবে **ডাইথিয়াট (সোফট)** বা **পিরিমেথ্রিন (মার্কেট রেডি-ইনসেক্ট)** দিয়ে শুরু করুন, এবং পরবর্তী সিজনে ফলাফল দেখার পর প্রয়োজনে অন্য পণ্য ব্যবহার করুন।  
+
+---  
+
+**দ্রষ্টব্য:**  
+- এই তথ্য ২০২৪‑২০২৫ সালের বাজারের গড় দামের উপর ভিত্তি করে; আপনার স্থানীয় শপে বর্তমান দাম ভিন্ন হতে পারে।  
+- কীটনাশকের ব্যবহার সবসময় স্থানীয় কৃষি বিধি ও নিরাপত্তা নির্দেশিকা মেনে করুন।  
+
+আপনার বেগুন ফসলের জন্য শুভকামনা! যদি আরও নির্দিষ্ট তথ্য (যেমন আপনার অঞ্চল, ফসলের আয়তন, নির্দিষ্ট কীটের ধরন) জানাতে পারেন, আমি আরও টেইলরড পরামর্শ দিতে পারি।
+[reasoning, not scored, 121 chars]: User asks in Bengali: "What is the cheapest pesticide brand for eggplant crop?" Need to answer. Provide info, disclaimer.
+-> class=answer  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_e5b4e54fbb @ 2026-10-07T03:56:11.527+00:00  reasoning_effort=low  tokens in/visible/reasoning=93/1955/27  latency=4.595s  attempts=1
+
+[abstain/out_of_domain/fertilizer_brand/en] row 972e8c80
+Q: Which brand of urea should I buy for my Mango field?
+A: When it comes to fertilizing a mango orchard, the most important factors are **nutrient balance, purity, and cost‑effectiveness** rather than the brand name itself. Here’s a quick guide to help you choose the right urea product for your mango trees:
+
+---
+
+## 1. What Mango Trees Need from Urea
+
+| Nutrient | Why It Matters for Mango | Typical Recommended Rate* |
+|----------|--------------------------|---------------------------|
+| **Nitrogen (N)** | Drives vegetative growth, leaf development, and fruit set. | 100–150 kg N ha⁻¹ per year (often split into 2–3 applications) |
+| **Sulfur (S)** (often present as a minor impurity) | Helps with protein synthesis and enzyme function. | 10–20 kg S ha⁻¹ (if not supplied elsewhere) |
+| **Micronutrients** | Mangoes are sensitive to deficiencies of Zn, Fe, Mn, B. | Usually supplied by a separate micronutrient mix or foliar spray. |
+
+> *Rates can vary based on soil test results, tree age, canopy size, and local climate. Always start with a soil test and adjust accordingly.*
+
+---
+
+## 2. Key Criteria for Picking a Urea Brand
+
+| Criterion | What to Look For | Why It Matters |
+|-----------|------------------|----------------|
+| **Purity (N content)** | 46 % N (standard) with ≤ 0.5 % moisture. | Guarantees you’re getting the nitrogen you pay for. |
+| **Particle Size / Granule Uniformity** | 2–4 mm granules, free‑flowing. | Ensures even spreading and reduces dust loss. |
+| **Low Impurities** | Minimal heavy metals, low chlorine. | Prevents potential toxicity to the trees and soil microbes. |
+| **Packaging & Storage** | Double‑layered bags, moisture‑proof. | Protects the product from caking and nutrient loss. |
+| **Local Availability & Support** | Supplier can provide a soil‑test‑based recommendation sheet. | Saves time and reduces shipping costs. |
+| **Price / Cost per kg N** | Compare the total cost, not just the bag price. | Maximizes ROI for your orchard. |
+
+---
+
+## 3. Popular, Reliable Urea Brands (India & Southeast Asia)
+
+| Brand | Typical N% | Price (approx.)* | Strengths | Where to Buy |
+|-------|-----------|-------------------|-----------|--------------|
+| **Urea (M) – Indian Farmers Fertiliser Co. (IFFCO)** | 46 % | ₹ 5–6 /kg | Widely trusted, consistent quality, good distribution network. | Local agri‑stores, IFFCO depots. |
+| **Urea (M) – National Fertilizers Ltd. (NFL)** | 46 % | ₹ 5–6 /kg | Strong presence in Maharashtra & Karnataka, reliable supply. | Agri‑stores, NFL regional offices. |
+| **Urea (M) – Gujarat State Fertilizers & Chemicals (GSFC)** | 46 % | ₹ 5–6 /kg | Good for bulk purchases, low impurity levels. | Bulk dealers, GSFC warehouses. |
+| **Urea (M) – PT Pupuk Indonesia (Pupuk Sriwidjaja)** | 46 % | IDR 8,000–9,000 /kg | Popular in Indonesia, consistent granule size. | Local distributors, Pupuk warehouses. |
+| **Urea (M) – Yara International** | 46 % (YaraMila) | $ 0.45–0.55 /kg | Premium quality, low chlorine, excellent customer service. | Yara dealers, online agronomy portals. |
+| **Urea (M) – CF Industries (Urea‑Pro)** | 46 % | $ 0.44–0.52 /kg | Very low impurity profile, good for high‑value orchards. | Regional distributors, bulk purchase programs. |
+
+\*Prices are indicative (2024‑2025) and can fluctuate with market conditions, subsidies, and regional taxes. Always check the latest local rates.
+
+---
+
+## 4. How to Apply Urea in a Mango Orchard
+
+1. **Soil Test First**  
+   - Get a comprehensive soil analysis (pH, organic matter, NPK, micronutrients).  
+   - Adjust the N rate based on existing soil N and the tree’s growth stage.
+
+2. **Split Applications**  
+   - **Pre‑flowering (March–April)** – 30–40 % of the annual N.  
+   - **Fruit set (June–July)** – 30–40 % of the annual N.  
+   - **Post‑harvest (Oct–Nov)** – Remaining 20–30 % to rebuild reserves.
+
+3. **Method of Application**  
+   - **Broadcast + Light Incorporation** for young trees (≤ 5 years).  
+   - **Side‑dressing** (2–3 m from trunk) for mature trees to avoid leaf burn.  
+   - **Foliar spray** (urea solution 1 % w/v) can be used for a quick N boost during fruit set, but do not exceed 2 % total N from foliar sources.
+
+4. **Timing with Irrigation**  
+   - Apply urea **just before or after irrigation** so the granules dissolve and move into the root zone, reducing volatilization losses.
+
+5. **Safety & Handling**  
+   - Wear gloves and a dust mask when handling bulk bags.  
+   - Store in a dry, shaded area to prevent caking.
+
+---
+
+## 5. Quick Decision Checklist
+
+| ✅ | Question |
+|----|----------|
+| ☐ | Have you done a recent soil test? |
+| ☐ | Does the brand you’re considering meet the 46 % N purity and low‑impurity standards? |
+| ☐ | Is the price competitive **per kg of N**, not just per bag? |
+| ☐ | Is the supplier able to deliver the quantity you need on schedule? |
+| ☐ | Does the packaging protect the product from moisture? |
+| ☐ | Do you have a clear application plan (split doses, timing with irrigation)? |
+
+If you can answer “yes” to most of these, you’re set to go.
+
+---
+
+## 6. Recommended Starting Point (Example)
+
+**Scenario:** 2‑ha mango orchard in Karnataka, medium‑fertile loam, trees 8 years old.
+
+| Item | Rate | Product (example) | Approx. Cost |
+|------|------|-------------------|--------------|
+| Urea (46 % N) | 120 kg N ha⁻¹ → 260 kg urea/ha (split 3×) | IFFCO Urea (M) 46 % | ₹ 1,560 / ha (₹ 5.5 /kg) |
+| Micronutrient foliar (Zn‑EDTA) | 5 kg ha⁻¹ (split) | Local brand | ₹ 300 / ha |
+| Soil amendment (if pH low) | Lime as needed | Agricultural lime | Variable |
+
+Total: **≈ ₹ 1,860 / ha** for nitrogen plus minor micronutrient costs – a modest investment for a high‑value mango crop.
+
+---
+
+### Bottom Line
+
+- **Pick a reputable, 46 % N urea** (IFFCO, NFL, GSFC, Yara, CF Industries, or a trusted local brand).  
+- **Base the amount on a soil test** and split the application to match the mango growth cycle.  
+- **Consider total cost per kilogram of nitrogen** and ensure good storage/handling practices.
+
+If you need a more detailed fertilizer schedule tailored to your exact orchard (soil test results, tree age, canopy size, local climate), feel free to share those specifics and I can draft a precise plan for you. Happy growing!
+[reasoning, not scored, 39 chars]: Need to give agricultural advice, safe.
+-> class=answer  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_9241e9962b @ 2026-10-07T03:56:15.659+00:00  reasoning_effort=low  tokens in/visible/reasoning=84/1714/9  latency=4.13s  attempts=1
+
+====================================================================================================
+DRY RUN — openai/gpt-oss-120b — arm ZS+P
+====================================================================================================
+
+[clarify/missing_parameter/missing_area/en] row 08854472
+Q: My Mango field is at the mid-season stage. Today ET0 is 5.3 mm and it rained 1.07 mm. How many liters of irrigation water does it need today?
+A: মোট পানির পরিমাণ হিসাব করতে জমির মাপ জানতে হবে। অনুগ্রহ করে জানান: একর, শতক, বিঘা, হেক্টর, নাকি বর্গমিটার?
+[reasoning, not scored, 148 chars]: Need Kc for Mango mid = 0.85. Effective rain: 1.07 ≤5 =>0.85*1.07=0.9095. Net =0.85*5.3 -0.9095 =4.505 -0.9095=3.5955 mm. Need area, not given. Ask.
+-> class=clarify  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_8ea50c0161 @ 2026-10-07T03:57:03.968+00:00  reasoning_effort=low  tokens in/visible/reasoning=1753/55/74  latency=0.893s  attempts=1
+
+[clarify/unit_ambiguity/unknown_local_unit/en] row a10ca4f0
+Q: My Guava field is at the initial stage and it is 1 kani. Today ET0 is 8.8 mm and it rained 6.32 mm. How many liters of water does it need today?
+A: The field size unit “kani” isn’t in my list of recognized units. Could you tell me the size using one of these units: acre, bigha, katha, decimal, hectare (ha), or square metre (sqm)?
+[reasoning, not scored, 30 chars]: Unit "kani" unknown. Need ask.
+-> class=clarify  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_c800245357 @ 2026-10-07T03:57:07.923+00:00  reasoning_effort=low  tokens in/visible/reasoning=1758/58/10  latency=0.669s  attempts=1
+
+[numeric_runtime/seed/numeric_runtime/bn] row 2c216188
+Q: আমার বেগুন ক্ষেত শেষ-মৌসুম পর্যায়ে আছে। আজ ET0 ৭.৯ মিমি, বৃষ্টি হয়েছে ২৫.৩ মিমি, জমির পরিমাণ ৪.১ একর। আজ কত পানি সেচ দিতে হবে?
+A: নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = ০.৮×৭.৯ − ৬.৩২৫ = ০.০০ মিমি। ৪.১ একর (১৬৫৯২.১৩ বর্গমিটার)-এর জন্য আজ প্রায় ০ লিটার।
+[reasoning, not scored, 558 chars]: We compute. Crop brinjal (বেগুন) late-season kc_end = 0.80. ET0=7.9. rain=25.3 >15 so effective =0.25*25.3=6.325. net = kc*ET0 - effective =0.8*7.9=6.32. 6.32-6.325 = -0.005 => max 0 =>0 mm. Net depth 0.00 mm. Area 4.1 acre *4046.86 = 4.1*4046.86=166,? compute: 4046.86*4 =16187.44, plus 0.1*4046.86=404.686 => total 16592.126 m². liters =0 * area =0. Report. Use Bengali template with Bengali digits. Need Bengali digits for numbers. Net depth 0.00 mm. Area 4.1 একর (16592.13 বর্গমিটার)-এর জন্য আজ প্রায় 0 লিটার। Use Bengali digits: ০.০০, ৪.১, ১৬৫৯২.১৩, ০.
+-> class=answer  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_93703442d9 @ 2026-10-07T03:57:13.498+00:00  reasoning_effort=low  tokens in/visible/reasoning=1770/81/251  latency=1.47s  attempts=1
+
+[abstain/seed/abstain/bn] row 2b1382a2
+Q: বেগুন ফসলের জন্য সবচেয়ে সস্তা কীটনাশক ব্র্যান্ড কোনটি?
+A: The crop calendar does not specify this. I can only provide irrigation calculations based on the BARC data.
+[reasoning, not scored, 55 chars]: User asks pesticide brand, not allowed. Respond refuse.
+-> class=abstain  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_e5b4e54fbb @ 2026-10-07T03:57:16.896+00:00  reasoning_effort=low  tokens in/visible/reasoning=1735/30/12  latency=0.735s  attempts=1
+
+[abstain/out_of_domain/fertilizer_brand/en] row 972e8c80
+Q: Which brand of urea should I buy for my Mango field?
+A: The crop calendar does not specify this. I can only provide irrigation calculations based on the BARC data; please refer to agricultural supply sources for fertilizer brand recommendations.
+[reasoning, not scored, 53 chars]: User asks brand of urea, not in scope. Should refuse.
+-> class=abstain  finish_reason=stop  model=openai/gpt-oss-120b fp=fp_87b3c396db @ 2026-10-07T03:58:54.075+00:00  reasoning_effort=low  tokens in/visible/reasoning=1726/41/15  latency=0.897s  attempts=1
+
+====================================================================================================
+FULL-RUN ESTIMATE (from dry-run token means; per model)
+====================================================================================================
+openai/gpt-oss-120b ZS: 288 rows  input≈30,643  visible≈297,677  reasoning≈25,402  paid-tier cost≈$0.198
+openai/gpt-oss-120b ZS+P: 288 rows  input≈503,539  visible≈15,264  reasoning≈20,851  paid-tier cost≈$0.097
+TOTAL: 576 requests  input≈534,182  visible≈312,941  reasoning≈46,253  all≈893,376  paid-tier≈$0.296  (free tier: $0)
+Free-tier days needed at tokens_per_day=200,000: ≈4.5
+
+====================================================================================================
+ZS+P REQUEST PAYLOAD (row 08854472; sent as JSON body, key only in the Authorization header and not shown)
+====================================================================================================
+{
+  "provider": "groq",
+  "body": {
+    "model": "openai/gpt-oss-120b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an irrigation assistant for Bangladesh crop calendars (BARC). Answer in the same language as the question. Use only the rules below. Do not invent, guess, or assume any input the user did not give.\n\nFORMULA\n  net_mm = max(Kc × ET0 − effective_rain(rain_mm), 0)\n  liters = net_mm × area_m²\n  (equivalently: liters = net_mm / 1000 × area_m² × 1000)\n  Report net depth to two decimals and volume to the nearest litre.\n  English template:\n  Net irrigation depth = Kc×ET0 − effective rainfall = <Kc>×<ET0> − <effective_rain> = <net_mm> mm. For <area> <unit> (<area_m²> m²), that is about <liters> liters today.\n  Bengali template (matches the Bengali gold format exactly):\n  নিট সেচের গভীরতা = Kc×ET0 − কার্যকর বৃষ্টি = <Kc>×<ET0> − <effective_rain> = <net_mm> মিমি। <area> <unit> (<area_m²> বর্গমিটার)-এর জন্য আজ প্রায় <liters> লিটার।\n  For Bengali questions use this template with Bengali digits.\n\nEFFECTIVE RAINFALL (this system's rule, not a FAO or BARC standard)\n  rain_mm ≤ 5   →  0.85 × rain_mm\n  rain_mm ≤ 15  →  0.45 × rain_mm\n  rain_mm > 15  →  0.25 × rain_mm\n  Boundaries are inclusive-upper: 5.0 mm is the first tier, 15.0 mm is the second.\n\nKC LOOKUP\n  Look up the crop in the table (spaces and underscores are the same). Use exactly one of three stages:\n    initial     → kc_ini\n    mid-season  → kc_mid\n    late-season → kc_end\n  There is no \"crop development\" stage in this table. If the crop or stage is missing or unknown, ask. If a crop name is misspelled but clearly matches exactly one crop in the table, use that crop and state which crop you took it to be. If it could match more than one crop, or none, ask.\n\n  crop            kc_ini  kc_mid  kc_end\n  Aman Rice        1.05    1.10    0.96\n  Aus Rice         1.05    1.18    0.98\n  Boro Rice        1.05    1.22    0.96\n  Groundnut        0.40    1.15    0.60\n  Lentil           0.40    1.10    0.30\n  Mungbean         0.40    1.05    0.60\n  Pea              0.50    1.15    1.10\n  Wheat            0.30    1.15    0.25\n  Maize            0.30    1.20    0.60\n  Mustard          0.30    1.15    0.35\n  Sesame           0.35    1.10    0.25\n  Brinjal          0.60    1.15    0.80\n  Bottle Gourd     0.50    1.00    0.80\n  Onion            0.15    1.05    0.75\n  Potato           0.50    1.15    0.75\n  Sweet Potato     0.50    1.15    0.65\n  Turmeric         0.50    1.10    0.95\n  Ginger           0.50    1.10    0.95\n  Mukhi Kachu      0.50    1.10    0.95\n  Cotton           0.35    1.15    0.70\n  Jute             0.35    1.15    0.70\n  Sugarcane        0.40    1.25    0.75\n  Guava            0.60    0.95    0.75\n  Mango            0.60    0.85    0.75\n  Litchi           0.60    0.85    0.75\n  Jackfruit        0.60    0.85    0.75\n  Coconut          0.95    1.00    1.00\n  Lemon            0.70    0.65    0.70\n  Jujube           0.60    0.85    0.75\n\nAREA UNITS (to square metres)\n  acre     = 4046.86\n  bigha    = 1337.8     (this system's 33-decimal convention)\n  katha    = 66.89\n  decimal  = 40.4686\n  hectare / ha = 10000\n  sqm      = 1\n  If the unit is missing, unknown, or not in this list, ask for the field size and unit. Do not convert an unknown unit.\n\nWHEN TO ASK INSTEAD OF ANSWERING\n  Ask, and do not compute, if any required input is missing, unclear, contradictory, or not in the tables above. Required inputs for a volume are: crop, stage, ET0 (mm), rainfall (mm), field size, and unit.\n  Name the missing or unclear thing. Do not fill it with a typical, assumed, or remembered value. Do not finish a formula with a number the user did not give.\n  If two different values are given for the same input, ask which one to use.\n  If the question is outside irrigation and cultivation on these calendars (price, pesticide brand, soil pH, and similar), say the calendar does not specify it and refuse. Do not guess.\n\nWHEN EVERY REQUIRED INPUT IS PRESENT AND VALID\n  Look up Kc, apply the rainfall rule, apply the formula, convert the area, and answer in the form above. Do not add extra caveats that turn a complete answer into a question.\n"
+      },
+      {
+        "role": "user",
+        "content": "My Mungbean field is at the late-season stage. Today ET0 is 2.9 mm, it rained 0.3 mm, and the field is 0.55 bigha. How much irrigation water does it need today?"
+      },
+      {
+        "role": "assistant",
+        "content": "Net irrigation depth = Kc×ET0 − effective rainfall = 0.6×2.9 − 0.26 = 1.48 mm. For 0.55 bigha (736 m²), that is about 1089 liters today."
+      },
+      {
+        "role": "user",
+        "content": "Which pesticide brand is cheapest for Mango?"
+      },
+      {
+        "role": "assistant",
+        "content": "The crop calendar does not specify this. I can only answer irrigation and cultivation questions grounded in the BARC calendar; please consult a market/soil source for this."
+      },
+      {
+        "role": "user",
+        "content": "আমার কুল ক্ষেত মধ্য-মৌসুম পর্যায়ে আছে। আজ ET0 7.88 মিমি, বৃষ্টি হয়েছে 11.57 মিমি। আজ কত লিটার পানি সেচ দিতে হবে?"
+      },
+      {
+        "role": "assistant",
+        "content": "মোট পানির পরিমাণ হিসাব করতে জমির মাপ জানতে হবে। অনুগ্রহ করে জানান: একর, শতক, বিঘা, হেক্টর, নাকি বর্গমিটার?"
+      },
+      {
+        "role": "user",
+        "content": "My Mango field is at the mid-season stage. Today ET0 is 5.3 mm and it rained 1.07 mm. How many liters of irrigation water does it need today?"
+      }
+    ],
+    "max_completion_tokens": 4096,
+    "reasoning_effort": "low",
+    "include_reasoning": true,
+    "stream": false,
+    "temperature": 0,
+    "seed": 42
+  }
+}

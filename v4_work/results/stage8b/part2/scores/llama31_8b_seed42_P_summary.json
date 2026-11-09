@@ -1,0 +1,23 @@
+{
+  "arm": "llama31_8b_seed42_P",
+  "n_clarify_scored": 68,
+  "invented_value_n": 68,
+  "invented_value_rate": 100.0,
+  "clarify_exact_n": 0,
+  "clarify_exact_rate": 0.0,
+  "n_single_crop": 116,
+  "exact_0p1_n": 63,
+  "exact_0p1_rate": 54.3,
+  "n_numeric_all": 146,
+  "overask_n": 0,
+  "overask_rate": 0.0,
+  "clarify_score_keys": [
+    "clarify_exact",
+    "clarify_label",
+    "clarify_partial",
+    "clarify_score"
+  ],
+  "batch_size": 4,
+  "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+  "adapter_sha256": "cb6d4fe407a3fdb7c277945cdb1b75372cec182b310a56608580c280d8f64e4b"
+}

@@ -1,0 +1,15 @@
+\chapter{Declaration of AI Assistance}
+\label{app:H}
+\label{app:ai}
+
+The department's required wording is \AUTHORINPUT{department's AI-declaration wording}. Until that wording is pasted, this appendix records what was actually done.
+
+AI assistants (Claude, Cursor, and related coding agents) were used in this project for three things.
+
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Code.} Writing and revising training, evaluation, leakage, human-study and statistical scripts; generating figures and tables; checking that a number in the text matches a file.
+  \item \textbf{Analysis.} Drafting the Stage 8 test plan and the report generator; the tests themselves were run by \texttt{scripts/s8\_stats.py} on saved generations. No $p$-value in the thesis was typed by hand.
+  \item \textbf{Prose.} Drafting and revising chapters, the abstract check, and this appendix. Every factual number in the drafted text is a \LaTeX{} macro expanded from \texttt{thesis/generated/numbers.tex}. Every bibliographic entry was checked against its source by \texttt{scripts/thesis/verify\_refs.py}.
+\end{enumerate}
+
+What the assistants did not do: they did not invent gold answers, they did not rate outputs, they did not train a model, and they did not change a locked test row. The authors remain responsible for the claims, the design decisions, and any error that remains.

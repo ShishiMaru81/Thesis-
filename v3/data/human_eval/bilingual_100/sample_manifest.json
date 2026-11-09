@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "source_test": "D:\\Research Lab\\Thesis\\v3\\data\\hardened\\test_hardened.jsonl",
+  "requested_per_lang": {
+    "numeric_runtime": 35,
+    "factual": 35,
+    "clarify": 20,
+    "abstain": 10
+  },
+  "achieved_pairs": 100,
+  "achieved_rows": 200,
+  "native_bilingual_pairs": 82,
+  "authored_bn_translation_pairs": 18,
+  "qtype_counts": {
+    "numeric_runtime": 35,
+    "factual": 35,
+    "clarify": 20,
+    "abstain": 10
+  },
+  "pairing_rule": "100 pairs of the same underlying item in bn+en. 82 from native test-set bilingual pairs; 18 from EN test rows + authored BN mirrors (translation fill).",
+  "outputs": {
+    "bn": "D:\\Research Lab\\Thesis\\v3\\data\\human_eval\\bilingual_100\\sample_100_bn.jsonl",
+    "en": "D:\\Research Lab\\Thesis\\v3\\data\\human_eval\\bilingual_100\\sample_100_en.jsonl",
+    "pairs": "D:\\Research Lab\\Thesis\\v3\\data\\human_eval\\bilingual_100\\sample_pairs.jsonl",
+    "csv": "D:\\Research Lab\\Thesis\\v3\\data\\human_eval\\bilingual_100\\sample_pairs.csv",
+    "translation_audit": "D:\\Research Lab\\Thesis\\v3\\data\\human_eval\\bilingual_100\\authored_bn_translations_audit.json"
+  },
+  "note": "Translated BN rows are sample-only (not written into locked test_hardened.jsonl). They keep identical numeric/policy content to the EN source and are tagged translation_status=authored_bn_pair."
+}

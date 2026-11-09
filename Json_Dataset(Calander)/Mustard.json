@@ -1,0 +1,305 @@
+{
+  "crop_name_bn": "সরিষা",
+  "crop_name_en": "Mustard",
+  "source_document": "ফসল পঞ্জিকা - সরিষা (BARC / AFACI)",
+  "source_image": "Screenshot_20260521_004852.png",
+  "source_image_sha256": "102abb8a714cfeb409d3fdb40d7133ed45293cc70d7f980f9aec69c8221bae84",
+  "extraction_timestamp": "2026-07-19T14:33:40.162752+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "সরিষা",
+      "value_en": "Mustard",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-সরিষা",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "তেলজাতীয় ফসল",
+      "value_en": "Oilseed",
+      "provenance": "derived"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "নভেম্বর ২য় সপ্তাহ থেকে ডিসেম্বর ১ম সপ্তাহ (অগ্রহায়ণের প্রথম থেকে শেষ সপ্তাহ)",
+      "value_en": "2nd week of November to 1st week of December (first to last week of Agrahayan)",
+      "provenance": "explicit",
+      "source_quote_bn": "নভেম্বর ২য় সপ্তাহ থেকে ডিসেম্বর ১ম সপ্তাহ (অগ্রহায়ণের প্রথম থেকে শেষ সপ্তাহ) বপনের উপযুক্ত সময়।",
+      "source": "বীজ বপন ও পদ্ধতি"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "মধ্য কার্তিক - মধ্য অগ্রহায়ণ",
+          "bangla_span_en": "mid-Kartik to mid-Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "মধ্য অগ্রহায়ণ - মধ্য পৌষ",
+          "bangla_span_en": "mid-Agrahayon to mid-Poush",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মধ্য পৌষ - মধ্য মাঘ",
+          "bangla_span_en": "mid-Poush to mid-Magh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        }
+      ],
+      "provenance": "partial",
+      "note": "Weather classes are interpreted from explicit pictograms.",
+      "calendar_system_in_source": "gregorian",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": false,
+      "needs_reextraction": true,
+      "missing_months_gregorian": [
+        "ফেব্রুয়ারি",
+        "মার্চ",
+        "এপ্রিল",
+        "মে",
+        "জুন",
+        "জুলাই",
+        "আগস্ট",
+        "সেপ্টেম্বর",
+        "অক্টোবর"
+      ]
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value_bn": "বপনের আগে (জমিতে রসের অভাব দেখা দিলে)",
+      "value_en": "Before sowing (if soil moisture is insufficient)",
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে রসের অভাব দেখা দিলে বপনের আগেই সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "First irrigation type is not explicitly stated"
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "condition_bn": null,
+      "condition_en": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null,
+      "note": "Only stage-specific timings (18-20 days and 50-55 days after germination) are mentioned, not a recurring interval."
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value_bn": "প্লাবন পদ্ধতি",
+      "value_en": "Flood irrigation method",
+      "provenance": "explicit",
+      "source_quote_bn": "সরিষার জমিতে সাধারণত প্লাবন পদ্ধতিতে সেচ দেওয়া হয়।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value_bn": "ফুল আসার আগে (বীজ গজানোর ১৮-২০ দিন পর) এবং শুটি বের হওয়ার সময় (বীজ গজানোর ৫০-৫৫ দিন পর)",
+      "value_en": "Before flowering (18-20 days after germination) and silique/pod formation stage (50-55 days after germination)",
+      "provenance": "derived",
+      "source_quote_bn": "ফুল আসার আগে (অর্থাৎ বীজ গজানোর ১৮-২০ দিন পর) এবং শুটি বের হওয়ার সময় (অর্থাৎ বীজ গজানোর ৫০-৫৫ দিন পর) জমিতে রসের অভাব দেখা দিলে সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water depth in mm specified"
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water depth in cm specified"
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null,
+      "note": "Not a tree crop, no basin geometry specified"
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "সেচের পানি যাতে জমিতে আটকে না থাকে",
+      "value_en": "Ensure irrigation water does not remain stagnant in the field",
+      "provenance": "explicit",
+      "source_quote_bn": "তবে লক্ষ্য রাখতে হবে যাতে সেচের পানি জমিতে আটকে না থাকে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value_bn": "জমিতে জো আসার সাথে সাথে কোদাল অথবা নিড়ানি দিয়ে মাটি আলগা করে দিলে জমিতে বেশি দিন রস ধরে রাখা যায়",
+      "value_en": "Loosening the soil with a spade or weeder as soon as the soil reaches optimum moisture condition ('jo') helps retain moisture for longer",
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে জো আসার সাথে সাথে কোদাল অথবা নিড়ানি দিয়ে মাটি আলগা করে দিলে জমিতে বেশি দিন রস ধরে রাখা যায়।",
+      "source": "পরিচর্যা"
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "সরিষার ফলন বৃদ্ধির জন্য মাটিতে পর্যাপ্ত রস থাকা প্রয়োজন। জমিতে রসের অভাব দেখা দিলে বপনের আগেই সেচ দিতে হবে। ফুল আসার আগে (অর্থাৎ বীজ গজানোর ১৮-২০ দিন পর) এবং শুটি বের হওয়ার সময় (অর্থাৎ বীজ গজানোর ৫০-৫৫ দিন পর) জমিতে রসের অভাব দেখা দিলে সেচ দিতে হবে। সরিষার জমিতে সাধারণত প্লাবন পদ্ধতিতে সেচ দেওয়া হয়। তবে লক্ষ্য রাখতে হবে যাতে সেচের পানি জমিতে আটকে না থাকে।",
+      "value_en": "Adequate soil moisture is needed for mustard yield. If moisture is insufficient, irrigate before sowing. Irrigate if moisture is lacking before flowering (18-20 days after germination) and during pod formation (50-55 days after germination). Flood irrigation is typically used, but ensure water does not stagnate.",
+      "provenance": "derived",
+      "source_quote_bn": "সরিষার ফলন বৃদ্ধির জন্য মাটিতে পর্যাপ্ত রস থাকা প্রয়োজন। জমিতে রসের অভাব দেখা দিলে বপনের আগেই সেচ দিতে হবে। ফুল আসার আগে (অর্থাৎ বীজ গজানোর ১৮-২০ দিন পর) এবং শুটি বের হওয়ার সময় (অর্থাৎ বীজ গজানোর ৫০-৫৫ দিন পর) জমিতে রসের অভাব দেখা দিলে সেচ দিতে হবে। সরিষার জমিতে সাধারণত প্লাবন পদ্ধতিতে সেচ দেওয়া হয়। তবে লক্ষ্য রাখতে হবে যাতে সেচের পানি জমিতে আটকে না থাকে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific establishment stage interval mentioned"
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "stages": [
+        {
+          "stage_bn": "ফুল আসার আগে (বীজ গজানোর ১৮-২০ দিন পর)",
+          "stage_en": "Before flowering (18-20 days after germination)",
+          "interval_days": null,
+          "condition_bn": "জমিতে রসের অভাব দেখা দিলে",
+          "condition_en": "If there is a lack of moisture in the soil"
+        },
+        {
+          "stage_bn": "শুটি বের হওয়ার সময় (বীজ গজানোর ৫০-৫৫ দিন পর)",
+          "stage_en": "Silique/pod formation stage (50-55 days after germination)",
+          "interval_days": null,
+          "condition_bn": "জমিতে রসের অভাব দেখা দিলে",
+          "condition_en": "If there is a lack of moisture in the soil"
+        }
+      ],
+      "provenance": "explicit",
+      "source_quote_bn": "ফুল আসার আগে (অর্থাৎ বীজ গজানোর ১৮-২০ দিন পর) এবং শুটি বের হওয়ার সময় (অর্থাৎ বীজ গজানোর ৫০-৫৫ দিন পর) জমিতে রসের অভাব দেখা দিলে সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ",
+      "parsed_day_values": [
+        {
+          "min": 18,
+          "max": 20,
+          "recurring": false,
+          "evidence": "18-20 দিন"
+        },
+        {
+          "min": 50,
+          "max": 55,
+          "recurring": false,
+          "evidence": "50-55 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No rain threshold specified"
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "সরিষার ফলন বৃদ্ধির জন্য মাটিতে পর্যাপ্ত রস থাকা প্রয়োজন। জমিতে রসের অভাব দেখা দিলে বপনের আগেই সেচ দিতে হবে। ফুল আসার আগে এবং শুটি বের হওয়ার সময় রসের অভাব হলে সেচ দিতে হবে।",
+      "value_en": "Adequate soil moisture is needed for mustard yield. If moisture is insufficient, irrigate before sowing. Irrigate if moisture is lacking before flowering (18-20 days after germination) and during pod formation (50-55 days after germination). Flood irrigation is typically used.",
+      "provenance": "derived",
+      "source_quote_bn": "সরিষার ফলন বৃদ্ধির জন্য মাটিতে পর্যাপ্ত রস থাকা প্রয়োজন। জমিতে রসের অভাব দেখা দিলে বপনের আগেই সেচ দিতে হবে। ফুল আসার আগে (অর্থাৎ বীজ গজানোর ১৮-২০ দিন পর) এবং শুটি বের হওয়ার সময় (অর্থাৎ বীজ গজানোর ৫০-৫৫ দিন পর) জমিতে রসের অভাব দেখা দিলে সেচ দিতে হবে।",
+      "source": "সেচ প্রয়োগ"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Mustard is a dry season (Rabi) crop; no monsoon strategy is specified."
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_bn": "বারি সরিষা-১৪ এবং বারি সরিষা-১৫ জাতসমূহ ৭৫-৮০ দিনে সংগ্রহ করা যায়; বারি সরিষা-১১ এবং বারি সরিষা-১৬ জাতসমূহ ৯৫-১০০ দিনে সংগ্রহ করা যায়",
+      "value_en": "BARI Sarisha-14 and BARI Sarisha-15 varieties are harvested in 75-80 days; BARI Sarisha-11 and BARI Sarisha-16 varieties are harvested in 95-100 days",
+      "provenance": "explicit",
+      "source_quote_bn": "বারি সরিষা-১৪ এবং বারি সরিষা-১৫ জাতসমূহ ৭৫-৮০ দিনে সংগ্রহ করা যায়। বারি সরিষা-১১ এবং বারি সরিষা-১৬ জাতসমূহ ৯৫-১০০ দিনে সংগ্রহ করা যায়।",
+      "source": "ফসল কর্তন",
+      "parsed_day_values": [
+        {
+          "min": 75,
+          "max": 80,
+          "recurring": false,
+          "evidence": "75-80 দিন"
+        },
+        {
+          "min": 95,
+          "max": 100,
+          "recurring": false,
+          "evidence": "95-100 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No age-dependent irrigation specified (not a tree crop)"
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "সরিষার জন্য মাঝারি উঁচু দোআঁশ ও বেলে দোআঁশ মাটি নির্বাচন করা উচিত।",
+      "value_en": "Medium high loamy and sandy loamy soil should be selected for mustard.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "সরিষার জন্য মাঝারি উঁচু দোআঁশ ও বেলে দোআঁশ মাটি নির্বাচন করা উচিত।",
+      "source": "জমি তৈরি"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptoms specified"
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Mustard",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Mustard",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 9,
+      "derived": 4,
+      "partial": 1,
+      "absent": 10
+    },
+    "absent_fields_list": [
+      "6_প্রথম_সেচ_ধরন",
+      "7_সেচ_ব্যবধান_দিন",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "20_বর্ষা_ঋতু_কৌশল",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 2,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Screenshot_20260521_004852.png",
+  "source_image_bytes": 172150,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.589335+00:00",
+    "source_file": "Mustard.json",
+    "changes": [
+      "source_image: 'Screenshot 2026-05-21 004852.png' -> 'Screenshot_20260521_004852.png' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value d37e4f12153368bf… with computed 102abb8a714cfeb4…",
+      "month_wheel: only 3/12 months present; missing ফেব্রুয়ারি, মার্চ, এপ্রিল, মে, জুন, জুলাই, আগস্ট, সেপ্টেম্বর, অক্টোবর — FLAGGED, not fabricated",
+      "month_wheel: normalised gregorian -> gregorian index, bilingual span added (3 entries)",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী: extracted 2 day value(s) into parsed_day_values",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 2 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 9, 'derived': 4, 'partial': 1, 'absent': 10}, 2 field(s) carry parsed numerics"
+    ]
+  }
+}

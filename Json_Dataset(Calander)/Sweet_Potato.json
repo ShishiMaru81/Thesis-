@@ -1,0 +1,387 @@
+{
+  "crop_name_bn": "মিষ্টি আলু",
+  "crop_name_en": "Sweet Potato",
+  "source_document": "ফসল পঞ্জিকা - মিষ্টি আলু (BARC / AFACI)",
+  "source_image": "Sweet_Potato.jpg",
+  "source_image_sha256": "4a9d47badae41f9845be37ffe0c7829e4139699164411aca951b3a81620a5a3f",
+  "extraction_timestamp": "2026-07-19T17:53:44.328786+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "মিষ্টি আলু",
+      "value_en": "Sweet Potato",
+      "provenance": "explicit",
+      "source_quote_bn": "ফসল পঞ্জিকা-মিষ্টি আলু",
+      "source": "Title"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "কন্দাল ফসল",
+      "value_en": "Tuber crop",
+      "provenance": "derived",
+      "source_quote_bn": "কন্দাল উত্তোলন",
+      "source": "ফসল সংগ্রহ ও বীজ সংরক্ষণ"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "কার্তিক - অগ্রহায়ণ (মধ্য অক্টোবর - মধ্য ডিসেম্বর)",
+      "value_en": "Kartik - Agrahayan (Mid October - Mid December)",
+      "provenance": "explicit",
+      "source_quote_bn": "কার্তিক - অগ্রহায়ণ (মধ্য অক্টোবর - মধ্য ডিসেম্বর) মাসে লতা রোপন করতে হবে।",
+      "source": "রোপণের সময়"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 9,
+          "month_gregorian_bn": "অক্টোবর",
+          "month_gregorian_en": "October",
+          "bangla_span_bn": "মধ্য আশ্বিন - মধ্য কার্তিক",
+          "bangla_span_en": "mid-Ashwin to mid-Kartik",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "মধ্য কার্তিক - মধ্য অগ্রহায়ণ",
+          "bangla_span_en": "mid-Kartik to mid-Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "মধ্য অগ্রহায়ণ - মধ্য পৌষ",
+          "bangla_span_en": "mid-Agrahayon to mid-Poush",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মধ্য পৌষ - মধ্য মাঘ",
+          "bangla_span_en": "mid-Poush to mid-Magh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "মধ্য মাঘ - মধ্য ফাল্গুন",
+          "bangla_span_en": "mid-Magh to mid-Falgun",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "মধ্য ফাল্গুন - মধ্য চৈত্র",
+          "bangla_span_en": "mid-Falgun to mid-Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "মধ্য চৈত্র - মধ্য বৈশাখ",
+          "bangla_span_en": "mid-Chaitra to mid-Boishakh",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "মধ্য বৈশাখ - মধ্য জ্যৈষ্ঠ",
+          "bangla_span_en": "mid-Boishakh to mid-Joishtho",
+          "class": "sun/dry",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "মধ্য জ্যৈষ্ঠ - মধ্য আষাঢ়",
+          "bangla_span_en": "mid-Joishtho to mid-Asharh",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "মধ্য আষাঢ় - মধ্য শ্রাবণ",
+          "bangla_span_en": "mid-Asharh to mid-Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "মধ্য শ্রাবণ - মধ্য ভাদ্র",
+          "bangla_span_en": "mid-Srabon to mid-Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "gregorian"
+        },
+        {
+          "gregorian_index": 8,
+          "month_gregorian_bn": "সেপ্টেম্বর",
+          "month_gregorian_en": "September",
+          "bangla_span_bn": "মধ্য ভাদ্র - মধ্য আশ্বিন",
+          "bangla_span_en": "mid-Bhadra to mid-Ashwin",
+          "class": "mixed",
+          "source_calendar_system": "gregorian"
+        }
+      ],
+      "provenance": "derived",
+      "note": "Weather classes are interpreted from explicit pictograms.",
+      "calendar_system_in_source": "gregorian",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": true,
+      "needs_reextraction": false
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "value_bn": "লতা লাগানোর ১-২ দিন পর",
+      "value_en": "1-2 days after planting vines",
+      "value_days_min": 1,
+      "value_days_max": 2,
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে পর্যাপ্ত রস না থাকলে লতা লাগানোর ১-২ দিন পর পর অথবা প্রয়োজন অনুযায়ী সেচ দিতে হবে।",
+      "source": "সেচ ও নিষ্কাশন",
+      "parsed_day_values": [
+        {
+          "min": 1,
+          "max": 2,
+          "recurring": true,
+          "evidence": "1-2 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value": null,
+      "provenance": "absent",
+      "note": "First irrigation type is not explicitly mentioned."
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": 1,
+      "value_days_max": 2,
+      "condition_bn": "জমিতে পর্যাপ্ত রস না থাকলে",
+      "condition_en": "If soil moisture is insufficient",
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে পর্যাপ্ত রস না থাকলে লতা লাগানোর ১-২ দিন পর পর অথবা প্রয়োজন অনুযায়ী সেচ দিতে হবে।",
+      "source": "সেচ ও নিষ্কাশন",
+      "parsed_day_values": [
+        {
+          "min": 1,
+          "max": 2,
+          "recurring": true,
+          "evidence": "1-2 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific irrigation method is mentioned in the irrigation section."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value_bn": "লতা লাগানোর ৩০, ৬০ ও ৯০ দিন পর",
+      "value_en": "30, 60, and 90 days after planting",
+      "provenance": "derived",
+      "source_quote_bn": "সাধারণত: ৩ বার (৩০, ৬০ ও ৯০ দিন পর) সেচ দেয়া উচিত।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in mm is not mentioned."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in cm is not mentioned."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Not a tree crop, no basin geometry mentioned."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা গ্রহণ করতে হবে।",
+      "value_en": "Drainage arrangements must be made if there is excess rain.",
+      "provenance": "explicit",
+      "source_quote_bn": "অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা গ্রহণ করতে হবে।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water-retention modifiers or mulching effects are mentioned."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "জমিতে পর্যাপ্ত রস না থাকলে লতা লাগানোর ১-২ দিন পর পর অথবা প্রয়োজন অনুযায়ী সেচ দিতে হবে। সাধারণত: ৩ বার (৩০, ৬০ ও ৯০ দিন পর) সেচ দেয়া উচিত। অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা গ্রহণ করতে হবে।",
+      "value_en": "If there is not enough moisture in the soil, irrigation should be applied 1-2 days after planting or as needed. Usually, irrigation should be applied 3 times (after 30, 60, and 90 days). If there is excess rain, drainage arrangements must be made.",
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে পর্যাপ্ত রস না থাকলে লতা লাগানোর ১-২ দিন পর পর অথবা প্রয়োজন অনুযায়ী সেচ দিতে হবে। সাধারণত: ৩ বার (৩০, ৬০ ও ৯০ দিন পর) সেচ দেয়া উচিত। অতিরিক্ত বৃষ্টি হলে পানি নিষ্কাশনের ব্যবস্থা গ্রহণ করতে হবে।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value_days_min": 1,
+      "value_days_max": 2,
+      "condition_bn": "জমিতে পর্যাপ্ত রস না থাকলে লতা লাগানোর ১-২ দিন পর পর",
+      "condition_en": "Every 1-2 days after planting if there is not enough moisture in the soil",
+      "provenance": "explicit",
+      "source_quote_bn": "জমিতে পর্যাপ্ত রস না থাকলে লতা লাগানোর ১-২ দিন পর পর অথবা প্রয়োজন অনুযায়ী সেচ দিতে হবে।",
+      "source": "সেচ ও নিষ্কাশন",
+      "parsed_day_values": [
+        {
+          "min": 1,
+          "max": 2,
+          "recurring": true,
+          "evidence": "1-2 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value_bn": "সাধারণত: ৩ বার (৩০, ৬০ ও ৯০ দিন পর) সেচ দেয়া উচিত।",
+      "value_en": "Usually 3 times (after 30, 60, and 90 days) irrigation should be given.",
+      "provenance": "explicit",
+      "source_quote_bn": "সাধারণত: ৩ বার (৩০, ৬০ ও ৯০ দিন পর) সেচ দেয়া উচিত।",
+      "source": "সেচ ও নিষ্কাশন",
+      "parsed_day_values": [
+        {
+          "min": 90,
+          "max": 90,
+          "recurring": false,
+          "evidence": "90 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No numeric rain trigger threshold is mentioned."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Moisture rule is not explicitly labeled a dry-season strategy."
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Excess-rain drainage belongs in field 13; not labeled monsoon strategy."
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value_bn": "রোপনের ৩৫-৪০ দিন (সার প্রয়োগ), ৫০-৬০ দিন (লতা নাড়ানো), ১২০-১৪০ দিন (কন্দাল উত্তোলন)",
+      "value_en": "35-40 days after planting (fertilizer application), 50-60 days (vine shaking), 120-140 days (tuber harvesting)",
+      "provenance": "derived",
+      "source_quote_bn": "বাকি অর্ধেক ইউরিয়া ও এমওপি রোপনের ৩৫-৪০ দিনের মধ্যে... চারা রোপণের ৫০-৬০ দিন পর থেকে... চারা রোপণের ১২০ থেকে ১৪০ দিন পর...",
+      "source": "সার প্রয়োগ পদ্ধতি, লতা নাড়ানো, কন্দাল উত্তোলন",
+      "parsed_day_values": [
+        {
+          "min": 35,
+          "max": 40,
+          "recurring": false,
+          "evidence": "35-40 দিন"
+        },
+        {
+          "min": 50,
+          "max": 60,
+          "recurring": false,
+          "evidence": "50-60 দিন"
+        },
+        {
+          "min": 120,
+          "max": 140,
+          "recurring": false,
+          "evidence": "120-140 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value_bn": "লতা লাগানোর ৩০, ৬০ ও ৯০ দিন পর সেচ",
+      "value_en": "Irrigation at 30, 60 and 90 days after planting",
+      "provenance": "explicit",
+      "source_quote_bn": "সাধারণতঃ ৩ বার (৩০, ৬০ ও ৯০ দিন পর) সেচ দেয়া উচিত।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "সুনিষ্কাশিত, মধ্যম থেকে উঁচু জমি উত্তম। সব জমিতে মিষ্টি আলু জন্মে তবে দোআঁশ থেকে বেলে দোআঁশ মাটি সব চেয়ে উপযোগী। মাটির অম্লতা ৫.৬ থেকে ৬.০ হলে ভাল। এ ছাড়া চরাঞ্চলে বেলে মাটিতে চাষ করা যায়।",
+      "value_en": "Well-drained, medium to high land is best. Sweet potato grows in all soils, but loamy to sandy loam soil is most suitable. Soil acidity of 5.6 to 6.0 is good. Besides, it can be cultivated in sandy soil in char areas.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "সুনিষ্কাশিত, মধ্যম থেকে উঁচু জমি উত্তম। সব জমিতে মিষ্টি আলু জন্মে তবে দোআঁশ থেকে বেলে দোআঁশ মাটি সব চেয়ে উপযোগী। মাটির অম্লতা ৫.৬ থেকে ৬.০ হলে ভাল। এ ছাড়া চরাঞ্চলে বেলে মাটিতে চাষ করা যায়।",
+      "source": "মাটি ও জমি"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water-stress symptoms are mentioned."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Sweet Potato",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Sweet Potato",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 10,
+      "derived": 4,
+      "absent": 10
+    },
+    "absent_fields_list": [
+      "6_প্রথম_সেচ_ধরন",
+      "8_সেচ_পদ্ধতি",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "19_শুষ্ক_ঋতু_কৌশল",
+      "20_বর্ষা_ঋতু_কৌশল",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 5,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Sweet_Potato.jpg",
+  "source_image_bytes": 270542,
+  "extraction_model_reported": "gemini-3.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.606204+00:00",
+    "source_file": "Sweet_Potato.json",
+    "changes": [
+      "source_image: 'Sweet Potato.jpg' -> 'Sweet_Potato.jpg' (normalised match)",
+      "sha256: replaced UNVERIFIABLE value f9a9f657884fbd1a… with computed 4a9d47badae41f98…",
+      "month_wheel: normalised gregorian -> gregorian index, bilingual span added (12 entries)",
+      "7_সেচ_ব্যবধান_দিন: extracted 1 day value(s) into parsed_day_values",
+      "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান: extracted 1 day value(s) into parsed_day_values",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী: extracted 1 day value(s) into parsed_day_values",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা: extracted 3 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 10, 'derived': 4, 'absent': 10}, 5 field(s) carry parsed numerics"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+# latexmk configuration for the thesis (also read by Overleaf).
+# XeLaTeX is required: the thesis contains Bengali text set with fontspec.
+$pdf_mode = 5;          # 5 = xelatex -> .xdv -> xdvipdfmx
+$postscript_mode = 0;
+$dvi_mode = 0;
+$bibtex_use = 2;        # run biber when the .bcf changes; delete .bbl on clean
+$xelatex = 'xelatex -interaction=nonstopmode -file-line-error -synctex=1 %O %S';
+
+# nomencl: build the List of Abbreviations and Symbols with makeindex.
+add_cus_dep('nlo', 'nls', 0, 'makenlo2nls');
+sub makenlo2nls {
+    system("makeindex -s nomencl.ist -o \"$_[0].nls\" \"$_[0].nlo\"");
+}
+push @generated_exts, 'nlo', 'nls', 'xdv', 'bcf', 'run.xml';

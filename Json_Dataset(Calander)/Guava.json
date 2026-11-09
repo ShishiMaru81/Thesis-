@@ -1,0 +1,333 @@
+{
+  "crop_name_bn": "পেয়ারা",
+  "crop_name_en": "Guava",
+  "source_document": "ফসল পঞ্জিকা - পেয়ারা (BARC / AFACI)",
+  "source_image": "Guava.jpg",
+  "source_image_sha256": "ddced525d6623758c01c09fd3c96deeb022a01f49fb3e218efc1de8ab09235dd",
+  "extraction_timestamp": "2026-07-19T14:07:53.902736+00:00",
+  "human_verified": false,
+  "irrigation_features": {
+    "1_ফসলের_নাম": {
+      "value_bn": "পেয়ারা",
+      "value_en": "Guava",
+      "provenance": "explicit"
+    },
+    "2_ফসলের_ধরন": {
+      "value_bn": "ফল গাছ",
+      "value_en": "Fruit tree",
+      "provenance": "derived"
+    },
+    "3_বপন_ঋতু": {
+      "value_bn": "মে থেকে সেপ্টেম্বর (মধ্য বৈশাখ-মধ্য আশ্বিন)",
+      "value_en": "May to September (mid-Baishakh to mid-Ashwin)",
+      "provenance": "explicit",
+      "source_quote_bn": "মে থেকে সেপ্টেম্বর (মধ্য বৈশাখ - মধ্য আশ্বিন) মাস পর্যন্ত চারা / কলম লাগানোর উপযুক্ত সময়।",
+      "source": "চারা রোপণ"
+    },
+    "4_আবহাওয়া_মাসিক_মানচিত্র": {
+      "months": [
+        {
+          "gregorian_index": 3,
+          "month_gregorian_bn": "এপ্রিল",
+          "month_gregorian_en": "April",
+          "bangla_span_bn": "বৈশাখ",
+          "bangla_span_en": "Boishakh",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 4,
+          "month_gregorian_bn": "মে",
+          "month_gregorian_en": "May",
+          "bangla_span_bn": "জ্যৈষ্ঠ",
+          "bangla_span_en": "Joishtho",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 5,
+          "month_gregorian_bn": "জুন",
+          "month_gregorian_en": "June",
+          "bangla_span_bn": "আষাঢ়",
+          "bangla_span_en": "Asharh",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 6,
+          "month_gregorian_bn": "জুলাই",
+          "month_gregorian_en": "July",
+          "bangla_span_bn": "শ্রাবণ",
+          "bangla_span_en": "Srabon",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 7,
+          "month_gregorian_bn": "আগস্ট",
+          "month_gregorian_en": "August",
+          "bangla_span_bn": "ভাদ্র",
+          "bangla_span_en": "Bhadra",
+          "class": "rain/cloud",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 8,
+          "month_gregorian_bn": "সেপ্টেম্বর",
+          "month_gregorian_en": "September",
+          "bangla_span_bn": "আশ্বিন",
+          "bangla_span_en": "Ashwin",
+          "class": "mixed",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 9,
+          "month_gregorian_bn": "অক্টোবর",
+          "month_gregorian_en": "October",
+          "bangla_span_bn": "কার্তিক",
+          "bangla_span_en": "Kartik",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 10,
+          "month_gregorian_bn": "নভেম্বর",
+          "month_gregorian_en": "November",
+          "bangla_span_bn": "অগ্রহায়ণ",
+          "bangla_span_en": "Agrahayon",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 11,
+          "month_gregorian_bn": "ডিসেম্বর",
+          "month_gregorian_en": "December",
+          "bangla_span_bn": "পৌষ",
+          "bangla_span_en": "Poush",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 0,
+          "month_gregorian_bn": "জানুয়ারি",
+          "month_gregorian_en": "January",
+          "bangla_span_bn": "মাঘ",
+          "bangla_span_en": "Magh",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 1,
+          "month_gregorian_bn": "ফেব্রুয়ারি",
+          "month_gregorian_en": "February",
+          "bangla_span_bn": "ফাল্গুন",
+          "bangla_span_en": "Falgun",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        },
+        {
+          "gregorian_index": 2,
+          "month_gregorian_bn": "মার্চ",
+          "month_gregorian_en": "March",
+          "bangla_span_bn": "চৈত্র",
+          "bangla_span_en": "Chaitra",
+          "class": "sun/dry",
+          "source_calendar_system": "bangla"
+        }
+      ],
+      "provenance": "explicit",
+      "source": "Calendar row \"আবহাওয়া\"",
+      "calendar_system_in_source": "bangla",
+      "calendar_system_normalised": "gregorian",
+      "wheel_complete": true,
+      "needs_reextraction": false
+    },
+    "5_প্রথম_সেচ_সময়": {
+      "timing_bn": "চারা রোপণের সময়, গর্তের মাটি শুকনা থাকলে",
+      "timing_en": "At planting, if the pit soil is dry",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা রোপণের সময় যদি গর্তের মাটি শুকনা থাকে তাহলে চারা গাছের গোড়ায় মাঝে মাঝে সামান্য পানি দিতে হবে।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "6_প্রথম_সেচ_ধরন": {
+      "value_bn": "মাঝে মাঝে সামান্য পানি",
+      "value_en": "Occasional light watering",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা রোপণের সময় যদি গর্তের মাটি শুকনা থাকে তাহলে চারা গাছের গোড়ায় মাঝে মাঝে সামান্য পানি দিতে হবে।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "7_সেচ_ব্যবধান_দিন": {
+      "value_days_min": 10,
+      "value_days_max": 15,
+      "condition_bn": "ফলন্ত গাছে শুষ্ক মৌসুমে ডিসেম্বর থেকে এপ্রিল (মধ্য অগ্রহায়ণ-মধ্য বৈশাখ) পর্যন্ত",
+      "condition_en": "For bearing trees during the dry season, December-April (mid-Agrahayan to mid-Baishakh)",
+      "provenance": "explicit",
+      "source_quote_bn": "ফলন্ত গাছে শুষ্ক মৌসুমে অর্থাৎ ডিসেম্বর থেকে এপ্রিল (মধ্য অগ্রহায়ণ - মধ্য বৈশাখ) পর্যন্ত প্রতি ১০-১৫ দিন পর পর পানি সেচের ব্যবস্থা করলে ফল ঝরা হ্রাস পায়, ফল আকারে বড় হয় এবং বেশি ফলন পাওয়া যায়।",
+      "source": "সেচ ও নিষ্কাশন",
+      "parsed_day_values": [
+        {
+          "min": 10,
+          "max": 15,
+          "recurring": true,
+          "evidence": "10-15 দিন"
+        }
+      ],
+      "parsed_by": "deterministic_bengali_numeral_parser_v2"
+    },
+    "8_সেচ_পদ্ধতি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific irrigation method is mentioned."
+    },
+    "9_সংকটকাল_পর্যায়সমূহ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No critical growth stage for irrigation is stated."
+    },
+    "10_পানি_গভীরতা_মিমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in mm is not specified."
+    },
+    "11_পানি_গভীরতা_সেমি": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Water depth in cm is not specified."
+    },
+    "12_বেসিন_জ্যামিতি": {
+      "radius_m": null,
+      "depth_cm_min": null,
+      "depth_cm_max": null,
+      "provenance": "absent",
+      "source_quote_bn": null,
+      "source": null,
+      "note": "No basin geometry (radius, depth) is specified in the irrigation section."
+    },
+    "13_নিষ্কাশন_নিয়ম": {
+      "value_bn": "ফল বাগানের প্রতিটি গাছের চতুষ্পার্শ্বে হালকা পানি নিষ্কাশনের নালা রাখতে হবে।",
+      "value_en": "Maintain a shallow drainage channel around every tree in the fruit orchard.",
+      "provenance": "explicit",
+      "source_quote_bn": "ফল বাগানের প্রতিটি গাছের চতুষ্পার্শ্বে হালকা পানি নিষ্কাশনের নালা থাকতে হবে।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "14_জল_চাহিদা_সংশোধক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No water demand modifier (e.g., from mulching or specific weeding practices) is stated."
+    },
+    "15_মৌসুমী_শর্তাবলী": {
+      "value_bn": "চারা রোপণের সময় গর্তের মাটি শুকনা থাকলে মাঝে মাঝে সামান্য পানি দিতে হবে। প্রাথমিক বছরে ৮-১০ বার সেচ প্রয়োজন। ফলন্ত গাছে ডিসেম্বর-এপ্রিল পর্যন্ত প্রতি ১০-১৫ দিন পর সেচ দিতে হবে। প্রতিটি গাছের চার পাশে হালকা নিষ্কাশন নালা রাখতে হবে।",
+      "value_en": "At planting, give occasional light watering if the pit soil is dry. Eight to ten irrigations are needed during the initial year. For bearing trees, irrigate every 10-15 days from December to April. Maintain a shallow drainage channel around each tree.",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা রোপণের সময় যদি গর্তের মাটি শুকনা থাকে তাহলে চারা গাছের গোড়ায় মাঝে মাঝে সামান্য পানি দিতে হবে। প্রাথমিক বছরে ৮-১০ বার পানি সেচের প্রয়োজন। ফলন্ত গাছে শুষ্ক মৌসুমে অর্থাৎ ডিসেম্বর থেকে এপ্রিল (মধ্য অগ্রহায়ণ - মধ্য বৈশাখ) পর্যন্ত প্রতি ১০-১৫ দিন পর পর পানি সেচের ব্যবস্থা করলে ফল ঝরা হ্রাস পায়, ফল আকারে বড় হয় এবং বেশি ফলন পাওয়া যায়। ফল বাগানের প্রতিটি গাছের চতুষ্পার্শ্বে হালকা পানি নিষ্কাশনের নালা থাকতে হবে।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "16_প্রতিষ্ঠা_পর্যায়_সেচ_ব্যবধান": {
+      "value_days_min": null,
+      "value_days_max": null,
+      "irrigations_min": 8,
+      "irrigations_max": 10,
+      "period_bn": "প্রাথমিক বছর",
+      "period_en": "Initial year",
+      "provenance": "explicit",
+      "source_quote_bn": "চারা বৃদ্ধির প্রাথমিক বছরে ৮-১০ বার পানি সেচের প্রয়োজন।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "17_পর্যায়_সংক্রান্ত_সেচ_সূচী": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No stage-to-interval irrigation schedule is stated."
+    },
+    "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific rainfall threshold for irrigation is stated."
+    },
+    "19_শুষ্ক_ঋতু_কৌশল": {
+      "value_bn": "ফলন্ত গাছে ডিসেম্বর থেকে এপ্রিল পর্যন্ত প্রতি ১০-১৫ দিন পর পর পানি সেচ দিলে ফল ঝরা কমে, ফল বড় হয় এবং ফলন বাড়ে।",
+      "value_en": "For bearing trees, irrigating every 10-15 days from December through April reduces fruit drop, increases fruit size, and improves yield.",
+      "provenance": "explicit",
+      "source_quote_bn": "ফলন্ত গাছে শুষ্ক মৌসুমে অর্থাৎ ডিসেম্বর থেকে এপ্রিল (মধ্য অগ্রহায়ণ - মধ্য বৈশাখ) পর্যন্ত প্রতি ১০-১৫ দিন পর পর পানি সেচের ব্যবস্থা করলে ফল ঝরা হ্রাস পায়, ফল আকারে বড় হয় এবং বেশি ফলন পাওয়া যায়।",
+      "source": "সেচ ও নিষ্কাশন"
+    },
+    "20_বর্ষা_ঋতু_কৌশল": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No monsoon-specific irrigation strategy is stated."
+    },
+    "21_বৃদ্ধি_পর্যায়_দিনের_সীমা": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No specific day ranges for growth stages (DAT/DAP) are provided."
+    },
+    "22_বয়স_নির্ভর_সেচ": {
+      "value": null,
+      "provenance": "absent",
+      "note": "Age-dependent irrigation rules are not stated in the irrigation section; age brackets are only present in the fertilizer table."
+    },
+    "23_মাটির_ধরন_প্রভাব": {
+      "value_bn": "প্রায় সব ধরনের মাটিতে পেয়ারা চাষ করা যায়; জৈবপদার্থসমৃদ্ধ দোআঁশ থেকে বেলে দোআঁশ, বিশেষ পানি নিষ্কাশন সুবিধা এবং পিএইচ ৫.৫-৭.৫ উপযোগী।",
+      "value_en": "Guava grows in nearly all soil types; organic-matter-rich loam to sandy-loam with good drainage and pH 5.5-7.5 is suitable.",
+      "irrigation_adjustment_stated": false,
+      "provenance": "explicit",
+      "source_quote_bn": "প্রায় সব ধরনের মাটিতেই পেয়ারার চাষ করা যায়, তবে জৈবপদার্থ সমৃদ্ধ দোআঁশ মাটি থেকে বেলে দোআঁশ মাটি যেখানে পানি নিষ্কাশনের বিশেষ সুবিধা আছে এবং ৫.৫-৭.৫ পিএইচ মাত্রার মাটি পেয়ারা চাষের জন্য উপযোগী।",
+      "source": "মাটি ও জমি তৈরি"
+    },
+    "24_জল_চাপ_সূচক": {
+      "value": null,
+      "provenance": "absent",
+      "note": "No visual water stress symptoms are stated."
+    }
+  },
+  "computable_link": {
+    "formula": "net_irrigation_mm = (Kc_stage × ET0) − effective_rainfall_mm",
+    "effective_rainfall_tiers": "<=5mm: x0.85 | <=15mm: x0.45 | >15mm: x0.25",
+    "volume_conversion": "liters = net_mm × area_sqm",
+    "basin_volume_formula": "liters = pi × radius_m^2 × depth_m   (tree crops only)",
+    "kc_table_ref": "kc_values.csv#crop=Guava",
+    "irrigation_bounds_ref": "irrigation_rules.csv#crop=Guava",
+    "et0_source": "Open-Meteo (live) or FAO-56 Penman-Monteith"
+  },
+  "_extraction_audit": {
+    "fields_total": 24,
+    "provenance_counts": {
+      "explicit": 11,
+      "derived": 1,
+      "absent": 12
+    },
+    "absent_fields_list": [
+      "8_সেচ_পদ্ধতি",
+      "9_সংকটকাল_পর্যায়সমূহ",
+      "10_পানি_গভীরতা_মিমি",
+      "11_পানি_গভীরতা_সেমি",
+      "12_বেসিন_জ্যামিতি",
+      "14_জল_চাহিদা_সংশোধক",
+      "17_পর্যায়_সংক্রান্ত_সেচ_সূচী",
+      "18_বৃষ্টি_সংবেদনশীল_থ্রেশহোল্ড",
+      "20_বর্ষা_ঋতু_কৌশল",
+      "21_বৃদ্ধি_পর্যায়_দিনের_সীমা",
+      "22_বয়স_নির্ভর_সেচ",
+      "24_জল_চাপ_সূচক"
+    ],
+    "fields_with_parsed_numerics": 1,
+    "fields_needing_human_review": [],
+    "human_verified": false,
+    "verification_note": "Machine-repaired only. Bengali source quotes have NOT been verified character-by-character against the source image. A human spot-check pass is still required before this file is used as fine-tuning ground truth.",
+    "image_hash_verified": true
+  },
+  "source_image_path": "/mnt/project/Guava.jpg",
+  "source_image_bytes": 276335,
+  "extraction_model_reported": "gemini-2.5-flash",
+  "extraction_model_verified": false,
+  "_repair_log": {
+    "repaired_by": "repair.py v1 (deterministic, no content invented)",
+    "repaired_at": "2026-07-20T08:57:07.560657+00:00",
+    "source_file": "Guava.json",
+    "changes": [
+      "sha256: replaced UNVERIFIABLE value 0305b827a8ffb0b7… with computed ddced525d6623758…",
+      "month_wheel: normalised bangla -> gregorian index, bilingual span added (12 entries)",
+      "7_সেচ_ব্যবধান_দিন: extracted 1 day value(s) into parsed_day_values",
+      "audit block recomputed: {'explicit': 11, 'derived': 1, 'absent': 12}, 1 field(s) carry parsed numerics"
+    ]
+  }
+}
